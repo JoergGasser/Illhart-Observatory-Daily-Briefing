@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Illhart — ArXiv Briefing</title>
+<style>
+  :root {
+    --bg: #000000;
+    --bg-elev: #0c0c0c;
+    --bg-card: #111111;
+    --line: #2a2a2a;
+    --line-soft: #1a1a1a;
+    --fg: #ffffff;
+    --fg-dim: #9a9a9a;
+    --fg-faint: #5e5e5e;
+    --accent: #ffffff;
+    --tier1: #ffffff;
+    --tier2: #8a8a8a;
+    --tier3: #4a4a4a;
+    --title-red: #a8485f;
+    --mono: "JetBrains Mono", "SF Mono", "Consolas", monospace;
+    --serif: "Georgia", "Iowan Old Style", serif;
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, "Segoe UI", Roboto, sans-serif;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .app { display: flex; flex-direction: column; height: 100vh; }
+
+  header {
+    flex: 0 0 auto;
+    padding: 18px 18px 14px;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .observatory-mark {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    color: var(--fg-faint);
+    text-transform: uppercase;
+  }
+  .date-mark {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg-faint);
+    letter-spacing: 0.05em;
+  }
+  h1 {
+    margin: 6px 0 2px;
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: 26px;
+    letter-spacing: 0.01em;
+    color: var(--title-red);
+  }
+  .subhead {
+    font-size: 12px;
+    color: var(--fg-dim);
+    font-family: var(--mono);
+    letter-spacing: 0.02em;
+  }
+
+  .tabs {
+    flex: 0 0 auto;
+    display: flex;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .tab {
+    flex: 1;
+    text-align: center;
+    padding: 11px 4px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+  }
+  .tab.active { color: var(--fg); border-bottom-color: var(--fg); }
+  .tab .count {
+    display: inline-block;
+    margin-left: 5px;
+    color: var(--fg-faint);
+  }
+  .tab.active .count { color: var(--fg-dim); }
+
+  main { flex: 1 1 auto; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+  .list-view { padding: 14px 14px 90px; }
+
+  .card {
+    border: 1px solid var(--line);
+    background: var(--bg-card);
+    border-radius: 2px;
+    margin-bottom: 12px;
+    padding: 14px 14px 12px;
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+  .card:active { border-color: var(--fg-dim); }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .rank-badge {
+    flex: 0 0 auto;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .rank-badge.tier-1 { border-color: var(--fg); color: var(--fg); }
+  .rank-badge.tier-2 { border-color: var(--fg-dim); color: var(--fg-dim); }
+  .rank-badge.tier-3 { border-color: var(--fg-faint); color: var(--fg-faint); }
+
+  .card-cat {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    color: var(--fg-faint);
+    text-transform: uppercase;
+    padding-top: 4px;
+    flex: 1;
+    text-align: right;
+  }
+
+  .card-title {
+    font-family: var(--serif);
+    font-size: 17px;
+    line-height: 1.32;
+    margin: 0 0 6px;
+    font-weight: 400;
+    color: var(--title-red);
+  }
+  .card-authors {
+    font-size: 12px;
+    color: var(--fg-dim);
+    margin-bottom: 9px;
+    font-family: var(--mono);
+  }
+  .card-verdict {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--fg);
+    border-left: 2px solid var(--line);
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .tag {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    color: var(--fg-dim);
+    border: 1px solid var(--line-soft);
+    padding: 3px 7px;
+    border-radius: 2px;
+  }
+  .tag.good { color: var(--fg); border-color: var(--fg-faint); }
+
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--fg-faint);
+    font-family: var(--mono);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .detail-view {
+    display: none;
+    flex-direction: column;
+    height: 100%;
+  }
+  .detail-view.active { display: flex; }
+  .detail-scroll {
+    flex: 1 1 auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 16px 18px 14px;
+  }
+  .back-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 18px 10px;
+    border-bottom: 1px solid var(--line);
+    flex: 0 0 auto;
+  }
+  .back-btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    color: var(--fg-dim);
+    cursor: pointer;
+    padding: 4px 0;
+  }
+  .back-btn::before { content: "← "; }
+
+  .detail-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg-faint);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .detail-title {
+    font-family: var(--serif);
+    font-size: 22px;
+    line-height: 1.3;
+    margin: 0 0 10px;
+    font-weight: 400;
+    color: var(--title-red);
+  }
+  .detail-authors {
+    font-size: 13px;
+    color: var(--fg-dim);
+    font-family: var(--mono);
+    margin-bottom: 18px;
+  }
+
+  .verdict-block {
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    padding: 14px;
+    margin-bottom: 16px;
+  }
+  .verdict-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin-bottom: 7px;
+  }
+  .verdict-text {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .score-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+  .score-cell {
+    border: 1px solid var(--line-soft);
+    padding: 9px 10px;
+  }
+  .score-cell-label {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin-bottom: 4px;
+  }
+  .score-cell-value {
+    font-size: 13px;
+    color: var(--fg);
+  }
+
+  .abstract-block { margin-bottom: 20px; }
+  .section-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin-bottom: 8px;
+  }
+  .abstract-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--fg-dim);
+  }
+
+  .arxiv-link {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--fg-dim);
+    border: 1px solid var(--line);
+    padding: 7px 12px;
+    text-decoration: none;
+    margin-bottom: 24px;
+  }
+  .arxiv-link:active { border-color: var(--fg); }
+
+  .chat-section { border-top: 1px solid var(--line); padding-top: 16px; }
+  .chat-log { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; }
+  .chat-msg { max-width: 92%; font-size: 13.5px; line-height: 1.5; }
+  .chat-msg.user {
+    align-self: flex-end;
+    background: var(--fg);
+    color: #000;
+    padding: 9px 12px;
+    border-radius: 3px;
+  }
+  .chat-msg.assistant {
+    align-self: flex-start;
+    color: var(--fg);
+    padding: 9px 0;
+  }
+  .chat-msg.assistant .chat-tag {
+    display: block;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin-bottom: 4px;
+  }
+  .chat-suggestions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .suggestion-chip {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--fg-dim);
+    border: 1px solid var(--line);
+    padding: 6px 10px;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+  .suggestion-chip:active { border-color: var(--fg); color: var(--fg); }
+
+  .chat-input-row {
+    flex: 0 0 auto;
+    display: flex;
+    gap: 8px;
+    padding: 10px 18px;
+    border-top: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .chat-input {
+    flex: 1;
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    color: var(--fg);
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 3px;
+    font-family: inherit;
+  }
+  .chat-input:focus { outline: none; border-color: var(--fg-dim); }
+  .chat-send {
+    background: var(--fg);
+    color: #000;
+    border: none;
+    padding: 0 16px;
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .chat-send:active { background: var(--fg-dim); }
+  .chat-send:disabled { background: var(--line); color: var(--fg-faint); }
+
+  .typing-dots {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--fg-faint);
+    padding: 9px 0;
+  }
+
+  ::-webkit-scrollbar { width: 4px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--line); }
+
+  .sample-banner {
+    flex: 0 0 auto;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--fg-faint);
+    text-align: center;
+    padding: 6px 14px;
+    border-bottom: 1px solid var(--line-soft);
+    letter-spacing: 0.02em;
+  }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <div class="sample-banner">SAMPLE DATA — wire to Box once M6 push is live</div>
+
+  <header>
+    <div class="header-top">
+      <span class="observatory-mark">Illhart Observatory</span>
+      <span class="date-mark" id="todayDate"></span>
+    </div>
+    <h1>ArXiv Briefing</h1>
+    <div class="subhead" id="articleCountLine">— articles — RC400 / MK67 follow-up relevance</div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-filter="all">All<span class="count" id="countAll"></span></div>
+    <div class="tab" data-filter="1">Tier 1<span class="count" id="count1"></span></div>
+    <div class="tab" data-filter="2">Tier 2<span class="count" id="count2"></span></div>
+    <div class="tab" data-filter="3">Tier 3<span class="count" id="count3"></span></div>
+  </div>
+
+  <main>
+    <div class="list-view" id="listView"></div>
+
+    <div class="detail-view" id="detailView">
+      <div class="back-row">
+        <div class="back-btn" id="backBtn">All articles</div>
+      </div>
+      <div class="detail-scroll" id="detailScroll"></div>
+    </div>
+  </main>
+
+  <div class="chat-input-row" id="chatInputRow" style="display:none;">
+    <input type="text" class="chat-input" id="chatInput" placeholder="Ask about this paper…" autocomplete="off">
+    <button class="chat-send" id="chatSend">Ask</button>
+  </div>
+
+</div>
+
+<script>
+const SAMPLE_ARTICLES = [
+  {
+    id: "2506.14021",
+    category: "astro-ph.EP",
+    title: "Lightcurve Photometry of Near-Earth Asteroid (2024 XK1) Reveals Tumbling Rotation State",
+    authors: "Bessel, M. et al.",
+    tier: 1,
+    verdict: "Direct follow-up candidate. Tumbling NEAs with sparse lightcurve coverage are exactly what RC400 + IMX571 photometry at 0.22\"/px can usefully add to — declination +38° keeps it well above your horizon limit, and V~15.8 is comfortably within reach at your aperture.",
+    score: { instrument: "RC400 photometry", reach: "V15.8 — well within range", geometry: "Dec +38°, visible all night", urgency: "Low — slow rotator, no rush" },
+    abstract: "We present time-series photometry of near-Earth asteroid 2024 XK1 obtained over twelve nights, revealing a complex non-principal-axis (tumbling) rotation state with a long-axis period of 14.2 hours and a precession period of 3.8 days. Sparse existing data in the literature leaves the rotation state poorly constrained; additional follow-up photometry from longitudes not yet sampled would substantially improve the period solution.",
+    tags: ["NEA", "lightcurve", "tumbling rotator", "follow-up needed"]
+  },
+  {
+    id: "2506.13877",
+    category: "astro-ph.SR",
+    title: "A New Catalog of 412 Candidate Eclipsing Binaries from TESS Sector 88 Suitable for Ground-Based Period Refinement",
+    authors: "Okonkwo, R., Diaz, L.",
+    tier: 1,
+    verdict: "Good fit for unguided-ceiling-friendly cadence work. Several catalog targets fall in your accessible declination band with periods short enough to fully characterize across 2-3 nights at RC400's FOV — worth cross-checking the brightest dozen against your magnitude floor.",
+    score: { instrument: "RC400 photometry", reach: "Brightest subset V<14", geometry: "Mixed Dec, filter by altitude", urgency: "Medium — TESS window closing" },
+    abstract: "We report 412 new eclipsing binary candidates identified in TESS Sector 88 short-cadence data, of which 89 lack any ground-based confirmation or refined ephemeris. We provide a machine-readable table of coordinates, estimated periods, and depths, and encourage ground-based follow-up to refine ephemerides before the TESS-derived periods phase out of validity.",
+    tags: ["eclipsing binary", "TESS", "ephemeris refinement", "catalog"]
+  },
+  {
+    id: "2506.13690",
+    category: "astro-ph.HE",
+    title: "GRB 260623A: Optical Afterglow Detection and Early-Time Decay Constraints",
+    authors: "Fenwick, T. et al.",
+    tier: 2,
+    verdict: "Window has likely closed — this GCN-class event needed follow-up within hours of trigger, and the arXiv posting itself confirms detection already happened elsewhere. Useful as a methods reference for your AstroAlerts GCN triage logic, not as a live target.",
+    score: { instrument: "N/A — window closed", reach: "N/A", geometry: "N/A", urgency: "Expired" },
+    abstract: "We report the discovery and early-time photometric monitoring of the optical afterglow of GRB 260623A, detected 340 seconds after the Swift/BAT trigger. The light curve shows a single power-law decay with index 1.31 ± 0.04 over the first six hours, with no evidence for a jet break during our coverage window.",
+    tags: ["GRB", "afterglow", "expired window"]
+  },
+  {
+    id: "2506.13502",
+    category: "astro-ph.IM",
+    title: "Open-Source Implementation of the Tisserand Parameter Filter for Automated NEOCP Triage",
+    authors: "Husain, A., Petrov, K.",
+    tier: 2,
+    verdict: "Methods paper, not a target — but directly actionable for your phase3_planner.py logic. The Tisserand filter described here is a cheap pre-filter that could sit upstream of your existing observability filter to cut false-positive NEOCP candidates before the live HTTP fetch.",
+    score: { instrument: "N/A — pipeline tooling", reach: "N/A", geometry: "N/A", urgency: "Low — read when convenient" },
+    abstract: "We describe a lightweight, open-source filter based on the Tisserand parameter with respect to Jupiter for rapid triage of Minor Planet Center NEOCP postings, designed to run in under 50ms per candidate on commodity hardware. The filter reduces false-positive follow-up requests by an estimated 23% in retrospective testing against six months of NEOCP archive data, with negligible loss of genuine NEO candidates.",
+    tags: ["pipeline tooling", "NEOCP", "methods", "actionable for AstroAlerts"]
+  },
+  {
+    id: "2506.13301",
+    category: "astro-ph.SR",
+    title: "Spectroscopic Confirmation of a New Cataclysmic Variable Candidate from AAVSO Alert Data",
+    authors: "Lindqvist, S. et al.",
+    tier: 1,
+    verdict: "Strong MK67 candidate. This is squarely in the spectroscopy-host mandate you're building toward — V~16.4 is at the edge of your stated mag limit for the MK67 sub-list, so worth flagging now even though the spectrograph acquisition itself is still on the lower-priority backlog.",
+    score: { instrument: "MK67 spectroscopy (pending spectrograph)", reach: "V16.4 — edge of stated limit", geometry: "Dec +12°, good winter target", urgency: "Medium — outburst may fade" },
+    abstract: "We confirm via low-resolution spectroscopy that AAVSO alert target J2014+1203 is a previously uncatalogued cataclysmic variable in outburst, showing prominent Balmer emission consistent with an accretion disk origin. The object faded by 0.6 mag over our three-night monitoring window; continued photometric and spectroscopic monitoring is encouraged while the outburst remains detectable.",
+    tags: ["cataclysmic variable", "MK67 candidate", "AAVSO", "outburst — fading"]
+  },
+  {
+    id: "2506.13180",
+    category: "astro-ph.EP",
+    title: "Refined Orbital Elements for 14 Main-Belt Asteroids from Combined Survey and Amateur Astrometry",
+    authors: "Vasquez, P., Lindgren, O.",
+    tier: 3,
+    verdict: "Low priority. Orbits already well-determined by survey data in this paper; amateur astrometric contribution here is more about adding redundant data points than closing a real observational gap. Better use of a clear night exists elsewhere on tonight's list.",
+    score: { instrument: "RC400 photometry — low marginal value", reach: "Mixed, mostly faint", geometry: "Scattered", urgency: "None" },
+    abstract: "We present refined orbital solutions for 14 main-belt asteroids combining Pan-STARRS and ZTF survey astrometry with contributed amateur measurements submitted to the Minor Planet Center between 2024 and 2026. The resulting orbits show residuals below 0.2 arcsec, an improvement of roughly 40% over previous solutions, though all objects already had well-constrained orbits prior to this work.",
+    tags: ["main-belt", "orbit refinement", "low marginal value"]
+  },
+  {
+    id: "2506.12998",
+    category: "astro-ph.IM",
+    title: "Systematic Errors in Plate-Solved Astrometry from Consumer CMOS Sensors: A Comparison of ASTAP and PlateSolve3",
+    authors: "Hofmann, B.",
+    tier: 2,
+    verdict: "Directly relevant methods reading given your exact solver stack — this paper benchmarks ASTAP against PlateSolve3 on IMX-series sensors, which is precisely your ATR2600M / ASTAP-primary configuration. Worth reading in full even though it isn't a follow-up target.",
+    score: { instrument: "N/A — methods/validation", reach: "N/A", geometry: "N/A", urgency: "Low — read when convenient" },
+    abstract: "We characterize systematic astrometric residuals introduced by two widely-used open-source plate-solving packages, ASTAP and PlateSolve3, when applied to data from Sony IMX-series CMOS sensors common in amateur and small-observatory asteroid astrometry programs. We find ASTAP residuals are systematically 0.05-0.08 arcsec lower than PlateSolve3 on identical frames under default settings, attributable to differences in centroiding algorithm rather than catalog choice, with implications for observatories submitting MPC-quality astrometry near the 0.3 arcsec target threshold.",
+    tags: ["plate solving", "ASTAP", "methods", "directly relevant to your stack"]
+  },
+  {
+    id: "2506.12844",
+    category: "astro-ph.HE",
+    title: "X-ray Transient Swift J1745.1-2624 Returns to Quiescence After 2026 Outburst",
+    authors: "Demidov, Y. et al.",
+    tier: 3,
+    verdict: "Not actionable now — source has already returned to quiescence per this report, so there is no active optical counterpart of interest for follow-up photometry at this time.",
+    score: { instrument: "N/A", reach: "N/A", geometry: "N/A", urgency: "None — quiescent" },
+    abstract: "We report Chandra and NICER monitoring showing that the X-ray transient Swift J1745.1-2624 has returned to quiescence following its 2026 outburst, with luminosity now consistent with pre-outburst archival levels. No further X-ray or optical monitoring is currently planned by our team.",
+    tags: ["X-ray transient", "quiescent", "not actionable"]
+  }
+];
+
+let articles = SAMPLE_ARTICLES;
+let currentFilter = "all";
+let currentArticle = null;
+let chatHistories = {};
+
+function init() {
+  const today = new Date();
+  document.getElementById("todayDate").textContent =
+    today.toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }).toUpperCase();
+
+  document.querySelectorAll(".tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+      tab.classList.add("active");
+      currentFilter = tab.dataset.filter;
+      renderList();
+    });
+  });
+
+  document.getElementById("backBtn").addEventListener("click", showList);
+  document.getElementById("chatSend").addEventListener("click", sendChatMessage);
+  document.getElementById("chatInput").addEventListener("keypress", e => {
+    if (e.key === "Enter") sendChatMessage();
+  });
+
+  renderCounts();
+  renderList();
+}
+
+function renderCounts() {
+  const t1 = articles.filter(a => a.tier === 1).length;
+  const t2 = articles.filter(a => a.tier === 2).length;
+  const t3 = articles.filter(a => a.tier === 3).length;
+  document.getElementById("countAll").textContent = ` ${articles.length}`;
+  document.getElementById("count1").textContent = ` ${t1}`;
+  document.getElementById("count2").textContent = ` ${t2}`;
+  document.getElementById("count3").textContent = ` ${t3}`;
+  document.getElementById("articleCountLine").textContent =
+    `${articles.length} articles — RC400 / MK67 follow-up relevance`;
+}
+
+function renderList() {
+  const container = document.getElementById("listView");
+  const filtered = currentFilter === "all"
+    ? articles
+    : articles.filter(a => String(a.tier) === currentFilter);
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<div class="empty-state">No articles in this tier today.</div>`;
+    return;
+  }
+
+  container.innerHTML = filtered.map(a => `
+    <div class="card" data-id="${a.id}">
+      <div class="card-top">
+        <div class="rank-badge tier-${a.tier}">${a.tier}</div>
+        <div class="card-cat">${a.category}</div>
+      </div>
+      <div class="card-title">${a.title}</div>
+      <div class="card-authors">${a.authors}</div>
+      <div class="card-verdict">${a.verdict}</div>
+      <div class="card-tags">
+        ${a.tags.map(t => `<span class="tag${t.includes('relevant') || t.includes('candidate') || t.includes('follow-up needed') ? ' good' : ''}">${t}</span>`).join("")}
+      </div>
+    </div>
+  `).join("");
+
+  container.querySelectorAll(".card").forEach(card => {
+    card.addEventListener("click", () => openDetail(card.dataset.id));
+  });
+}
+
+function openDetail(id) {
+  currentArticle = articles.find(a => a.id === id);
+  if (!currentArticle) return;
+  if (!chatHistories[id]) chatHistories[id] = [];
+
+  document.getElementById("listView").style.display = "none";
+  document.getElementById("detailView").classList.add("active");
+  document.getElementById("chatInputRow").style.display = "flex";
+
+  renderDetail();
+}
+
+function showList() {
+  document.getElementById("listView").style.display = "block";
+  document.getElementById("detailView").classList.remove("active");
+  document.getElementById("chatInputRow").style.display = "none";
+  currentArticle = null;
+}
+
+function renderDetail() {
+  const a = currentArticle;
+  const scroll = document.getElementById("detailScroll");
+
+  const suggestions = [
+    "Why this tier?",
+    "What exposure time would I need?",
+    "Has this been observed already?",
+    "Summarize the method"
+  ];
+
+  scroll.innerHTML = `
+    <div class="detail-meta">${a.category} · arXiv:${a.id}</div>
+    <div class="detail-title">${a.title}</div>
+    <div class="detail-authors">${a.authors}</div>
+
+    <div class="verdict-block">
+      <div class="verdict-label">Follow-up Assessment</div>
+      <div class="verdict-text">${a.verdict}</div>
+    </div>
+
+    <div class="score-grid">
+      <div class="score-cell">
+        <div class="score-cell-label">Instrument fit</div>
+        <div class="score-cell-value">${a.score.instrument}</div>
+      </div>
+      <div class="score-cell">
+        <div class="score-cell-label">Reach</div>
+        <div class="score-cell-value">${a.score.reach}</div>
+      </div>
+      <div class="score-cell">
+        <div class="score-cell-label">Geometry</div>
+        <div class="score-cell-value">${a.score.geometry}</div>
+      </div>
+      <div class="score-cell">
+        <div class="score-cell-label">Urgency</div>
+        <div class="score-cell-value">${a.score.urgency}</div>
+      </div>
+    </div>
+
+    <div class="abstract-block">
+      <div class="section-label">Abstract</div>
+      <div class="abstract-text">${a.abstract}</div>
+    </div>
+
+    <a class="arxiv-link" href="https://arxiv.org/abs/${a.id}" target="_blank">View on arXiv ↗</a>
+
+    <div class="chat-section">
+      <div class="section-label">Discuss this paper</div>
+      <div class="chat-log" id="chatLog"></div>
+      <div class="chat-suggestions" id="chatSuggestions">
+        ${suggestions.map(s => `<span class="suggestion-chip">${s}</span>`).join("")}
+      </div>
+    </div>
+  `;
+
+  scroll.querySelectorAll(".suggestion-chip").forEach(chip => {
+    chip.addEventListener("click", () => {
+      document.getElementById("chatInput").value = chip.textContent;
+      sendChatMessage();
+    });
+  });
+
+  renderChatLog();
+}
+
+function renderChatLog() {
+  const log = document.getElementById("chatLog");
+  const history = chatHistories[currentArticle.id] || [];
+  log.innerHTML = history.map(m => {
+    if (m.role === "user") {
+      return `<div class="chat-msg user">${escapeHtml(m.text)}</div>`;
+    }
+    return `<div class="chat-msg assistant"><span class="chat-tag">Briefing</span>${m.text}</div>`;
+  }).join("");
+}
+
+function escapeHtml(str) {
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+function sendChatMessage() {
+  const input = document.getElementById("chatInput");
+  const text = input.value.trim();
+  if (!text || !currentArticle) return;
+
+  const id = currentArticle.id;
+  chatHistories[id].push({ role: "user", text });
+  input.value = "";
+  renderChatLog();
+
+  const log = document.getElementById("chatLog");
+  const typingEl = document.createElement("div");
+  typingEl.className = "typing-dots";
+  typingEl.textContent = "···";
+  log.appendChild(typingEl);
+  log.scrollTop = log.scrollHeight;
+
+  setTimeout(() => {
+    typingEl.remove();
+    const reply = sampleReply(text, currentArticle);
+    chatHistories[id].push({ role: "assistant", text: reply });
+    renderChatLog();
+  }, 600);
+}
+
+function sampleReply(question, article) {
+  const q = question.toLowerCase();
+  if (q.includes("tier") || q.includes("why")) {
+    return `Tier ${article.tier} reflects instrument fit (${article.score.instrument}), target reach (${article.score.reach}), and urgency (${article.score.urgency}) together — this is placeholder reasoning until live ranking logic is wired in.`;
+  }
+  if (q.includes("exposure")) {
+    return `Once wired to live data, this will estimate exposure time from the stated magnitude against your IMX571/RC400 SNR curve. Sample mode only for now.`;
+  }
+  if (q.includes("observed") || q.includes("already")) {
+    return `Sample mode can't check live observation logs yet — once connected, this will cross-reference your AsteroidPipeline output and AAVSO/MPC submission history.`;
+  }
+  return `This is a placeholder response in sample mode. Once the live data and chat backend are wired in, I'll answer directly from the paper's abstract and your observatory's actual capabilities.`;
+}
+
+init();
+</script>
+</body>
+</html>
