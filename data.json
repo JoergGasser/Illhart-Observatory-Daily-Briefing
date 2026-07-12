@@ -1,0 +1,301 @@
+{
+  "generated_utc": "2026-07-12T13:04:29Z",
+  "date": "2026-07-12",
+  "total_fetched": 160,
+  "relevant_count": 15,
+  "min_score": 3,
+  "articles": [
+    {
+      "arxiv_id": "2607.08424v1",
+      "title": "Exploring the effect of mixing in Low-Luminosity Type IIp Supernovae by modeling SN 2024abfl",
+      "abstract": "Low-luminosity Type IIp supernovae (LLSNe) are SN IIps with peak magnitudes > -15.5 and plateau magnitudes between -13.5 and -15.5 in the V band. SN 2024abfl is an LLSN with a unique light curve, particularly the steep drop in luminosity observed after the plateau phase makes it an interesting candidate for modeling core-collapse supernova mechanisms. Using a custom pipeline involving MESA and STELLA, we investigate the possibility of suppressed ejecta mixing as a cause of the steep drop-off from the plateau phase. We find that turning off mixing mechanisms during shock breakout can mimic the distinct flat plateau and steep luminosity drop into the radioactive tail of the light curve while using previously proposed progenitor mass, radius and explosion energy parameters. Using these results as a proof-of-concept, exploring the effects of limited mixing in LLSNe candidates could give us better insight into how they differ from Typical Type IIp SNe.",
+      "authors": [
+        "Akshith Karri",
+        "Abigail Polin",
+        "Paul Duffell"
+      ],
+      "url": "https://arxiv.org/abs/2607.08424v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-09",
+      "score": 18,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.08727v1",
+      "title": "Cataclysmic Variables Photometric Periods from TESS",
+      "abstract": "We present a sample of coherent and stable photometric period determinations for cataclysmic variables, based on TESS photometry through sector 102. We analyzed a total of 1557 cataclysmic variable stars and detected periodic variations in 1362 objects, including 286 eclipsing or ellipsoidal-variation systems, 63 polars, and 135 intermediate polars. In particular, we present the first determination of the optical variability period for 565 cataclysmic variables. Due to the 21x21\" pixel size of TESS, we tested whether the variability was coming from the cataclysmic variable and not from a nearby star. For the intermediate polars, we detected spin periods in addition to orbital periods for 83 systems. We detect a clear period gap between ~2 and ~3 h in the eclipsing sample, consistent with previous work. The gap remains for the complete sample of photometric variability periods. There is no apparent gap in the orbital period distribution for intermediate polars. Finally, the median of the photometric period distribution of our complete sample of cataclysmic variables is 3.681 h. Comparing this to the distribution of rotation periods for likely single white dwarfs, we find a similar range, with a median photometric period of 6.803~h.",
+      "authors": [
+        "S. O. Kepler",
+        "Alejandra Daniela Romero",
+        "Larissa Luciano Amorim",
+        "Marcos Perez Diaz"
+      ],
+      "url": "https://arxiv.org/abs/2607.08727v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-09",
+      "score": 16,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.08693v1",
+      "title": "H\u03b1 clarifies picture of IIn supernova SN 2015da",
+      "abstract": "Observational data on type IIn supernova SN 2015da are revisited to clarify some ambiguous issues of this phenomenon. The H alpha--emitting site is found to switch around day 90 from the circumstellar matter to the unshocked ejecta. This picture makes it possible to recover the expansion velocity of late time ejecta and to locate the dust formation in the inner zone of unshocked ejecta.The bolometric light curve and expansion velocities combined with modelling the circumstellar interaction imply that the supernova exploded with an energy of $\\gtrsim 4\\times10^{51}$ erg inside the circumstellar envelope with the mass of $\\approx 14$ Msun. The recovered density of the circumstellar matter is consistent with the Thomson optical depth inferred from H alpha modelling on day 46.The observed circumstellar envelope is produced by an average mass loss rate of 0.035 Msun/yr during 400 yr before the supernova explosion.",
+      "authors": [
+        "Nikolai Chugai"
+      ],
+      "url": "https://arxiv.org/abs/2607.08693v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-09",
+      "score": 16,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.08179v1",
+      "title": "Beryllium enhancement in stars of the accreted Thamnos-2 system",
+      "abstract": "Surveys of Galactic halo stars have revealed numerous streams and substructures tracing stellar populations accreted by the Milky Way. Among these, Gaia-Sausage-Enceladus (GSE) and Sequoia are the most prominent, both associated with dwarf galaxies accreted about 10 Gyr ago. We aim to measure beryllium abundances in nine stars associated with Thamnos, a substructure possibly linked to Sequoia, following the discovery of a Be-rich star BPM3066 by Monaco et al (2025). We used Gaia photometry and parallaxes to compute ATLAS9 model atmospheres. Synthetic spectra were generated with Turbospectrum and used with MyGIsFOS in single-model mode to analyze UVES high resolution spectra. Four new stars exhibit a significant beryllium overabundance. Moreover, the two known Be-rich stars, HD 106038 and HD 132475, are also found consistent with Thamnos membership. Thus, all currently known Be-rich stars appear associated with the Thamnos-2 structure. The Be enhancement is accompanied by elevated Si abundances, and we detect a correlation between Be and neutron-capture elements. No comparable Be-rich population is known elsewhere in the Galaxy, pointing to a rare enrichment event. The measured A(Be)/A(Li) excess ratio bears the imprint of spallation reactions, pointing to a highly energetic event in which fast CNO nuclei fragmented upon collision with the surrounding medium. The silicon overabundance is also consistent with a hypernova origin. Such an event may have rapidly enriched the surrounding gas to [Fe/H] about -1.5 explaining the relatively high metallicities of stars formed from this material despite their old ages (about 13 Gyr).",
+      "authors": [
+        "Paolo Molaro",
+        "Piercarlo Bonifacio",
+        "Elisabetta Caffau",
+        "Lorenzo Monaco",
+        "Gabriele Cescutti"
+      ],
+      "url": "https://arxiv.org/abs/2607.08179v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-09",
+      "score": 10,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08146v1",
+      "title": "On-sky dark hole diggin' with implicit Electric Field Conjugation on MagAO-X",
+      "abstract": "Direct spectroscopy is very promising approach to characterizing the atmospheres of nearby rocky exoplanets. Non-common path aberrations (NCPA) are differential aberrations between the science optical path and the adaptive optics optical path. The NCPA leak through the coronagraph and create speckles that mimic exoplanet signals. This limits the sensitivity of high-contrast imaging instruments at close angular separations - exactly the separations where we want to search for rocky exoplanets with current and future telescopes and instruments. We aim to actively remove the NCPA on-sky during observations by using focal plane wavefront sensing and control with the newly upgraded MagAO-X instrument. MagAO-X is equipped with a unique second-stage Adaptive Optics (AO) system. The second-stage AO system contains a dedicated deformable mirror (DM) for coronagraphic focal plane wavefront control. This DM is placed after the science and AO beam-splitter and is therefore not seen by the main AO loop. The DM has been recently upgraded from an ALPAO-97 to a Boston Micromachine Kilo-DM. The new Kilo-DM enables focal plane wavefront control with the implicit Electric Field Conjugation (iEFC) algorithm. We developed the necessary procedures to run iEFC with MagAO-X on-sky. We demonstrated the successful removal of NCPA on-sky with an iEFC interaction matrix that was calibrated on the MagAO-X internal source. This demonstrates the repeatability between our off-sky and on-sky alignment. The iEFC algorithm was tested on HR4796A and Alpha Centauri in 0.5\" seeing conditions. We saw a reduction of the NCPA by a factor of 2 to 20. This on-sky validation confirms the robustness and efficiency of iEFC under realistic observing conditions, paving the way for its integration into next-generation AO systems for the Extremely Large Telescope and Giant Magellan Telescope.",
+      "authors": [
+        "S. Y. Haffert",
+        "J. Liberman",
+        "J. R. Males",
+        "L. M. Close",
+        "W. B. Foster",
+        "K. Van Gorkom",
+        "O. Guyon",
+        "A. D. Hedglen",
+        "P. T. Johnson",
+        "M. Y. Kautz",
+        "J. K. Kueny",
+        "J. Li",
+        "J. D. Long",
+        "J. Lumbres",
+        "M. Mars",
+        "E. A. McEwen",
+        "A. McLeod",
+        "L. Schatz",
+        "E. Tonucci",
+        "K. Twitchell"
+      ],
+      "url": "https://arxiv.org/abs/2607.08146v1",
+      "category": "astro-ph.IM",
+      "published": "2026-07-09",
+      "score": 10,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08216v1",
+      "title": "A Magnetar Engine and Circumstellar Medium Interaction: Synergistic Effects in Producing Superluminous Supernovae",
+      "abstract": "Superluminous supernovae (SLSNe) are often modeled as being powered either by a central engine or by strong interaction with dense circumstellar material (CSM). These two mechanisms may be dynamically coupled if the ejecta interact with dense CSM while being energized by a newborn magnetar. We develop a semi-analytical hybrid model that follows the coupled dynamics, energy conversion, and radiative output of such systems. A rapidly rotating magnetar injects energy through a relativistic wind, inflating a hot bubble inside the expanding ejecta. Part of the injected energy is stored as radiation, while the rest is converted into bulk kinetic energy of the swept-up ejecta. At the same time, the outer ejecta collide with the surrounding CSM and form a circumstellar interaction (CSI) region. As the shock driven by the magnetar accelerates through the ejecta, it can catch up with the CSI region and take over the subsequent interaction with the unshocked CSM. The emergent light curves are therefore governed by the coupled effects of magnetar energy injection, shock heating, and radiative diffusion. We show that this hybrid model can produce diverse SLSN light-curve morphologies, including luminous interaction-powered peaks, asymmetric post-peak declines, and late-time emission sustained by delayed leakage of magnetar-powered radiation. The model provides a plausible way to reduce the extreme nickel-mass or initial explosion-energy requirements often encountered in purely radioactive or purely interaction-powered interpretations.",
+      "authors": [
+        "Guang-Lei Wu",
+        "Yun-Wei Yu",
+        "Liang-Duan Liu"
+      ],
+      "url": "https://arxiv.org/abs/2607.08216v1",
+      "category": "astro-ph.HE",
+      "published": "2026-07-09",
+      "score": 9,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.08603v1",
+      "title": "Near-perihelion activity and composition of 3I/ATLAS from JUICE/MAJIS observations",
+      "abstract": "We present visible-to-infrared (0.5-5.56 microns) observations of the interstellar comet 3I/ATLAS obtained with the Moons and Jupiter Imaging Spectrometer (MAJIS) aboard the Jupiter Icy Moons Explorer (JUICE) spacecraft between 2025 November 2 and 25, shortly after perihelion. The fluorescence emission from H2O at 2.7 microns and CO2 at 4.3 microns is detected at heliocentric distances of 1.36-1.68 au. A weak dust-scattered continuum is identified from which we determine the spectral slope, with values ranging from ~15% per 100 nm in the 0.65-0.9 microns region to 1-3% per 100 nm from 0.9 to 2.6 microns. Spatially resolved measurements show that the radial distributions of H2O and CO2 species are consistent with release in the near-nucleus environment. We derive H2O production rates that decreased from 8 x 1028 s-1 to 4 x 1028 s-1 over the period November 2-25, while the CO2/H2O ratio remained nearly constant at ~10%. The heliocentric evolution of the CO2 production rate indicates activity controlled by solar heating. Combined with published CO measurements and the low gas expansion velocities, our analyses support a scenario in which CO2 plays a major role in driving the activity of 3I/ATLAS near perihelion. In addition, broad emission features are identified in the 3.2-3.6 microns region that cannot be explained by the fluorescence of common cometary CH-bearing volatiles. Their spectral characteristics are consistent with aliphatic C-H functional groups and provide tentative evidence for the release of complex organic material from dust grains in the coma.",
+      "authors": [
+        "D. Bockelee-Morvan",
+        "F. Poulet",
+        "Y. Langevin",
+        "B. Seignovert",
+        "C. Leyrat",
+        "G. Piccioni",
+        "C. Royer",
+        "S. Rodriguez",
+        "E. d'Aversa",
+        "R. Brunetto",
+        "J. Carter",
+        "T. Cavalie",
+        "M. De Sanctis",
+        "E. Lellouch",
+        "A. Migliorini",
+        "C. Pilorget",
+        "E. Quirico",
+        "S. Robert",
+        "F. Tosi"
+      ],
+      "url": "https://arxiv.org/abs/2607.08603v1",
+      "category": "astro-ph.EP",
+      "published": "2026-07-09",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08132v1",
+      "title": "Vetting Ambiguous Planetary Candidates (APC) in TESS Data: Insights from LATTE Package and Detection of Nine Potential Exoplanet Candidates",
+      "abstract": "We present the results of our study of Ambiguous Planetary Candidates (APCs) in data from the Transiting Exoplanet Survey Satellite (TESS) using the open-source LATTE package. LATTE provides an effective framework for distinguishing transit-like signals, including planetary candidates and eclipsing binaries, from stellar variability and instrumental noise. We performed a comprehensive analysis of TESS APCs by applying the LATTE diagnostic tools and visually inspecting the resulting light curves and diagnostic plots to identify false alarms and false positives. Our analysis confirms nine potential exoplanet candidates that warrant follow-up observations with ground-based facilities. These findings demonstrate the effectiveness of the LATTE package for the identification and vetting of exoplanet candidates in TESS data. Future analyses incorporating observations from additional TESS sectors will further improve candidate validation and may lead to the discovery of additional exoplanet candidates.",
+      "authors": [
+        "Umer Hameed Khan",
+        "Khushlim Khan",
+        "Muhammad Zeshan Ashraf",
+        "A. Salam Khumber"
+      ],
+      "url": "https://arxiv.org/abs/2607.08132v1",
+      "category": "astro-ph.EP",
+      "published": "2026-07-09",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.07787v1",
+      "title": "Probing the origins. III. Exoplanet demographics across Galactic birth radii",
+      "abstract": "We quantify radial mixing in exoplanet hosts and explore links between birth environment, orbital evolution, planetary architecture, and Galactic habitability. We constructed a homogeneous catalogue by cross-matching the Encyclopaedia of Exoplanetary Systems with Gaia DR3 astrometry and infrared photometry from 2MASS and AllWISE. Stellar orbits were integrated using Galpy. Stellar birth radii were inferred by combining Galactic chemical enrichment models with the generalised additive model introduced in Paper I. Giant-planet hosts preferentially trace inner-Galaxy birth sites, whereas brown-dwarf hosts span a broader, less localised range of radial displacements. Rocky-only systems show smaller radial excursions and less centrally concentrated birth radii, while rocky+giant systems are intermediate, retaining a stronger link to inner-disc birth environments than rocky-only systems. We also find that outward-migrators host more compact outer detected companions than inward-migrators, with non-migrators in between. This trend remains tentative because of heterogeneous detection biases. Giant-planet hosts retain a strong connection to metal-rich inner-Galaxy birth environments, whereas brown-dwarf hosts span a broader range of radial displacements, and rocky-only systems are less centrally concentrated. The older ages of rocky and rocky+giant hosts, especially among outward migrators, make them useful reference populations for future habitability and technosignature searches. Dynamically heated outer-Galaxy-born hosts show that planet-hosting systems can survive significant Galactic perturbations, although whether their architectures retain causal imprints of this evolution remains uncertain. No clear connection is found between radial displacement and the number of detected planets.",
+      "authors": [
+        "Juan Jos\u00e9 Garc\u00eda-Delgado",
+        "M. L. L. Dantas",
+        "Isabel Rebollido",
+        "Rodolfo Smiljanic"
+      ],
+      "url": "https://arxiv.org/abs/2607.07787v1",
+      "category": "astro-ph.EP",
+      "published": "2026-07-08",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.08604v1",
+      "title": "Active galactic nuclei are not responsible for systematics in the empirical properties of type Ia supernovae",
+      "abstract": "Despite being key cosmological anchors, the empirical properties of Type Ia supernovae (SNe Ia) remain subject to significant systematic uncertainties, the largest of which being their astrophysics and how this is linked to their environment. The relative importance of these uncertainties will grow as larger observational samples reduce statistical uncertainties. Here I explore if the presence of an active galactic nucleus (AGN) within a portion of SN Ia host galaxies could be one such systematic uncertainty. With the ZTF SNe Ia DR2 sample I find that, in the low redshift regime (z < 0.15), the presence of AGNs in some SN Ia hosts does not produce a significant systematic effect on their measured Hubble residuals.",
+      "authors": [
+        "Peter Clark"
+      ],
+      "url": "https://arxiv.org/abs/2607.08604v1",
+      "category": "astro-ph.HE",
+      "published": "2026-07-09",
+      "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2607.08263v1",
+      "title": "A search for circumstellar gas in pre-main-sequence debris discs using absorption spectroscopy",
+      "abstract": "Gas in debris discs is thought to be either inherited from the protoplanetary stage or released from the solid, rocky content of planetesimal belts. Its presence can impact planetary atmospheres and their potential for habitability, which stresses the need to ascertain its origin and composition. Most detections to date are around main-sequence stars, with only a few gas-bearing debris discs identified around pre-main-sequence stars, mainly through millimetre CO line searches. We investigate narrow gas absorption features superimposed on the photospheric Ca II K & H and Na I D1 & D2 lines in a sample of 125 pre-main sequence and 5 relatively young (<17Myr) stars. All stars are associated with IR excess emission indicative of presence of a debris disc. By comparing their residual spectra (photosphere-subtracted) to those of nearby stars, interstellar cloud velocities, and stellar radial velocities, we test whether interstellar absorption is the culprit and ascertain circumstellar gas origin. Using these methods, out of the 130 targets, we identified two new gas-bearing debris discs: TYC7879-1373-1, which exhibits stable absorption, and HIP30414, which shows variable gas absorption features linked likely to ongoing accretion. Both these systems are pre-main-sequence stars younger than 5Myr. TYC6822-283-1 has absorption features of inconclusive origin. This study increases the number of currently known very young (<10Myr) debris discs with circumstellar gas to eight, paving the path to future systematic studies of objects caught in transition from protoplanetary to debris disc stages.",
+      "authors": [
+        "Karolina M. Szewczyk",
+        "Daniela P. Iglesias",
+        "Olja Pani\u0107"
+      ],
+      "url": "https://arxiv.org/abs/2607.08263v1",
+      "category": "astro-ph.EP",
+      "published": "2026-07-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08050v1",
+      "title": "RedDots: Magnetic field of the nearby active M dwarf GJ 729, and a search for companions",
+      "abstract": "M dwarfs are prime targets for discovering exoplanets, and the nearest M dwarfs to the Sun provide among the best opportunities for follow-up detailed exoplanet characterization. GJ 729, the seventh closest M dwarf to the Sun, presents significant challenges for exoplanet detection due to its high levels of magnetic activity. To address this, we present a detailed analysis of GJ 729's magnetic field and its variability, followed by a search for exoplanets beneath the activity-induced noise in the stellar radial velocity. The geometry of GJ 729's large-scale magnetic field was reconstructed using new and archival spectropolarimetric data for a total of four epochs spanning 10 years. Results indicate a weak large-scale field ranging from 50 to 145 G, and an evolving non-axisymmetric field geometry that varies from poloidal dominated to a near-equal poloidal-toroidal configuration. We modeled activity-induced radial velocity variations using Gaussian Process Regression and activity diagnostics, and searched for planetary companions using ~90 d of high-cadence spectra taken contemporaneously with the high-precision CARMENES and HARPS spectrographs. Activity-only and activity + Keplerian models offered statistically equivalent fits, with a consistently preferred Keplerian period of ~7 d and amplitude of ~1.9 m/s across a range of activity modeling approaches. This could relate to an Earth-mass or Super-Earth planet, or residual stellar activity with power concentrated at a multiple of the rotation half-period. Our findings provide insight into the magnetic behavior of fully convective M dwarfs, and highlight the potential and challenges of detecting Keplerian RV signatures that are only a fraction of activity amplitudes.",
+      "authors": [
+        "E. L. Brown",
+        "S. V. Jeffers",
+        "S. C. Marsden",
+        "F. Liebing",
+        "S. Bellotti",
+        "J. R. Barnes",
+        "C. A. Haswell",
+        "V. Koseleva"
+      ],
+      "url": "https://arxiv.org/abs/2607.08050v1",
+      "category": "astro-ph.EP",
+      "published": "2026-07-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08081v1",
+      "title": "Robust Heteroskedastic Matrix Factorization: A Generalization of PCA that Flags Outliers and Handles Missing Data",
+      "abstract": "We present Robust Heteroskedastic Matrix Factorization (RHMF), a generalization of Principal Component Analysis (PCA) that is robust to outliers, handles per-feature uncertainties and missing data, and automatically flags per-feature and per-object anomalies. RHMF is useful both in recovering a low-dimensional embedding unspoiled by bad data or anomalies, and in identifying those anomalies. It utilises an iterative reweighting algorithm that implicitly maximizes a Student-t likelihood. This admits an equivalent probabilistic interpretation as fitting a hierarchical model with per-data-point latent variances. We deliver a fast JAX implementation, Robusta-HMF, and practical guidance for users. We demonstrate the ability of the model to identify and mitigate outliers of different classes. Identification accuracy is contingent on the choice of hyperparameters, but we show that these can be set reliably by cross-validation. We also apply RHMF to RVS spectra from Gaia DR3 to find main-sequence stars that are strange relative to their neighbors in color-magnitude space. We highlight specific examples, including a known binary hosting a Be star, and M-dwarfs with subtle emission in the Ca II triplet lines, indicative of accretion or magnetic activity, which would not be obvious to identify by eye.",
+      "authors": [
+        "Thomas Hilder",
+        "David W. Hogg",
+        "Andrew R. Casey",
+        "Hans-Walter Rix"
+      ],
+      "url": "https://arxiv.org/abs/2607.08081v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08747v1",
+      "title": "Decoupling Limit of Quiver Theories and the Angular Spectra of Extreme C-metrics",
+      "abstract": "We investigate the angular eigenvalue problem of the extreme charged C-metric. In the extreme limit ($Q \\to M$), the governing differential equation degenerates from a Fuchsian equation with five regular singular points into a Confluent Extended Heun Equation. To evaluate the angular spectrum analytically, we formulate a decoupling limit within the dual four-dimensional $\\mathcal{N}=2$, $\\mathrm{SU(2)}\\times \\mathrm{SU(2)}$ linear quiver gauge theory. Within this framework, we derive the parameter dictionary and renormalized Matone relations, which absorb the macroscopic residue shifts induced by the singularity fusion. Based on the regular boundary conditions of the angular equation, we utilize the instanton counting method to establish an algebraic quantization condition, yielding angular eigenvalues consistent with numerical results.",
+      "authors": [
+        "Peng Yang",
+        "Kilar Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2607.08747v1",
+      "category": "astro-ph.HE",
+      "published": "2026-07-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.08106v1",
+      "title": "The Southern-sky MWA Rapid Two-metre (SMART) pulsar survey--IV. Survey update and an atlas of 205 non-recycled southern pulsars",
+      "abstract": "The SMART survey is an ambitious effort to conduct sensitive searches for pulsars and fast transients at 140-170 MHz. The novelty of voltage recording, long dwell times and the high-time and -frequency resolutions exchange a large survey speed for high computational cost. The survey covers the entire sky south of +30 degree in declination through a series of dedicated campaigns, accumulating 4 PB of data. The large volumes of data necessitate processing to be approached in multiple phases, and the initial searches focused on a shallow survey of parts of the skies, as reported in earlier papers. These data are also processed for re-detections of hundreds of known pulsars in the southern sky, many of which are also the first detections below 400 MHz. This paper is motivated by the need to address the inherent difficulties in handling large amounts of voltage data and software/processing challenges for routine pulsar detections, and also by the fast-evolving landscape of the SKA Observatory (SKAO). With the construction ramping up towards the full-scale SKA-Low, a low-frequency catalogue of detectable pulsars in the southern sky will prove to be a valuable reference for science verification. A growing sample of low-frequency detections and measurements will also prove invaluable in a variety of science applications including population studies, survey simulations and emission beam models, refining interstellar medium models for electron densities and the spatial distribution of turbulence, and also for forecasting the detection prospects and survey yield from pulsar surveys planned with SKA-Low. We present various data products, including pulse profiles, time series and multi-channel folded archives, along with the measurements of dispersion and rotation measures, and mean flux densities, and this will be periodically updated as more detections flow on from the ongoing data processing.",
+      "authors": [
+        "N. D. R. Bhat",
+        "C. P. Lee",
+        "S. J. McSweeney",
+        "B. W. Meyers",
+        "C. M. Tan",
+        "M. Xue",
+        "Q. Fu",
+        "N. A. Swainston",
+        "S. M. Ord",
+        "G. J. Sleap",
+        "S. E. Tremblay",
+        "W. van Straten",
+        "A. Williams",
+        "C. Di Pientrantonio",
+        "C. J. Harris",
+        "P. J. Elahi"
+      ],
+      "url": "https://arxiv.org/abs/2607.08106v1",
+      "category": "astro-ph.HE",
+      "published": "2026-07-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    }
+  ]
+}
