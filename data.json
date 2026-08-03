@@ -1,34 +1,25 @@
 {
-  "generated_utc": "2026-08-03T14:10:48Z",
+  "generated_utc": "2026-08-03T15:31:58Z",
   "date": "2026-08-03",
-  "total_fetched": 13,
-  "relevant_count": 2,
+  "total_fetched": 38,
+  "relevant_count": 6,
   "min_score": 3,
   "articles": [
     {
-      "arxiv_id": "2607.29570v1",
-      "title": "The Tartu Observatory Fiber-fed Echelle Spectrograph (TOFES) Data Reduction Pipeline",
-      "abstract": "We introduce the data reduction pipeline for the Tartu Observatory Fiber-fed Echelle Spectrograph (TOFES). TOFES is installed in the Coudé room and will be connected to the 1.5 m Tartu Observatory AZT-12 telescope through a four-channel instrument adapter to be mounted at the Cassegrain focus of the telescope. The spectrograph has an average spectral resolution of 30,000 and covers the 390 to 900 nm wavelength band in a single exposure. The data reduction pipeline, based on the PyReduce package, was tested on spectra of the Sun. We also present the Spectroscopy-Toolbox package, which was developed to provide additional tools for diagnostics and spectral line identification for radial velocity measurements. The spectrograph will address a range of scientific questions, including the stellar characterisation of Herbig AeBe stars to measure accretion contamination from their protoplanetary disks, the stellar characterisation of exoplanet host-stars including the Ariel space mission targets, and radial velocity monitoring of large-scale atmospheric variability in massive stars.",
+      "arxiv_id": "2607.29075v1",
+      "title": "Reincarnations of massive stars in active galactic nucleus discs",
+      "abstract": "The origin and evolution of massive stars in active galactic nucleus (AGN) discs remain uncertain. We develop a semi-analytical model that follows the evolution of an embedded core-collapse supernova (CCSN) remnant and the subsequent formation and growth of a compact gas cloud. In the dense disc environment, efficient radiative cooling can strongly compress or bypass the Sedov-Taylor stage and drive the remnant rapidly into radiative snowplow evolution. After the remnant loses its interior pressure support, partial backflow of cooled shell fragments and refilling gas may initialize a pressure-confined and tidally limited seed cloud. The cloud then grows through shear-limited Hill capture until the gravitational, tidal, shear, photoionization, and magnetic conditions for collapse are simultaneously satisfied. The outcome depends strongly on the supermassive black-hole (SMBH) mass and explosion radius. Models with the lowest SMBH mass yield fewer than one massive star per event on average, whereas the most massive SMBH models can produce from several to several hundred. For a top-heavy initial mass function, massive stars dominate the resulting stellar mass and feedback budget. Embedded supernovae may therefore provide a localized gas-recycling channel for second-generation massive-star formation in AGN discs.",
       "authors": [
-        "Sandipan P. D. Borthakur",
-        "Tõnis Eenmäe",
-        "Nikolai Piskunov",
-        "Luca Fossati",
-        "Mihkel Kama",
-        "Thomas Marquart",
-        "Anni Kasikov",
-        "Heleri Ramler",
-        "Anna Aret",
-        "Christiane Helling",
-        "Laurits Leedjärv",
-        "Linn Boldt-Christmas"
+        "Jing-Tong Xing",
+        "Tong Liu",
+        "Jiao-Zhen She"
       ],
-      "url": "https://arxiv.org/abs/2607.29570v1",
-      "category": "astro-ph.EP",
+      "url": "https://arxiv.org/abs/2607.29075v1",
+      "category": "astro-ph.HE",
       "published": "2026-07-31",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
+      "score": 12,
+      "tier": 1,
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2607.29597v1",
@@ -70,6 +61,84 @@
       "score": 4,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.29570v1",
+      "title": "The Tartu Observatory Fiber-fed Echelle Spectrograph (TOFES) Data Reduction Pipeline",
+      "abstract": "We introduce the data reduction pipeline for the Tartu Observatory Fiber-fed Echelle Spectrograph (TOFES). TOFES is installed in the Coudé room and will be connected to the 1.5 m Tartu Observatory AZT-12 telescope through a four-channel instrument adapter to be mounted at the Cassegrain focus of the telescope. The spectrograph has an average spectral resolution of 30,000 and covers the 390 to 900 nm wavelength band in a single exposure. The data reduction pipeline, based on the PyReduce package, was tested on spectra of the Sun. We also present the Spectroscopy-Toolbox package, which was developed to provide additional tools for diagnostics and spectral line identification for radial velocity measurements. The spectrograph will address a range of scientific questions, including the stellar characterisation of Herbig AeBe stars to measure accretion contamination from their protoplanetary disks, the stellar characterisation of exoplanet host-stars including the Ariel space mission targets, and radial velocity monitoring of large-scale atmospheric variability in massive stars.",
+      "authors": [
+        "Sandipan P. D. Borthakur",
+        "Tõnis Eenmäe",
+        "Nikolai Piskunov",
+        "Luca Fossati",
+        "Mihkel Kama",
+        "Thomas Marquart",
+        "Anni Kasikov",
+        "Heleri Ramler",
+        "Anna Aret",
+        "Christiane Helling",
+        "Laurits Leedjärv",
+        "Linn Boldt-Christmas"
+      ],
+      "url": "https://arxiv.org/abs/2607.29570v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-31",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.29317v1",
+      "title": "Spectroscopy of flares on AU Mic",
+      "abstract": "Photometric space missions like Kepler and TESS have revealed unprecedented statistics of stellar flares, including the frequent detection of highly energetic superflares. Spectroscopic characterization of flares and especially superflares, however, is still not as commonly available. In contrast to broad-band photometry, spectroscopic data can give more insights into the physical parameters of flares, as well as allowing to identify possibly accompanying CMEs. In this context, we monitored the young planet-hosting flare star AU Mic for about 60 partial nights (>160 hours) between 2022 and 2023 spectroscopically with the ESO 1.52m telescope hosted by the PLATOSpec consortium. Here, we report on the search for signatures of flares and CMEs in these data, including the partial observation of a possible extreme superflare.",
+      "authors": [
+        "P. Odert",
+        "M. Leitzinger",
+        "P. Kabáth",
+        "R. Greimel",
+        "J. Lipták",
+        "R. Karjalainen",
+        "P. Heinzel",
+        "J. Wollmann",
+        "E. W. Guenther"
+      ],
+      "url": "https://arxiv.org/abs/2607.29317v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-31",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.28924v1",
+      "title": "Asymmetric, variable H$α$ line profile in planetary mass object SR 12 c",
+      "abstract": "Young, forming planetary-mass objects often exhibit clear signatures of ongoing mass accretion and are thought to accrete material through processes analogous to those operating in young stars. In this study, we present high-spectral-resolution observations of asymmetric and time-variable H$α$ line profiles from the planetary-mass companion SR~12~c. The H$α$ line was observed at a resolving power of $R \\sim 49,000$--40{,}000 (corresponding to 6.1--7.5~km~s$^{-1}$) using the High Dispersion Spectrograph (HDS) on the 8.2 m Subaru Telescope. Strong H$α$ emission is clearly detected, while higher-order Balmer lines (H$β$, H$γ$, and H$δ$) are not detected due to their faintness. The H$α$ line profiles are well spectrally resolved and exhibit blueshifted emission peaks, which can be interpreted as arising from either (a) emission partially absorbed by redshifted accreting material along the line of sight and/or (b) geometric occultation by the inner circumplanetary disk. Moreover, the H$α$ flux shows significant variability at 43.6~$\\pm$~6.4~\\% relative to the peak flux on hourly timescales. During a continuous 2.5-hour observing sequence, the emission component peaking at approximately $-30$~km~s$^{-1}$ weakened over the first hour. Subsequently, an emission component centered near $-10$~km~s$^{-1}$ became dominant and remained stable for the remaining 1.5 hours. We discuss possible interpretations of this behavior. Overall, these results support that magnetospheric accretion is operating in the planetary-mass object SR~12~c while a scenario combining boundary-layer accretion with a failed wind cannot be ruled out.",
+      "authors": [
+        "Jun Hashimoto",
+        "Yuhiko Aoyama",
+        "Michihiro Takami",
+        "Shinsuke Takasao"
+      ],
+      "url": "https://arxiv.org/abs/2607.28924v1",
+      "category": "astro-ph.SR",
+      "published": "2026-07-31",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2607.29342v1",
+      "title": "Information limits of photonic lantern wavefront sensing: a Fisher- and quantum-Fisher-information framework and its relation to Fourier-filtering sensitivity limits",
+      "abstract": "The photonic lantern is an all-photonic wavefront sensor native to single-mode-fibre-fed instruments, but its performance is almost always quoted through a specific reconstruction algorithm, obscuring how much wavefront information the device itself encodes. We develop, from first principles, the Fisher-information and Cramer-Rao theory of the photonic-lantern wavefront sensor, benchmark it against the quantum Cramer-Rao bound via an explicit multi-parameter quantum-Fisher-information calculation, and relate it to two established frameworks: the Fourier-filtering noise-propagation model of Chambouleyron et al (2023) and the classical/quantum sensitivity limit of Haffert et al (2023). Treating the lantern as a deterministic map from aberration coefficients to N output intensities, we derive the Poisson and read-noise Fisher information matrices (FIM), the per-mode CRLB, the per- photon Fisher-Rao geometry on the intensity simplex, and a flux- and estimator-independent sensitivity metric beta with quantum ceiling beta = 2. The lantern CRLB scales as N_ph^(-1/2) and is bounded, mode by mode, by the quantum limit of 1/2 rad rms per photon. That multi-parameter bound is jointly saturable: the phase generators are real and commuting, so the mean Uhlmann curvature vanishes and wavefront sensing carries no quantum incompatibility between simultaneously estimated modes, extending Haffert et al's single-mode ceiling to all low-order modes at once. We further show that the photon-noise sensitivity s_gamma of Chambouleyron et al is exactly the diagonal of our per- photon FIM, whereas the CRLB uses the diagonal of its inverse; the two coincide only for a diagonal FIM, so s_gamma is optimistic for a mode-mixing lantern. The framework is device-agnostic: it returns estimator-independent sensitivities comparable on a common beta <= 2 scale with pyramid, Zernike and PIAA-ZWFS sensors.",
+      "authors": [
+        "Kalaga Madhav"
+      ],
+      "url": "https://arxiv.org/abs/2607.29342v1",
+      "category": "astro-ph.IM",
+      "published": "2026-07-31",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
     }
   ]
 }
