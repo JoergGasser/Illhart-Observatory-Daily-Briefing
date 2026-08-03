@@ -42,10 +42,6 @@ NS = {"atom": "http://www.w3.org/2005/Atom"}
 
 
 def fetch_category(cat, max_retries=5):
-    """Fetch the most recent entries for a category, sorted newest first.
-    No date filter in the query itself — filtering by date happens after,
-    client-side, on the published timestamp. This keeps the query simple
-    and avoids ArXiv API quirks with combined AND/date-range syntax."""
     params = {
         "search_query": f"cat:{cat}",
         "sortBy": "submittedDate",
@@ -110,7 +106,7 @@ def tier_for(score):
 
 
 def main():
-    cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)).date()
     seen, articles, total_fetched = set(), [], 0
 
     for i, cat in enumerate(CATEGORIES):
@@ -126,9 +122,9 @@ def main():
 
         for entry in entries:
             published_raw = entry.find("atom:published", NS).text
-            published_dt = datetime.strptime(published_raw[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
-            if published_dt < cutoff:
-                continue  # older than our window; results are sorted so we could break, but staying simple/safe
+            published_date = datetime.strptime(published_raw[:10], "%Y-%m-%d").date()
+            if published_date < cutoff_date:
+                continue
 
             arxiv_id = entry.find("atom:id", NS).text.strip().rsplit("/", 1)[-1]
             if arxiv_id in seen:
@@ -172,7 +168,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Wrote data.json: {len(articles)} relevant of {total_fetched} fetched (window: last {DAYS_BACK} days)")
+    print(f"Wrote data.json: {len(articles)} relevant of {total_fetched} fetched (window: last {DAYS_BACK} days, cutoff date {cutoff_date})")
 
 
 if __name__ == "__main__":
