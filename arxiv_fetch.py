@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
-"""ArXiv Daily Briefing generator — runs on GitHub Actions, no M6 dependency."""
+"""ArXiv Daily Briefing generator for Illhart Observatory.
+Runs entirely on GitHub Actions — no M6 dependency.
+Fetches new astro-ph.EP/SR/HE/IM submissions, scores them for
+RC400/MK67 relevance, writes data.json for the GitHub Pages site.
+"""
 
 import json
 import sys
+import time
 import urllib.request
 import urllib.parse
+import urllib.error
 from datetime import datetime, timedelta, timezone
 import xml.etree.ElementTree as ET
 
@@ -30,24 +36,49 @@ SPEC_KEYWORDS = [
 ]
 
 MIN_SCORE = 3
+DAYS_BACK = 3
 ARXIV_API = "http://export.arxiv.org/api/query"
 NS = {"atom": "http://www.w3.org/2005/Atom"}
 
 
-def fetch_category(cat, days_back=2):
-    now = datetime.now(timezone.utc)
-    start = now - timedelta(days=days_back)
-    date_filter = f"submittedDate:[{start.strftime('%Y%m%d%H%M')} TO {now.strftime('%Y%m%d%H%M')}]"
+def fetch_category(cat, max_retries=5):
+    """Fetch the most recent entries for a category, sorted newest first.
+    No date filter in the query itself — filtering by date happens after,
+    client-side, on the published timestamp. This keeps the query simple
+    and avoids ArXiv API quirks with combined AND/date-range syntax."""
     params = {
-        "search_query": f"cat:{cat} AND {date_filter}",
+        "search_query": f"cat:{cat}",
         "sortBy": "submittedDate",
         "sortOrder": "descending",
         "max_results": 100,
     }
     url = f"{ARXIV_API}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "IllhartObservatory/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        return ET.fromstring(resp.read())
+    req = urllib.request.Request(
+        url, headers={"User-Agent": "IllhartObservatory-ArxivBriefing/1.0"}
+    )
+
+    last_err = None
+    for attempt in range(1, max_retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return ET.fromstring(resp.read())
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code == 429 and attempt < max_retries:
+                wait = 20 * attempt
+                print(f"{cat}: HTTP 429, retry {attempt}/{max_retries} in {wait}s", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise
+        except Exception as e:
+            last_err = e
+            if attempt < max_retries:
+                wait = 20 * attempt
+                print(f"{cat}: {e}, retry {attempt}/{max_retries} in {wait}s", file=sys.stderr)
+                time.sleep(wait)
+                continue
+            raise
+    raise last_err
 
 
 def score_text(text):
@@ -79,27 +110,34 @@ def tier_for(score):
 
 
 def main():
+    cutoff = datetime.now(timezone.utc) - timedelta(days=DAYS_BACK)
     seen, articles, total_fetched = set(), [], 0
 
-    for cat in CATEGORIES:
+    for i, cat in enumerate(CATEGORIES):
+        if i > 0:
+            time.sleep(5)
         try:
             root = fetch_category(cat)
         except Exception as e:
-            print(f"WARNING: fetch failed for {cat}: {e}", file=sys.stderr)
+            print(f"WARNING: fetch failed for {cat} after all retries: {e}", file=sys.stderr)
             continue
 
         entries = root.findall("atom:entry", NS)
-        total_fetched += len(entries)
 
         for entry in entries:
+            published_raw = entry.find("atom:published", NS).text
+            published_dt = datetime.strptime(published_raw[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
+            if published_dt < cutoff:
+                continue  # older than our window; results are sorted so we could break, but staying simple/safe
+
             arxiv_id = entry.find("atom:id", NS).text.strip().rsplit("/", 1)[-1]
             if arxiv_id in seen:
                 continue
             seen.add(arxiv_id)
+            total_fetched += 1
 
             title = " ".join(entry.find("atom:title", NS).text.split())
             abstract = " ".join(entry.find("atom:summary", NS).text.split())
-            published = entry.find("atom:published", NS).text[:10]
             authors = [a.find("atom:name", NS).text for a in entry.findall("atom:author", NS)]
 
             combined = f"{title} {abstract}"
@@ -114,7 +152,7 @@ def main():
                 "authors": authors,
                 "url": f"https://arxiv.org/abs/{arxiv_id}",
                 "category": cat,
-                "published": published,
+                "published": published_raw[:10],
                 "score": score,
                 "tier": tier_for(score),
                 "instrument": pick_instrument(combined),
@@ -134,7 +172,7 @@ def main():
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"Wrote data.json: {len(articles)} relevant of {total_fetched} fetched")
+    print(f"Wrote data.json: {len(articles)} relevant of {total_fetched} fetched (window: last {DAYS_BACK} days)")
 
 
 if __name__ == "__main__":
