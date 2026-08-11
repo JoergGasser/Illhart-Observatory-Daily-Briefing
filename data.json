@@ -1,8 +1,218 @@
 {
-  "generated_utc": "2026-08-10T07:49:44Z",
-  "date": "2026-08-10",
-  "total_fetched": 0,
-  "relevant_count": 0,
+  "generated_utc": "2026-08-11T07:15:09Z",
+  "date": "2026-08-11",
+  "total_fetched": 69,
+  "relevant_count": 10,
   "min_score": 3,
-  "articles": []
+  "articles": [
+    {
+      "arxiv_id": "2608.09890v1",
+      "title": "Peak 'Nebular' Emission and Early Flux Excesses in Ca-strong Supernovae",
+      "abstract": "Calcium-strong supernovae (Ca-strong SNe) are a class of thermonuclear transient characterised by rapid photometric evolution (rise times of <= 16 d) and nebular-phase spectra dominated by strong [Ca II]7291,7324 emission, in comparison to the strength of [O I]6300,6364 emission. Despite their distinctive spectra and association with remote environments, their origins remain uncertain. Using new discoveries from surveys such as the Zwicky Transient Facility, supplemented by archival data, we compile a sample of 46 Ca-strong SNe - the largest sample to date. We present a comprehensive optical photometric and spectroscopic study of Ca-strong SNe, aimed at better constraining their diversity, progenitor systems, and explosion mechanisms. Of the 35 Ca-strong SNe with spectra near peak light, we find that 32 objects exhibit significant [Ca II] emission within 10 days of peak. Forbidden [Ca II] emission is typically expected to emerge after the ejecta have expanded, cooled, and reached a sufficiently low density for forbidden transitions to occur. The prevalence of these early features in Ca-strong SNe, however, remains unexplained by current explosion models of these objects. In several objects, we identify complex, multi-component line profiles that suggest a transition between two distinct velocity regimes. These transitional features, combined with the common presence of early forbidden emission, lead us to favour a scenario in which extended material surrounds the progenitor and pre-dates the SN itself. Our results suggest that the diverse spectroscopic behaviours of Ca-strong SNe are consistent with white dwarfs exploding in extended environments polluted by prior activity of the progenitor system.",
+      "authors": [
+        "C. -G. Touchard-Paxton",
+        "K. Maguire",
+        "C. Frohmaier",
+        "W. V. Jacobson-Galán",
+        "M. Pursiainen",
+        "C. Angus",
+        "J. Sollerman",
+        "A. Polin",
+        "J. H. Terwel",
+        "R. Seth",
+        "C. O'Donnell",
+        "S. J Smartt",
+        "S. Srivastav",
+        "A. Bochenek",
+        "T. de Boer",
+        "K. K. Das",
+        "C. Fremling",
+        "A. C. Gordon",
+        "M. J. Graham",
+        "M. E. Huber",
+        "C. -C. Lin",
+        "C. Liu",
+        "F. J. Masci",
+        "P. Minguez",
+        "G. S. H. Paek",
+        "J. Purdum",
+        "B. Rusholme",
+        "K. Smith",
+        "R. Smith",
+        "R. Wainscoat"
+      ],
+      "url": "https://arxiv.org/abs/2608.09890v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-10",
+      "score": 10,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.08257v1",
+      "title": "From Light to Sound: Spectroscopic Evolution & Sonification of the flaring Nova V612 Scuti",
+      "abstract": "We present photometric and spectroscopic observations of the 2017 Galactic nova V612 Sct, whose optical evolution was marked by multiple unusually large maxima. The eruption included two prominent flares lasting around a month each and reaching amplitudes of about 2.5 mag, followed by a series of smaller flares. Extensive spectroscopic monitoring reveals a striking pattern: with each flare, new absorption systems emerge at progressively higher velocities. This behavior, also seen in other flaring novae, provides evidence for repeated episodes of mass ejection or outflow at increasing velocities. V612 Sct also alternated between Fe II and He/N spectral phases during different stages of the eruption, establishing a clear connection between the photometric flares and major spectral transitions. We present two-dimensional dynamic spectra that directly trace the appearance of new absorption features contemporaneous with the light-curve flares. We also introduce a sonification of the spectroscopic sequence, offering an alternative representation of the temporal evolution of the eruption. These results support a picture in which repeated ejection episodes and shock formation play a central role in powering the multiple maxima observed in flaring novae.",
+      "authors": [
+        "Pragati Acharya",
+        "Elias Aydi",
+        "Kirill V. Sokolovsky",
+        "Brian D. Metzger",
+        "Laura Chomiuk",
+        "Peter Craig",
+        "Luca Izzo",
+        "Justin D. Linford",
+        "Shazrene Mohamed",
+        "Isabella Molina",
+        "Koji Mukai",
+        "Ken J. Shen",
+        "Jennifer L. Sokoloski",
+        "Paul Luckas",
+        "Terry Bohlsen",
+        "Olivier Garde",
+        "Joan G. Flo",
+        "Paolo Bellavista",
+        "Umberto Sollecchia",
+        "Forrest Sims"
+      ],
+      "url": "https://arxiv.org/abs/2608.08257v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-08",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.09336v1",
+      "title": "Astrophysical origins of TeV features in the cosmic-ray lepton spectrum",
+      "abstract": "Precise measurements of high-energy cosmic-ray electrons and positrons have revealed spectral structures that are difficult to capture with a single smooth power-law background. The rising positron fraction measured by PAMELA and AMS-02, together with the all-electron excess reported by ATIC and the high-precision all-electron spectrum measured by DAMPE, has motivated interpretations ranging from nearby astrophysical accelerators to dark-matter annihilation or decay. In this work we revisit the conventional diffuse electron background and the possible contribution from nearby pulsars in a common propagation framework. The diffuse component is modeled with GALPROP configurations calibrated by cosmic-ray nuclei and diffuse gamma-ray observations. We then use the Green-function solution for nearby discrete sources with radiative losses to study pulsar contributions with both burst-like and continuous injection histories, including the effect of stochastic inverse-Compton cooling on the propagated spectra. We also use the highest-energy DAMPE data points as an illustrative case to compare possible local-source contributions from pulsars and supernova-remnant-like burst sources. The spectral shape of such features provides a useful diagnostic for distinguishing physically plausible nearby-source features from more exotic interpretations.",
+      "authors": [
+        "Zhen Xie",
+        "Ruizhi Yang"
+      ],
+      "url": "https://arxiv.org/abs/2608.09336v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-10",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.08412v1",
+      "title": "Three-Dimensional Expansion of Iron Ejecta in Cassiopeia A with Chandra and XRISM",
+      "abstract": "Measurement of the expansion structure of ejecta in supernova remnants (SNRs) provides important information about their explosion mechanism. We combine Chandra proper-motion measurements with XRISM Doppler measurements to derive an approximate, region-averaged three-dimensional velocity map of the Fe-K-emitting ejecta in Cassiopeia A (Cas A), one of the youngest Galactic core-collapse SNRs. Proper motions were measured using the optical flow method. We find that the Fe-K-emitting ejecta expand predominantly outward, except in the western region, with projected velocities of up to ~4580 km/s. The southeastern ejecta exhibit the highest three-dimensional velocity, reaching 5160+-320 km/s, based on the combined proper-motion and Doppler measurements. This velocity exceeds those measured for intermediate-mass elements (IMEs) such as Si and S, and the corresponding ejecta exhibit a relatively small line-of-sight velocity dispersion. These results are broadly consistent with the previously suggested inversion between the Fe-rich and IME-rich ejecta layers. The apparent inward motion or emergence of a new Fe-K emission component in the western region may reflect interaction with dense surrounding material, although the present data do not allow us to distinguish uniquely between these possibilities or to determine their physical origin.",
+      "authors": [
+        "Aya Bamba",
+        "Tomoki Kadoya",
+        "Kouichi Hagino",
+        "Jacco Vink",
+        "Manan Agarwal",
+        "Masahiro Ichihashi",
+        "Paul Plucinsky"
+      ],
+      "url": "https://arxiv.org/abs/2608.08412v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-09",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.09471v1",
+      "title": "Global simulations of accretion flows onto perturbers embedded in magnetized disks -I. MRI and jet formation in ideal MHD",
+      "abstract": "We present the highest resolution global MHD simulations to date of gas flow around a low mass a perturber with mass ratio $q\\in[10^{-4},10^{-3}]$, embedded in an accretion disk around a massive central object. We find that gas flow onto the secondary self-consistently forms a turbulent, magnetized mini-accretion disk. The mini-accretion disk sustains a large-scale magnetic field generated by the dynamo effect of the MRI and the accretion flow into the perturber. Simultaneously, a bipolar, collimated, magnetized outflow is launched, extending beyond the perturber's Hill sphere. The bipolar outflows are driven by the combined action of magnetic pressure, in the innermost regions of the mini-accretion disk, and the magnetocentrifugal acceleration of gas, which may attain speeds comparable to the escape velocity from the massive central object. Our results establish an important conceptual connection in accretion disk physics across a wide range of astrophysical systems -from mini-accretion disks to circumstellar and black hole accretion disks-by demonstrating that no fine-tuning is required for small-scale disks to naturally enter an outflow-launching regime. Beyond identifying the physical mechanism responsible for launching small-scale outflows, our framework lays the groundwork for developing more sophisticated physical models of mini-accretion disks around embedded low-mass perturbers.",
+      "authors": [
+        "Raúl O. Chametla",
+        "F. J. Sánchez-Salcedo",
+        "Martin E. Pessah",
+        "Mauricio Reyes-Ruiz"
+      ],
+      "url": "https://arxiv.org/abs/2608.09471v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-10",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.08812v1",
+      "title": "Synthetic Fe XIII 1074.7 nm Observations of Torsional Alfvén Waves in Coronal Waveguides",
+      "abstract": "Torsional Alfvén waves are a promising mechanism for transporting energy through the solar atmosphere, with implications for coronal heating and solar wind acceleration. Recently, signatures of torsional Alfvén waves have been observed with the Daniel K. Inouye Solar Telescope. We aim to investigate the effects of line of sight integration and plasma conditions on the observable properties of the torsional mode. Here we present three-dimensional magnetohydrodynamic simulations of multiple coronal waveguides, driven by a combination of transverse kink and torsional wave drivers, considering two plasma regimes representative of active region (AR) and quiet Sun (QS) conditions. Synthetic observables of the Fe~\\textsc{xiii}~1074.7~nm coronal emission line are produced using the pyCELP forward-modelling framework to enable direct comparison with spectroscopic observations. In the QS regime, red-blue Doppler asymmetries are associated with the driven torsional waves, though their observed amplitudes are substantially reduced by line-of-sight integration. In contrast, the AR regime exhibits red-blue Doppler asymmetries even in the absence of an imposed torsional driver, which may be misidentified as the $m=0$ torsional Alfvén mode. In the AR setup, the red-blue Doppler asymmetries arise from strong phase mixing, generating shear flows and localised vorticity between waveguides where emission is strongest. The differences between the two regimes are governed by the location of peak emission, which is determined by the degree of density inhomogeneity. Our results support the identification of torsional Alfvén wave signatures in the quiet Sun (a weakly inhomogeneous environment), but caution should be exercised when interpreting spectroscopic observations in strongly inhomogeneous environments such as active regions.",
+      "authors": [
+        "Samuel Skirvin",
+        "Richard Morton",
+        "Thomas Schad"
+      ],
+      "url": "https://arxiv.org/abs/2608.08812v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.08562v1",
+      "title": "Sun-to-Earth Coronal Mass Ejection Simulations From a Vector Magnetogram",
+      "abstract": "We implement a novel approach to performing Sun-to-Earth coronal mass ejection (CME) simulations and test it on three geo-effective space weather events. Using a vector magnetogram observed prior to the CME as the boundary condition, we reconstruct non-linear force free field (NLFFF) solutions in solar active regions with an established magneto-frictional method. We find a pre-eruption solar corona containing the NLFFF in the AWSoM model, which then spontaneously erupts. We apply STITCH, a photospheric driving method, when needed, to increase the strength of the CME shock. The eruptions successfully produce magnetic flux ropes (MFRs) that propagate to 1 au in the full MHD simulation. The synthetic white light images of the simulated CMEs share a striking resemblance in shape to observations. The interplanetary MFRs (IMFRs) arrive at 1 au with a 1.5- to 9-hour error. A comparison of simulated solar wind plasma with in-situ measurements shows that IMFR crossing can reproduce a southward $B_z$ and often its magnitudes, which determine the geo-effectiveness of the event.",
+      "authors": [
+        "Yifu An",
+        "Gábor Tóth",
+        "Beatrice Popescu Braileanu"
+      ],
+      "url": "https://arxiv.org/abs/2608.08562v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.08560v1",
+      "title": "Exploration of UV-bright sources in Globular cluster NGC 3201 using UVIT observations",
+      "abstract": "We present a comprehensive study of the ultraviolet (UV)-bright stellar population in the globular cluster NGC 3201 using the Ultraviolet Imaging Telescope (UVIT) onboard AstroSat. By combining far-UV photometry of the UVIT F148W and F169M filters with Gaia and ground-based telescope optical data, we construct UV$-$optical color-magnitude diagrams (CMDs) to identify UV-bright stellar evolutionary phases. Physical parameters of all detected sources are derived by fitting stellar atmosphere models to the observed multi-wavelength spectral energy distributions (SEDs). The effective temperatures of blue horizontal branch stars (BHBs) span the range 7250$-$11250 K. We identify two extreme horizontal-branch stars (EHBs) with effective temperatures of approximately 25,000 K and 17,000 K; one lies within the cluster core radius ($r_\\mathrm{c}$=1.3$'$), while the other is located outside. We also detect two candidate ``gap'' objects in the transitional phase between HB stars and white dwarfs, which may represent hot blue hook (BHk) stars. For the blue straggler stars (BSSs), we determine effective temperatures, radii, and luminosities through SED fittings, and estimate their masses and isochrone-equivalent ages using PARSEC isochrones. Finally, we studied the normalized cumulative radial distribution of the observed BHB stars, BSSs, MS stars, RGB stars, and variable stars along with the specific frequency of BSSs across the cluster. These results provide new insights into the late-stage stellar evolution and dynamical processes in NGC 3201.",
+      "authors": [
+        "Manasi Kulkarni",
+        "Sonika Piridi",
+        "Ranjan Kumar",
+        "Ananta C. Pradhan"
+      ],
+      "url": "https://arxiv.org/abs/2608.08560v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.09662v1",
+      "title": "Recoiling Black Holes I. Burst of Observables",
+      "abstract": "We aim to investigate the tidal disruption and gravitational wave events shortly after a massive black hole binary merges in the galactic centre and whose remnant black hole is ejected from the galaxy. Using computational methods, black holes of mass $M_{\\bullet}=10^{5}$ M$_\\odot$ and $4\\times10^{5}$ M$_\\odot$ embedded in a nuclear star cluster are kicked at velocities of $v_k=300$ and $600$ km s$^{-1}$. Systems are integrated for $0.1$ Myr using a $4$th-order Hermite scheme. The kick instantaneously repopulates the loss cone, producing a strong burst of tidal disruption events and gravitational wave mergers. The anisotropy in the apsidal orientation of bound stars prolongs this burst phase. Rates increase for lower $v_k$, larger $M_{\\bullet}$ and for steeper nuclear star cluster density profiles at moment of merger. Assuming binary black holes scour a Bahcall-Wolf density profile during coalescence, ejected remnants with mass between $10^{5}\\leq M_{\\bullet}$ [M$_\\odot] \\leq 4\\times10^{5}$ generate observable offset events at a forecasted rate of $\\dot{N}\\lesssim290$ yr$^{-1}$ up to redshift $z=3$. If, at the moment of merger, the milliparsec scales of the nuclear star cluster are described by a shallow density profile ($γ=1$), this decreases to $\\dot{N}\\lesssim30$ yr$^{-1}$. The strong dependence on the initial density profile and recoil kick makes observables powerful probes of the nuclear star cluster post-massive black hole binary coalescence, and provides test for numerical relativity.",
+      "authors": [
+        "Erwan Hochart",
+        "Simon Portegies Zwart"
+      ],
+      "url": "https://arxiv.org/abs/2608.09662v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-10",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.09804v1",
+      "title": "SGNAX: a unified matched-filter and excess-power pipeline for gravitational-wave detector characterization",
+      "abstract": "We present SGNAX, an open-source pipeline for gravitational-wave detector characterization that delivers matched-filter and excess-power transient triggers from a single streaming dataflow graph. Built on the Stream Graph Navigator (sgn) framework, SGNAX unifies the multi-rate sine-Gaussian matched-filter search of snax and the multi-resolution Q-transform search of omicron in one Python-native package. Auxiliary channels from an interferometer are analyzed as parallel branches sharing data-read and whitening stages, reducing per-channel processing cost as channels are added. A full day of 16 kHz strain is analyzed in 14 minutes, and Q-transform processing is 2.8 times more efficient per channel at 32 channels than at one. Matched-filter correlations use PyTorch and run on CPU or GPU. Data sources include offline frame caches, shared-memory buffers, and the arrakis distribution service, with the same configuration supporting offline and online operation. The matched filter delivers triggers at about five seconds end-to-end latency, while the Q-transform operates at latencies of tens of seconds. Injection campaigns recover 99.4% of recoverable sine-Gaussian injections with parameters within the expected template mismatch and show broadband white-noise-burst recovery consistent with established event-trigger generators. On 24 hours of archival LIGO strain, SGNAX reproduces the omicron trigger population at 10--100 Hz, with trigger rates and SNRs agreeing to a few percent. On production auxiliary channels, it recovers the snax loud-feature population with 80% per-bin coincidence. The injection-calibrated reimplementation also reveals a multiband amplitude error in production snax that inflates reported SNRs below 25.6 Hz by factors of $\\sqrt{2}$--2, for which we identify the mechanism and correction.",
+      "authors": [
+        "Zach Yarbrough",
+        "Olivia Godwin",
+        "Derek Davis",
+        "Gabriela González"
+      ],
+      "url": "https://arxiv.org/abs/2608.09804v1",
+      "category": "astro-ph.IM",
+      "published": "2026-08-10",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    }
+  ]
 }
