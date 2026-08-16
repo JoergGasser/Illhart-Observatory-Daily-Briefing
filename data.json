@@ -1,107 +1,10 @@
 {
-  "generated_utc": "2026-08-15T06:45:34Z",
-  "date": "2026-08-15",
-  "total_fetched": 82,
-  "relevant_count": 18,
+  "generated_utc": "2026-08-16T06:46:53Z",
+  "date": "2026-08-16",
+  "total_fetched": 33,
+  "relevant_count": 8,
   "min_score": 3,
   "articles": [
-    {
-      "arxiv_id": "2608.12606v1",
-      "title": "The Wave-Regulated Precursor of a Near-Parallel Interplanetary Shock Observed by Parker Solar Probe",
-      "abstract": "Diffusive shock acceleration, at shocks from coronal mass ejections to supernova-remnant blast waves, presupposes a scattering wave field that the accelerated particles themselves maintain. This self-regulation has not been resolved in situ. We report Parker Solar Probe observations of a fast (~2800 km/s), near-parallel interplanetary shock at 0.24 AU on 2023 March 13 and separate its upstream wave field into four families, a classification not made before at a fast shock near the Sun. Right-hand and left-hand circularly polarized families over a common wavenumber band, with a field-aligned linearly polarized family, are cyclotron-resonant with the suprathermal-to-MeV protons streaming from the shock: the beam drives the field that scatters it, and the measured mean free path, half the precursor scale, leaves the beam anisotropic enough to sustain the drive. Outside this loop lies a weak, oblique, linearly polarized component, a few per cent of the wave power, resolved here for the first time at an in situ foreshock. Its in-phase density and field-magnitude fluctuations identify the compressive part as fast magnetosonic and shift the cyclotron-resonance energies of the resonant families by up to 13 % along the precursor. Acceleration at shocks inside 0.3 AU is governed upstream, in a foreshock the shock builds for itself.",
-      "authors": [
-        "Immanuel Christopher Jebaraj",
-        "Lucas Colomban",
-        "Oleksiy Agapitov",
-        "Michael Gedalin",
-        "Mikhail Malkov",
-        "Athanasios Kouloumvakos",
-        "Edin Husidic",
-        "Shiladittya Mondal",
-        "Sunil Yadav",
-        "Nicolas Wijsen"
-      ],
-      "url": "https://arxiv.org/abs/2608.12606v1",
-      "category": "astro-ph.SR",
-      "published": "2026-08-12",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2608.11978v1",
-      "title": "Deep MUSE observations of SNR 0509-67.5 reveal a double degenerate merger progenitor",
-      "abstract": "Deep MUSE observations of SNR 0509-67.5 reveal that the coronal [Fe\\,\\textsc{xiv}] $\\mathrmλ$5303 emission line appears with either one or two velocity components across the entire remnant, arising from reverse-shocked ejecta moving toward and away from the observer. A supervised dense neural network classifies each spaxel and fits Gaussian profiles plus a linear function to the observed line emission. We measure a bulk Doppler velocity of $-1000\\pm60~~\\mathrm{km~s^{-1}}$, interpreted as the line-of-sight component of the primary white dwarf's orbital velocity in a double-degenerate merger. The red- and blue-shifted ejecta map shows a flattened edge along the north-eastern rim, consistent with the companion's shadow, indicating a binary companion was present at explosion. Modelling this feature as a cone anchored at the explosion centre and applying Bayesian inference, we recover the cone's orientation and half-opening angle. We then use the Eggleton Roche-lobe relation to infer properties of the companion. The companion was likely a ${\\sim}0.6~\\mathrm{M_\\odot}$ white dwarf with radius ${\\sim}9800$~km and orbital velocity ${\\sim}1700~\\mathrm{km~s^{-1}}$ at the time of explosion. Together, these results provide a complete dynamical picture of a Type Ia supernova progenitor system whose maximum-light spectrum is independently constrained by light echo observations.",
-      "authors": [
-        "Priyam Das",
-        "Ivo R. Seitenzahl",
-        "Gilles Ferrand",
-        "Rudiger Pakmor",
-        "Simon J. Murphy",
-        "Ashley Ruiter",
-        "Brian P. Schmidt",
-        "Friedrich K. Roepke"
-      ],
-      "url": "https://arxiv.org/abs/2608.11978v1",
-      "category": "astro-ph.SR",
-      "published": "2026-08-12",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2608.11940v1",
-      "title": "Chemical fingerprints of binary mass transfer in massive stars",
-      "abstract": "The majority of massive stars are born in close binary systems. As stars expand when they age, mass transfer or even a merger with their companion is inevitable. However, most binary interaction products appear as single stars, such that the main evidence of their exciting past is lost. In a comprehensive grid of detailed massive binary evolution models we find systematic trends in chemical surface abundances that allow identifying the past mass gainers. We develop an analytic framework which is independent of specific evolutionary models, to constrain the amount and composition of the accreted material from their observed surface abundances. This yields tight constraints on the uncertain mass transfer physics in massive binary stars and allows us to reconstruct the past evolutionary history of the progenitor binary system. This method, which is shown to also constrain binary mergers (for example, SN 1987A), is applied to some of the best-studied OB stars so far. For γ Columbae, suggested to be an envelope-stripped star, we show that it is a mass gainer instead, whose companion star likely formed a stripped-envelope supernova. Our results highlight surface abundance measurements as a powerful tool to improve our understanding of massive binary systems evolving towards supernovae and compact object binaries.",
-      "authors": [
-        "Harim Jin",
-        "Norbert Langer"
-      ],
-      "url": "https://arxiv.org/abs/2608.11940v1",
-      "category": "astro-ph.SR",
-      "published": "2026-08-12",
-      "score": 8,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2608.12177v1",
-      "title": "Impact of Neutrino Flavour Conversion on the Diffuse Neutrino Background from Neutrino-dominated Accretion Flows",
-      "abstract": "Neutrino-dominated accretion flows (NDAFs) are believed to form during the fallback accretion phase of some core-collapse supernovae (CCSNe). Such systems produce copious neutrino emission, whose cumulative contribution over cosmic history forms the diffuse NDAF neutrino background (DNNB). As neutrinos propagate from the source to Earth, flavour conversion can significantly modify the observed neutrino spectra and consequently the detectability of the DNNB. In this work, based on fallback CCSN simulations, we investigate the effects of progenitor mass, metallicity, and initial explosion energy on neutrino emission from NDAFs. We calculate the heavy-lepton neutrino ($ν_x$) spectra from NDAFs and incorporate them into DNNB predictions. We find that the unoscillated $ν_x$ spectra are more than an order of magnitude lower than those of electron antineutrinos $\\barν_e$. Using the latest neutrino oscillation parameters reported by the Jiangmen Underground Neutrino Observatory (JUNO), we evaluate the impact of flavour conversion on the DNNB and derive the corresponding spectra for both the normal and inverted mass orderings. We further estimate the expected event numbers in JUNO and Hyper-Kamiokande. We find that the predicted DNNB signal is strongly dependent on the neutrino mass ordering. While the DNNB may be detectable in the normal ordering with next-generation neutrino detectors, the signal is significantly suppressed in the inverted ordering, making detection considerably more challenging.",
-      "authors": [
-        "Yun-Feng Wei",
-        "Tong Liu"
-      ],
-      "url": "https://arxiv.org/abs/2608.12177v1",
-      "category": "astro-ph.HE",
-      "published": "2026-08-12",
-      "score": 8,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2608.11902v1",
-      "title": "Three new exoplanet systems from the Dispersed Matter Planet Project",
-      "abstract": "We present a radial velocity analysis of three bright, low-activity stars identified by the Dispersed Matter Planet Project (DMPP). We use a Bayesian framework to compare purely Keplerian models with models incorporating stellar activity via a quasi-periodic Gaussian Process (GP). DMPP-7 (HD 118006) is a slightly evolved star that harbours a single 0.72 Saturn-mass giant ($m_\\textrm{p}\\sin i$ = 69 M$_\\oplus$) with an orbital period of P = 4.93 d. A longer 21 d - 22 d period cannot be conclusively confirmed as a stellar rotation signature rather than a purely Keplerian signal. For HD 67200, which exhibits Ca ii H&K variability, a model with only a GP is strongly favoured over a purely dynamical model. The GP model shows moderate evidence for a single Keplerian with P = 2.67 d. For HD 2134, a 21 d - 32 d rotation period signal is associated with tentative FWHM variability. A model with a GP is not conclusively favoured, but all models considered show moderate evidence for an additional single Keplerian with P = 2.78 d. Despite our target selection favouring near edge-on orbital geometries, we find no evidence for transits in TESS photometry. DMPP-7 b lies at the transition between the high-radius population and the Neptunian ridge and savannah regions. Further observations are required to establish whether the coherent short-period HD 67200 and HD 2134 signals are stellar or dynamical in origin. If planetary, the signals correspond to minimum masses of $m_\\textrm{p}\\sin i$ = 2.07 M$_\\oplus$ and $m_\\textrm{p}\\sin i$ = 2.86 M$_\\oplus$",
-      "authors": [
-        "J. R. Barnes",
-        "C. A. Haswell",
-        "Z. O. B. Ross",
-        "E. Rutherford",
-        "M. R. Standing",
-        "A. T. Stevenson",
-        "D. Staab",
-        "L. Fossati",
-        "J. S. Jenkins",
-        "D. Alves"
-      ],
-      "url": "https://arxiv.org/abs/2608.11902v1",
-      "category": "astro-ph.EP",
-      "published": "2026-08-12",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
     {
       "arxiv_id": "2608.13313v1",
       "title": "Differential Reddening and Extinction Law Analyses of Galactic Open Clusters",
@@ -117,21 +20,6 @@
       "score": 6,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2608.12217v1",
-      "title": "High-energy neutrino signatures of embedded GRB jets in AGN disks: a dynamic jet-propagation framework",
-      "abstract": "Relativistic jets embedded in active galactic nucleus (AGN) accretion disks are promising high-energy neutrino sources, but their emission is often estimated from a single representative jet state. We develop a time-dependent framework that follows jet-head propagation, evolving reverse-shock conditions, and particle cooling until the jet chokes or breaks out, and apply it to the SG and TQM disk models. For the representative choked cases, neutrino emission is dominated by the high-dissipation phase near jet stalling, allowing a stalling-state approximation to reproduce the trajectory-integrated, detector-weighted event yield within approximately $14\\%$. In breakout cases, however, rapid jet-head acceleration across steep disk-density gradients suppresses reverse-shock dissipation and can cause single-state estimates to overpredict the fluence, even after accounting for the available energy budget. Full trajectory integration also reshapes the high-energy spectral tail and produces distinct detectability patterns across SMBH mass and disk radius for the two disk models. Some lower-density outer-disk cases develop harder tails extending into the 10--100 PeV range, motivating future ultra-high-energy neutrino searches. Resolving jet propagation dynamics is therefore indispensable for evaluating embedded transients across AGN disk environments and avoiding systematic biases in multi-messenger modeling.",
-      "authors": [
-        "Wei-Cheng Long",
-        "Yun-Wei Yu"
-      ],
-      "url": "https://arxiv.org/abs/2608.12217v1",
-      "category": "astro-ph.HE",
-      "published": "2026-08-12",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2608.13516v1",
@@ -220,37 +108,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2608.12464v1",
-      "title": "Interacting Supernovae: a Radio and X-ray Strategy to Constrain the Structure of the Circumstellar Medium",
-      "abstract": "The interaction of supernova (SN) ejecta with the dense circumstellar medium (CSM) converts shock kinetic energy into radiation across multiple wavebands. We investigate the dependence of the X-ray and radio emission on the CSM geometry, considering spherical, hourglass, and disk shapes for the CSM. We find that the spectral and light-curve properties, both in X-ray and radio, significantly differ for spherical and non-spherical CSM structures. For a non-spherical CSM, the radio light curve flattens out near the peak frequency, due to efficient free-free absorption by the unshocked CSM. Moreover, the early rise of the radio light curve is shallower when the CSM density along the observer line of sight is larger than that in other directions. If the CSM density is lower along the observer line of sight, the radio light curve flattens near its peak, and the reverse-shock component is negligible in X-rays. Building on these features, we provide a method to constrain the CSM structure based on the rising part the radio light curve in the proximity of its peak; we show that the decay part of the radio light curve, after its peak, carries insight on whether the CSM density profile is wind-like or not. We further adopt the X-ray signal to corroborate the information extracted from radio. We test our strategy on SN 1993j and SN 2023ixf. For both SNe, we find that an asymmetric CSM is in excellent agreement with radio and X-ray observations and provides a viable alternative to non-wind scenarios suggested in the literature. Our findings highlight the crucial insight provided by radio and X-ray signals into the mass-loss history of the SN progenitor.",
-      "authors": [
-        "Shunke Ai",
-        "Irene Tamborra",
-        "Leonardo Dinoi"
-      ],
-      "url": "https://arxiv.org/abs/2608.12464v1",
-      "category": "astro-ph.HE",
-      "published": "2026-08-12",
-      "score": 5,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2608.11636v1",
-      "title": "A Radiation-Hydrodynamic Light Curve Grid and Interpolation Framework for Stripped-Envelope Supernovae",
-      "abstract": "We present a grid of 8,148 stripped-envelope supernovae (SESNe) light curves based on radiation hydrodynamic simulations of exploding helium-star progenitors. The grid spans an ejecta-mass range representative of typical SESNe, together with broad ranges of explosion energies, radioactive nickel masses, and degrees of material mixing. We systematically investigate how these physical parameters shape the light curves and develop an interpolation-based parameter inference framework that enables the application of the model grid to observational data. Using the simulated light curves as mock observations, we assess the reliability of the widely used Arnett model. Although it reproduces the overall light-curve morphology, the inferred ejecta masses show no significant correlation with the true values. Moreover, the analytical model produces a spurious correlation between explosion energy and nickel mass, despite these parameters being independent in the underlying model grid. These results demonstrate that good light-curve fits do not necessarily imply reliable physical parameter estimates and highlight the need for physically motivated radiation hydrodynamic models in population studies of SESNe.",
-      "authors": [
-        "Qiliang Fang",
-        "Takashi J. Moriya"
-      ],
-      "url": "https://arxiv.org/abs/2608.11636v1",
-      "category": "astro-ph.HE",
-      "published": "2026-08-12",
-      "score": 5,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2608.13163v1",
       "title": "A Radon-Transform Perspective on Exoplanet Transits",
       "abstract": "Transit light curves are usually analyzed under the assumption that the transiting planet has a circular sky-projected silhouette. However, planetary rotation, tides, rings, or atmospheric inhomogeneities can produce non-circular silhouettes. This raises the question of what information transit light curves can provide about the underlying two-dimensional attenuation map. In this paper, we show that, in a simple and transparent limit, the time derivative of the transit light curve during ingress or egress can be interpreted as a Radon-transform measurement of the planetary attenuation map, with the projection direction set by the local normal to the stellar limb. This viewpoint makes the information content of a single transit clear. Ingress and egress provide at most two projection angles, so the data constrain the Fourier transform of the attenuation map only along at most two radial slices, leaving a large null space. Physical constraints on the attenuation values and shape priors can reduce the range of viable solutions, but non-uniqueness generally remains. We further examine how realistic effects modify this picture. In particular, small stellar-limb curvature introduces weak sensitivity to transverse Fourier-space structure around the ideal slices, a sensitivity that is absent in the strict Radon-transform limit. These results provide a framework for understanding what transit light curves can and cannot reveal about non-circular planetary silhouettes.",
@@ -263,46 +120,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2608.11779v1",
-      "title": "Infrared-to-visible albedo ratio of Phobos: Comparison with primitive asteroids",
-      "abstract": "Aims. The ratio between infrared and visible albedo, pIR/pV, provides a simple proxy for the spectral slope of asteroid surfaces between the visible and near-infrared wavelength ranges. The aim of this work is to assess whether the different spectral units of Phobos occupy the same spectral parameter space as the primitive asteroid populations in order to confirm or not its possible asteroidal origin. Methods. For each of the three spectral units of Phobos (Red, Transitional and Blue), we extracted averaged, normalised reflectance spectra by comparing normalised reflectance in the visible (0.50-0.60 $μ$m) and near-infrared (3.1-3.8 $μ$m) wavelength ranges from the Mars Express OMEGA instrument, to compute a proxy for the infrared-visible albedo ratio ($R_P$). Then, using the database of visible and infrared albedos compiled in the Minor Planet Physical Properties Catalogue (MP3C), we computed asteroid pIR/pV values ($R_A$), to compare to those for Phobos. Results. The $R_P$ for the Red, Transitional and Blue regions vary between 2.90 and 3.12, 2.32 and 2.35, 1.64 and 1.85 respectively. These values span a range occupied by primitive asteroid populations, with the Transitional and Red regions coinciding with the high ratio regime within the pIR/pV domain, which is commonly associated with red-sloped primitive asteroids, including D- and T-type objects as well as Jupiter Trojans.",
-      "authors": [
-        "T. J. Dyer",
-        "J. Beccarelli",
-        "M. Delbo",
-        "C. Avdellidou",
-        "M. Pajola",
-        "A. Milton",
-        "A. Lucchetti",
-        "G. Munaretto"
-      ],
-      "url": "https://arxiv.org/abs/2608.11779v1",
-      "category": "astro-ph.EP",
-      "published": "2026-08-12",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2608.11896v1",
-      "title": "First and Comprehensive Study of V0757 Pup : $γ-$Doradus Pulsator in Detached Eclipsing Binary",
-      "abstract": "Pulsating stars in detached eclipsing binary (EA) systems are known for providing many important physical informations which constrain both stellar structure and evolution theories. To date, fewer than 50 $γ$ Doradus (GDOR) stars have been found in eclipsing binary systems, making them important targets to study \\textit{g}-mode pulsation inside the stars. We present a comprehensive physical and pulsational analysis of V0757 Pup (TIC 6939791), a detached eclipsing binary system observed by the TESS mission (Sectors 7, 34, 61, and 88) and followed up with ground-based spectroscopy from the Thai National Telescope. By combining light curve modeling with radial velocities derived from medium-resolution spectra, we determined the fundamental stellar and atmospheric parameters with high precision. The system consists of an F2V primary ($M_1=1.305\\pm0.026M_\\odot, R_1=1.643\\pm0.020R_\\odot$) and a G1V secondary ($M_2=0.934\\pm0.030M_\\odot, R_2=0.941\\pm0.079R_\\odot$). We performed a detailed frequency analysis of the residual light curves, identifying two dominant independent pulsation frequencies at $f\\sim0.79$ c/d and $0.98$ c/d. These frequencies, along with the derived pulsation constant ($Q\\sim0.6$ d), confirm the primary component as a $γ$ Doradus pulsator. An analysis of Eclipse Timing Variations (ETV) reveals non detection of third body companions with current available dataset, strengthen by the result of \\textit{Gaia} astrometric analysis. Evolutionary modeling indicates the system is $\\sim2.2$ Gyr old, with the primary expected to fill its Roche lobe in $\\sim1$ Gyr. Additionally, we calculate a distance of $d\\approx350$ pc based on orbital and SED modeling, which is in excellent agreement with the \\textit{Gaia} DR3 parallax distance.",
-      "authors": [
-        "Bakuh Danang Setyo Budi",
-        "Bryant Randolph",
-        "Rafa Nanda Akilah",
-        "Evan Irawan Akbar",
-        "Hakim Luthfi Malasan",
-        "Puji Irawati"
-      ],
-      "url": "https://arxiv.org/abs/2608.11896v1",
-      "category": "astro-ph.SR",
-      "published": "2026-08-12",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2608.13068v1",
