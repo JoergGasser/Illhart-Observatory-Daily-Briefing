@@ -1,53 +1,252 @@
 {
-  "generated_utc": "2026-08-17T07:03:55Z",
-  "date": "2026-08-17",
-  "total_fetched": 21,
-  "relevant_count": 3,
+  "generated_utc": "2026-08-18T06:51:18Z",
+  "date": "2026-08-18",
+  "total_fetched": 62,
+  "relevant_count": 13,
   "min_score": 3,
   "articles": [
     {
-      "arxiv_id": "2608.14363v1",
-      "title": "The Evolution of the ACIS Contamination Layer on the Chandra X-ray Observatory from 2010 to 2026",
-      "abstract": "The Chandra X-ray Observatory (CXO) was launched over 27 years ago and has been delivering spectacular science over the course of its mission. The Advanced CCD Imaging Spectrometer (ACIS) is the prime instrument on the satellite, conducting over 90% of the observations. The CCDs operate at a temperature of $-$120$^\\circ$C and the optical blocking filter (OBF) in front of the CCDs is at a temperature of approximately $-$60$^\\circ$C. The surface of the OBF has accumulated a layer of contamination over the course of the mission, as it is the coldest surface exposed to the interior to the spacecraft. We have been characterizing the thickness, chemical composition, and spatial distribution of the contamination layer as a function of time over the mission. The contamination model has required several revisions over the course of the mission as the properties of the contamination layer have changed and our understanding of the layer has improved. In this paper, we evaluate the performance of the current contamination model (N0016 released in CalDB 4.12.3 on 16 December 2025) using the most recent calibration observations conducted from 2023 to 2026 by using the standard model spectrum for the supernova remnant 1E 0102.2-7219 (E0102) developed by the International Astronomical Consortium for High Energy (IACHEC), spectral data from the cluster of galaxies known as Abell 1795, and high resolution X-ray spectra of Mrk 421. This evaluation has been complicated by the decreasing observed counts at low energies, especially the O VII He$α$ line complex and the O VIII Ly$α$ line from E0102 which are no longer useful for this purpose. The analyses of the E0102, Abell 1795, and Mrk 421 data show that the current model of the contamination adequately predicts the additional absorption through mid-2026.",
+      "arxiv_id": "2608.15892v1",
+      "title": "A Population View of the Cosmic-Ray Knee: The Role of Variance in Supernova Maximum Rigidities",
+      "abstract": "The broad shape of the Galactic cosmic-ray knee challenges source models in which all supernova remnants share a nearly universal, sharp maximum rigidity. We investigate whether the knee can instead arise as a population effect, produced by source-to-source variations in the maximum energy of Galactic supernova remnants. We derive the population-averaged spectrum for sources with sharp individual cutoffs and distributed $E_{\\max}$, showing that it is given by an underlying propagated power law multiplied by the survival probability of the cutoff distribution. A lognormal distribution of $E_{\\max}$ naturally produces a smooth, continuously curving knee, while a power-law tail gives an approximately constant post-knee steepening. We then connect the lognormal width to supernova-remnant physics through maximum-energy scalings with explosion energy and ambient density, finding that the expected variance is mainly driven by the spread in explosion energies. Fitting the measured proton spectrum with a two-component lognormal-cutoff model, we find that the PeV component requires $σ_{\\log_{10}E_{\\max}}\\simeq 0.24$. This width is substantially smaller than the variance expected for the full Galactic remnant population, indicating that the PeV component must originate from a more restricted and comparatively homogeneous subset of remnants. Our results show that the knee can be understood as the gradual exhaustion of a heterogeneous population of PeV-capable supernova remnants, without requiring a universal maximum rigidity.",
       "authors": [
-        "Paul P. Plucinsky",
-        "Peter W. Ratzlaff",
-        "Akos Bogdan",
-        "Herman L. Marshall"
+        "Carmelo Evoli"
       ],
-      "url": "https://arxiv.org/abs/2608.14363v1",
+      "url": "https://arxiv.org/abs/2608.15892v1",
       "category": "astro-ph.HE",
-      "published": "2026-08-14",
-      "score": 8,
+      "published": "2026-08-16",
+      "score": 12,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.15040v1",
+      "title": "Panchromatic JWST Observations and Models of the Dim Type Iax Supernova 2024vjm at 200 days",
+      "abstract": "We report JWST spectra and photometry of the underluminous SN Iax 2024vjm obtained 202.8 restframe days post-explosion. The spectrum exhibits a rich set of forbidden lines from low-ionization, intermediate-mass, and iron-group elements, notably the [Ni II] 6.64 micron resonance line, which is a direct indicator of stable nickel. Strong CO and SiO emission is detected alongside a warm dust continuum; the spectral properties are consistent with pre-existing rather than newly formed dust. Synthetic spectra were computed with the generalized stellar atmospheres code PHOENIX/1D using simplified ejecta models. The models reproduce the overall spectral energy distribution and the molecular emission features reasonably well, but substantially underestimate the strength of the mid-infrared atomic forbidden lines, leaving the synthetic spectrum dominated by molecular emission. Experiments in which the molecular opacity is suppressed do not recover the forbidden lines; instead, the emission peak migrates to Co and Fe transitions near 2 microns. We attribute this discrepancy to poorly constrained collisional rates and possibly to an excess of iron-group material in the current ejecta models. A prominent feature at 12.8 microns is not well accounted for by the [Ne II] 12.81 micron line, indicating that the 12.8 micron feature may be largely due to [Fe III]. The presence of CO, SiO, and stable nickel together with the non-detection of neon places tight constraints on the total ejecta mass and the nucleosynthetic yields of SNe Iax progenitor systems.",
+      "authors": [
+        "E Baron",
+        "J. M. DerKacy",
+        "C. Ashall",
+        "M. Shahbandeh",
+        "Peter H. Hauschildt",
+        "T. Barman",
+        "J. P. Aufdenberg",
+        "C. R. Burns",
+        "N. Morrell",
+        "M. D. Stritzinger",
+        "P. Hoeflich",
+        "K. Medler",
+        "E. Fereidouni",
+        "C. M. Pfeffer",
+        "T. Mera",
+        "W. B. Hoogendam",
+        "S. Shiber",
+        "P. J. Brown",
+        "Divya Mishra",
+        "Inma Dominguez",
+        "L. Galbany",
+        "Paolo Mazzali",
+        "E. Y. Hsiao",
+        "Huangfei Xiao",
+        "T. de Jaeger",
+        "S. Kumar"
+      ],
+      "url": "https://arxiv.org/abs/2608.15040v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-15",
+      "score": 11,
       "tier": 1,
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2608.14258v1",
-      "title": "Launching Jets in Tidal Disruption Events: Magnetic Flux Advection and Plasma Loading",
-      "abstract": "A tidal disruption event (TDE) occurs when a star approaches a black hole (BH) and is disrupted by its tidal forces. Although several hundred TDEs have been identified to date, only a small fraction are accompanied by relativistic jets. These jets are thought to be Poynting-flux-dominated outflows powered by the Blandford--Znajek (BZ) mechanism. However, the origin of the magnetic flux and plasma needed to power BZ jets remain unclear. In this Letter, we propose a scenario in which magnetic flux is initially stored in a pre-existing low-Eddington accretion disk around BH, and is subsequently advected toward the BH by the super-Eddington accretion flow formed after the stellar disruption. We show that stars with low densities, such as red giants, can supply sufficient magnetic flux to power a BZ jet. Once sufficient magnetic flux accumulates near the BH, an equatorial current sheet forms where magnetic reconnection produces high-energy gamma rays. We find that photon--photon pair production by these gamma rays supplies the BH magnetosphere with sufficient plasma to launch and sustain a BZ jet. We further show that this mechanism simultaneously provides enough radiating particles to account for the observed prompt emission.",
+      "arxiv_id": "2608.16301v1",
+      "title": "Characterizing Stellar Flares in Ariel Targets: Activity Analysis and Transit Contamination",
+      "abstract": "Stellar flares are sudden releases of magnetic energy that can distort exoplanet transit photometry and transmission spectroscopy, biasing planet radius estimates, transit timings, and atmospheric characterization. Understanding flare activity in Ariel targets is therefore essential to identify stars where flares may compromise observations and to characterize the radiation environment affecting atmospheric escape and photochemistry. We analyzed 290 Ariel target stars using TESS light curves. Flares were identified via iterative Gaussian process detrending, and their energy distributions were modeled with two-segment power laws. We performed injection-recovery tests by adding synthetic flares to detrended light curves and running the full pipeline to quantify completeness and detection biases. We detected 15,857 flares across 1,638 TESS sectors, with 2-86 events per sector. We defined a normalized flare index GF.01 to compare activity across stellar luminosities. Near 3% of the sample exhibits enhanced flare activity (GF.01 > 1). AU Mic and HD 28109 show a high likelihood of flare contamination during transit observations. GF.01 correlates negatively with stellar bolometric luminosity, indicating higher relative flare output in lower-luminosity stars. AU Mic is an extreme case: four of five observed transits of AU Mic b are affected by flares, consistent with statistical expectations. We validate the framework by comparing predicted flare-contamination probabilities with observed flare occurrences in a representative subset of transits, finding agreement within uncertainties. These results confirm that energetic flares can significantly impact transit observations and provide quantitative guidance for Ariel target selection and analysis strategies.",
       "authors": [
-        "Rin Oikawa",
-        "Yuri Sato"
+        "G. Galletta",
+        "S. Colombo",
+        "G. Micela"
       ],
-      "url": "https://arxiv.org/abs/2608.14258v1",
+      "url": "https://arxiv.org/abs/2608.16301v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-17",
+      "score": 10,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.16778v1",
+      "title": "Nuclear Drip Line and the Composition of Supernova Matter",
+      "abstract": "The nuclear drip line plays a crucial role in determining the composition of matter under extreme astrophysical conditions. In core-collapse supernovae and neutron-star crusts, matter is driven far from saturation density and nuclear stability; nuclei coexist with a sea of free neutrons, an effect that is present even at zero temperature in neutron-star crusts and becomes more pronounced in the hotter, neutron-rich supernova environment. This makes a careful treatment of drip-line physics essential for a realistic description of the equation of state and composition. In this work, the influence of the nuclear drip line on the baryonic composition of supernova matter is investigated within the framework of nuclear statistical equilibrium (NSE). The composition is evaluated in terms of free nucleons, light clusters, and heavy nuclei at finite temperature and global sub-saturation densities. The results indicate that, at low proton fractions and higher densities, the inclusion of nuclei beyond the drip line enhances the formation of extremely neutron-rich light clusters, leading to a significant reduction in the free-neutron density and the charge fraction of heavy nuclei. These findings demonstrate that drip-line physics has a significant impact on the composition of supernova matter and should be carefully incorporated in supernova modeling and nucleosynthesis studies.",
+      "authors": [
+        "S. Maity",
+        "S. Mallik"
+      ],
+      "url": "https://arxiv.org/abs/2608.16778v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-17",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.16006v1",
+      "title": "SN 2023gfo: A Peculiar Type IIP Supernova with High Luminosity and Normal Plateau Duration",
+      "abstract": "We present near-infrared (NIR) and optical observations of the highly reddened Type IIP supernova (SN) 2023gfo in the nearby galaxy NGC 4995 ($d = 26.4 \\pm 3.2$ Mpc), which reached a high peak luminosity of $M_V = -18.6$ mag. The SN was initially detected as a faint red event, with $B-V = 0.8$ mag at the beginning of the plateau phase. By comparison with template, we estimate a total extinction of $A_V = 2.1$ mag. After correcting for this extinction, we derive a peak quasi-bolometric luminosity of $(5.9 \\pm 1.5)\\times10^{42}$ erg s$^{-1}$, placing this event among the most luminous SNe IIP, while its plateau duration remains within the normal range. The early-phase optical spectrum exhibits a P-Cygni profile of H$α$, with a broad absorption of $V$ = $13{,}800$ km s$^{-1}$, which is among the highest observed for SNe IIP at comparable epochs. The high luminosity and the normal plateau duration suggest that this event represents an outlier. Applying an analytical model, we infer an unusually large progenitor radius. This may indicate that the progenitor experienced an extreme energy injection from the core to the envelope shortly before explosion, resulting in a substantially inflated radius. While ejecta-circumstellar matter (CSM) interaction could in principle account for the high luminosity, we find no observational evidence supporting strong interaction.",
+      "authors": [
+        "Riko Namba",
+        "Masayuki Yamanaka",
+        "Keiichi Maeda",
+        "Avinash Singh",
+        "Kenta Taguchi",
+        "Takahiro Nagayama",
+        "Miho Kawabata",
+        "Koji S. Kawabata",
+        "Tatsuya Nakaoka",
+        "Devendra Sahu",
+        "Anjasha Gangopadhyay",
+        "G. C. Anupama"
+      ],
+      "url": "https://arxiv.org/abs/2608.16006v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-17",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.15918v1",
+      "title": "A statistical relation of energy injection plateaus in multi-band afterglows of gamma-ray bursts",
+      "abstract": "The origin of the plateau phase in gamma-ray burst (GRB) afterglows remains under debate, with the energy injection model being one of the most competitive explanations. If the plateau is truly driven by energy injection, the average X-ray and optical luminosities during the plateau phase, $L_{\\rm X, plat, ave}$ and $L_{\\rm opt, plat, ave}$, should naturally be correlated. Moreover, under this scenario, the scaling relations between the luminosities during the plateau and the normal decay phase are expected to be consistent since they share the same origin, i.e., synchrotron radiation from the external forward shock. Therefore, simultaneous multi-band observations are essential to verify this mechanism. In this work, we select a sample of 47 GRBs with simultaneous plateaus in both bands. We calculate their time-averaged isotropic luminosities for the plateau and the subsequent normal decay phases. We find a moderate positive correlation $\\log L_{\\rm X, plat, ave}=m\\log L_{\\rm opt, plat, ave}+c$ with a slope $m = 0.86 \\pm 0.11$ for the plateau phase. This correlation supports the energy injection origin and offers a promising diagnostic approach to test the model. Furthermore, we obtain a similar slope $m = 1.05 \\pm 0.05$ for the normal decay phase, which reinforces the idea that both phases share the same physical origin. Notably, the post-plateau data exhibit a systematic downward shift in luminosity, which may indicate the cessation of the central engine.",
+      "authors": [
+        "Xiao-Yan Li",
+        "Tong Liu",
+        "Bao-Quan Huang"
+      ],
+      "url": "https://arxiv.org/abs/2608.15918v1",
       "category": "astro-ph.HE",
-      "published": "2026-08-14",
+      "published": "2026-08-16",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.16204v1",
+      "title": "The dust-rich, gas-depleted protosolar disk as the birthplace of chondrules",
+      "abstract": "Chondrules are the primary components of primitive meteorites known as chondrites, and understanding their formation and accumulation is essential for elucidating the history of planet formation in the Solar System. Although a variety of chondrule formation mechanisms have been proposed, it remains challenging to satisfy the key constraints on chondrule abundance, formation timing, and mineralogical and chemical characteristics within a single model. In particular, the planetesimal bow-shock model, once considered one of the leading candidates, now faces a fundamental difficulty: Jupiter's formation likely depleted gas in the protosolar disk, potentially lowering the gas density below that required for efficient chondrule formation by planetesimal bow shocks. Here we propose an alternative mechanism that can occur in a gas-depleted environment: heavy bombardment of eccentric planetesimals by debris dust. After Jupiter formed in the protosolar disk, the region interior to its orbit became gas-depleted, leading to the formation of a geometrically thin debris-dust layer. When planetesimals enter the dust layer at high speed, large quantities of molten silicate droplets are produced. These droplets cool and solidify into chondrules and are reincorporated into the dust layer. Using analytical calculations, we find that our model can potentially explain the abundance, formation timing, and mineralogical and chemical characteristics of chondrules. This study links the formation of Jupiter and the accompanying evolution of the protosolar disk to the origin of terrestrial planets, asteroids, and meteorites, thereby offering a new framework for the formation of the Solar System.",
+      "authors": [
+        "Sota Arakawa",
+        "Hidekazu Tanaka",
+        "Toshihiko Kadono",
+        "Takayuki Ushikubo",
+        "Makiko Nagasawa",
+        "Hiroshi Kobayashi"
+      ],
+      "url": "https://arxiv.org/abs/2608.16204v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-17",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.15068v1",
+      "title": "Scaling of microcraters with molten rims derived from laser-induced cratering experiments",
+      "abstract": "Microcraters with molten rims are widely observed in returned samples from the Moon and asteroids. These features reflect the conditions of small-scale impact events, but the impact velocities required for their formation are not well understood. In this study, we use well-controlled laser irradiation on rock surfaces as an experimental analog to investigate the formation of these molten-rim craters. Specifically, we derive a scaling relation between crater volume, total irradiation energy, and energy loss associated with thermal diffusion. The experimental results indicate that molten-rim structures of microcraters can be formed in the range of $10^2$--$10^3$~m/s impact velocity. This value is consistent with some previous studies which suggested that the origin of microcraters is secondary impact events. These findings provide experimental constraints on the formation mechanisms of molten-rim microcraters and offer a new perspective on impact processes recorded on planetary surfaces. The estimated result is also consistent with the impact velocity required to produce the observed wavy rim protrusions due to a Rayleigh-Taylor hydrodynamic instability ($\\sim 10^2$~m/s).",
+      "authors": [
+        "S. Sato",
+        "H. Shibayama",
+        "K. Nagai",
+        "H. Katsuragi"
+      ],
+      "url": "https://arxiv.org/abs/2608.15068v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-15",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2608.14010v1",
-      "title": "Detection of possible burst oscillation in the neutron star low-mass X-ray binary 4U 1323-62",
-      "abstract": "Burst oscillations observed during thermonuclear X-ray bursts arise from asymmetric brightness patterns on the neutron star surface and provide a direct probe of the neutron star spin frequency. We present a detailed timing analysis of the neutron star low-mass X-ray binary 4U 1323-62 using 2024 observations with XMM-Newton and NuSTAR observatories. We identify nine thermonuclear X-ray bursts in the XMM-Newton/EPIC-pn data, along with eclipsing dips in the light curve. One of the XMM-Newton bursts exhibits a rare doublet structure. In addition, NuSTAR detects six bursts, four of which occur simultaneously with those observed with XMM-Newton. We identify a possible burst oscillation signal at $\\sim$611.5 Hz in the XMM-Newton data. The strongest oscillation, detected during the primary burst of the doublet burst, reaches a maximum $Z_1^{2}$ power of $\\sim35$. An analytical estimate accounting for the searched frequency and time intervals gives a significance of $\\sim3.0σ$, whereas independent Monte Carlo simulations yield a more robust global significance of only $\\sim2.4σ$. We therefore interpret the signal as a tentative detection of burst oscillation. The folded pulse profile in the 0.5-10 keV band is well described by a sinusoid, with a fractional rms amplitude of $\\sim30\\pm6$%. The oscillation frequency corresponds to a neutron-star spin period of $\\sim$1.635 ms, suggesting that 4U 1323-62 may harbor a rapidly rotating millisecond neutron star.",
+      "arxiv_id": "2608.16149v1",
+      "title": "Catalytic formation of H_2 on carbonaceous dust grains - implications for interstellar observations",
+      "abstract": "We use kinetic Monte Carlo (KMC) simulations to study molecular hydrogen formation on carbonaceous dust grain surfaces, validated against recent laboratory measurements of H$_2$ formation on coronene films at temperatures from 10 to 250 K. The model uses a three-dimensional amorphous carbon lattice with heterogeneous physisorption ($45 \\pm 5$ meV) and chemisorption ($1.75 \\pm 0.25$ eV) sites, and tracks both Langmuir--Hinshelwood (LH) and Eley--Rideal (ER) formation channels within a stochastic Gillespie event-driven framework. The model reproduces the measured efficiency curve within the experimental uncertainties, including the isothermal (constant surface temperature) measurements at 100 - 250 K. The simulations correctly describe the phase boundary between the LH and ER driven processes as functions of grain temperature and the observed crossover. Under interstellar medium conditions, 10 - 250 K and n = 10 - 10$^4$ cm$^3$, the model predicts three distinct regimes for the formation efficiency $ε$, the fraction of impinging H atoms released as H$_2$. At 10 K diffusion is slow and $ε\\approx 0.06$. Between 20 K and 80 K, LH dominates and $ε\\approx 0.28$. Above 150 K, an ER plateau at $ε= 0.19$ is sustained by chemisorption-trapped H atoms. The LH-to-ER crossover occurs between 100 and 120 K. At 100 K we observe a 16\\% density-dependent stochastic enhancement, which rate-equation models cannot capture. At T$_{dust}$ = 60 K, n = 10$^3$ cm$^3$ we find the ratio of H$_2$ formation to free-fall time $t_{{\\rm H}_2}/t_{\\rm ff} \\approx 0.93$, so dust-catalysed H$_2$ chemistry can keep pace with gravitational collapse in high-redshift star-forming environments.",
       "authors": [
-        "Manoj Mandal",
-        "Sachindra Naik"
+        "Aryav Das",
+        "Julia Gao",
+        "Daniel Vrinceanu",
+        "H. R. Sadeghpour"
       ],
-      "url": "https://arxiv.org/abs/2608.14010v1",
+      "url": "https://arxiv.org/abs/2608.16149v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-17",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.15503v1",
+      "title": "Polarization of GRB standard X-ray afterglow and its detection prospects by eXTP",
+      "abstract": "The polarization signatures of Gamma-ray Burst (GRB) afterglows serve as a powerful diagnostic tool for studying their environments and jet physics. This work systematically investigates the X-ray (2--8~keV) polarization properties of standard GRB afterglows and assesses their detectability with the Polarimetry Focusing Array aboard the enhanced X-ray Timing and Polarimetry (eXTP) satellite. A Morris global sensitivity analysis is first conducted to identify the dominant parameters, which are then assigned observationally motivated probability distributions. In particular, the isotropic energy, half-opening angle, and initial Lorentz factor are sampled jointly via a Gaussian copula to reproduce the empirical Ghirlanda and Liang correlations. Monte Carlo simulations of $10^{3}$ afterglows are performed and validated against the observed 10~keV flux distributions of a selected Fermi--Swift sample (K--S $p = 0.29$ at $10^{3}~\\mathrm{s}$ and $p = 0.18$ at $10^{4}~\\mathrm{s}$). The simulations yield an overall polarization event rate of $\\lesssim 1.5\\%$ for standard GRB X-ray afterglows with eXTP/PFA, reflecting the intrinsically low polarization produced by a random magnetic field confined to the shock plane. The optimal detection window occurs near the jet break at late times, when the PD peaks. For exceptionally luminous events such as GRB~221009A, however, the PD remains above the MDP over the full interval $10^{3}$--$10^{6}~\\mathrm{s}$, demonstrating that eXTP/PFA can capture nearly the entire polarization evolution for such rare, bright bursts.",
+      "authors": [
+        "Jun-Xi Lin",
+        "Zelin Ren",
+        "Mi-Xiang Lan",
+        "Ming-Yu Ge",
+        "Zi-Gao Dai",
+        "Xue-Feng Wu",
+        "Shuang-Nan Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2608.15503v1",
       "category": "astro-ph.HE",
-      "published": "2026-08-14",
+      "published": "2026-08-16",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.15494v1",
+      "title": "Interpretations of the $10\\%$ polarization observed in the early forward-shock afterglow of GRB 091208",
+      "abstract": "The $\\sim10\\%$ optical polarization observed at the early stage of GRB 091208B comes from the forward shock emission, which is higher than the conventionally predicted value. Polarizations of the forward shock radiation would depend on the observational geometry and the post-shock magnetic field structure. This magnetic field could arise either from the compression of a pre-existing magnetic field (i.e., the magnetic field in the outer medium) or from the shock-generated instabilities. In this paper, we use a synchrotron radiation model to fit the light curve and polarization observations of GRB 091208B. Two scenarios are considered: one is the case of a slightly off-axis observer, and the other is with a large-scale ordered magnetic field component in the burst environment. We found both scenarios could interpret the observations of GRB 091208B. For the slightly off-axis observation scenario, the observational angle is restricted to be within the range of (1.02, 1.05) times the jet half-opening angle. For the large-scale ordered magnetic field component scenario, the ratio between the ordered component to the random component is constrained to be around 1.",
+      "authors": [
+        "Yang liu",
+        "Mi-Xiang Lan"
+      ],
+      "url": "https://arxiv.org/abs/2608.15494v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-16",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.15485v1",
+      "title": "The detection prospects of the polarizations in the plateau phase of GRB afterglow by eXTP",
+      "abstract": "Approximately (20-50)$\\%$ of the gamma-ray burst (GRB) X-ray afterglows exhibit the shallow decay features. Two popular energy-injection models had been proposed to interpret such observational phenomenons, the relativistic wind bubble (RWB) model with a Poynting-flux injection and the structured ejecta (SE) model with a dynamical energy injection. Polarization predictions of the two models had been investigated and can be used as a test of the two models. However, the impacts of the parameters on the model predictions were not studied and the comparisons with the detection ability of the forthcoming mission, enhanced X-ray Timing and Polarimetry (eXTP), had not been discussed. We considered the above issues and found that influences of the model parameters on the predicted polarizations of the two models are very limited. To perform a feasible polarization detection during the plateau phase, the priority ToO response is required. The detection probability of the GRB plateau phase is about $1/3$ for one pointing under the priority ToO. The polarization detection probability would depend on the ratio between the Poynting-flux injection to the dynamical energy injection, which is unclear currently. The predicted flux density and polarization degree (PD) of the RWB model could be well above the threshold flux and minimal detectable polarization degree of the polarimetry focusing array (PFA) on board eXTP, while the predicted PDs of the SE model would be difficult to be detected by eXTP/PFA. Therefore, a detection of a significant polarization signal during the GRB plateau phase would prefer the RWB model and the injected energy would be in the form of the Poynting flux, while a non detection of the polarized signal would indicate a dynamical energy injection of the SE model.",
+      "authors": [
+        "Shu-Ting Wu",
+        "Mi-Xiang Lan",
+        "Zelin Ren",
+        "Ming-Yu Ge",
+        "Xue-Feng Wu",
+        "Zi-Gao Dai"
+      ],
+      "url": "https://arxiv.org/abs/2608.15485v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-16",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.15166v1",
+      "title": "Stress-Testing DANTE under Detector Domain Shift: a Representation-Coherent Reanalysis of LIGO O4a",
+      "abstract": "This sixth version of the Domain-Adaptive Network for Transient Evaluation (DANTE) preprint stress-tests an unsupervised transient-noise pipeline under representation mismatch and observing-run adaptation. We reanalyse 10,429 detector-time strain candidates from 42 LIGO O4a sessions using frozen DINOv2 patch embeddings and a Top-k multiple-instance score. Candidate and native-background Q-transforms share Q in [4,64], and detector-specific thresholds are calibrated from 5,000 run-native windows by temporal-block bootstrap. The coherent analysis yields 6,365 ROBUST, 1,275 AMBIGUOUS, and 2,789 BACKGROUND statistical dispositions; 4,676 of 10,372 paired historical dispositions differ from the cross-representation v5 analysis. Direct controls resolve an O3b-O4a score shift and reduction after native adaptation for H1, but not L1, while known-glitch separation is detector- and morphology-dependent. Replicated studies quantify population-dependent sensitivity to background draw, clustering seed, dictionary size, and whitening, demonstrate native-index absorption, and identify conditional low-Q blindness. A conservative H1-L1 max-shift screen yields 13/8,806 values above threshold, but its on-source values and pooled per-event null maxima are not exchangeable. The primary two-null PEM endpoint shows no resolved ROBUST-BACKGROUND enrichment (p=1.000), and two catalogue overlaps are consistent with a circular-shift coverage proxy (p=0.651). Simulation-only compact-binary controls show detector- and distance-dependent disagreement between novelty, native disposition, and physical coincidence. We withdraw the v5 discovery, rate-limit, catalogue-recall, and survey-wide stability interpretations. The supported result is a measured set of failure modes and validity conditions for unsupervised detector characterization, not a new glitch class or an astrophysical search.",
+      "authors": [
+        "Luca Cirfeta"
+      ],
+      "url": "https://arxiv.org/abs/2608.15166v1",
+      "category": "astro-ph.IM",
+      "published": "2026-08-15",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
