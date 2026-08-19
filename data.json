@@ -1,10 +1,25 @@
 {
-  "generated_utc": "2026-08-18T06:51:18Z",
-  "date": "2026-08-18",
-  "total_fetched": 62,
-  "relevant_count": 13,
+  "generated_utc": "2026-08-19T06:51:51Z",
+  "date": "2026-08-19",
+  "total_fetched": 126,
+  "relevant_count": 27,
   "min_score": 3,
   "articles": [
+    {
+      "arxiv_id": "2608.17477v1",
+      "title": "Impact of Upstream Clumpiness on Supernova Remnant Forward Shock Evolution in Molecular Cloud Environments",
+      "abstract": "Supernova remnants (SNRs) are widely considered to be the primary accelerators of Galactic cosmic rays. In recent years, detailed observations have significantly progressed for young SNRs interacting with molecular clouds, a prime example being RX J1713.7-3946. When molecular clouds are clumpy, their impact can affect not only radiation properties but also shock wave propagation. Therefore, a quantitative understanding linking observational quantities with the ambient medium structure is highly required. In this study, we perform three-dimensional hydrodynamic simulations to model a molecular cloud with an inhomogeneous density structure driven by supersonic turbulence and subsequent SNR formation. To investigate various pre-supernova environments, we systematically vary the medium clumpiness by replacing gas below a threshold number density with a low-density hot gas, quantifying the relationship between the forward shock velocity and the volume filling factor of the high-density clumps. As a result, we find that at an elapsed time of 1000 yr-a typical age for a young SNR-the forward shock can evolve consistently with the fast shock velocity measured in RX J1713.7-3946, provided that the clump volume filling factor is approximately 10% or less. Considering that hadronic gamma-ray emission originates exclusively from the clumpy, high-density gas, our findings suggest that the total energy of cosmic-ray protons in RX J1713.7-3946 is higher than previously estimated, amounting to at least several percent of the typical supernova explosion energy.",
+      "authors": [
+        "Kenta Tatsumi",
+        "Tsuyoshi Inoue"
+      ],
+      "url": "https://arxiv.org/abs/2608.17477v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
+      "score": 12,
+      "tier": 1,
+      "instrument": "RC400"
+    },
     {
       "arxiv_id": "2608.15892v1",
       "title": "A Population View of the Cosmic-Ray Knee: The Role of Variance in Supernova Maximum Rigidities",
@@ -20,43 +35,26 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2608.15040v1",
-      "title": "Panchromatic JWST Observations and Models of the Dim Type Iax Supernova 2024vjm at 200 days",
-      "abstract": "We report JWST spectra and photometry of the underluminous SN Iax 2024vjm obtained 202.8 restframe days post-explosion. The spectrum exhibits a rich set of forbidden lines from low-ionization, intermediate-mass, and iron-group elements, notably the [Ni II] 6.64 micron resonance line, which is a direct indicator of stable nickel. Strong CO and SiO emission is detected alongside a warm dust continuum; the spectral properties are consistent with pre-existing rather than newly formed dust. Synthetic spectra were computed with the generalized stellar atmospheres code PHOENIX/1D using simplified ejecta models. The models reproduce the overall spectral energy distribution and the molecular emission features reasonably well, but substantially underestimate the strength of the mid-infrared atomic forbidden lines, leaving the synthetic spectrum dominated by molecular emission. Experiments in which the molecular opacity is suppressed do not recover the forbidden lines; instead, the emission peak migrates to Co and Fe transitions near 2 microns. We attribute this discrepancy to poorly constrained collisional rates and possibly to an excess of iron-group material in the current ejecta models. A prominent feature at 12.8 microns is not well accounted for by the [Ne II] 12.81 micron line, indicating that the 12.8 micron feature may be largely due to [Fe III]. The presence of CO, SiO, and stable nickel together with the non-detection of neon places tight constraints on the total ejecta mass and the nucleosynthetic yields of SNe Iax progenitor systems.",
+      "arxiv_id": "2608.17568v1",
+      "title": "NMMA-Astro-COLIBRI: An Automated Light-Curve Supernovae Classification Service in the Multi-Survey Era",
+      "abstract": "The surge in publicly available photometric alerts from wide-field surveys requires automated tools for real-time transient classification. We present NMMA--Astro-COLIBRI, an on-demand Bayesian classification service that couples the Nuclear-physics and Multi-Messenger Astrophysics (NMMA) inference framework to the Astro-COLIBRI real-time multi-messenger platform. After the detection of an optical transient, if photometry is available, it is quality-filtered. The filtered photometry is fitted by nested sampling against a user-selected model from a library of eleven supernova templates; results are delivered to every user within minutes. Applying two or more models on the same optical transient, the service reports the corresponding log Bayes factors as a quantitative ranking of competing subtypes. We demonstrate the workflow on SN 2021ugl (ZTF21abotose), a Type IIb supernova initially mistaken for a kilonova candidate by automated real-time pipelines, comparing competing supernova and kilonova models. In an early-time configuration using only the first ~ 6 days of photometry in two bands (ZTF g and r), so ten days before spectroscopic confirmation, the empirical Type IIb template recovers the correct classification, favored over both the kilonova template and the kilonova-mimicking shock-cooling model. In the full 47-day, three-band baseline, it again achieves the highest evidence over every competing supernova and kilonova template. These results highlight the importance of a comprehensive supernova template library for kilonova discrimination in the multi-survey era.",
       "authors": [
-        "E Baron",
-        "J. M. DerKacy",
-        "C. Ashall",
-        "M. Shahbandeh",
-        "Peter H. Hauschildt",
-        "T. Barman",
-        "J. P. Aufdenberg",
-        "C. R. Burns",
-        "N. Morrell",
-        "M. D. Stritzinger",
-        "P. Hoeflich",
-        "K. Medler",
-        "E. Fereidouni",
-        "C. M. Pfeffer",
-        "T. Mera",
-        "W. B. Hoogendam",
-        "S. Shiber",
-        "P. J. Brown",
-        "Divya Mishra",
-        "Inma Dominguez",
-        "L. Galbany",
-        "Paolo Mazzali",
-        "E. Y. Hsiao",
-        "Huangfei Xiao",
-        "T. de Jaeger",
-        "S. Kumar"
+        "R. Weizmann Kiendrebeogo",
+        "Bernardo Cornejo Avila",
+        "Sofia Bisero",
+        "Maxime Cellier",
+        "Antoine Ciric",
+        "Ilja Jaroschewski",
+        "Henrik Rose",
+        "Alexandre Saint-Paul",
+        "Fabian Schüssler"
       ],
-      "url": "https://arxiv.org/abs/2608.15040v1",
-      "category": "astro-ph.SR",
-      "published": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.17568v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
       "score": 11,
       "tier": 1,
-      "instrument": "MK67 (future spec.)"
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2608.16301v1",
@@ -71,6 +69,77 @@
       "category": "astro-ph.EP",
       "published": "2026-08-17",
       "score": 10,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.17736v1",
+      "title": "The initial evolution of SN 2011dh: The importance of inhomogeneities",
+      "abstract": "SN 2011dh is rather unique in that it offered detailed observations of the initial phase in the radio as well as optical regimes. This makes possible a comparison between models used to deduce properties of the outer envelope of the supernova ejecta. It is shown that a consistent description suggests the forward shock to have started in the piston phase with constant velocity, and only later, around 50 days, transitioned to the standard model, which is independent of initial conditions. In addition, observations imply that the radio source is inhomogeneous with a covering factor of, approximately, 50%. It is emphasised that the deduced properties of the synchrotron source are very sensitive to the presence of inhomogeneities; for example, a covering factor of 50% increases the ratio of the energy densities of relativistic electrons and magnetic field by several orders of magnitude as compared to a homogeneous source. The shallow density gradient in the envelope causes substantial deceleration of the forward shock. This is used to argue that the magnetic field strength scales inversely with radius rather than inversely with time; this is similar to SN 1993J. Attention is also drawn to the similarities between the flat spectra of compact, extragalatic radio sources and the evolution of radio supernovae; e.g., the scaling of the magnetic field and the constant brightness temperature.",
+      "authors": [
+        "Claes-Ingvar Bjornsson"
+      ],
+      "url": "https://arxiv.org/abs/2608.17736v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
+      "score": 9,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.18037v1",
+      "title": "The instantaneous mass accretion rate of novae in quiescence: - an archival ultraviolet optical spectral analysis",
+      "abstract": "Based on archival spectra, we derive the quiescent instantaneous mass transfer rates in novae using synthetic disk spectra generated with tlusty, Gaia parallax-derived distances, and updated color excess values. Our results for nine novae, based on ultraviolet spectra and on a number of optical spectra, yield mass accretion rates that are higher than those derived from simple integration of the UV and optical luminosity. HR Del, 20 years after its eruption, has a mass transfer rate of $4\\times 10^{-7}M_\\odot$/yr, and is likely burning the accreting H-rich material. V842 Cen, thought to be a low mass transfer system, has a comparable mass accretion rate. For both novae, the enhanced mass transfer must be self-sustained by a feedback loop. RR Pic, with $\\dot{M}\\approx 3\\times 10^{-8}M_\\odot$/yr, is better fitted with an accretion disk where the outer region is heated up to 12,000 K, in agreement with H and He emission lines coming from the outer disk and a large emission region on the leading side of the disk. Such a heated disk also gives a good fit to the spectra of CP Lac, and DI Lac with $\\dot{M}\\sim4.5$ and $9\\times 10^{-9}M_\\odot$/yr. V1974 Cyg and V533 Her, with an accretion rate of $\\sim 3\\times 10^{-9}M_\\odot$/yr, have a rather flat spectrum. V446 Her and BK Lyn, caught in a state of low accretion, have the lowest mass accretion rates with $\\dot{M} \\sim 10^{-9}$ and $\\sim 10^{-10}M_\\odot$/yr respectively. The higher mass transfer rate systems, with $\\dot{M}\\approx \\sim 10^{-7}M_\\odot$/yr, agree with the standard disk model; the remaining systems are better fitted when the outer disk is heated to $\\sim 12,000$~K. We suggest that irradiation from the heated WD, inner disk, together with tidal interaction, the bright spot, and material overflowing the disk edge, can increase the temperature of the outer disk.",
+      "authors": [
+        "Patrick Godon",
+        "Edward M. Sion",
+        "Tim Naylor",
+        "Frederick A. Ringwald"
+      ],
+      "url": "https://arxiv.org/abs/2608.18037v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-18",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.17757v1",
+      "title": "Revised $^{45}$V($p,γ$)$^{46}$Cr reaction rate and its impact on the production of $^{44}$Ti in core-collapse supernovae",
+      "abstract": "The thermonuclear $^{45}$V($p,γ$)$^{46}$Cr reaction is the primary leakage pathway from the $^{44}$Ti--$^{45}$V quasi-equilibrium cluster during $α$-rich freeze-out in core-collapse supernovae (CCSN), governing the final abundance of the $γ$-ray-emitting isotope $^{44}$Ti. A recent high-resolution $γ$-ray study [C. Cousins \\textit{et al.}, Phys. Rev. Lett. 136, 252701 (2026)] identified ten previously unknown low-spin proton-unbound states in $^{46}$Cr, enabling the first experimentally constrained $^{45}$V($p,γ$)$^{46}$Cr reaction rate using the AME2020 mass excess, $\\text{ME}(^{46}\\text{Cr}) = -29472(11)$~keV. Here, we adopt the four-fold more precise CSRe mass excess $\\text{ME}(^{46}\\text{Cr}) = -29477.2(2.6)$~keV [M.~Wang \\textit{et al.}, Phys. Rev. C \\textbf{106}, L051301 (2022)] to recalculate the reaction rate. Including proton capture on the ground and first two excited states of $^{45}$V alongside new shell-model proton spectroscopic factors, we reduce mass-related rate uncertainties to a subdominant level. The revised rate is up to 69% higher than that of Cousins \\textit{et al.} at $α$-rich freeze-out temperatures ($T \\simeq 1.5$--$2$~GK). CCSN nucleosynthesis calculations show this revised rate increases the ejected $^{44}$Ti yield by $\\sim$26% in a $20\\,M_\\odot$ model compared to The \\textit{et al.} [ApJ \\textbf{504}, 500 (1998)], while causing negligible changes for the SN~1987A trajectory. We demonstrate that $^{44}$Ti production sensitivity is dictated by the ejecta electron fraction ($Y_e$): the reaction significantly affects proton-rich ejecta ($Y_e \\approx 0.50$) but has little impact on neutron-rich ejecta ($Y_e \\approx 0.496$), where lower free-proton abundances suppress reaction flow. This reconciles conflicting results from past sensitivity studies.",
+      "authors": [
+        "R. S. Sidhu",
+        "Y. Luo",
+        "C. Sarma",
+        "M. Wiescher",
+        "X. Xu"
+      ],
+      "url": "https://arxiv.org/abs/2608.17757v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-18",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.17001v1",
+      "title": "Sr and Ba yields of the First Generation(s) of stars: Constraints from metal-poor stars",
+      "abstract": "We present our chemical abundance analysis of ten new extremely metal-poor stars with $-4.05\\leq\\mbox{[Fe/H]}\\leq-2.33$, based on high-resolution (R $\\sim28,000$) Magellan/MIKE spectra. Eight of our stars have low heavy-element abundances of $\\mbox{[Sr/H]}<-4.5$ and $\\mbox{[Ba/H]}<-4.0$, making them Small Accreted Stellar System (SASS) stars. Four are hyper neutron-capture-element poor with $\\mbox{[Sr/H]}<-5.0$, including Gaia DR3 5729400267359655680, which sets a new record for the lowest detected Sr abundance of $\\mbox{[Sr/H]} =-6.4$. We identify four distinct [Sr/Ba] groups within the wider SASS star population which span a large range from $\\mbox{[Sr/Ba]} =-2.0$ to +1.6, pointing to multiple types of progenitor events and different nucleosynthesis processes/sites. To explore the origins of this large [Sr/Ba] range, we adopt site-agnostic Sr yields of $\\mbox{[Sr/H]}=-6$, $-5.75$, $-5.42$, and $-4.93$ for the four groups. Applying those yields suggests that the majority of SASS stars formed from gas enriched by $\\sim$1-10 progenitor events, consistent with expectations from their extremely metal-poor nature. We thus attribute the [Sr/H] abundance scatter to intrinsic variations in the Sr yield per nucleosynthesis site/event. Our proposed Sr yields for each [Sr/Ba] group and associated nucleosynthesis origin are a reasonable and representative approximation, good to within a factor of a few, and can constrain future theoretical heavy element nucleosynthesis calculations in early core-collapse supernovae.",
+      "authors": [
+        "Sarah Hughes",
+        "Anna Frebel",
+        "Xiaowei Ou",
+        "Alexander Yelland",
+        "Felicia Xiao",
+        "Jorian Benke",
+        "Kali Kraus",
+        "Reidyn Wingate",
+        "Mohammad Mardini"
+      ],
+      "url": "https://arxiv.org/abs/2608.17001v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-17",
+      "score": 8,
       "tier": 1,
       "instrument": "MK67 (future spec.)"
     },
@@ -115,6 +184,52 @@
       "instrument": "RC400"
     },
     {
+      "arxiv_id": "2608.17681v1",
+      "title": "An axion constraint from the diffuse supernova neutrino background indicated by Super-Kamiokande",
+      "abstract": "Recently, the Super-Kamiokande Collaboration reported an indication of the diffuse supernova neutrino background (DSNB) with a statistical significance of $2.6σ$. Motivated by this possible discovery, we investigate the impact of axion cooling on the DSNB flux on the basis of long-term neutrino-radiation hydrodynamic simulations. We compare the observed flux and our models and obtain a $1σ$ upper limit $|g_{ap}|<1.3\\times10^{-9}$ on the axion-proton coupling constant, which is comparable to the conventional limit based on the SN 1987A neutrino burst. In contrast to the SN 1987A bound, the DSNB constraint does not rely on the properties of a single observed supernova, because the DSNB represents the cumulative neutrino emission from a cosmic population of core-collapse events. More generally, this approach can be applied to other feebly interacting particles that modify protoneutron-star cooling.",
+      "authors": [
+        "Kanji Mori",
+        "Tomoya Takiwaki",
+        "Kazunori Kohri",
+        "Masamitsu Mori"
+      ],
+      "url": "https://arxiv.org/abs/2608.17681v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.17242v1",
+      "title": "AT 2020afjz (TSS2020a): The First Fast Extragalactic Transient Discovered by TESS",
+      "abstract": "We report the discovery of AT 2020afjz (TSS2020a): the first hour-scale extragalactic transient discovered in optical wavelengths whose complete evolution -- from explosion onset to decay -- is temporally resolved, and the first such transient discovered by TESS. AT 2020afjz was identified as a $>10σ$ detection in the pilot HiLaTS program run within the TESSELLATE Sky Survey, which blindly searches for transient phenomena in TESS data with the TESSELLATE pipeline. Through cross-matching with legacy imaging, we associate it with DES J042144.37$-$383311.3, a member of an interacting galaxy pair at $z_{\\rm phot}=0.67^{+0.07}_{-0.10}$. While AT 2020afjz is similar in duration and brightness to GRB afterglows, it exhibits a slow rise time of $\\sim1$ hr and lasts for only 2.4 hr above the half-max brightness; modeling the TESS light curve with VegasAfterglow finds that it is best described as either an on-axis \"dirty-fireball\" or off-axis orphan afterglow. Each of these rare classifications hinge upon a non-detection at gamma-ray energies, but as Fermi-GBM was Earth-occulted at the time of explosion, AT 2020afjz's gamma-quiet nature cannot be definitively confirmed. Regardless, AT 2020afjz demonstrates TESS's power to discover fast extragalactic transients, and heralds a new population awaiting discovery with TESSELLATE.",
+      "authors": [
+        "Ryan Ridden-Harper",
+        "Hugh Roxburgh",
+        "Clarinda Montilla",
+        "Lancia Hubley",
+        "James Freeburn",
+        "Brayden Leicester",
+        "Andrew Moore",
+        "Zachary G. Lane",
+        "Jaime Luisi",
+        "Koji Shukawa",
+        "Armin Rest",
+        "Jeff Cooke",
+        "Michele T. Bannister",
+        "Lilly Fox",
+        "Tait Keller",
+        "Qinan Wang"
+      ],
+      "url": "https://arxiv.org/abs/2608.17242v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2608.15918v1",
       "title": "A statistical relation of energy injection plateaus in multi-band afterglows of gamma-ray bursts",
       "abstract": "The origin of the plateau phase in gamma-ray burst (GRB) afterglows remains under debate, with the energy injection model being one of the most competitive explanations. If the plateau is truly driven by energy injection, the average X-ray and optical luminosities during the plateau phase, $L_{\\rm X, plat, ave}$ and $L_{\\rm opt, plat, ave}$, should naturally be correlated. Moreover, under this scenario, the scaling relations between the luminosities during the plateau and the normal decay phase are expected to be consistent since they share the same origin, i.e., synchrotron radiation from the external forward shock. Therefore, simultaneous multi-band observations are essential to verify this mechanism. In this work, we select a sample of 47 GRBs with simultaneous plateaus in both bands. We calculate their time-averaged isotropic luminosities for the plateau and the subsequent normal decay phases. We find a moderate positive correlation $\\log L_{\\rm X, plat, ave}=m\\log L_{\\rm opt, plat, ave}+c$ with a slope $m = 0.86 \\pm 0.11$ for the plateau phase. This correlation supports the energy injection origin and offers a promising diagnostic approach to test the model. Furthermore, we obtain a similar slope $m = 1.05 \\pm 0.05$ for the normal decay phase, which reinforces the idea that both phases share the same physical origin. Notably, the post-plateau data exhibit a systematic downward shift in luminosity, which may indicate the cessation of the central engine.",
@@ -128,6 +243,130 @@
       "published": "2026-08-16",
       "score": 8,
       "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.18038v1",
+      "title": "Confining density functional approach to the QCD phase diagram at low temperatures and thermal twin stars",
+      "abstract": "We present a density functional-based equation of state for warm, dense nuclear matter with a transition to deconfined quark matter for applications to simulations of supernova explosions and neutron star mergers, but also for the cosmological evolution of Q-balls. For the quark matter equation of state, we employ a recently developed confining density functional approach while nuclear matter is described within a relativistic density functional model of the DD2 class. The phase transition is obtained by a Maxwell construction at constant entropy per baryon. We discuss the solutions of TOV equations for isentropic hybrid stars for the hybrid equation of state model DDf-SFM (DD2-$χ$CDF) without (with) color superconductivity and find that at finite temperatures above a critical value of entropy per baryon sequences of disconnected third family branches (\"thermal twin stars\") may appear for the DDf-SFM model, while they are absent for the color superconducting model and at $T=0$. We discuss the relation of this critical entropy per baryon to the Seidov criterion of gravitational instability for $T=0$ and find that it is a good guide. We suggest that the presence of thermal twin stars may be regarded as an indicator for the core-collapse supernova explodability of massive blue supergiant stars and thus serve as a new criterion for the reliability of hybrid equation of state models. By this argument, strong color superconductivity shall be excluded and it remains to be shown whether models with moderate diquark pairing could fulfill the thermal twin constraint. For the case of symmetric matter, we compare the resulting hybrid EOS with the flow constraint by Danielewicz et al. and find a a sensitivity of the onset density for deconfinement on the presence or absence of color superconductivity.",
+      "authors": [
+        "David Blaschke",
+        "Oleksii Ivanytskyi"
+      ],
+      "url": "https://arxiv.org/abs/2608.18038v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-18",
+      "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.16979v1",
+      "title": "A JWST/MIRI Study of Dust in a Sample of Normal Type IIP Core Collapse Supernovae",
+      "abstract": "Core collapse supernovae (CCSNe) are invoked as major dust producers in the early Universe, yet the amount of dust they form, the timescale over which it grows, and the physical conditions that regulate the yield remain uncertain. We present a detailed JWST/MIRI mid-infrared (MIR) imaging census of 11 nearby Type IIP CCSNe spanning $\\sim$1-7 yr after explosion, investigating dust emission across the different phases of their evolution. The spectral energy distributions show a coherent evolution from hot ($\\sim$1500 K), 5-8 $μ$m emission at $\\sim$400 d to prominent 10 and 18 $μ$m emission features at later epochs ($\\sim$600-2500 d). The cool dust temperatures range from $\\sim120$ to $250$ K and dust masses from $\\sim10^{-4}$ to $10^{-2} M_{\\odot}$. The current sample shows no statistically significant correlation between measured dust mass and peak luminosity, plateau duration, or explosion energy. SNe with early high ionization features, indicative of confined CSM, are often among the dust-rich objects in the sample. The measured 1-7 yr dust yields are insufficient to account for dust in typical $z > 6$ galaxies, but support a role for CCSNe as producers of seed dust for subsequent grain growth.",
+      "authors": [
+        "Bhagya M. Subrayan",
+        "David J. Sand",
+        "Olivia Culbert",
+        "Jennifer E. Andrews",
+        "Jeniveve Pearson",
+        "Griffin Hosseinzadeh",
+        "Saurabh W. Jha",
+        "Stefano Valenti",
+        "K. Azalee Bostroem",
+        "Conor L. Ransome",
+        "Aravind P. Ravi",
+        "Aysha Aamer",
+        "Moira Andrews",
+        "Emma R. Beasor",
+        "Collin Christy",
+        "Yize Dong",
+        "Noah Franz",
+        "Emily Hoang",
+        "Brian Hsu",
+        "Jacob Jencson",
+        "Lindsey A. Kwok",
+        "M. J. Lundquist",
+        "Darshana Mehta",
+        "Nicolas Meza Retamal",
+        "Manisha Shrestha",
+        "Nathan Smith",
+        "Sergiy Vasylyev"
+      ],
+      "url": "https://arxiv.org/abs/2608.16979v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-17",
+      "score": 5,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.17734v1",
+      "title": "A Catalog of Homogeneously Derived Stellar Parameters for Spectroscopic Survey Stars",
+      "abstract": "Uniformly derived stellar parameters are vital for exoplanet demographic studies because they directly influence the inferred planetary masses, radii, and bulk densities. This study presents a new homogeneous catalog of physical stellar parameters for 5533 single stars observed by the HARPS, HIRES, and CARMENES radial-velocity (RV) surveys. Stellar parameters are determined using a Bayesian framework with two independent sets of stellar evolutionary models: MIST and PARSEC, using published spectroscopic parameter estimates and catalog values as priors. The resulting stellar effective temperatures, masses, radii, and surface gravities are compared and evaluated for consistency with stellar parameters listed in major exoplanet catalogs. While our estimates show consistency with those listed in external catalogs, we identify method-dependent differences in stellar masses for low-mass and pre-main-sequence stars, as well as G and K giants, where isochrone-based solutions may be affected by age-mass degeneracies. For low-mass stars such as M-dwarfs, the catalog provides masses derived from established mass-luminosity empirical relations, which tend to be more reliable. This catalog provides the largest uniformly derived stellar reference sample for Doppler survey targets and also illustrates the applicability and limitations of stellar-parameter homogenisation methods for future RV exoplanet demographics studies.",
+      "authors": [
+        "Stefan Y. Stefanov",
+        "Evelina Zaharieva",
+        "Djemma Ruseva",
+        "Milen Minev",
+        "Denitza Stoeva",
+        "Volker Perdelwitz",
+        "Lev Tal-Or",
+        "Jerusalem T. Teklu",
+        "Elena Vchkova Bebekovska",
+        "Desislava Antonova",
+        "Vladimir Bozhilov",
+        "Trifon Trifonov"
+      ],
+      "url": "https://arxiv.org/abs/2608.17734v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-18",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.17257v1",
+      "title": "The Roman Coronagraph Community Participation Program: corgisim - a simulation suite for the Nancy Grace Roman Space Telescope Coronagraph Instrument",
+      "abstract": "NASA's Roman Space Telescope will feature a pathfinder Coronagraph Instrument to demonstrate advanced high-contrast imaging from space, paving the way for future missions like the Habitable Worlds Observatory. The Coronagraph Instrument could obtain imaging, polarimetry and spectroscopy of Jupiter analogs in reflected visible light for the first time. We present the development of an open-source simulation package ``corgisim'' as part of the Roman Coronagraph Community Participate Program. Built on established optical propagation libraries including PROPER and CGISim, corgisim provides a user-friendly, publicly available Python framework for end-to-end simulations of the Coronagraph Instrument observations. The package produces high-fidelity, format-compliant data for pre-launch calibration, pipeline testing, and community applications such as target selection and observation planning. We will give an overview of corgisim's infrastructure, functionalities, and current implementation across planned imaging, polarimetry, and spectroscopy modes, including the ability to simulate host stars, injected companions, and extended disks. We will also highlight suitable applications of corgisim and provide guidance on how users can access and employ the software.",
+      "authors": [
+        "Jingwen Zhang",
+        "Sophie Noiret",
+        "Maxwell A. Millar Blanchaer",
+        "Jason Wang",
+        "Alexis Lau",
+        "Neil Zimmerman",
+        "Jessica Gersh-Range",
+        "Eric Shen",
+        "Kevin Ludwick",
+        "Taichi Uyama",
+        "Chen Xie",
+        "Vanessa P. Bailey",
+        "John Krist",
+        "Elodie Choquet",
+        "Julien Girard",
+        "Alexis Bidot",
+        "Arthur Vigan"
+      ],
+      "url": "https://arxiv.org/abs/2608.17257v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-18",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2608.17004v1",
+      "title": "A Statistical Mechanics Model for Stable Rings Outside the Roche Limit",
+      "abstract": "Stellar occultations have revealed two rings around the dwarf planet Quaoar outside the Roche limit. Simulations suggest that the rings are sustained by large velocity dispersions. We present the first analytical, first-principles theory that extends the Roche limit to describe planetary rings with large velocity dispersion. The underlying principle is an analogy between a liquid/gas phase transition and the moon/ring transition: just as high temperatures can boil a liquid under pressure, high velocity dispersions can stabilize ring systems beyond the Roche limit. We employ statistical mechanics to derive a modification to the Roche limit that treats rings with nonzero velocity dispersion. We demonstrate the new model's consistency with previous simulations of Quaoar's outermost ring. We also note that dense regions of the ring experience negative pressure, which would cause them to shrink over time if the assumptions of the model continue to hold. This could help explain the rings' azimuthal asymmetry.",
+      "authors": [
+        "Jack T. Dinsmore"
+      ],
+      "url": "https://arxiv.org/abs/2608.17004v1",
+      "category": "astro-ph.EP",
+      "published": "2026-08-17",
+      "score": 4,
+      "tier": 2,
       "instrument": "RC400"
     },
     {
@@ -150,18 +389,19 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2608.15068v1",
-      "title": "Scaling of microcraters with molten rims derived from laser-induced cratering experiments",
-      "abstract": "Microcraters with molten rims are widely observed in returned samples from the Moon and asteroids. These features reflect the conditions of small-scale impact events, but the impact velocities required for their formation are not well understood. In this study, we use well-controlled laser irradiation on rock surfaces as an experimental analog to investigate the formation of these molten-rim craters. Specifically, we derive a scaling relation between crater volume, total irradiation energy, and energy loss associated with thermal diffusion. The experimental results indicate that molten-rim structures of microcraters can be formed in the range of $10^2$--$10^3$~m/s impact velocity. This value is consistent with some previous studies which suggested that the origin of microcraters is secondary impact events. These findings provide experimental constraints on the formation mechanisms of molten-rim microcraters and offer a new perspective on impact processes recorded on planetary surfaces. The estimated result is also consistent with the impact velocity required to produce the observed wavy rim protrusions due to a Rayleigh-Taylor hydrodynamic instability ($\\sim 10^2$~m/s).",
+      "arxiv_id": "2608.16989v1",
+      "title": "A comprehensive cluster census of Orion. An application of the Significance Mode Analysis (SigMA) algorithm",
+      "abstract": "Precise astrometric surveys and modern clustering algorithms are working in step to transform our view of star-forming regions. By revealing a much richer substructure than previously accessible, they pave the way for reconstructing star formation histories by accurately resolving and age-dating individual sub-populations. The Orion star-forming complex is the best-studied stellar nursery in the solar neighborhood and the nearest one currently forming massive stars. Even so, a comprehensive characterization of its substructure, including a homogeneous age mapping and extinction analysis, is still incomplete. Here, we present the most complete census of stellar populations across the Orion complex from the newest version of the SigMA algorithm and outline our additions and improvements to the algorithm that have extended its usage to distant (>300 pc) regions. We separate the Orion complex into 47 co-spatial and co-moving stellar groups comprising 11,996 reliable members, with ages ranging from 1.5 to 25 Myr. To evaluate the statistical robustness of each group, we derive cluster persistence values and individual membership probabilities for each source from 10 independent clustering repetitions. Our group memberships agree well with the literature, but SigMA consistently finds a factor of ~2-3 more members. In particular, it resolves more very young populations, such as NGC 2024, RV Orionis, B30, NGC 1977, NGC 2068, and NGC 2071, than previous algorithms. In addition to recovering 28 known clusters and three groups previously classified as substructures, we present 16 new co-eval substructure candidates of the Orion star-forming complex. This work builds up a new high-resolution time-resolved picture of Orion. This spatio-temporal map allows us to relate its stellar content to the surrounding ISM and paves the way for a detailed analysis of its star formation history in the future.",
       "authors": [
-        "S. Sato",
-        "H. Shibayama",
-        "K. Nagai",
-        "H. Katsuragi"
+        "Alena Rottensteiner",
+        "Sebastian Ratzenböck",
+        "João Alves",
+        "Stefan Meingast",
+        "Sebastian Hutschenreuter"
       ],
-      "url": "https://arxiv.org/abs/2608.15068v1",
-      "category": "astro-ph.EP",
-      "published": "2026-08-15",
+      "url": "https://arxiv.org/abs/2608.16989v1",
+      "category": "astro-ph.SR",
+      "published": "2026-08-17",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
@@ -178,6 +418,74 @@
       ],
       "url": "https://arxiv.org/abs/2608.16149v1",
       "category": "astro-ph.SR",
+      "published": "2026-08-17",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.17964v1",
+      "title": "Evidence of self-organized criticality in the prompt emission of a bright gamma-ray burst",
+      "abstract": "Gamma-ray bursts (GRBs) are the most energetic explosive events in the Universe, yet the physical mechanism of their prompt emission remains a mystery. Especially, it is unclear whether the energy dissipation mechanism in the GRB jet is dominated by kinetic energy or magnetic energy. Here, we studied the pulses in the prompt emission of the second brightest GRB to date, GRB 230307A, which was accurately measured by the Gravitational wave high-energy electromagnetic counterpart all-sky monitor (GECAM), with focus on the cumulative distributions of peak counts and duration of pulses as well as the waiting time between pulses. We find that these cumulative distributions show scale-invariant behavior, well consistent with the prediction of the self-organized criticality (SOC) theory. This is the first robust evidence of an SOC feature in the prompt emission of a single GRB. Moreover, the statistical properties of pulses in the prompt emission of GRB 230307A are very similar to those of solar flares. Our findings suggest that the prompt emission of GRB is powered by the dissipation of magnetic energy in the ultra-relativistic jet, supporting the Poynting-flux-dominated prompt models.",
+      "authors": [
+        "Wen-Long Zhang",
+        "Wen-Jun Tan",
+        "Hao-Tian Lan",
+        "Shuang-Xi Yi",
+        "Shao-Lin Xiong",
+        "Chen-Wei Wang",
+        "Shuang-Nan Zhang",
+        "C. Guidorzi",
+        "R. Maccary",
+        "R. Moradi",
+        "Cheng-Kui Li",
+        "Sheng-Lun Xie",
+        "Wang-Chen Xue",
+        "Jia-Cong Liu",
+        "Zheng-Hang Yu",
+        "Yue Wang",
+        "Peng Zhang",
+        "Yan-Qiu Zhang",
+        "Chao Zheng",
+        "Jin-Peng Zhang",
+        "Fa-Yin Wang"
+      ],
+      "url": "https://arxiv.org/abs/2608.17964v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.17457v1",
+      "title": "Generative artificial intelligence for reconstructing neutron-star matter",
+      "abstract": "Neutron-star cores hold the only known matter in the universe that is simultaneously cold and strongly interacting, compressed beyond nuclear density into a state of unknown composition. The equation of state links stellar masses, radii and tidal deformabilities to this regime, but recovering this key quantity from sparse observations is an ill-posed inverse problem. Existing analyses bury a prior in a fixed functional form, unevenly weighting admissible solutions and biasing the result. We reconstruct the equation of state with a denoising diffusion model that keeps prior, physics and data separate: it learns an inspectable, physically motivated prior anchored to first-principles nuclear theory, while perturbative-QCD and astrophysical constraints are imposed exactly. Future measurements therefore will update the posterior by reweighting alone, without retraining or resampling. The inferred radius of 12.6 km and tidal deformability of 469 at 1.4 solar masses reproduce Gaussian-process and heavy-ion-informed inferences despite a far broader prior. We find near-conformal but still stiff matter in the heaviest stars, consistent with a gradual hadron-quark crossover and disfavouring a strong first-order phase transition. More broadly, coupling a learned prior to exactly enforced physics establishes a template for ill-posed inverse problems where theory and data constrain different regions.",
+      "authors": [
+        "Julia Yu. Panteleeva",
+        "Herzallah Alharazin",
+        "Evgeny Epelbaum"
+      ],
+      "url": "https://arxiv.org/abs/2608.17457v1",
+      "category": "astro-ph.HE",
+      "published": "2026-08-18",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2608.16991v1",
+      "title": "The Gamma-ray Burst Jet Energy Distribution Suggests A Quasi-universal, Weakly Magnetized Jet Evolving Over Cosmic Time",
+      "abstract": "We present distributions of gamma-ray burst observed and inferred properties for those GRBs with redshifts. We show that the isotropic energy distribution, which spans over four orders of magnitude, can be reproduced reasonably well under a simplistic assumption that every observed GRB originates from a quasi-universal jet with roughly the same decreasing power-law profile of energy as a function of angle, with a power-law index of $ 3 \\lesssim ζ\\lesssim 4$. The spread in the observed distribution can be explained by the variation in observer viewing angle alone. Furthermore, this power-law jet structure provides an even better fit to both the isotropic energy and luminosity distributions if the isotropic energy normalization evolves as a function of redshift in a manner that has been suggested by a range of previously published studies. The relatively steep power-law index of this jet is consistent with the structure predicted by simulations of weakly magnetized jets in collapsars, whereas simulations of hydrodynamic jets predict a structure shallower than what we find here. The predicted afterglow light curves within this model framework show steepening behavior at times commensurate with observed jet break times.",
+      "authors": [
+        "Nicole M. Lloyd-Ronning",
+        "Fabio De Colle",
+        "Gal Birenbaum",
+        "Omer Bromberg",
+        "Jarrett Johnson"
+      ],
+      "url": "https://arxiv.org/abs/2608.16991v1",
+      "category": "astro-ph.HE",
       "published": "2026-08-17",
       "score": 4,
       "tier": 2,
@@ -233,20 +541,6 @@
       "url": "https://arxiv.org/abs/2608.15485v1",
       "category": "astro-ph.HE",
       "published": "2026-08-16",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2608.15166v1",
-      "title": "Stress-Testing DANTE under Detector Domain Shift: a Representation-Coherent Reanalysis of LIGO O4a",
-      "abstract": "This sixth version of the Domain-Adaptive Network for Transient Evaluation (DANTE) preprint stress-tests an unsupervised transient-noise pipeline under representation mismatch and observing-run adaptation. We reanalyse 10,429 detector-time strain candidates from 42 LIGO O4a sessions using frozen DINOv2 patch embeddings and a Top-k multiple-instance score. Candidate and native-background Q-transforms share Q in [4,64], and detector-specific thresholds are calibrated from 5,000 run-native windows by temporal-block bootstrap. The coherent analysis yields 6,365 ROBUST, 1,275 AMBIGUOUS, and 2,789 BACKGROUND statistical dispositions; 4,676 of 10,372 paired historical dispositions differ from the cross-representation v5 analysis. Direct controls resolve an O3b-O4a score shift and reduction after native adaptation for H1, but not L1, while known-glitch separation is detector- and morphology-dependent. Replicated studies quantify population-dependent sensitivity to background draw, clustering seed, dictionary size, and whitening, demonstrate native-index absorption, and identify conditional low-Q blindness. A conservative H1-L1 max-shift screen yields 13/8,806 values above threshold, but its on-source values and pooled per-event null maxima are not exchangeable. The primary two-null PEM endpoint shows no resolved ROBUST-BACKGROUND enrichment (p=1.000), and two catalogue overlaps are consistent with a circular-shift coverage proxy (p=0.651). Simulation-only compact-binary controls show detector- and distance-dependent disagreement between novelty, native disposition, and physical coincidence. We withdraw the v5 discovery, rate-limit, catalogue-recall, and survey-wide stability interpretations. The supported result is a measured set of failure modes and validity conditions for unsupervised detector characterization, not a new glitch class or an astrophysical search.",
-      "authors": [
-        "Luca Cirfeta"
-      ],
-      "url": "https://arxiv.org/abs/2608.15166v1",
-      "category": "astro-ph.IM",
-      "published": "2026-08-15",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
