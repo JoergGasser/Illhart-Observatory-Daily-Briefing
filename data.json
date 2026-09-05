@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-09-04T10:56:31Z",
-  "date": "2026-09-04",
-  "total_fetched": 167,
-  "relevant_count": 36,
+  "generated_utc": "2026-09-05T10:17:32Z",
+  "date": "2026-09-05",
+  "total_fetched": 106,
+  "relevant_count": 22,
   "min_score": 3,
   "articles": [
     {
@@ -50,31 +50,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2609.01052v1",
-      "title": "Archival transients detected with the MeerLICHT telescope I: Supernovae",
-      "abstract": "Wide-field optical transient surveys collectively discover $\\sim$50 new transients per night, making rapid, multi-filter and/or spectroscopic follow-up of all but the most exceptional events unfeasible. Consequently, the (early) light-curve properties of most supernovae (SNe), particularly sub-luminous events, are often poorly characterised. Here, we showcase recovery of key parameters by combining publicly available data from multiple, contemporaneous surveys. We built a catalogue of $125$ SNe by cross-matching the MeerLICHT (ML) transient survey with the Transient Name Server list of spectroscopically classified SNe detected between August 2017 and October 2022. For a subset of $14$ SNe with good multi-survey photometric coverage, we combined ML-$q$, ZTF-$g,r$, and ATLAS-$c,o$ data to construct composite early-time light curves. We then applied an expanding fireball ($t^2$) model to constrain their explosion dates and rest-frame rise times. We find that this simple model provides a reliable description for the early emission of most SNe in our sample and successfully constrains their rise time, a key parameter for characterising SN categories and probing progenitor origins. This multi-survey approach, only using standard survey products, provides a powerful method to characterise large numbers of SNe that would otherwise be lost, a technique that will be essential for maximising the scientific return from current and future surveys such as GOTO, BlackGEM, the Vera C. Rubin Observatory's LSST, and Global Open Transient Telescope Array (GOTTA).",
-      "authors": [
-        "O. Mogawana",
-        "P. J. Groot",
-        "N. Blagorodnova",
-        "P. M. Vreeswijk",
-        "D. L. A. Pieterse",
-        "S. Bloemen",
-        "G. Leloudas",
-        "R. A. D. Wijnands",
-        "D. A. H. Buckley",
-        "P. A. Woudt",
-        "R. Fender",
-        "B. W. Stappers"
-      ],
-      "url": "https://arxiv.org/abs/2609.01052v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-01",
-      "score": 14,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2609.02571v1",
       "title": "3.5-meter Segmented-Mirror Robotic Space Telescope Mission White Paper I. Overall Architecture and Scientific Mission",
       "abstract": "A 3.5-meter segmented-mirror robotic space telescope is under study as a space-based observatory for precision astrophysical observations and rapid-response transient astronomy in the 0.2-1.5 micron wavelength range. The telescope adopts a Cassegrain optical configuration optimized to deliver diffraction-limited performance across a wide, flat focal plane, achieving a Strehl ratio greater than 0.8 at 633 nm. The proposed scientific payload includes a Wide-field Camera (WC), a spectroscopic instrument, and an optional Exoplanet Imaging Coronagraph. The Wide-field Camera (WC) provides multi-wavelength imaging and high-cadence time-series photometry over a field of view ranging from 10'X10' to 30'X30'. The spectroscopic configuration and resolving power remain under study to accommodate the requirements of the principal science programs. An optional Exoplanet Imaging Coronagraph is being investigated for high-contrast imaging of nearby planetary systems, with performance goals extending toward raw contrasts of approximately 10^(-8) and improved post-processed performance. Candidate orbital configurations, including Earth orbit and the Sun-Earth L2 region, are currently being evaluated. Planned investigations include gravitational-wave counterparts, rapidly evolving transients, Type Ia supernova cosmology, direct imaging of exoplanets, and exoplanet atmospheric spectroscopy. Although driven by these core scientific objectives, the observatory is conceived as a general-purpose facility providing open-access observing time to the international scientific community. This paper presents the preliminary architecture, performance goals, and scientific mission of the proposed 3.5-meter space telescope.",
@@ -113,48 +88,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2609.01421v1",
-      "title": "Extreme AGN Variability in WISE: Powerful Flares and Candidate Tidal Disruption Events in AGN",
-      "abstract": "We present first results from a systematic study of extreme mid-infrared variability of active galaxies across the $>10$-year baseline of the Wide-field Infrared Survey Explorer (WISE) mission. WISE, which observed the full sky with a six-month cadence, is sensitive to transient events in both unobscured and obscured galaxies. This paper focuses on extreme flares in active galactic nuclei (AGNs). Previous studies identified flares such as tidal disruption events (TDEs) in inactive galaxies, typically from optical or X-ray surveys. However, flares are also expected in AGN and optical/X-ray searches are insensitive to events in dust-enshrouded AGN. In this pilot study, we present flares in two AGN identified from extreme mid-infrared color variability. One flare was also detected at optical wavelengths. While both events showed broadened H$α$ emission several years after the flare peak, more recent spectroscopy reveals continued broadened emission only from the source with the optical flare. After considering several potential physical causes of the flares, including supernovae and micro-lensing, we suggest both events are TDEs in AGN. Intriguingly, the optical flare decays much faster than the expected $t^{-5/3}$ fallback rate expected for TDEs in quiescent galaxies, suggesting either a partial disruption or the tidal disruption of a star by an intermediate mass black hole embedded in the accretion disk of an AGN. This work demonstrates the power of WISE to identify the full census of TDEs, including events in dust-obscured AGN. Mid-infrared data probes the nature of the event and provides a bolometric measure of the flare energetics.",
-      "authors": [
-        "Satya Teja Anuraag Upadhyayula",
-        "Daniel Stern",
-        "Kishalay De",
-        "Christos Panagiotou",
-        "Matthew J. Graham",
-        "K. E. Saavik Ford",
-        "Barry McKernan",
-        "Murray Brightman",
-        "J. A. Acevedo Barroso",
-        "Daniel H. McIntosh"
-      ],
-      "url": "https://arxiv.org/abs/2609.01421v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-01",
-      "score": 12,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.01722v1",
-      "title": "From orbit to ground: pre-impact meteorite strewn field predictions for imminent impactors and meteorite recovery",
-      "abstract": "The flux of meteoroids reaching the Earth is continuous, ranging from microscopic grains to occasional metre and decametre scale bodies. The smallest ones fully ablate in the upper atmosphere, whereas sufficiently large or strong objects survive entry and deposit fragments on the ground as meteorites. Predicting where these fragments land, and reconstructing the atmospheric trajectory and fragmentation sequence that produced them, is central both to hazard assessment and to the recovery of freshly fallen material. The accuracy of such predictions, however, remains limited by poorly constrained fragmentation processes and by sparse, heterogeneous observational coverage of individual events. Traditional strewn field simulations rely on detailed fireball data and event-specific assumptions on fragment masses, aerodynamics, and breakup. These approaches are effective for well-instrumented events, but their applicability degrades rapidly when observations are sparse, often resulting in huge uncertainties. We present an ab initio framework predicting strewn fields of near-Earth asteroids directly from pre-impact orbital solutions. It propagates luminous trajectory and dark flight using a physics-based translational dynamics model and realistic atmospheric conditions, without requiring fireball triangulation or event-specific tuning. Validation against recent asteroid falls with recovered meteorites shows agreement with observations, with nominal solutions reproducing fall locations within 100-200 m. The new method has been integrated into the ESA Aegis pipeline, which now enables hours-ahead computation of impact locations, supporting recovery efforts, minimizing contamination, and, where warranted by object size and predicted ground hazard, civil-protection decision making.",
-      "authors": [
-        "Anna Moscati",
-        "Marco Fenucci",
-        "Laura Faggioli",
-        "Marco Micheli",
-        "Francisco Ocaña",
-        "Juan Luis Cano"
-      ],
-      "url": "https://arxiv.org/abs/2609.01722v1",
-      "category": "astro-ph.EP",
-      "published": "2026-09-01",
-      "score": 10,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2609.02314v1",
       "title": "Surface brightness inhomogeneity on the helium-rich hot subdwarf in the X-ray binary HD 49798",
       "abstract": "HD 49798 is an X-ray binary consisting of a hot helium-rich subdwarf primary and an accreting compact companion with an orbital period of 1.55 d. TESS observations of its optical light curve suggest short-period brightenings superimposed on a sinusoidal variation. The latter can be attributed to the tidal deformation of the primary, while frequency analysis of the additional variations shows up to eleven frequencies which form an harmonic series based on a period of 1.4 d, in excellent agreement with the stellar rotation period inferred independently from spectroscopy. These brightenings may be explained by a slowly changing and inhomogeneous temperature distribution across the surface of the hot subdwarf, such as might be associated with a magnetic field or with the presence of Rossby waves in the stellar envelope.",
@@ -168,29 +101,6 @@
       "score": 10,
       "tier": 1,
       "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.01784v1",
-      "title": "The Mass-Ratio Distribution of the Low-Mass Binary Black Hole Subpopulation: A Natural Outcome of Isolated Binary Evolution",
-      "abstract": "The observed merging binary black hole population is increasingly consistent with being composed of a mixture of subpopulations, each likely the result of different formation mechanisms. In particular, the low-mass subpopulation, with primary black hole masses below $\\approxeq 15\\,M_{\\odot}$, has been attributed to mergers formed through isolated binary evolution. We use the binary population synthesis code POSYDON to study the mass ratio $(q)$ distribution of binary black hole mergers from isolated binary evolution and compare to the observed low-mass subpopulation. We explore variations in supernova remnant prescriptions, common-envelope efficiency, and black hole accretion efficiency. We find that our models have a preference for asymmetric $q$, most with a broad peak near $q\\approxeq0.5-0.7$, and a near-equal-mass component whose relative strength varies across models. This resultant $q$ distribution is consistent with the $q$ distribution of the low-mass subpopulation observed with gravitational waves. We find that for the majority of models these features arise from physically distinct formation subchannels: the asymmetric peak reflects contributions from common-envelope and stable mass-transfer systems, while the near-equal-mass component traces double-core common envelope and contact systems. We conclude that the features in the $q$ distribution of the observed low-mass subpopulation emerge naturally from isolated binary evolution across a range of model assumptions. As the gravitational-wave catalog continues to grow, the relative strength of these $q$ features will provide an increasingly powerful diagnostic of isolated binary evolution and its formation subchannels.",
-      "authors": [
-        "Monica Gallegos-Garcia",
-        "Anarya Ray",
-        "Vicky Kalogera",
-        "Max Briel",
-        "Michael Zevin",
-        "Abhishek Chattaraj",
-        "Zepei Xing",
-        "Jeff J. Andrews",
-        "Seth Gossage",
-        "Philipp M. Srivastava"
-      ],
-      "url": "https://arxiv.org/abs/2609.01784v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-01",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
     },
     {
       "arxiv_id": "2609.03452v1",
@@ -207,24 +117,6 @@
       "score": 8,
       "tier": 1,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.01715v1",
-      "title": "Measuring Small-scale Turbulence in Supernova Remnants with Jitter Radiation",
-      "abstract": "Hard X-ray emission from Cas A has been attributed to jitter radiation, implying magnetic turbulence on scales near or below the ion Larmor radius. We propose these fields arise from ion-scale micro-instabilities (e.g., mirror and firehose) in the shock downstream, and use high-resolution hybrid simulations to demonstrate the generation of such small-scale turbulence. Its spectral index, once numerical dissipation is accounted for, is consistent with that inferred for Cas A, suggesting that jitter radiation is a direct probe of ion-scale turbulence in supernova remnants.",
-      "authors": [
-        "Emily Simon",
-        "Damiano Caprioli",
-        "Niccolò Bucciantini",
-        "Emanuele Greco",
-        "Marco Miceli"
-      ],
-      "url": "https://arxiv.org/abs/2609.01715v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-01",
-      "score": 8,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2609.03373v1",
@@ -262,29 +154,6 @@
       "published": "2026-09-03",
       "score": 8,
       "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.00962v1",
-      "title": "Connecting radio pulsars, magnetars, and XDINSs in a unified evolutionary framework using simulation-based inference",
-      "abstract": "Understanding the Galactic population of isolated neutron stars within a unified framework provides key insights into their birth properties, evolutionary pathways, and the connections between different neutron star classes. In this work, we aim to reproduce both the observed radio and quiescent X-ray emission from isolated neutron stars, including radio pulsars, magnetars and X-ray dim isolated neutron stars (XDINSs). We develop a comprehensive population synthesis framework that models neutron star birth properties, their dynamical, rotational, and magneto-thermal evolution, as well as radio and X-ray emission, and the selection effects of corresponding surveys. To simulate realistic X-ray spectra, we account for magnetospheric resonant cyclotron scattering and interstellar absorption. Additionally, we model the observational bias introduced by magnetar outbursts, by linking the outburst rate to magnetic stresses in the stellar crust. We then employ a simulation-based inference method, namely truncated sequential neural posterior estimation, to reconstruct the birth properties, such as the initial magnetic field distribution. We find that the Galactic neutron star population can be described by a two-component log-normal distribution of birth magnetic fields with peaks at $5 \\times 10^{12}$ G and $10^{14}$ G, respectively. We further find that the Galactic neutron star birth rate is around 3-4 per century. Our results help establish the contribution of neutron stars as central engines of powerful astrophysical transient phenomena, such as fast radio bursts, super-luminous supernovae and gamma ray bursts.",
-      "authors": [
-        "Michele Ronchi",
-        "Celsa Pardo-Araujo",
-        "Vanessa Graber",
-        "Nanda Rea",
-        "Clara Dehman",
-        "Davide De Grandis",
-        "Alessio Marino",
-        "Francesco Coti Zelati",
-        "Joeri van Leeuwen",
-        "José A. Pons"
-      ],
-      "url": "https://arxiv.org/abs/2609.00962v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-01",
-      "score": 7,
-      "tier": 2,
       "instrument": "MK67 (future spec.)"
     },
     {
@@ -387,42 +256,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2609.01388v1",
-      "title": "The quiescent states of V745 Sco and V3890 Sgr: VLT/X-shooter and Swift/XRT+UVOT observations",
-      "abstract": "Symbiotic recurrent novae are symbiotic binaries in which multiple thermonuclear outbursts have been observed. Only four such systems are currently known in the Galaxy: T CrB, RS Oph, V745 Sco, and V3890 Sgr. They provide convenient laboratories for studying accretion and binary interaction in symbiotic novae during quiescence. We characterise the quiescent states of the less-studied systems V745 Sco and V3890 Sgr and compare their properties with those of T CrB and RS Oph. We analyse VLT/X-shooter spectra together with Swift/XRT and UVOT observations, supplemented by ground-based optical photometry and archival data. We determine the spectral types of the red-giant donors and compare the spectral energy distributions of the systems with those of single bulge giants of the same spectral type to investigate the properties of the accretion. We classify the donor stars in V745 Sco and V3890 Sgr as M7III and M6.5III, respectively. We derive reddenings and distances consistent with both systems belonging to the Galactic bulge. Both objects exhibit a significant ultraviolet excess relative to normal late-type giants, indicating ongoing accretion during quiescence. From this excess we estimate mass transfer rates of the order of $\\sim 5 \\times 10^{-8}\\ M_{\\odot}\\ \\mathrm{yr}^{-1}$, broadly consistent with the observed recurrence timescales. These results suggest that recurrent nova eruptions in V745 Sco and V3890 Sgr can be sustained by long-term accretion at approximately the present rate, without requiring an episode of enhanced accretion similar to that observed in T CrB.",
-      "authors": [
-        "Bor Jamnik",
-        "Ulisse Munari",
-        "Nicola Masetti",
-        "Gregor Traven",
-        "Manica Perko"
-      ],
-      "url": "https://arxiv.org/abs/2609.01388v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-01",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.01033v1",
-      "title": "Fundamental effective temperature measurements for eclipsing binary stars - IX. Characterisation of 5 solar-type sclipsing binaries with M-dwarf companions",
-      "abstract": "Large-scale spectroscopic surveys will need suitable benchmark stars that can be used to verify the performance of automatic pipelines. A promising type of object for this purpose is the detached eclipsing binary (DEB) containing an FG-star and a low temperature companion. For flux ratios $\\lesssim1$~per~cent, the spectra obtained for the binary will be almost identical to a single star. As the methods for obtaining accurate parameters for binaries are well established, they would be excellent benchmark candidates. We analyse a group of DEBs with M-dwarf companions using TESS light curves and high resolution spectroscopy from NIRPS and HARPS on the ESO 3.6-m telescope. We obtain accurate fundamental parameters for the stellar components. The secondary component is visible with cross-correlation, allowing them to be characterised as well. With the stellar parameters obtained from the analysis, we can measure precise effective temperatures from Gaia parallaxes and archival magnitude data. Chemical compositions of the primary stars are also extracted from the stellar spectra. In this analysis, the secondary components have minimal impact on determined spectroscopic parameters. Our radii and masses are characterised to within sub per~cent precision as well as our primary effective temperatures. Beyond a new set of stellar benchmarks, the secondary components analysed in this work represent a well characterised sample of M-dwarf stars which will be useful to improve our understanding of low mass structure and evolution.",
-      "authors": [
-        "Axel Hahlin",
-        "Pierre F. L. Maxted",
-        "Ivanna Hernandez-Araya",
-        "Natasha Adshead",
-        "Claudia Aguilera-Gomez"
-      ],
-      "url": "https://arxiv.org/abs/2609.01033v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-01",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2609.02235v1",
       "title": "Scientific performances of the XGIS instrument on-board THESEUS",
       "abstract": "The Transient High Energy Sky and Early Universe Surveyor (THESEUS) satellite, currently undergoing a Phase-A study for the M7 ESA mission selection, will mainly rely on the XGIS (X and Gamma Imaging Spectrometer) instrument to discover and precisely localise gamma-ray bursts and other high-energy transients. The XGIS instrument has been designed to provide accurate sky images in a wide field of view (>2 steradians) in the 2-150 keV band, coupled to coverage of nearly half of the sky with good timing and spectroscopic capabilities up to several MeV. This will be achieved thanks to the combination of two identical cameras, based on the coded mask imaging technique, oriented to provide partially overlapping fields of view. We present the capabilities of the XGIS, focussing in particular on the sensitivity and source location accuracy. We discuss the expected scientific advances in the GRB field, estimated through detailed Monte-Carlo simulations which take into account the design of the XGIS imaging system and the properties of the GRB population at high redshifts.",
@@ -441,42 +274,6 @@
       "category": "astro-ph.IM",
       "published": "2026-09-02",
       "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.01169v1",
-      "title": "Optical Colors as Compressed Spectral Information for Trans-Neptunian Objects",
-      "abstract": "Broadband optical colors have long been recognized as tracers of the surface spectral properties of trans-Neptunian objects (TNOs), yet their relationship to near-infrared (NIR) spectra has not been quantitatively characterized. We construct an empirical optical-NIR spectral manifold from JWST spectroscopy of 40 TNOs and 8 Neptune Trojans and interpret broadband photometry as compressed representations of this manifold. Using the spectral manifold as a prior, the model conditions on observed broadband optical colors to infer a posterior distribution in the spectral latent space. We then evaluate filter combinations through posterior entropy and Kullback-Leibler information gain and found that the gr colors provide broad localization on the manifold, while additional filters substantially reduce posterior uncertainty. Independently defined optical color populations map coherently onto the major compositional classes of the spectral manifold, providing a physical interpretation of previously identified color groups. The learned manifold also enables the inverse mapping back to optical color space. Sampling and decoding the manifold reproduces the observed topology of optical color space, indicating that these color populations arise naturally as low-dimensional projections of a continuous optical-NIR compositional manifold rather than isolated empirical clusters. The forward and inverse mappings provide a unified interpretation of optical colors as compressed representations of an optical-NIR spectral manifold. As JWST expands the manifold and Rubin maps millions of objects onto it, this framework provides an innovated approach to population-scale compositional studies and the discovery of rare surface types.",
-      "authors": [
-        "Hsing-Wen Lin",
-        "Larissa Markwardt",
-        "Kevin Napier",
-        "Fred Adams",
-        "Renu Malhotra",
-        "David Gerdes"
-      ],
-      "url": "https://arxiv.org/abs/2609.01169v1",
-      "category": "astro-ph.EP",
-      "published": "2026-09-01",
-      "score": 5,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.01716v1",
-      "title": "SN1987A constraints on the neutrino-dark-fermion interaction from resonant scattering with C$ν$B",
-      "abstract": "Neutrino self-interactions mediated by a light scalar offer a compelling resolution to cosmological tensions and may naturally arise in neutrino mass generation mechanisms. When the scalar also couples to a light dark-sector fermion, supernova neutrinos can resonantly annihilate with the cosmic neutrino background (C$ν$B) into invisible dark radiation, depleting the flux en route to Earth. We use this depletion to constrain the neutrino-scalar coupling from the SN1987A data. Within a Bayesian framework we analyze the data for two supernova neutrino emission models, a parameterized model and a 2D hydrodynamic simulation, and for two coupling types, a mass-independent one and a mass-proportional one. Our results show that new-physics limits from SN1987A cannot be quoted independently of the heavy-flavor emission, the flavor conversion, or the coupling structure. Finally, we forecast that a future high-statistics burst recorded by Hyper-Kamiokande would restore a meaningful upper bound even when flavor conversion is included.",
-      "authors": [
-        "Christina Gao",
-        "Ke Hu",
-        "Kun-Feng Lyu",
-        "Vincent Zou"
-      ],
-      "url": "https://arxiv.org/abs/2609.01716v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-01",
-      "score": 5,
       "tier": 2,
       "instrument": "RC400"
     },
@@ -635,29 +432,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2609.01206v1",
-      "title": "A wavelet-based model of magnetic turbulence over a Parker spiral field",
-      "abstract": "The propagation of Solar Energetic Particles (SEPs) through the heliosphere is strongly influenced by solar-wind magnetic turbulence, which governs particle scattering, field-line wandering, and cross-field transport. These processes shape SEP intensity profiles, anisotropies, and arrival times. Because heliospheric turbulence spans a vast range of scales, direct numerical simulations cannot capture its full spectrum. Synthetic turbulence models provide an efficient alternative by generating fields with prescribed statistical and spectral properties, enabling realistic studies of SEP transport. This work presents a numerical model able to generate synthetic magnetic turbulence in the heliosphere with the goal of studying field line and particle diffusion. The model is inspired by in situ solar wind observations, indicating that solar wind turbulence properties vary with the distance from the Sun. We extend the Cartesian wavelet-based Synthetic Turbulence Model (STM), presented in \\cite{Malara2016PhRvE..94e3109M}, to the non-homogeneous expanding solar wind. This is achieved by finding a suitable change of coordinates that allows one to pass from a space in which the turbulence correlation length is homogeneous to one in which it is not. We present the analytical derivation, the numerical implementation, and testing. We obtain an improved and computationally efficient synthetic turbulence model characterized by a background Parker spiral, a broad inertial range and tunable radial scalings for both the correlation length and the magnetic-field fluctuation amplitude, as well as a controllable level of intermittency. The model capability of reproducing solar wind turbulence up to the particle Larmor scale and to take into account solar wind radial evolution makes it a powerful tool to study the propagation of SEPs throughout the heliosphere.",
-      "authors": [
-        "Andrea Larosa",
-        "Francesco Pucci",
-        "Francesco Malara",
-        "Oreste Pezzi",
-        "Silvia Perri",
-        "Gaetano Zimbardo",
-        "Giuseppe Nisticò",
-        "Federica Chiappetta",
-        "Massimo Chimenti",
-        "Luca Sorriso-Salvo"
-      ],
-      "url": "https://arxiv.org/abs/2609.01206v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-01",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2609.03025v1",
       "title": "DANSur_HM: Modularly incorporating higher modes in a deep learning based gravitational-wave surrogate",
       "abstract": "Numerical relativity (NR) simulations provide the most faithful representation of the gravitational waves (GWs) emitted by binary black hole (BBH) systems during merger. In the context of GW astronomy, tasks such as parameter estimation can require vast numbers of waveform evaluations per second across the entire parameter space. Since performing full NR simulations for each evaluation is not computationally feasible, interpolating methods for existing NR waveforms, known as surrogate models, have been developed with marked success. In this paper, we build on our previous work to introduce methods to train a fast surrogate model based on neural networks in order to generate BBH merger waveforms, including the fundamental (2,2) mode, as well as the (3,3), (2,1), (4,4), (3,2), (4,3) and (5,5) higher-order modes. Applying a pretraining step on approximant data before fine-tuning on NR data allows us to smooth out the parameter space, and making use of the parallelization ability of GPUs to project the NR waveforms in the inclination-phase $(ι, φ)$ sphere during training allows the fitting of all the explored modes simultaneously. The developed surrogate model, \\texttt{DANSur\\_HM}, achieves average mismatches of the order of $10^{-4}$, with the worst mismatch at $2.5\\times10^{-3}$, and achieves throughput above $6\\times10^5$ waveforms/second on an NVIDIA V100 GPU. Parameter estimation tests confirm the usefulness of the inclusion of higher modes.",
@@ -702,27 +476,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.00684v1",
-      "title": "X-ray Flares in Gamma-Ray Bursts at High and Very-High-Energies",
-      "abstract": "A significant fraction of GRB early afterglows exhibit fast and bright X-ray flares, discovered by Swift X-ray Telescope. Their rapid temporal variability and spectral evolution have suggested an internal shock origin, analogous to prompt MeV emission. However, their physical origin and radiation mechanism remain debated. High-energy (> 100 MeV) and very-high-energy (> 30 GeV) gamma-ray observations provide a powerful probe of flare dissipation region, constraining its size, magnetic field strength, and particle acceleration under the synchrotron self-Compton scenario in optically thin relativistic jets. We present a systematic multi-wavelength study of 66 X-ray flares from 47 GRBs observed by X-ray Telescope over 17 years, all within field of view of Fermi Large Area Telescope. We investigate their GeV counterparts and find that only five flares exhibit significant high-energy emission (> 3 sigma). Broadband spectral modeling indicates that this GeV emission is consistent with standard forward shock afterglow. We further investigate correlations between flare spectral properties and energy fluxes at 1 keV, 10 keV, and 1 GeV. Using a synchrotron self-Compton model, we constrain the physical conditions of the emitting region, including magnetic field strength, bulk Lorentz factor, and emission radius. For the most stringent GeV upper limits, we find a magnetic-to-electron luminosity ratio greater than or equal to 1, implying a highly magnetized emitting region. We predict very-high-energy gamma-ray emission from X-ray flares at early (~500s) and late (~5000s) times and assess their detectability with Cherenkov Telescopes. We find that later X-ray flares provide the most promising targets for follow-up observations owing to improved observational accessibility, sensitivity, and reduced response-time constraints of facilities such as Cherenkov Telescope Array Observatory.",
-      "authors": [
-        "Pawan Tiwari",
-        "Biswajit Banerjee",
-        "Gor Oganesyan",
-        "Ansh Chopra",
-        "Annarita Ierardi",
-        "Marica Branchesi",
-        "Stefano Ascenzi",
-        "Maria Edvige Ravasio"
-      ],
-      "url": "https://arxiv.org/abs/2609.00684v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-01",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2609.03417v1",
@@ -874,49 +627,6 @@
       "published": "2026-09-02",
       "score": 4,
       "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.01705v1",
-      "title": "Generative Diffusion Surrogates with Analytical Variance Schedule",
-      "abstract": "Stochastic transport describes physical systems in which an initially structured distribution spreads under unresolved forcing, scattering, or heterogeneous media. Useful surrogates for such systems should be probabilistic, time-resolved, and able to represent non-Gaussian distributional structure. Generative diffusion models, which corrupt data with Gaussian noise and learn a reverse flow back to structured states, have these properties. Their noise schedules, however, are usually chosen heuristically: image and audio generation---the canonical use cases---provide no physical clock. In transport, by contrast, the variance, or mean-square displacement, is often known from macroscopic theory or empirical scaling even when the full distribution is not. Here we prescribe the forward noising rate as the time derivative of this variance, turning generative time into a calibrated transport clock. The variance path is enforced by construction, while the learned score field represents how non-Gaussian structure inherited from entrance data is smoothed along that path, requiring no intermediate-time physical transport data. For ballistic-to-diffusive transport in turbulent plasmas, the surrogate matches test-particle distributions, reproduces the laboratory-measured variance scale, and tracks the simulated kurtosis evolution without schedule tuning, enabling calibrated emulation and likelihood-based inference.",
-      "authors": [
-        "Patrick Reichherzer",
-        "Gianluca Gregori",
-        "David N. Hosking",
-        "Subir Sarkar"
-      ],
-      "url": "https://arxiv.org/abs/2609.01705v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-01",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.00938v1",
-      "title": "X-shooter survey Across Regions and Ages to probe Disk Evolution (ARADE): Accretion properties in Orion A and their relation with disk masses",
-      "abstract": "We present a homogeneous VLT/X-Shooter study of accretion in young stellar objects spanning the entire Orion A complex. Our sample includes 91 pre-main-sequence stars hosting a protoplanetary disk according to Spitzer photometry, of which 34 have complementary ALMA dust mass measurements. We derived stellar and accretion properties using a self-consistent multi-component fitting procedure. Our sample encompasses spectral types from K3 down to M5, corresponding to stellar masses within $\\sim$0.8-0.1 $M_{\\odot}$. The accretion-stellar luminosity ($L_{acc}-L_{\\star}$) and the mass accretion rate-stellar mass ($\\dot{M}_{acc}-M_{\\star}$) scaling relations in Orion A are consistent with those of other star-forming regions (SFRs) that span a range of stellar densities, far-ultraviolet (FUV) irradiation fields, and ages, with all regions occupying the same locus in parameter space. For the 34 sources with complementary dust mass measurements, we present the first investigation of the $\\dot{M}_{acc}$ and disk mass ($M_{disk}$) correlation in Orion A, recovering a spread consistent with that reported for other regions. Despite our sample spanning nearly five orders of magnitude in local FUV field strength, we find no statistically significant correlation between $\\dot{M}_{acc}$ and FUV irradiation. However, by combining our sample with literature measurements in Lupus, the Orion Nebula Cluster, and $σ$ Orionis, we find a tentative population-level decrease of the inferred disk lifetime $t_{\\rm disk} =M_{disk}/\\dot{M}_{acc}$ toward stronger FUV environments, though large intrinsic scatter and limited sample sizes at intermediate and high FUV fields prevent firm conclusions. The homogeneous $\\dot{M}_{acc}$ measurements reported here provide a solid foundation for future studies of accretion and disk evolution across the diverse environments of Orion A and other SFRs.",
-      "authors": [
-        "Lara Piscarreta",
-        "Giacomo Beccari",
-        "Carlo Manara",
-        "Rossella Anania",
-        "Sierk van Terwisga",
-        "Victor Almendros-Abad",
-        "Henri Boffin",
-        "Rik Claes",
-        "Aaron Empey",
-        "Barbara Ercolano",
-        "Tereza Jerabkova",
-        "Karina Maucó",
-        "Miguel Vioque"
-      ],
-      "url": "https://arxiv.org/abs/2609.00938v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-01",
-      "score": 3,
-      "tier": 3,
       "instrument": "MK67 (future spec.)"
     },
     {
