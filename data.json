@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-03T11:21:42Z",
-  "date": "2026-10-03",
-  "total_fetched": 88,
-  "relevant_count": 29,
+  "generated_utc": "2026-10-04T12:03:33Z",
+  "date": "2026-10-04",
+  "total_fetched": 34,
+  "relevant_count": 13,
   "min_score": 3,
   "articles": [
     {
@@ -25,25 +25,6 @@
       "score": 12,
       "tier": 1,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2610.00762v1",
-      "title": "Early Emergence of SSS emission in RS Oph",
-      "abstract": "Early in the 2006 outburst of the recurrent nova RS Oph, Swift detected the onset of the super-soft-source (SSS) phase. An XMM-Newton observation on day 26.1 revealed an unusual soft X-ray spectrum containing transient narrow emission features that could not be identified with known transitions and are atypical of SSS spectra. We analyse a new XMM-Newton observation obtained at a comparable stage of the 2021 outburst and compare it with spectra from other epochs and with similar novae. A blackbody model reproduces the low-resolution 2006 EPIC/pn spectrum but fails to describe the simultaneous high-resolution RGS data. The 2021 spectrum closely resembles that observed in 2006 and consists of a slowly fading shock component and a highly variable soft component containing several unidentified features. While the shock emission evolves on timescales of days, the soft component varies on hourly timescales and dominates the observed variability. Its properties resemble those of the novae V1494 Aql and V1716 Sco, but not those of the persistent SSS Cal 87. No significant 35-s periodicity is detected. The results demonstrate that low-resolution observations can miss the complex line-dominated emission revealed by high-resolution spectroscopy. The rapidly variable soft component, together with radiative recombination continua, Fe X emission, and the previously detected 35-s period, suggests the presence of a hidden photoionising source. We conclude that these enigmatic spectra form an intermediate class between the SSe and SSa categories of Ness et al. (2013), together with V1494 Aql and V1716 Sco. Future modelling will be required to determine the relative importance of photoionisation, charge exchange, and other processes in shaping this class of intermediate SSS spectra.",
-      "authors": [
-        "J. -U. Ness",
-        "J. P. Osborne",
-        "M. Orio",
-        "S. Starrfield",
-        "S. Mitrani",
-        "E. Behar"
-      ],
-      "url": "https://arxiv.org/abs/2610.00762v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-30",
-      "score": 12,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2610.01931v1",
@@ -99,23 +80,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2610.00459v1",
-      "title": "XClass: An Automated Multiwavelength Machine-Learning Pipeline for Classification of Extragalactic X-ray Sources. I. Pipeline Description",
-      "abstract": "Most X-ray sources detected in nearby galaxies by the Chandra X-ray Observatory lack astrophysical classifications. We present XClass (X-ray Classifier for extragalactic sources), an end-to-end machine-learning pipeline that classifies extragalactic X-ray point sources into seven classes: AGN, LMXBs, HMXBs, CVs, low-mass and high-mass foreground stars, and supernova remnants. The key challenge is photometric heterogeneity: training sources are predominantly Galactic with photometry from wide-field surveys (PanSTARRS and 2MASS), while extragalactic targets require Hubble Space Telescope (HST) imaging in a disjoint filter system. We address this through a spectral energy distribution (SED) translation that fits class-appropriate spectral models to each training source and convolves the best-fit model through HST filter curves, producing synthetic magnitudes in a common feature space. The classifier uses an asymmetric two-stage Random Forest: Stage 1 separates broad categories (AGN, X-ray binaries, SNRs, stars) and Stage 2 resolves X-ray binaries into LMXBs and HMXBs using an augmented feature vector that includes Stage 1 probabilities. The training set is assembled from ten Galactic catalogs and extragalactic SNR catalogs, cross-matched with the Chandra Source Catalog v2.1. Features include X-ray hardness ratios, SED-translated HST colors, and X-ray-to-optical flux ratios. We restrict the training set to sources with at least one optical magnitude, avoiding imputation artifacts; the pipeline achieves 99.6% accuracy and balanced accuracy of 0.90 on the resulting 11,374-source optical baseline, with excellent calibration (ECE = 0.002). XClass is modular, generalizable to any HST filter configuration, and will be applied to M31 and M33 in a companion paper.",
-      "authors": [
-        "Blagoy Rangelov",
-        "Nicholas Moore",
-        "Haley Dutton",
-        "Erika Marentes"
-      ],
-      "url": "https://arxiv.org/abs/2610.00459v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-30",
-      "score": 9,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2610.01953v1",
       "title": "Wolf-Rayet formation through L/M-dependent superwinds",
       "abstract": "Mass-loss in red supergiants (RSGs) is poorly understood and stellar evolution models rely on empirical prescriptions. In recent years, new superwind mass-loss ideas, including an $L/M$ dependence have been proposed, unlike traditional RSG wind recipes which are formulated on a $L$ dependence alone. We investigate how contrasting RSG mass-loss prescriptions affect the late-time evolution of massive stars from their RSG phase onwards. We used MESA to create a series of stellar evolution models with masses ranging from $10\\,{\\rm M}_\\odot - 40\\,{\\rm M}_\\odot$, using the RSG \\cite{VS23} $L/M$ recipe and traditional mass-loss prescriptions. Independent of the treatment of the stellar envelope, we find for a 25$\\,{\\rm M}_\\odot$ star that the $L/M$ recipe reaches an order of magnitude higher mass-loss rate than traditional recipes due to its inverse mass dependence. As the RSG luminosity is set by the core mass and becomes largely insensitive to the current stellar mass, this creates a positive feedback loop driving runaway envelope stripping. Consequently, stars with an initial mass $M_{\\rm init} \\sim \\,20\\,{\\rm M}_\\odot$ are able to strip their hydrogen envelope and form classical Wolf-Rayet (WR) stars. We draw this conclusion not solely on the basis of their HRD location, but also on their predicted emission-line spectrum that we compute with the PoWR stellar atmosphere code. Stars with $M_{\\rm init}<20\\,{\\rm M}_\\odot$ do not fully strip, meaning they expand after core helium burning. In Appendix A we present a generic analytical model showing that the tendency for runaway stripping increases rapidly with the strength of the inverse mass-loss scaling with mass. Our models demonstrate a viable single-star pathway into the yellow supergiant and WR regimes. The amounts of full and partial stripping have a direct effect on supernova (SN) progenitors, including partially stripped type IIb SNe.",
@@ -145,27 +109,6 @@
       "url": "https://arxiv.org/abs/2610.01211v1",
       "category": "astro-ph.SR",
       "published": "2026-10-01",
-      "score": 8,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2610.00612v1",
-      "title": "The X-ray and optical emission of the intermediate polar Swift J0614.0+1709",
-      "abstract": "We present the first detailed X-ray and optical study of the intermediate polar Swift J0614.0+1709 based on a pointed XMM-Newton observation complemented by long-term optical photometry from TESS. A strong coherent modulation at the white dwarf spin period was detected in X-rays, with a period of $\\sim$1411 s, confirming the magnetic nature of the system. The X-ray spin pulse exhibits a pronounced energy dependence, with the modulation amplitude decreasing towards higher energies, consistent with phase-dependent absorption in the accretion flow. Phase-resolved spectroscopy further shows that the spin variability is primarily driven by changes in the covering fraction of the partial-covering absorber. The broadband X-ray spectrum is well described by a partially absorbed thermal plasma model with a temperature of $\\sim$12 keV and a soft blackbody component at $\\sim$63 eV. The inferred bolometric luminosity of $\\sim$5$\\times$10$^{34}$ erg s$^{-1}$ places the source among the more luminous intermediate polars. The TESS observations reveal substantial sector-to-sector variability in the relative strengths of the orbital and spin modulations. While the spin signal remains persistently dominant, the beat modulation varies significantly and disappears entirely in one Sector, suggesting temporal changes in the contribution of the reprocessing region(s). The orbital and, to a lesser extent, spin modulation amplitudes show some tendency to be stronger during brighter optical states, suggesting that changes in the mass transfer rate may influence the optical emission and modulation amplitudes. Overall, Swift J0614.0+1709 is a comparatively X-ray luminous intermediate polar exhibiting complex optical variability characterised by changes in pulse morphology and recurrent brightening events, making it a valuable target for future simultaneous optical and X-ray studies.",
-      "authors": [
-        "Nikita Rawat",
-        "Domitilla De Martino",
-        "David A. H. Buckley",
-        "Koji Mukai",
-        "Martina Veresvarska",
-        "Zackery A. Irving",
-        "Simone Scaringi",
-        "Nicola Masetti"
-      ],
-      "url": "https://arxiv.org/abs/2610.00612v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-30",
       "score": 8,
       "tier": 1,
       "instrument": "MK67 (future spec.)"
@@ -212,124 +155,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2610.00528v1",
-      "title": "Best practices in software citation",
-      "abstract": "Software is both a foundational tool and a primary output of modern computational research, yet citation practices for software remain inconsistent, incomplete, and rarely machine-actionable. Existing infrastructure designed for paper and data citation does not adequately serve the distinct needs of software citation, leaving a gap that impedes reproducibility, misattributes scholarly credit, and obscures the labor embedded in research pipelines. Drawing on a NASA-funded community workshop held in April 2026, we present an analysis of four interconnected themes: (I)~the cultural barriers to consistent citation practice; (II)~the need for clearer community norms and conventions; (III)~gaps in existing technical infrastructure and workflow; and (IV)~the emerging challenges posed by AI-assisted research. For each theme we identify targeted interventions and assign responsibility across stakeholder groups. We conclude that meaningful progress requires simultaneous action on technical and cultural fronts. Journal editors and publishers represent the single highest-leverage point for accelerating this change, and correct citation must become the path of least resistance within researchers' existing workflows.",
-      "authors": [
-        "Phil R. Van-Lane",
-        "Floor S. Broekgaarden",
-        "Daniel S. Katz",
-        "Bhavesh Patel",
-        "Pengyin Shan",
-        "Jonathan Starr",
-        "Samantha Teplitzky",
-        "Peter K. G. Williams",
-        "Alice Allen",
-        "Lucas M. de Sá",
-        "Andrew Fullard",
-        "Sandra Gesing",
-        "Tom Wagg",
-        "Andrea Zonca"
-      ],
-      "url": "https://arxiv.org/abs/2610.00528v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2610.00509v1",
-      "title": "Prototyping the Next-Generation Spectrograph for Space Exploration: Digital Micromirror Device-based Multi-Object Spectrograph (DMD-MOS) Calibration and Performance Assessment",
-      "abstract": "Abandoning the traditional approaches to multi-object spectrographs, the Digital Micro-mirror Device-based Multi-Object Spectrograph (DMD-MOS) leverages a robust, elegant method for creating multi-object spectroscopy slit masks through use of a DMD, which is an array of microscopic flat mirrors where each micro-mirror can be addressed to physically flip between two discrete angles. We have designed two optical channels for DMD-MOS - one for each of these two positions: 1) an imaging channel that can be used for multi-object target selection and 2) a spectrograph channel. Using this two-channel approach, DMD-MOS can simultaneously image the telescope field of view (FOV) with the imaging channel and actuate the specific DMD micro-mirrors to send light from chosen targets into the spectrograph channel. In this work, we present the results of our laboratory testing of DMD-MOS including spectral resolution, line spread function, wavelength coverage, and the mapping between the DMD and imaging channel planes, the latter of which enables DMD-MOS and our control software to instantaneously configure the DMD to observe chosen target(s) in the acquisition field.",
-      "authors": [
-        "Jiayi Emma Xu",
-        "Sarik Jeram",
-        "Shaojie Chen",
-        "Ting S. Li",
-        "Ziang Chen",
-        "Zain Azam",
-        "Adi Khandelwal",
-        "Mark Barnet",
-        "Yixuan Cheng",
-        "Suresh Sivanandam"
-      ],
-      "url": "https://arxiv.org/abs/2610.00509v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.39546v1",
-      "title": "FAIR-Compliant Architecture for Heterogeneous Astronomical Data: KazVO Framework",
-      "abstract": "This paper presents the architecture of the Kazakhstani National Virtual Observatory (KazVO) - an International Virtual Observatory Alliance (IVOA) compliant node that unifies the heterogeneous observational datasets of the Fesenkov Astrophysical Institute (FAI). The architectural foundation of the system is built upon a partitioned Data Lake, a German Astrophysical Virtual Observatory (GAVO) Data Center Helper Suite (DaCHS) publishing backend, and a PostgreSQL database that maps heterogeneous metadata to the unified IVOA ObsCore standard. We follow Open Science by introducing metadata-only model featuring based on a four-class data embargo mechanism. Machine-to-machine services deployed via IVOA protocols are listed in the global Registry of Registers, enabling analysis of Kazakhstani observational assets within external clients such as Tool for OPerations on Catalogues And Tables (TOPCAT), Aladin, and PyVO. As a result, KazVO framework provides a scalable platform driven by a developed end-to-end pipeline that bridges two fundamentally distinct data types - digitized historical glass-plate heritage (1950-1997) and live operational photometric and spectroscopic digital streams from telescopes at the Assy-Turgen and Tien-Shan Observatories - opening FAI's combined data datasets to the global scientific and time-domain astrophysics community.",
-      "authors": [
-        "Ildana Izmailova",
-        "Denis Yurin",
-        "Yerlan Aimuratov",
-        "Maxim Makukov",
-        "Aleksander Serebryanskiy",
-        "Saule Shomshekova",
-        "Vitaliy Kim",
-        "Chingis Omarov",
-        "Adel Umirbayeva",
-        "Laura Aktay",
-        "Dana Kuvatova",
-        "Anton Gluchshenko",
-        "Gulnara Suliyeva",
-        "Maxim Krugov",
-        "Nadezhda Vaidman",
-        "Daulet Anarbek",
-        "Inna Reva",
-        "Gauhar Aimanova",
-        "Rashit Valiullin",
-        "Raushan Kokumbayeva"
-      ],
-      "url": "https://arxiv.org/abs/2609.39546v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.39731v1",
-      "title": "Deep radio characterization of the supernova remnant G343.1-00.7",
-      "abstract": "Supernova remnants (SNRs) are extended radio sources whose morphology and evolution are shaped by the interaction of strong shocks with the surrounding medium. We combined the 0.944 GHz Australian Square Kilometre Array Pathfinder (ASKAP) image from the Evolutionary Map of the Universe (EMU) survey with 0.088-0.200 GHz MWA-GLEAM data to characterize the integrated radio spectrum of G343.1$-$00.7 and perform its first sensitive spatially resolved spectral analysis. We derived an integrated spectral index of $α=-0.50\\pm0.01$, confirming the previously reported value with improved accuracy. We redefined the radio morphology of the remnant, providing the first morphological and spectral evidence that filamentary structures overlapping the nearby \\hii\\ G343.147$-$00.44 are associated with the SNR. Local brightness-brightness analysis revealed flatter-spectrum filaments along the south-eastern shell, consistent with a possible thermal bremsstrahlung contribution from radiative or partially radiative shocks. Comparison with \\hi\\ and CO data identified gas components kinematically consistent with the SNR distance, although no clear morphological evidence of interaction was found. The gas distribution around the \\hii\\ suggests an expanding \\hi\\ shell partially embedded within its parent molecular cloud. Theoretical models place G343.1$-$00.7 between the late Sedov and early pressure-driven phases, suggesting different evolutionary stages across the remnant. These results highlight the potential of high-resolution ASKAP observations for spatially resolved studies of poorly characterized SNRs in complex Galactic environments.",
-      "authors": [
-        "S. Loru",
-        "A. Ingallinera",
-        "C. Trigilio",
-        "G. Umana",
-        "D. Urošević B. Arbutina",
-        "D. Leahy",
-        "C. Bordiu",
-        "F. Bufano",
-        "I. U. Aalia",
-        "C. Buemi",
-        "F. Cavallaro",
-        "E. Egron",
-        "M. D. Filipović",
-        "L. Heino",
-        "A. M. Hopkins",
-        "S. Lazarević",
-        "P. Leto",
-        "A. Pellizzoni",
-        "S. F. Rahman",
-        "S. Riggi",
-        "A. C. Ruggeri",
-        "T. Zafar"
-      ],
-      "url": "https://arxiv.org/abs/2609.39731v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-30",
-      "score": 5,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2610.02026v1",
       "title": "Interpreting effective homogeneous rheologies through a local differential map with application to the Moon",
       "abstract": "Layered viscoelastic interiors control the frequency dependence of planetary tidal dissipation, but repeated layered Love-number calculations are expensive in long-term orbital and spin integrations. Equivalent homogeneous rheologies provide a cheaper representation of the same response, but their effective parameters do not by themselves identify the interior layers they represent. We develop a local interpretation of such parameters by differentiating the layered-to-homogeneous construction about a fixed-geometry baseline, perturbing only selected layer rigidities and viscosities. We use the pole-residue representation of the degree-two Love number to construct a physical-to-effective transfer matrix. We then use its singular values, resolution matrix, and mode-dominance matrix to determine which physical perturbations are visible in the Love-number response and how they appear in effective-rheology coordinates. Applied to a five-layer lunar model, the full degree-two response is sensitive to seven of eight solid-layer rheological parameters. The single near-null direction is the inner-core rigidity, consistent with shielding by the fluid outer core and with the weak dependence of Love numbers on core elastic structure. Over the LLR frequency interval, fewer physical directions are visible. To first order, the elastic spring, isolated dashpot, and two Voigt elements reproduce the nine-pole response over this interval. Finite perturbations confirm the tangent prediction to within a few percent, with the validity radius limited by a nearly degenerate pair of long-timescale modes.",
@@ -364,40 +189,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2610.00449v1",
-      "title": "Water enhances the formation of refractory sulfur in interstellar ices",
-      "abstract": "Sulfur is the tenth most abundant element in space, yet it is strongly depleted in the gas phase of dense interstellar regions, suggesting sequestration in dust grain components that are difficult to detect. We study whether UV irradiation and thermal processing of H2S-containing interstellar-ice analogues can produce refractory sulfur species, and whether water-dominated ice enhances their formation. We performed UV irradiation and warm-up experiments on H2S-containing ice analogues with and without water, and the resulting refractory residues were analysed ex situ. Refractory sulfur species, including the sulfur allotropes S6-S8, are formed during UV irradiation and thermal processing of H2S-containing interstellar-ice analogues. Water enhances the formation of these sulfur allotropes by two orders of magnitude. We propose a formation mechanism in which ionic intermediates stabilised by the water-ice matrix promote chain growth and cyclisation, yielding predominantly S8. The combined detection in our residues of sulfur allotropes and polythionic species, also reported in meteorites and samples returned from asteroids, supports their formation in pre-cometary ice mantles covering dust grains. Because these species can incorporate multiple sulfur atoms per molecule, they constitute an efficient solid-phase reservoir for the missing sulfur in dense cloud environments where young stars are born. Refractory sulfur can therefore serve as a tracer of water-ice environments in space.",
-      "authors": [
-        "Carlos del Burgo Olivares",
-        "Hector Carrascosa",
-        "Guillermo M. Muñoz Caro",
-        "Rafael Lebron-Aguilar",
-        "Jose E. Quintanilla-Lopez",
-        "Yao-Jen Chen"
-      ],
-      "url": "https://arxiv.org/abs/2610.00449v1",
-      "category": "astro-ph.EP",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.38921v1",
-      "title": "Planetesimal Formation under Realistic Gas Dynamics: Dust Concentration in Turbulent and Windy Protoplanetary Disks",
-      "abstract": "Planetesimals are a key intermediate stage of planet formation and originate from dust concentration in protoplanetary disks, which is strongly regulated by gas dynamics. In this study, we use the multifluid dust module of Athena++ to investigate dust concentration in 2D axisymmetric global non-ideal MHD (ambipolar diffusion, AD) simulations of outer disks. Our simulations simultaneously launch large-scale MHD disk winds and resolve both streaming instability (SI) and vertical shear instability (VSI). We systematically explore the effects of magnetic field strength, cooling timescale, ambipolar Elsasser number, and dust size on dust concentration. We find that strong dust clumping persists across a broad range of magnetized and wind-launching disk conditions. MHD winds also enhance dust clumping by modifying background conditions in the following ways: (1) secular gas depletion by MHD wind mass loss, and (2) dust trapping in zonal flows as a result of magnetic flux concentration (which occurs in more strongly magnetized cases). Overall, our results demonstrate that strong dust clumping can persist in global magnetized disks with AD and large-scale MHD winds, leading to conditions favorable for planetesimal formation.",
-      "authors": [
-        "Pinghui Huang",
-        "Xue-Ning Bai"
-      ],
-      "url": "https://arxiv.org/abs/2609.38921v1",
-      "category": "astro-ph.EP",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2610.01251v1",
       "title": "Towards solar many-line inversions",
       "abstract": "The Sun's atmosphere is significantly influenced by events that often measure only tens of kilometres in the horizontal direction. They happen in both quiet and active regions and are determined by magneto-hydro-dynamic processes. Their origins often lie in the lowest layers of the solar atmosphere. To improve the understanding of chromospheric and coronal heating, the solar dynamo and its activity cycle, or to improve the prediction of space weather events we must therefore enhance our understanding of such small-scale events. In this work I first describe the process of calibrating spectropolarimetric observations with very high spatial resolution and put together the building blocks for the mathematical proof the MOMFBD image reconstruction algorithm. In the second part I describe the FISS-SP prototype which is designed to fully exploit the resolution power of a 1.6m telescope. This instrument is built to provide suitable data for image reconstruction of spectropolarimetric data. The resulting data can resolve small-scale features down to the diffraction limit. The simultaneous interpretation of a few lines is still the norm for spatially highly resolved solar spectra. Theoretical works have shown that the simultaneous interpretation of multiple solar lines can greatly improve the robustness against noise. Using observations from FISS-SP I advance the theoretical idea into a practical technique. With this I can retrieve a coherent model of the local solar atmosphere, resolving structures down to a horizontal size of about 49~km. Finally, I use those new techniques to interpret an observation of a solar pore. In this last part I describe and analyse small-scale structures, which could not be spectropolarimetrically resolved before. Typical pore-boundary features - namely, dark striations with bright grains moving into the pore - are identified as convective features.",
@@ -410,46 +201,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2610.00481v1",
-      "title": "The star formation history of Orion is structured and episodic",
-      "abstract": "The propagation of star formation throughout a molecular cloud complex can tell us much about its physical drivers and the importance of environmental versus intrinsic processes. We reconstruct the star formation history (SFH) of the Orion star-forming complex using the highest-resolution age map currently available. It comprises 47 co-spatial and co-moving groups identified by the SigMA clustering algorithm, with homogeneously derived ages and group memberships. We find four periods of increased star formation, separated by ~5 Myr each. The two periods of highest increase, at 6.4 and 11.3 Myr, can be statistically localized, together hold ca. 59% of all stars, and are robust against resampling and changes to the age fitting. The two older, smaller increases at 16.2 and 21.4 Myr can be identified in the age distribution, but cannot be shown to be robust at this point. The ~5 Myr spacing between the episodes of increased star formation is the same as found for the nearby Scorpius-Centaurus (Sco-Cen) star-forming region. We find no methodological bias that could produce the SFH structure. We identify spatio-temporally connected structures, including three cluster-chain candidates. We conclude that star formation in Orion seems to occur on the same timescales but with a different pattern than in Sco-Cen. The cause of the ~5 Myr separations remains a mystery, and its detection in two distinct star-forming regions needs further investigation.",
-      "authors": [
-        "Alena Rottensteiner",
-        "João Alves",
-        "Stefan Meingast",
-        "Sebastian Hutschenreuter",
-        "Núria Miret-Roig",
-        "Josefa Großschedl",
-        "Cameren Swiggum",
-        "Sebastian Ratzenböck",
-        "Monika G. Petr-Gotzens"
-      ],
-      "url": "https://arxiv.org/abs/2610.00481v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.38774v1",
-      "title": "Magnetic field diagnostics of a solar active region filament",
-      "abstract": "We performed spectropolarimetric observations of an active region filament in He I 10830 angstrom and Si I 10827 angstrom lines to investigate its magnetic field structure. We carried out full-Stokes inversions with the HAZEL code, which takes into account the Zeeman and Hanle effects. As a result, we yielded a mean field strength of 101 $\\pm$ 33 G and a horizontal field nearly parallel to the filament axis, such that the distinction between the two classical normal- and reverse-polarity models becomes physically insignificant. In addition, we found Zeeman-like signatures in the linear polarization, characterized by double-peaked symmetric profiles, in some pixels of our observations. Since these profiles could not be well reproduced by modeling that included both the Zeeman and Hanle effects, we performed inversions assuming only the Zeeman effect. The inversion yielded a strong magnetic field of approximately 500 G. However, simultaneous observations of Si I 10827 angstrom indicate a photospheric magnetic field weaker than 100 G. Therefore, the scenario proposed by Diaz Baso et al. (2016), in which the strong field inferred from He I 10830 angstrom originates from contamination by the underlying photosphere, does not apply to our filament. The Zeeman-like profiles are preferentially found in optically thick regions ($τ$ ~ 1.4-2.5), where the simplifying assumptions adopted in HAZEL are expected to become less reliable. Our results suggest that these profiles reveal limitations of the current inversion framework in optically thick regions and motivate future radiative-transfer modeling incorporating self-consistent radiation fields, differential illumination of the multiplet components, and possibly partial frequency redistribution.",
-      "authors": [
-        "Daiki Yamasaki",
-        "Yu Wei Huang",
-        "Yuki Hashimoto",
-        "Satoru UeNo",
-        "Kiyoshi Ichimoto"
-      ],
-      "url": "https://arxiv.org/abs/2609.38774v1",
-      "category": "astro-ph.SR",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
     },
     {
       "arxiv_id": "2610.01983v1",
@@ -481,120 +232,6 @@
       "url": "https://arxiv.org/abs/2610.01061v1",
       "category": "astro-ph.HE",
       "published": "2026-10-01",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2609.38694v1",
-      "title": "HLX-1 as a Repeating Partial Tidal Disruption Event around an Intermediate-Mass Black Hole",
-      "abstract": "ESO 243$-$49 HLX--1 is one of the first known compelling intermediate-mass black hole (IMBH) candidates, but the origin of its recurrent X-ray outbursts remains unsettled. In this work we fit the HLX--1 outbursts simultaneously with a relativistic thin-disk time-dependent model. The black-hole and disk-geometry parameters are tied across epochs, while the injected mass and timing parameters are fitted separately for each outburst. We also include a contemporaneous \\textit{HST} UV/optical/IR spectral energy distribution obtained near the peak of one outburst, which constrains the global temperature and radius scales of the disk. The soft-state data are consistent with a common global solution, with black hole mass $\\log_{10}(M_{\\bullet}/M_\\odot)=4.5\\pm0.2$ and disk formation radius $\\log_{10}(r_0/r_g)=3.8\\pm0.3$. The differences between outbursts are mainly described by modest changes in disk mass and viscous timescales. The inferred injected masses are typically $\\sim 10^{-3}\\,M_\\odot$ per outburst, requiring a total fuel supply of at least a few $\\times 10^{-3}\\,M_\\odot$ across the observed sequence. This mass scale, and the disk size, are consistent with repeated partial stripping of a low-mass donor. A simple Keplerian mapping of the flare gaps and fitted disk radius implies a highly eccentric orbit with a pericenter just outside the donor's tidal radius. These results support a repeating partial tidal disruption interpretation for the origin of HLX--1.",
-      "authors": [
-        "Fangyuan Yu",
-        "Andrew Mummery",
-        "Muryel Guolo"
-      ],
-      "url": "https://arxiv.org/abs/2609.38694v1",
-      "category": "astro-ph.HE",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2610.00507v1",
-      "title": "Automated multi-stressor optical fiber focal ratio degradation and throughput characterization system for future massive multiplex spectroscopic survey",
-      "abstract": "Future spectroscopic survey facilities such as Spec-S5 and the Wide-Field Spectroscopic Telescope (WST) will contain more than 25,000 optical fibers. Characterizing the focal ratio degradation (FRD) and throughput of these fibers is essential for spectroscopic calibration, sky subtraction, and overall instrument performance, but manual testing of such large fiber populations is prohibitively time-consuming. In this work, we present an automated multi-stressor optical fiber characterization platform capable of measuring both FRD and relative throughput while systematically varying optical and mechanical stress conditions. The system enables characterization as a function of input angle, wavelength, bend radius, twist angle, and externally applied load, while also allowing combinations of stressors to be investigated simultaneously. A custom software framework automates hardware control, data acquisition, and data analysis, enabling large characterization campaigns to be performed with minimal user intervention. Validation measurements performed on a multimode optical fiber demonstrate the ability of the platform to resolve both pronounced and subtle stress-dependent variations in FRD and relative throughput. The results show the expected dependence of FRD on input angle and bend radius, reveal comparatively weak sensitivity to externally applied compressive loading under the investigated conditions, and identify a reproducible periodic dependence on fiber twist angle. In addition, relative throughput measurements indicate that the reduction in relative throughput with increasing input angle cannot be explained solely by a simple projected-area model. The automated workflow and scalability of the system provide a versatile framework for the large-scale characterization of optical fibers required by next-generation spectroscopic survey facilities.",
-      "authors": [
-        "Daksh Singh",
-        "Ting S. Li",
-        "Sarik Jerma",
-        "Shaojie Chen"
-      ],
-      "url": "https://arxiv.org/abs/2610.00507v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.39583v1",
-      "title": "MADGRAV: a multilevel anomaly-detection pipeline for gravitational-wave searches applied to LIGO data",
-      "abstract": "We present the results of \\textbf{MADGRAV}, a deep-learning-based search for high-mass compact binary coalescences, applied to the data collected by the LIGO interferometers during the third observing run and during the first and second part of the fourth observing run. The \\textbf{MADGRAV} pipeline consists of a series of sequential convolutional neural networks that perform anomaly detection, glitch classification, coherence testing, and signal ranking. Data from the Hanford and Livingston LIGO detectors are studied (both individually and in coherence) by way of 1 second Q-transform windows. Of the candidates that survive every stage of the pipeline, 48 reach the significance threshold, and we report 47 gravitational wave detections characterised by a false alarm rate below $1\\,{\\rm yr}^{-1}$ with a probability of astrophysical origin $p_{\\rm astro}>0.9$. Of the 47 detections, 44 are shared with the minimally modelled coherent WaveBurst search. The observed total source-frame masses, extracted from official gravitational wave transient catalogues, are in the $14-236 M_{\\odot}$ range with a median of $69 M_{\\odot}$, and a median SNR of 16. We note that the recovered fraction of confident detections rises with mass: for LIGO detectors network SNR $>10$ the pipeline recovers $8.1\\%$ of confident catalog events below $30 M_{\\odot}$, $39.8\\%$ between $30$ and $100 M_{\\odot}$, and $53.3\\%$ above $100 M_{\\odot}$, corresponding to $33.3\\%$, $45.5\\%$ and $53.3\\%$ of the events detected by coherent WaveBurst in the same bins. These results suggest that anomaly detection pipelines can serve as an independent detection channel complementary to matched filtering in the high-mass high-SNR regime.",
-      "authors": [
-        "Gianluca Inguglia",
-        "Huw Haigh",
-        "Ulyana Dupletsa",
-        "Alessandro Longo"
-      ],
-      "url": "https://arxiv.org/abs/2609.39583v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.39287v1",
-      "title": "The Astronomical Hub: A Unified Ecosystem for Modern Astronomical Research",
-      "abstract": "We present the conceptual framework of the Astronomical Hub (AstroHub), a unified platform combining various optical instruments at a single observatory. Its major approach lies in arranging conditions for research groups to install telescopes and equipment and participate in joint projects. AstroHub is planned to integrate Virtual Observatory (VO) tools, FAIR data principles, and a telescope network to create a powerful and attractive ecosystem for both robust near-Earth object (NEO) monitoring and diverse deep space research. We provide an overview of the AstroHub development directions in the case study of the Assy-Turgen Observatory.",
-      "authors": [
-        "Yerlan Aimuratov",
-        "Vitaliy Kim",
-        "Aleksander Serebryanskiy",
-        "Denis Yurin",
-        "Maxim Krugov",
-        "Chingiz Akniyazov",
-        "Saule Shomshekova",
-        "Maxim Makukov",
-        "Gaukhar Aimanova",
-        "Rashit Valiullin",
-        "Raushan Kokumbaeva",
-        "Alan Kazkenov",
-        "Chingis Omarov"
-      ],
-      "url": "https://arxiv.org/abs/2609.39287v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2609.38858v1",
-      "title": "MATCH: Performance Characterization and Scientific Observations of the Wuhan University 1-m Optical Telescope",
-      "abstract": "The Multi-mode Autonomous Terminal for Compatible Hybrid-optics (MATCH), operated by Wuhan University and located at Lenghu, is a 1-m Ritchey--Chrétien telescope equipped with imaging and spectroscopic instruments. MATCH has been in trial operation since October 2025. In this work, we present the telescope and instrument configuration, characterize its performance during the first year of operation, and describe the integrated observing workflow developed for routine and time-domain observations, including the observatory control system, observation scheduler, and automated data reduction pipelines. Under typical observing conditions, the imaging system reaches 60-s-equivalent $5σ$ limiting magnitudes of approximately 18--20 mag across the $ugri$ bands, while the spectroscopic system reaches approximately 15--16~mag in the B and G channels in a 30-minute integration at the effective spectral resolution of the instrument. In the best-quality imaging observations, the $g$- and $r$-band depths approach 21~mag. Together with flexible scheduling and Target-of-Opportunity capability, MATCH provides photometric and spectroscopic follow-up and long-term monitoring of transient and variable sources.",
-      "authors": [
-        "Sai-En Xu",
-        "Bei You",
-        "Han He",
-        "Shuai-Kang Yang",
-        "Xiao Fan",
-        "Yi-Fei Qu",
-        "Rui-Xiang Hu",
-        "Hui-Bo Fei",
-        "Bo-An Chen",
-        "Zong-Hong Zhu",
-        "Zheng-Yang Li",
-        "Xiao-Yan Li",
-        "Zi-Jian Han",
-        "Jia-Nan Cong",
-        "Chao Chen",
-        "Jia-Li Chen",
-        "Kai-Wen Zheng",
-        "Yi-Qiao Yang",
-        "Qing-Shan Li",
-        "Zhen-Guang Sun",
-        "Tong Zhou",
-        "Kai Zhang",
-        "Jiajia Wu",
-        "Xuhang Yin",
-        "Liang Yuan"
-      ],
-      "url": "https://arxiv.org/abs/2609.38858v1",
-      "category": "astro-ph.IM",
-      "published": "2026-09-30",
       "score": 4,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
