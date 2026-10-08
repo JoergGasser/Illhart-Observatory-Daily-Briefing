@@ -1,23 +1,80 @@
 {
-  "generated_utc": "2026-10-07T12:59:16Z",
-  "date": "2026-10-07",
-  "total_fetched": 115,
-  "relevant_count": 25,
+  "generated_utc": "2026-10-08T13:07:00Z",
+  "date": "2026-10-08",
+  "total_fetched": 151,
+  "relevant_count": 39,
   "min_score": 3,
   "articles": [
     {
-      "arxiv_id": "2610.05226v1",
-      "title": "Large offsets of double-neutron-star mergers: degeneracies and implications for host associations",
-      "abstract": "The projected offset of a Gamma-Ray Burst (GRB) from its host galaxy is an important diagnostic of its physical origin, where the host associations are usually evaluated through chance-coincidence probabilities. However, as shown by observations, the host associations given by this approach may be ambiguous in some cases. In this work, we revisit the modelling of the offsets of double-neutron-star (DNS) mergers with controlled numerical experiments using Monte Carlo simulations. To isolate the dynamical effects of the second supernova (SN) from uncertainties in the upstream binary evolution, we parametrise the direct progenitor of DNSs and integrate the post-SN trajectories in galactic potentials using \\texttt{galpy}. Complementary to previous population synthesis calculations, our Monte-Carlo tool, \\texttt{GRB-offset}, provides a lightweight framework to identify sensitivities and expose degeneracies in offset modelling. With \\texttt{GRB-offset}, we have investigated the following physical ingredients, supernova physics (ejected mass and kick velocity), galactic potential (potential shape, galaxy virial mass), DNS birth location, star formation history, and redshift. The offset distributions given by our reference Monte-Carlo simulation peak at around 30 kpc and 1000 kpc for the DNSs bound to and unbound from the host galaxy, which sensitively depends on the considered physical ingredients. A given offset can arise from various combinations of these ingredients, introducing substantial degeneracies when interpreting observed offsets. Therefore, an observed offset alone can hardly constrain the properties of the DNS progenitor and of the host galaxies.",
+      "arxiv_id": "2610.08903v1",
+      "title": "Extreme Stellar Death and Galaxy Feedback at z = 2: A Rest-frame Ultraviolet Characterization of the Strongly Lensed Superluminous Supernova 2025wny",
+      "abstract": "We present photometric and spectroscopic follow-up observations of the strongly-lensed H-poor superluminous supernova (SLSN) 2025wny at $z = 2.0155$. We use integral-field Keck-II/KCWI spectroscopy to obtain rest-frame ultraviolet spectra spanning $11$ to $61$ days after maximum light. We use Pan-STARRS photometry to constrain the brightest image's magnification, finding $μ_A=19.4\\pm1.6$, a factor of $\\sim$2-4 higher than mass-modeling estimates. We fit the Pan-STARRS photometry with a magnetar energy-injection model including $^{56}$Ni decay using the Modular Open Source Fitter for Transients (MOSFiT); the model can reproduce the near-maximum light curve with parameters typical of local universe SLSNe-I, including a magnetar spin period $P_{\\rm spin}=4.1^{+0.7}_{-1.0}\\,\\mathrm{ms}$ and magnetic field $B_{\\perp}=2.4^{+1.1}_{-0.8}\\times10^{14}\\,\\mathrm{G}$; however, the late-time plateau suggests an additional power source. Spectroscopically, iron-group element line blanketing is virtually absent in the rest-frame UV spectra, and the absorption features match previously identified SLSN-I features from abundance tomography. Based on narrow ISM line metallicity estimates, SN 2025wny exploded in a sub-solar-metallicity galaxy. From host-galaxy lines in our rest-frame UV-to-optical spectrum we estimate high-velocity outflows of $\\sim$575 km s$^{-1}$ and an exceptionally high Ly$α$ escape fraction of $f_{esc}^{Lyα}=0.23\\pm0.03$. SN 2025wny matches lower-redshift SLSNe reasonably well. Upcoming surveys like LSST and Roman will discover additional high-redshift SLSNe, further testing whether SLSNe-I explosions remain consistent at the population level in the early universe.",
       "authors": [
-        "Xiao-Tian Xu",
-        "Bin-Bin Zhang",
-        "Wenjie Wu",
-        "Suoning Wang"
+        "Willem B. Hoogendam",
+        "David O. Jones",
+        "Christopher J. Storfer",
+        "Luca Izzo",
+        "Kyle W. Davis",
+        "Miranda Y. Kong",
+        "Katie Auchettl",
+        "Aadya Agrawal",
+        "David R. Aguilera-Dena",
+        "Kenneth C. Chambers",
+        "Siyuan Chen",
+        "Thomas de Boer",
+        "Ryan J. Foley",
+        "Matthew Grayling",
+        "Jason T. Hinkle",
+        "Jens Hjorth",
+        "Mark E. Huber",
+        "Chien-Cheng Lin",
+        "Thomas B. Lowe",
+        "Eugene A. Magnier",
+        "Kaisey S. Mandel",
+        "C. Tanner Murphey",
+        "Gautham Narayan",
+        "Gregory S. H. Paek",
+        "Kishore C. Patra",
+        "Haille M. L. Perkins",
+        "Armin Rest",
+        "Benjamin J. Shappee",
+        "Richard J. Wainscoat"
       ],
-      "url": "https://arxiv.org/abs/2610.05226v1",
+      "url": "https://arxiv.org/abs/2610.08903v1",
       "category": "astro-ph.SR",
-      "published": "2026-10-04",
+      "published": "2026-10-06",
+      "score": 14,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.09612v1",
+      "title": "Remnant-wide mapping of heterogeneous presupernova burning histories in the O-rich ejecta of Cassiopeia A",
+      "abstract": "Late-stage shell interactions, including shell mergers, can mix material across adjacent burning shells and imprint chemically inhomogeneous structures in the hydrostatic O-rich layers before core collapse. Whether such inhomogeneities survive the explosion and remain observable in the resulting supernova remnant is not well understood. We investigate the spatial and compositional structure of the O-rich ejecta in Cassiopeia A using deep Chandra X-ray observations. Principal component analysis of narrow-band images reveals O-rich ejecta spanning a compositional sequence from Ne-rich through NeSi-rich to O/Si-rich material. Spatially resolved spectroscopy of 20 representative regions confirms systematic depletion of Ne and Mg toward the O/Si-rich component. Notably, the composition of the O/Si-rich ejecta over a broad elemental range from O to Ca is simultaneously well reproduced by O-layer material in 17-20 $M_\\odot$ one-dimensional presupernova models that experienced strong shell-merger-induced burning and mixing. In contrast, the Ne-rich ejecta retain substantially higher Ne and Mg abundances and resemble less strongly processed O-shell material. These chemically distinct components are spatially segregated on remnant-wide scales, with Ne-rich ejecta preferentially concentrated toward the north and O/Si-rich ejecta more prominent in the southeast. Our results suggest that late-stage shell burning and mixing in the progenitor of Cassiopeia A were spatially heterogeneous. The remnant-wide distribution of ejecta with different burning histories further indicates that part of this asymmetric presupernova structure may have survived the explosion and remains imprinted in the present-day remnant.",
+      "authors": [
+        "Yui Kuboike",
+        "Toshiki Sato",
+        "Kai Matsunaga"
+      ],
+      "url": "https://arxiv.org/abs/2610.09612v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-07",
+      "score": 14,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.09531v1",
+      "title": "ASTRAL: A Framework for Optimal Placement and Emulation of Stellar Evolution Models",
+      "abstract": "Generating dense grids of detailed stellar evolution simulations is computationally prohibitive, as resolving progressively complex nucleosynthesis chains and dynamical timescales incurs a rapidly increasing computational cost that scales with dimensionality and resolution. Existing simulation grids are sparse, heterogeneous, and often cover disparate regions of parameter space, limiting (direct) systematic comparison and broader generalization to downstream science analyses. We present ASTRAL (\\textbf{A}ctive \\textbf{S}imulation \\textbf{T}uning and \\textbf{R}egression for \\textbf{A}strophysical \\textbf{L}ibraries), a publicly available framework for optimal placement and emulation of stellar evolution models. The ASTRAL framework builds surrogate models that provide a continuous representation of the parameter space which is populated by sparse simulation grids. Furthermore, ASTRAL interpolates across the simulation parameter space (e.g. zero-age-main-sequence mass) to predict stellar properties of stars with associated uncertainty estimates for systems not explicitly simulated. We show that ASTRAL significantly outperforms uniform placement in constructing emulation-ready model libraries that capture both global and local variability in the output features. We showcase the performance of our framework in the context of a simple, one-dimensional MESA model. Finally, we examine how our methodology can inform downstream applications by analyzing our emulator's predictive confidence when applied to supernova simulations. We emphasize that, while developed for stellar evolution, the ASTRAL framework is directly extensible to other simulation-driven domains where model evaluations are expensive and parameter spaces are high-dimensional.",
+      "authors": [
+        "Trevor Gravely",
+        "Marko Ristić",
+        "Brandon Barker"
+      ],
+      "url": "https://arxiv.org/abs/2610.09531v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-07",
       "score": 12,
       "tier": 1,
       "instrument": "RC400"
@@ -101,6 +158,25 @@
       "instrument": "RC400"
     },
     {
+      "arxiv_id": "2610.09394v1",
+      "title": "The Fast Transient Foreground Fog of LSST",
+      "abstract": "Studies with 1-m class telescopes have now established that glints from satellites and space debris are the main obstacles to searches for sub-minute optical transients. Here, we report a study of this foreground using observations from the Legacy Survey of Space and Time (LSST) with the Simonyi 8.4-m telescope at the Vera C. Rubin Observatory. From 2,955 pairs of consecutive 30-s exposures, spanning 4,755 deg$^2$ of unique sky area and an area-time coverage of 472 deg$^2$ hr, we identified a population of faint, PSF-like, sub-minute events, including isolated events with no linear sequences of repeated flashes (tracklets) indicative of a tumbling satellite. We extended measurements of this population to the faintest magnitudes yet probed, finding a lower-bound to the occurrence rate of $(9.55 \\pm 0.14) \\times10^6\\,$sky$^{-1}\\,$day$^{-1}$ to $\\sim23$ mag (median of $\\sim22.3$ mag). The large aperture of the Simonyi 8.4-m telescope provides an additional discriminator: orbital debris in low-Earth orbit are sufficiently out of focus that they are filtered out. We find that, for a $1^{\\prime\\prime}$ PSF, unresolved events are constrained to distances beyond 1,732 km, and identify a previously unreported population of glints consistent with medium-Earth-orbit altitudes with estimated sizes of order $\\sim1$-3 mm. We also report two isolated events observed along sight lines deep within the Earth's shadow, for which a sunlit-debris origin is disfavored. The scant evidence is consistent with an eclipsing binary and a stellar flare. The robust way forward for sub-minute transients is simultaneous observations of the same field by two (or more) widely separated telescopes. The resulting measurement of parallax will cleanly eliminate local (primarily orbital) debris, clarifying the nature of this transient foreground. This understanding will help astronomers probe truly celestial optical bursts.",
+      "authors": [
+        "G. Megias Homar",
+        "S. R. Kulkarni",
+        "C. S. Lage",
+        "J. A. Tyson",
+        "S. M. Kahn",
+        "F. A. Harrison"
+      ],
+      "url": "https://arxiv.org/abs/2610.09394v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-07",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2610.07395v1",
       "title": "Tracing the main belt origins of S-complex near-Earth objects: From space mission targets to meteorite sources",
       "abstract": "Context. Space missions to near-Earth objects (NEOs) provide unique opportunities to study and characterise their physical and compositional properties. Interpreting these results requires knowledge of their provenance, i.e. their source family in the main asteroid belt. Aims. We aim to identify the family sources of six S-complex NEOs visited or soon to be visited by space missions, and to investigate the size-dependent orbital behaviour of the broader S-complex NEO population using the MITHNEOS dataset. Methods. We combine near-infrared spectral fitting with ordinary chondrite (OC) analogues reddened by a space-weathering model, using reduced $χ^2$ minimisation, and cross-validation with probabilistic dynamical maps of the main NEO source families. Results. We identify LL6-7 chondrites and the Flora family for Eros, Itokawa, Apophis, and Torifune; LL3 chondrites and the Nysa family for Toutatis; L chondrites and the Massalia family for Didymos-Dimorphos. Where in situ observations exist (Itokawa and Eros), the classifications are consistent. Applied to the broader S-complex NEO population, the spectral classification and orbital properties distributions are broadly consistent with dynamical models. Accounting for observational biases, we find that at small diameters ($\\leq$100 m), the fractions of H- and L-type objects increase at the expense of LL6-7 types, with low-inclination orbits consistent with origins in the Massalia (L) and Koronis (H) families. Conclusions. Combining spectral fitting with OC analogues and dynamical probability maps robustly identifies the source families of individual NEOs. Below $D\\sim$100 m, the compositional distribution of S-complex NEOs approaches that of meteorite falls, providing direct observational evidence, based on spectroscopic measurements of S-complex NEOs, of the emergence of the source regions of OC meteorites.",
@@ -156,6 +232,42 @@
       "url": "https://arxiv.org/abs/2610.06424v1",
       "category": "astro-ph.SR",
       "published": "2026-10-05",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.09538v1",
+      "title": "Evidence for a Similar Physical Origin Between Prompt Emission and X-Ray Flares of Gamma-Ray Bursts",
+      "abstract": "Statistical properties of X-ray flares are highly similar to those of the prompt emission in gamma-ray bursts (GRBs), suggesting that they may share a common physical origin (e.g., central engine activity). However, comparable statistical studies of afterglow X-ray flares and prompt gamma-ray pulses that are not observed simultaneously remain incomplete. In this paper, by systematically searching for gamma-ray emission simultaneous with X-ray flares, we identify 38 GRBs containing 50 pulse--flare pairs, 19 of which have measured redshifts. We perform joint temporal and spectral analyses of the gamma-ray pulses and X-ray flares over their overlapping time intervals, and find that the spectrum of each pair can be well described by an absorbed power-law (PL), PL plus blackbody (PL+BB), cutoff power-law (CPL), and Band function. More importantly, by applying self-organized criticality (SOC) analysis to both the prompt gamma-ray pulses and the simultaneously observed X-ray flares, we find that the temporal parameters (e.g., waiting time, rise time, peak time, decay time, and duration) of the two components follow similar power-law distributions, with the largest absolute difference of $Δα\\sim0.36$ for the waiting time and much smaller differences ($Δα\\lesssim0.12$) for the other four parameters. For the isotropic energy derived from the subsample with measured redshifts, the difference between the two components is $Δα\\sim0.54$. These results suggest that the X-ray flares and the prompt emission are likely to share the same physical origin.",
+      "authors": [
+        "Wen-Yuan Yu",
+        "Wen-Long Zhang",
+        "Hou-Jun Lü"
+      ],
+      "url": "https://arxiv.org/abs/2610.09538v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-07",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.09199v1",
+      "title": "Toward a complete understanding of the properties of GW190521",
+      "abstract": "Interpreting GW190521 remains challenging due to its exceptionally high total mass and correspondingly small number of observable gravitational-wave cycles, which gives rise to degeneracies between different physical interpretations. Motivated by the outstanding questions surrounding the event, we present a comprehensive reanalysis of GW190521 using waveform models drawn from multiple families, including a model that includes both eccentricity and spin-precession. We find evidence that the source was highly eccentric, with an inferred eccentricity of $0.81^{+0.05}_{-0.01}$ at 5 Hz, and show that non-eccentric interpretations arise from failing to probe the high-likelihood region at large eccentricities. We further demonstrate that when eccentricity is included in the analysis, there is no indication of spin precession, suggesting that the apparent precession in quasicircular analyses is at least partially driven by an eccentricity--spin-precession degeneracy. While all waveform models favor a comparable-mass binary, one model admits a secondary mode at more asymmetric masses. We find a robust probability $(\\geq97\\%)$ that the primary black hole lies within the pair-instability supernova mass gap ($\\sim60-130\\,M_\\odot$), whereas the probability that the secondary lies in the gap depends on the waveform model. Through inference of GW190521-like injections, we show that the waveform systematics observed in the analysis of GW190521 could arise from the response of models to unmodeled eccentricity, rather than from intrinsic differences between waveform models. When analyzing a quasicircular spin-precessing injection similar to GW190521, we find no significant model dependence in the inferred parameters. Finally, because the inferred eccentricity lies beyond the calibration regime of current models, we test its robustness by recovering highly eccentric numerical-relativity waveforms.",
+      "authors": [
+        "Aasim Jan",
+        "Sophia Nicolella",
+        "Aaron Zimmerman",
+        "Deirdre Shoemaker",
+        "Katerina Chatziioannou",
+        "Richard O'Shaughnessy",
+        "Muhammed Saleem"
+      ],
+      "url": "https://arxiv.org/abs/2610.09199v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-06",
       "score": 8,
       "tier": 1,
       "instrument": "RC400"
@@ -227,6 +339,28 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2610.09854v1",
+      "title": "A Jupiter-like radio aurora in the L3.5 dwarf LSPM J0036+1821",
+      "abstract": "Ultracool dwarfs exhibit radio emission revealing strong magnetic fields and complex magnetospheric processes. Their auroral emission resembles that observed in magnetized Solar System planets, providing a framework to investigate their magnetic topology. We aim to characterize the magnetic activity, rotation, and atmospheric variability of the L3.5 dwarf LSPM J0036+1821 through a multiwavelength analysis. We conducted a long-term monitoring campaign combining radio observations from the Very Large Array and very long baseline interferometry arrays with TESS optical photometry, spanning 2019-2023. We analyzed time-series data to derive precise rotation periods and constructed light curves and radio dynamic spectra. The radio lightcurves were modeled using an auroral framework analogous to Jupiter's magnetosphere, incorporating main oval and active field line components. We detect persistent, compact radio emission with significant variability and high circular polarization. Periodogram analysis yields a rotation period of 3.07941 $\\pm$ 0.00020h from radio data, consistent with the TESS optical period (3.07908 $\\pm$ 0.00038h). The radio light curves display stable morphology characterized by asymmetric, rotationally modulated pulses. Our modeling reproduces the emission using a hybrid auroral scenario, with the main oval contributing a stable component and an active field line producing dominant, variable bursts. Short-term variability is explained by small changes in emission cone geometry or longitude of the active field line. The radio emission of LSPM J0036+1821 is consistent with auroral processes driven by the electron cyclotron maser instability in a structured magnetosphere. The behavior is consistent with a Jupiter-like auroral system, possibly involving companion-driven or internally-driven magnetospheric interactions analogous to those observed in the Solar System.",
+      "authors": [
+        "D. Martín-Carrero",
+        "J. B. Climent",
+        "P. A. Miles-Páez",
+        "J. Balmón-Antón",
+        "J. C. Guirado",
+        "M. M. Kao",
+        "C. O'Toole",
+        "J. S. Pineda",
+        "J. M. Vos"
+      ],
+      "url": "https://arxiv.org/abs/2610.09854v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-07",
+      "score": 7,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
       "arxiv_id": "2610.08128v1",
       "title": "Ariel Tier 3 Observations: An Opportunity to Explore both Stellar and Planetary Variability through Broad Wavelength Time-domain Spectroscopy",
       "abstract": "Ariel's Tier 3 observing strategy offers a unique opportunity to explore planetary and stellar variability in the spectral and time domain. However, without the correct toolkit, temporal variability of the host star may complicate combined analysesof observations obtained at different epochs. We investigate the impact of stellar variability on Ariel Tier 3 observations and establish three different mitigation approaches of increasing physical complexity. Using simulated repeated observations of a favourable system contaminated by different spot and facula configurations, we compare a naive, unmodified stacking approach, separate analysis of the infrared region through progressive removal of the most strongly contaminated optical wavelengths, and the correction of individual visits using combined star-planet retrievals. We find that stacking inconsistent visits can produce substantial biases in the retrieved planetary properties under strong stellar variability, although a single activity correction can still recover the planetary parameters reasonably well. Applying progressive optical data cuts substantially improves the accuracy of retrievals up to a point, without requiring any in-retrieval correction and causing only a modest loss of precision. Correcting individual visits prior to stacking produces more consistent spectra and generally smaller uncertainties, but requires greater computational effort. These results demonstrate that stellar variability should be considered when interpreting repeated Ariel observations, but need not preclude atmospheric characterisation of active systems. A flexible suite of mitigation approaches, supported by preparatory and contemporaneous stellar monitoring, can allow the treatment of stellar variability to be adapted to individual targets while maintaining the efficiency required to maximise Ariel's scientific return.",
@@ -260,9 +394,50 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2610.05769v1",
-      "title": "Unravelling the Nature of AT\\,2025abao: From Precursor to Final Fate",
-      "abstract": "Luminous red novae (LRNe) are potential signatures of common envelope evolution (CEE), a critical yet poorly understood phase in compact binary formation. AT\\,2025abao, an LRN in the Andromeda galaxy, originated from an asymptotic giant branch (AGB) progenitor and exhibited a prolonged pre-outburst transient. Lacking direct constraints on the companion, however, the system's evolutionary fate remains unclear. Here, we unravel the binary nature of AT\\,2025abao by modeling its complete evolution, from precursor to final outcome. We show that the eight-year infrared precursor arises from a $\\approx1.4^{+0.2}_{-0.3}\\,M_{\\odot}$ main-sequence companion inspiralling through the wind of a $\\approx 6.9\\,M_{\\odot}$ AGB star. As CEE commences, the companion plunges into the envelope and launches a shock. Radiation hydrodynamic modeling of this outburst constrains the total ejecta mass to $\\approx 0.92\\,M_{\\odot}$ and energy to $\\approx 1.25\\times 10^{47}\\,$erg, revealing that only $\\approx 0.57\\,M_{\\odot}$ becomes unbound. Subsequent radiative transfer simulations successfully reproduce the evolving spectral energy distribution. Crucially, our models indicate the main-sequence companion and AGB core survive in an eccentric orbit without merging at least 400 days after CEE onset. AT\\,2025abao may therefore be the first observed CEE event caught forming a close compact binary, bridging a long-standing observational gap in compact binary formation.",
+      "arxiv_id": "2610.10364v1",
+      "title": "Photometric and Spectroscopic Study of Young Stellar Objects in IC 1848E Region",
+      "abstract": "We present a comprehensive analysis combining multi-epoch mid-infrared (MIR) photometric and optical spectroscopic observations of young stellar candidates associated with elongated, elephant trunk-like structures (ETLSs) in the IC 1848E star-forming region. A sample of 15 candidate YSOs, initially identified by Chauhan et al. (2011), was investigated using multi-epoch NEOWISE $W1$ and $W2$ photometry to characterize their variability properties. After imposing stringent positional and photometric quality constraints, a final set of eight robust YSOs was retained and classified into three variability categories: non-variable, secular, and stochastic. One source, Star #9, exhibits a pronounced curved variability in the MIR light-curve and color-magnitude domains, indicative of systematic evolution of its circumstellar disk and/or accretion processes. Optical spectroscopic data for this object show strong H$α$ emission and prominent forbidden lines, providing clear evidence of active mass accretion and outflow phenomena. The combined photometric and spectroscopic diagnostics establish a close link between infrared variability, circumstellar disk evolution, and accretion-driven activity in YSOs associated with ETLSs in IC 1848E.",
+      "authors": [
+        "Shubham Yadav",
+        "Neelam Panwar",
+        "Lalita Sharma",
+        "C. Rishi"
+      ],
+      "url": "https://arxiv.org/abs/2610.10364v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-07",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.09537v1",
+      "title": "Light curve spectral energy distribution fitting of 13 carbon-rich Mira variables stars in the Small Magellanic Cloud",
+      "abstract": "Carbon-rich Mira variables are highly dynamic stars characterized by large-amplitude radial pulsations and intense mass-loss. Standard spectral energy distribution (SED) fitting often relies on time-averaged observations, which flatten intrinsic variability and yield only approximate stellar and circumstellar parameters. To overcome these limitations, we dynamically trace the physical parameters of 13 carbon-rich Miras in the Small Magellanic Cloud (SMC) throughout their pulsation cycles. Combining time-series photometry from $Gaia$, WISE, VMC, 2MASS, and OGLE, we reconstruct simultaneous multi-band light curves. We extract independent SEDs at 14 distinct phases and model them using the ATHENA-C grid. This phase-resolved approach traces cyclic variations in effective temperature ($T_{\\rm eff}$), optical depth ($τ_{0.55}$), and bolometric luminosity. We find peak-to-peak $T_{\\rm eff}$ variations ranging from $\\sim 100$ K to $>1000$ K. A strong anti-correlation between $τ_{0.55}$ and bolometric luminosity indicates the dust condensation zone is pushed outward at maximum brightness, rendering the circumstellar environment optically thinner. We also recover the classical Period-Luminosity relation and derive radial expansion velocities and radius variation amplitudes, which are consistent with independent measurements. Phase-resolved fitting reveals the true dynamic ranges of these parameters, which static fits fail to capture. Although limited by grid sampling and gaps where converged hydrostatic models are unavailable, explicitly accounting for time-dependent behavior provides a much more physically realistic picture of the interplay between stellar pulsation and dust formation. This highlights the critical need for time-resolved methodologies when studying large-amplitude variables.",
+      "authors": [
+        "A. Liberatori",
+        "M. Trabucchi",
+        "D. Hatzidimitriou",
+        "M. A. T. Groenewegen",
+        "A. Bressan",
+        "G. Pastorelli",
+        "L. Girardi",
+        "K. Shepherd",
+        "B. Aringer",
+        "A. Udalski",
+        "A. Nunnari"
+      ],
+      "url": "https://arxiv.org/abs/2610.09537v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-07",
+      "score": 6,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.05769v2",
+      "title": "Unravelling the Nature of AT 2025abao: From Precursor to Final Fate",
+      "abstract": "Luminous red novae (LRNe) are potential signatures of common envelope evolution (CEE), a critical yet poorly understood phase in compact binary formation. AT 2025abao, an LRN in the Andromeda galaxy, originated from an asymptotic giant branch (AGB) progenitor and exhibited a prolonged pre-outburst transient. Lacking direct constraints on the companion, however, the system's evolutionary fate remains unclear. Here, we unravel the binary nature of AT 2025abao by modeling its complete evolution, from precursor to final outcome. We show that the eight-year infrared precursor arises from a $\\approx1.4^{+0.2}_{-0.3}\\,M_{\\odot}$ main-sequence companion inspiralling through the wind of a $\\approx 6.9\\,M_{\\odot}$ AGB star. As CEE commences, the companion plunges into the envelope and launches a shock. Radiation hydrodynamic modeling of this outburst constrains the total ejecta mass to $\\approx 0.92\\,M_{\\odot}$ and energy to $\\approx 1.25\\times 10^{47}\\,$erg, revealing that only $\\approx 0.57\\,M_{\\odot}$ becomes unbound. Subsequent radiative transfer simulations successfully reproduce the evolving spectral energy distribution. Crucially, our models indicate the main-sequence companion and AGB core survive in an eccentric orbit without merging at least 400 days after CEE onset. AT 2025abao may therefore be the first observed CEE event caught forming a close compact binary, bridging a long-standing observational gap in compact binary formation.",
       "authors": [
         "Zhuo Chen",
         "Yingzhen Cui",
@@ -277,7 +452,7 @@
         "Zelin Xu",
         "Jie Lin"
       ],
-      "url": "https://arxiv.org/abs/2610.05769v1",
+      "url": "https://arxiv.org/abs/2610.05769v2",
       "category": "astro-ph.SR",
       "published": "2026-10-05",
       "score": 6,
@@ -285,21 +460,60 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2610.05494v1",
-      "title": "ZTF J191814.28+010850.2: An eclipsing cataclysmic-variable candidate in the SW Sextantis period range",
-      "abstract": "We present a photometric study of ZTF J191814.28+010850.2, a short-period variable previously classified as an EA-type eclipsing binary. The analysis is based on ZTF observations in the g and r bands and additional time-series CCD photometry obtained on two nights. We derive an eclipse period of 0.1408529(3) d. The phased ZTF light curves show a deep primary eclipse, with an eclipse depth of about 2.8 mag in g and 2.0 mag in r, as well as indications of cycle-to-cycle variations outside eclipse. After excluding the primary eclipse and accounting for the remaining orbital modulation, robust locally weighted fits reveal a broad non-linear long-term brightness variation in both bands, with peak-to-peak ranges of about 0.56 mag in g and 0.46 mag in r. The deep eclipse, short orbital period and irregular variability suggest that the object is a cataclysmic-variable candidate and possibly a member of the SW Sextantis group. Time-resolved spectroscopy is required to confirm or refute the proposed classification and to test possible membership in the SW Sex class.",
+      "arxiv_id": "2610.10110v1",
+      "title": "Quasi-periodic eruption spectral-timing: EMRIs crossing warped accretion disks",
+      "abstract": "Quasi-periodic eruptions (QPEs) are repeating X-ray transients from galactic nuclei potentially caused by a stellar-mass orbiter repeatedly colliding with the accretion disk of a supermassive black hole (SMBH) in an extreme mass-ratio inspiral (EMRI). In this picture, the eruption arrival times encode the orbit and its relativistic precessions, while the quiescent spectral energy distribution (SED) probes the same disk and SMBH, providing two independent constraints on the same orbit-disk system. We present a joint spectral-timing framework that takes advantage of this by simultaneously fitting an analytic QPE timing model built on Kerr geodesic frequencies and a warped disk geometry, coupled to a self-irradiated disk SED model sharing the same SMBH mass, spin, and disk parameters. We apply it to the QPE sources GSN 069 and eRO-QPE2, showing that the QPE timings and quiescent spectra can be reproduced simultaneously in each, providing circumstantial support for the EMRI model and warped disks in these systems. However, given the sparse timing data in both sources, neither admits a unique solution. In eRO-QPE2, we identify six physical modes which reproduce the timings and SED comparably well, motivating denser observing campaigns to identify one unambiguously. Our results demonstrate both the promise of QPE spectral-timing as a precision probe of SMBHs, their accretion disks, and orbiting companions, and the aliasing subtleties of sparsely sampled QPE timings.",
       "authors": [
-        "Klaus Bernhard",
-        "Wolfgang Moschner",
-        "Christopher Lloyd",
-        "Peter Frank"
+        "Joheen Chakraborty",
+        "Andrew Mummery",
+        "Eliot Quataert",
+        "Riccardo Arcodia",
+        "Itai Linial",
+        "Erin Kara"
       ],
-      "url": "https://arxiv.org/abs/2610.05494v1",
-      "category": "astro-ph.SR",
-      "published": "2026-10-04",
+      "url": "https://arxiv.org/abs/2610.10110v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-07",
       "score": 6,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.08940v1",
+      "title": "Predictions for Short Gamma-Ray Burst Detections by COSI",
+      "abstract": "The Compton Spectrometer and Imager (COSI) is a soft gamma-ray telescope scheduled to launch in 2027. COSI will trigger onboard the spacecraft in response to short-duration transients, including gamma-ray bursts, and it will promptly disseminate alerts which include localizations to the community. This will enable rapid follow-up observations of the afterglow and associations with transients identified by other instruments. By simulating COSI observations of short gamma-ray bursts (sGRBs) and processing them with the trigger algorithm which will run onboard the spacecraft, we estimate the sensitivity of COSI to sGRBs. We then convolve this with a simulated set of sGRBs representing the intrinsic population in the universe to predict the rate that will be detected by COSI. We find that COSI is expected to trigger on $\\sim$47-89 sGRBs per year with $\\sim$7-10 localized to within 2.5°. With the gravitational wave sensitivity anticipated in the O5 run, we predict 0-3 joint detections with gravitational waves.",
+      "authors": [
+        "Eliza Neights",
+        "Eric Burns",
+        "Nicolò Parmiggiani",
+        "Yong Sheng",
+        "Savitri Gallego",
+        "Aldo Aguilar-Nadalini",
+        "Aaron C. Trigg",
+        "Sylvain Guiriec",
+        "Koothodil Abhijith Augustine",
+        "Matthew G. Baring",
+        "Anna L. Butterworth",
+        "Hsiang-Kuang Chang",
+        "Che-Yen Chu",
+        "Niccolò Di Lalla",
+        "Christopher Fryer",
+        "Hadar Lazar",
+        "Israel Martinez-Castellanos",
+        "Marion Sudvarg",
+        "Péter Veres",
+        "Steven E. Boggs",
+        "Dieter H. Hartmann",
+        "Carolyn A. Kierans",
+        "John A. Tomsick",
+        "Andreas Zoglauer"
+      ],
+      "url": "https://arxiv.org/abs/2610.08940v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-06",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2610.08641v1",
@@ -314,20 +528,6 @@
       "score": 6,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2610.05523v1",
-      "title": "Grid Optimization for Wide Field Modulation Collimators",
-      "abstract": "Wide-field localization of transient sources such as gamma-ray bursts (GRBs) places new demands on the grid design of modulation collimators, whose usable field of view (FOV) is normally limited by self-vignetting. A grid slat thick enough to be opaque at the energies of interest also clips off-axis rays, shrinking the effective slit width and ultimately defining the FOV itself. Historical bigrid or rotating-modulation-collimator (RMC) designs have been designed with this trade-off as an unavoidable consequence of geometric optics. We explore whether the cross-sectional shape of the grid slats can be optimized for wide FOV applications. We derive a general transmission-function framework for a bigrid pair in terms of an effective slit width that depends on slat geometry and use it to compare four slat cross sections: the conventional rectangular slat, an idealized diamond profile, a hexagonal profile that approximates photochemical etching, and the circular wire grids of early X-ray astronomy. We show that for the same bigrid pitch and thickness, a diamond profile extends the FOV and eliminates clipping throughout most of the field. We also demonstrate that a hexagonal profile achievable with standard tungsten etching factors captures many of the benefits of the idealized diamond profile. Extending the analysis to the four-phase demodulation, we show that slat shape directly sets the extent of the resulting phase-space blind spots, and that the diamond profile removes them entirely across a target FOV where the rectangular baseline cannot. We further show that finite grid opacity is a largely separable effect. Leakage through the grid leaves the geometric blind-spot boundaries unchanged. These results identify slat cross-sectional shape as a design parameter that can substantially increase throughput and widen the blind-spot-free field of view of a wide-field modulation collimator.",
-      "authors": [
-        "Steven E. Boggs"
-      ],
-      "url": "https://arxiv.org/abs/2610.05523v1",
-      "category": "astro-ph.HE",
-      "published": "2026-10-04",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
     },
     {
       "arxiv_id": "2610.08318v1",
@@ -351,6 +551,26 @@
       "category": "astro-ph.HE",
       "published": "2026-10-06",
       "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.09110v1",
+      "title": "Polarimetric Behaviour of (3200) Phaethon: New Observations with Implications for Surface Heterogeneity",
+      "abstract": "The near-Earth asteroid (3200) Phaethon exhibits unusually high linear polarisation at large phase angles. Previous observations revealed a significant difference between apparitions: measurements obtained in 2016 showed a polarisation up to $\\sim10$ percentage points higher than those obtained in 2017 at comparable phase angles. The distinct surface regions and viewing geometries sampled during the two apparitions have been suggested as possible explanations for this difference. Here, we present new R-band polarimetric observations obtained with the Nordic Optical Telescope, covering phase angles $32^\\circ<α<103^\\circ$. The 2019 measurements show polarisation intermediate between higher and lower values measured in 2016 and 2017, respectively. Using a recent shape model, we calculate the distribution of reflected flux across the surface during the three individual apparitions and find that the 2019 observations sample the surface more similarly to 2016 than to 2017. We explore several possible explanations for the different polarisation behaviours, including differences in regolith grain size, related surface albedo, and observing geometry. While the available observations do not allow these effects to be uniquely disentangled, our results and analysis suggest that surface heterogeneity is the most plausible underlying cause, with viewing geometry potentially contributing to the observed polarimetric differences.",
+      "authors": [
+        "Zuri Gray",
+        "Mikko Vuori",
+        "Eric MacLennan",
+        "Mikael Granvik",
+        "Karri Muinonen",
+        "Antti Penttilä",
+        "Mikael Turkki"
+      ],
+      "url": "https://arxiv.org/abs/2610.09110v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-06",
+      "score": 4,
       "tier": 2,
       "instrument": "RC400"
     },
@@ -447,19 +667,36 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2610.04986v1",
-      "title": "Candidate O I 7774 Å Absorption from an Escaping Rock-Vapor Outflow of BD+05 4868 Ab",
-      "abstract": "Disintegrating rocky planets provide a rare opportunity to probe material escaping directly from intensely irradiated planetary surfaces. We present time-resolved, low-resolution ($R\\simeq600$) optical spectroscopy and complementary ground-based photometry of BD+05 4868 Ab. The in-transit spectra exhibit an additional unresolved absorption feature near the O I triplet at 7771.94, 7774.17, and 7775.39 Angstroms relative to the out-of-transit baseline. The feature has an equivalent width of $W_λ\\simeq1.4\\pm0.2$ Angstroms, a maximum differential depth of approximately 9%, and an apparent width of 13-16 Angstroms, comparable to the instrumental resolution. We interpret the feature as candidate O I absorption from an oxygen-bearing mineral-vapor outflow. The $3s\\,{}^5S^\\circ_2$ lower level of the triplet lies 9.146 eV above the ground state and cannot be appreciably populated in LTE at the reported planetary temperature, requiring non-LTE excitation. A one-zone forward model in which photoionization, O$^+$ recombination, radiative cascade, and radiative trapping populate the excited state reproduces the measured equivalent width and instrumentally broadened line profile. The model favors an atomic component with a projected extent larger than the narrow condensed-dust layer and permits gas-to-dust mass-loss ratios of order a few for representative ionizing irradiation. Stellar O I line-profile variations remain the principal alternative at the present spectral resolution. We therefore identify escaping O I as the preferred physical interpretation while retaining the designation candidate O I. High-resolution, phase-resolved spectroscopy can directly test this interpretation by resolving the individual triplet components.",
+      "arxiv_id": "2610.10312v1",
+      "title": "ROSE (Red-giant Oscillations Spectra Estimator): A Modular Machine-Learning Framework for Automated Asteroseismic Characterisation. I. $ν_{\\max}$ and $Δν$ from TESS",
+      "abstract": "Space-based photometry from Kepler and TESS has delivered oscillation spectra for hundreds of thousands of red giants, and PLATO and the Roman Galactic Bulge Time-Domain Survey will add more. We present ROSE, a modular machine-learning framework for automated asteroseismic characterisation of red giants, and apply two of its modules to the frequency of maximum oscillation power, $ν_{\\rm max}$, and the large frequency separation, $Δν$. Each module is a neural network bundled with its own preprocessing transform and output binning, so that each parameter is measured in the representation that displays it most effectively: $ν_{\\rm max}$ from the power-density spectrum, and $Δν$ from the power spectrum of the power spectrum taken over a window centred on $ν_{\\rm max}$. Both are trained only on synthetic spectra generated at a one-year baseline and both return probability distributions rather than point estimates. This enables us to retrieve asymmetric uncertainty and a reliability index. Validating against held-out synthetic spectra, Kepler spectra at the training resolution and TESS continuous-viewing-zone giants, we obtain robust dispersions of 1.4, 3.3 and 4.4% in $ν_{\\rm max}$ and 0.35, 0.61 and 1.3% in $Δν$, with the $ν_{\\rm max}$ uncertainties close to their nominal coverage. The fully automated pipeline was applied to 274,721 TESS red-giant candidates observed for at least ten sectors, the framework returning reliable $ν_{\\rm max}$ for 56,224 stars and reliable $Δν$ for 39,939, taking 8 ms per star. The sample follows $Δν= 0.278 ν_{\\rm max}^{0.757}$ with a scatter of 6.2%, and the red-clump phase stands out as a distinct overdensity, although neither module is provided an evolutionary label or asked to produce one.",
       "authors": [
-        "Kody M. Walker",
-        "James C. Wallace"
+        "Nipun Ghanghas",
+        "Dinil B. Palakkatharappil",
+        "Rafael A. Garcia",
+        "Shravan Hanasoge"
       ],
-      "url": "https://arxiv.org/abs/2610.04986v1",
-      "category": "astro-ph.EP",
-      "published": "2026-10-04",
+      "url": "https://arxiv.org/abs/2610.10312v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-07",
       "score": 4,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.08916v1",
+      "title": "Debye cooling of ultramassive white dwarfs",
+      "abstract": "Recent observations of cold and massive white dwarfs are beginning to probe Debye cooling: an accelerated cooling phase driven by the vanishing heat capacity $C_V(T)$ of the crystallized interiors at low temperatures $T$, due to the quantum nature of phonon oscillations. We analyse this regime by calculating, both analytically and numerically, the instantaneous cooling time $τ(L)\\equiv -\\textrm{d}t/\\textrm{d}\\ln L$, which is a proxy for the number density of white dwarfs at a given luminosity $L$. We find that cooling accelerates ($τ$ shortens) at $L\\lesssim 10^{-4}\\,\\textrm{L}_{\\odot}$ due to a combination of Debye cooling and the simultaneous convective coupling of the degenerate core to the surface, with neither process causing significant acceleration on its own. Specifically, strong magnetic fields can inhibit convective coupling, leading to an almost flat $τ\\propto L^{1/7}$ instead. We parametrize the uncertainty in the solid microphysics by generalizing the Helmholtz free energy such that $C_V\\propto T^δ$ at low temperatures. The currently observed decreasing luminosity function in the Debye regime is tentatively consistent with $τ(L)$ of non-magnetic white dwarfs with $δ=3$, corresponding to the standard Debye model. Larger samples could probe, in addition to magnetism, deviations $δ<3$, which diverge appreciably before the Galactic disc's age $t\\approx 10\\textrm{ Gyr}$ for masses $M\\gtrsim 1.0\\,\\textrm{M}_{\\odot}$. For $δ>3$, in contrast, the cooling curves converge because the heat capacity becomes dominated by the degenerate electrons $C_V\\propto T$.",
+      "authors": [
+        "David Barba-González",
+        "Sivan Ginzburg"
+      ],
+      "url": "https://arxiv.org/abs/2610.08916v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-06",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2610.07487v1",
@@ -494,6 +731,91 @@
       "published": "2026-10-05",
       "score": 4,
       "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.09463v1",
+      "title": "The Prompt Emission of Gamma-Ray Bursts from Population III Stars",
+      "abstract": "Population (Pop) III stars, the first generation of stars in the Universe, have eluded direct detection for decades. The advent of the James Webb Space Telescope, with its unprecedented sensitivity to high-redshift sources, has renewed interest in the prospects for identifying these primordial stars. While previous studies have explored the direct detection of Pop III stars through gravitational lensing, here we investigate an alternative approach: identifying Pop III stars through gamma-ray bursts (GRBs) produced by the deaths of massive Pop III progenitors. We generate source-frame mock observables and find that, although Pop III and Pop I GRBs share many common properties, several observables can potentially distinguish between the two populations. In particular, light-curve timescales, isotropic-equivalent energies, peak energies, and the locations of GRBs in empirical prompt-emission correlations depend sensitively on the mass and explosion energy of the progenitor. We find that Pop III GRBs tend to exhibit longer characteristic timescales and higher isotropic-equivalent peak energies than their Pop I counterparts. Finally, we show that Pop III GRBs may provide a promising origin for the population of soft X-ray prompt emission recently detected by the Einstein Probe, offering a complementary avenue for probing the first generations of stars.",
+      "authors": [
+        "Nathan Walker",
+        "Davide Lazzati",
+        "Tyler Parsotan",
+        "Rosalba Perna",
+        "Matteo Cantiello",
+        "Jake Hassan",
+        "Brian Morsony"
+      ],
+      "url": "https://arxiv.org/abs/2610.09463v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-07",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.08985v1",
+      "title": "A method for multimodal analysis of TAIGA experiment data using essential features",
+      "abstract": "The aim of processing and analyzing experimental data from physical experiments is to obtain physically significant information about the phenomenon under study. This goal is achieved by multi-stage processing of experimental data, during which noise associated with measurements is suppressed and the dimensionality of the input data is reduced. In this paper, we propose a new method based on the use of neural networks such as autoencoders to extract essential features. The special value of the proposed approach lies in the possibility of its application to the analysis of multimodal data received simultaneously from several installations. We will apply this approach to a multimodal data (MMD) of the experiment TAIGA. Currently, the analysis of the MMD is carried out independently for each installation separately. Therefore, the development of methods for the joint analysis of MMD from TAIGA-type installations is an urgent task in cosmic ray physics and gamma-ray astronomy. Based on Monte Carlo simulation, it is shown that the proposed method allows for effective MMD analysis. It can also be used for MMD analysis at other experimental complexes.",
+      "authors": [
+        "Alexander Kryukov",
+        "Julia Dubenskaya",
+        "Elena Fedotova",
+        "Elizaveta Gres",
+        "Stanislav Polyakov",
+        "Eugene Postnikov",
+        "Alexander Razumov",
+        "Pavel Volchugov",
+        "Dmitry Zhurov"
+      ],
+      "url": "https://arxiv.org/abs/2610.08985v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-06",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.10231v1",
+      "title": "IMFIT-MW: Multiwavelength photometric decomposition with IMFIT",
+      "abstract": "Photometric decomposition is often used to study galaxy structure by modelling surface brightness distribution in its components. However, most of the relevant codes are designed for single-band analysis. I present IMFIT-MW: a lightweight, open source Python tool that extends IMFIT capabilities to simultaneously model multiwavelength images. IMFIT-MW is able to set shared parameters between filters and to impose smooth variation of them with wavelength. IMFIT-MW achieves this by using IMFIT to produce model brightness distributions for given parameters, whereas hyperparameters defining their wavelength dependence are fitted by an external optimizer. The code is available on GitHub (https://github.com/IVChugunov/IMFIT-MW). I provide a few examples of use, showing that IMFIT-MW matches GALFITM in single-thread performance and can have advantage of multithreading. In a broader sense, I demonstrate the possibility to extend IMFIT features even without modifying its source code.",
+      "authors": [
+        "Ilia V. Chugunov"
+      ],
+      "url": "https://arxiv.org/abs/2610.10231v1",
+      "category": "astro-ph.IM",
+      "published": "2026-10-07",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.08920v1",
+      "title": "PEARLS: NuSTAR and XMM-Newton Extragalactic Survey of the JWST North Ecliptic Pole Time-Domain Field V: Unraveling X-ray Spectral Variability",
+      "abstract": "As one of the first deep time-domain surveys in the hard X-ray band, the NuSTAR campaign in the JWST North Ecliptic Pole Time Domain Field (NEP-TDF) offers a prime opportunity to measure variability in a faint population of Active Galactic Nuclei (AGN) in the medium-to-high redshift universe. In the X-ray band, AGN variability is generally caused by changes in the brightness of the corona ($F_{int}$ variability) or changes in the column density of obscuring material near the SMBH ($N_H$ variability). Broad-band spectroscopy ($\\sim$0.5-24 keV) is required to reliably disentangle these two phenomena. With simultaneous NuSTAR and XMM-Newton coverage---as well as 1.8 Ms of Chandra monitoring---the X-ray surveys in the NEP-TDF are ideally situated for this purpose. This work presents the first spectral modeling of the 52 NuSTAR-identified sources discovered in the latter half of the campaign, as well as a spectroscopic variability study of the entire 112-source NuSTAR NEP-TDF catalog. Seven variable candidates are identified. We find that $\\gtrsim 1000$ total counts split across many ($\\gtrsim 10$) epochs are needed in order to detect variability. Additionally, variable sources are compared to the survey sensitivity in order to inform population synthesis models of how variations can affect the detectability of faint AGN, which dominate the SMBH accretion history. Lastly, the timescale of $N_H$ variability is investigated as a probe for the obscurer location. Significant variability is slightly more common on $> 100$ day timescales, suggesting that the torus may have only slight dominance in driving $N_H$ variability in faint AGN.",
+      "authors": [
+        "Samantha Creech",
+        "Francesca Civano",
+        "Daniel Wik",
+        "Núria Torres-Alba",
+        "Ross Silver",
+        "Xiurui Zhao",
+        "Tonima Ananna",
+        "Gibson Bowling",
+        "Norman A. Grogin",
+        "Anton M. Koekemoer",
+        "Peter Maksym",
+        "Sylvia Mesicek",
+        "Rafael Ortiz",
+        "Payaswini Saikia",
+        "Steven Willner",
+        "Rogier Windhorst"
+      ],
+      "url": "https://arxiv.org/abs/2610.08920v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-06",
+      "score": 3,
+      "tier": 3,
       "instrument": "MK67 (future spec.)"
     }
   ]
