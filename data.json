@@ -1,8 +1,552 @@
 {
-  "generated_utc": "2026-10-13T13:53:22Z",
-  "date": "2026-10-13",
-  "total_fetched": 0,
-  "relevant_count": 0,
+  "generated_utc": "2026-10-14T11:30:32Z",
+  "date": "2026-10-14",
+  "total_fetched": 115,
+  "relevant_count": 26,
   "min_score": 3,
-  "articles": []
+  "articles": [
+    {
+      "arxiv_id": "2610.17140v1",
+      "title": "The nearby Type II supernova 2024ggi beyond 600 days: circumstellar interaction and dust formation",
+      "abstract": "The Type II SN 2024ggi is one of the nearest core-collapse SNe to have exploded in recent decades. Its proximity has enabled extensive multiwavelength monitoring from early times through the nebular phase. Signatures of late-time interaction between the SN ejecta and hydrogen-rich circumstellar material (CSM) have recently been reported. Here we extend its study using late-time optical photometry and spectroscopy from 570 to 820 d after explosion. We investigate the emergence and evolution of late-time ejecta-CSM interaction and constrain the geometry of the interaction region and the properties of newly formed dust. Comparisons with other interacting SNe II and with synthetic spectra are presented. We model the H$α$ profile with the Monte Carlo radiative-transfer code Damocles, including both gas and dust components. Spectroscopic signatures of interaction precede the photometric flattening. The spectra evolve from ejecta-dominated to interaction-dominated as H$α$ develops a broad, boxy profile. The optical light curves subsequently flatten relative to the $^{56}$Co decay rate at approximately 650-670 d. The emission lines show a systematic blue-to-red asymmetry that requires a dust component newly formed within the ejecta. The inferred dust mass formed in the ejecta is $10^{-6}-10^{-5}$ M$_\\odot$ if the grains are amorphous carbon or a carbon-silicate mixture, but can reach up to $10^{-3}$ M$_\\odot$ for pure silicates.",
+      "authors": [
+        "L. Ferrari",
+        "G. Folatelli",
+        "C. P. Gutiérrez",
+        "A. Méndez",
+        "C. Ashall",
+        "K. Medler",
+        "K. Ertini",
+        "H. Kuncarayakti",
+        "N. Morrell",
+        "M. Stritzinger",
+        "W. Hoogendam",
+        "E. Hueichapán",
+        "R. Cartier",
+        "J. P. Anderson",
+        "M. Bersten",
+        "L. Galbany",
+        "J. L. Prieto",
+        "C. Cárdenas Uribe",
+        "S. Vazhayil"
+      ],
+      "url": "https://arxiv.org/abs/2610.17140v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-12",
+      "score": 12,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.18633v1",
+      "title": "The ePESSTO+ census of ZTF nuclear transients. I. What flares in galactic nuclei?",
+      "abstract": "Transients in galactic nuclei arise from distinct processes, only some of which trace the supermassive black hole (SMBH). These include tidal disruption events (TDEs), changing-look active galactic nuclei, Bowen fluorescence flares (BFFs) and ambiguous nuclear transients, alongside supernovae that appear nuclear but are unrelated to the SMBH. Reliable classification requires spectroscopy, which will not scale to the alert volumes of the Legacy Survey of Space and Time (LSST). We aim to characterise the population of nuclear transients, to identify early observables capable of distinguishing SMBH-related flares, and TDEs in particular, from the dominant supernova background, and to assess the biases this selection introduces. We implemented a real-time filter on the Lasair broker, selecting transients from the Zwicky Transient Facility (ZTF) alert stream by nuclear coincidence with the host galaxy, with no photometric cuts, to retain SMBH-related flares in both quiescent and active hosts. The filter ran over 16 months, with candidates reported for classification through ePESSTO+ and other facilities. The filter returned 476 candidates, of which 202 were spectroscopically classified, yielding predominantly supernovae, 10 confirmed TDEs (5%) and one BFF. The mean g-r colour and the rise time separate TDEs from the supernova background. Our filter recovers 10 of the 25 TDEs classified in the same period and declination range; most misses are technical or observational rather than physical. Simple real-time filtering combined with basic photometric criteria can already isolate TDEs efficiently from nuclear transient alert streams, and high completeness is achievable. In the LSST era, where samples will be predominantly photometric, selection bias will become as important as contamination, and retaining flares in active hosts is necessary if unusual events are not to be excluded.",
+      "authors": [
+        "E. Concepción",
+        "T. Petrushevska",
+        "G. Leloudas",
+        "D. Ilić",
+        "M. Gromadzki",
+        "S. Bhattacharyya",
+        "P. Charalampopoulos",
+        "A. Gomboc",
+        "N. Ihanec",
+        "M. Nicholl",
+        "P. J. Pessi",
+        "D. R. Young",
+        "P. Wiseman",
+        "T. -W. Chen",
+        "M. Dennefeld",
+        "Y. Dgany",
+        "C. P. Gutiérrez",
+        "C. Inserra",
+        "L. Makrygianni",
+        "T. E. Müller-Bravo",
+        "S. Nissen",
+        "F. Onori",
+        "R. Roy",
+        "M. Quilt"
+      ],
+      "url": "https://arxiv.org/abs/2610.18633v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-13",
+      "score": 12,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.15703v1",
+      "title": "Revisiting the Multiwavelength Data of GRB 240825A: Implications for a Two-Stage Central Engine and a Dusty Environment",
+      "abstract": "Reanalyzing the multi-wavelength data of GRB 240825A, we identify two distinct prompt-emission episodes, i.e. an early, spectrally soft plateau and a subsequent bright, spectrally hard gamma-ray pulse. We show that this signature is consistent with a two-stage central engine model, in which the early soft plateau is powered by the dipolar spin-down radiation of a transient proto-magnetar, while the later hard pulse arises from a relativistic jet launched by fallback accretion onto the nascent black hole via the Blandford-Znajek mechanism. Adopting simulation-motivated initial black hole (BH) masses ($M_{\\rm BH,0}$) and spins ($a_0$), our fits to the second episode yield total masses supplied to the post-collapse disk of $M_{\\rm fb}=0.45$--$0.96 M_\\odot$, fallback radii of $r_{\\rm fb}=16.9$--$17.6 r_g$, and characteristic fallback timescales of $t_{\\rm fb}=0.13$--$0.25$ s. The corresponding maximum inner accretion rates range from $0.18$ to $0.70 M_\\odot \\mathrm{s}^{-1}$, which is sensitive to $a_0$. Joint spectral fits with optical-X-ray afterglow data reveal a coupled temporal evolution of dust extinction and equivalent hydrogen column density. Incorporating this extinction evolution, an external forward-reverse shock model in a wind-like medium can account for the radio-to-GeV band afterglow data. Although ambient dust and the bright host galaxy may obscure any associated supernova, late-time optical reddening remains compatible with a supernova contribution. Applying the empirical relation between the prompt spectral peak energy and the SN peak bolometric magnitude gives an illustrative estimate of $M_{\\rm bol,peak}=-19.46\\pm0.35$ mag for a putative associated SN. These results support a two-stage evolution of the central engine and variable dusty environment of GRB 240825A, which provides insights into the nature of its progenitor.",
+      "authors": [
+        "Ren-Jie Xiong",
+        "Zi-Qi Wang",
+        "Xiao-Li Huang",
+        "En-Wei Liang"
+      ],
+      "url": "https://arxiv.org/abs/2610.15703v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-11",
+      "score": 11,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.17168v1",
+      "title": "OASIS: On-the-fly ASynchronous Image Stream classification -- Transformer-based models for the early detection of strongly lensed supernovae",
+      "abstract": "Time-domain surveys often produce asynchronous image sequences across irregular observation times and photometric bands. In many applications, predictions are needed after each new observation, particularly when transient sources must be identified early to trigger follow-up. Strongly lensed supernovae (LSNe), for which follow-up is particularly time-critical, provide a useful example. We formulate this setting as On-the-fly ASynchronous Image Stream (OASIS) classification and explore reusable transformer architectures for causal, on-the-fly classification. We demonstrate these architectures on the lensed-transient classification problem studied by Bag et al. (2026a,b), distinguishing LSNe Ia from unlensed astrophysical transients. We compare them with the recurrent baseline adopted by Bag et al. (2026b), which combines a ConvLSTM branch for image processing with a separate LSTM branch for encoding observation times. The baseline maps asynchronous observations onto a fixed band-by-observation grid, filling unobserved bands with zeros. Using a common training setup, we compare two transformer-based approaches to modeling interactions among spatio-temporal tokens: factorized attention, which separates spatial and temporal interactions, and joint attention, which models them together. On the demonstration dataset, factorized architectures achieve mean losses of $0.095$--$0.100$, compared with $0.128$ for the recurrent baseline and $0.107$ or higher for joint architectures. A selective readout further reduces the best loss to $0.089$ for a factorized model. These results suggest that factorized attention suits this dataset better, without implying universal architectural superiority. We release the architectures as reusable foundations for time-domain astronomy and other applications involving evolving spatial features that require on-the-fly predictions.",
+      "authors": [
+        "Satadru Bag",
+        "Raoul Canameras",
+        "Sherry H. Suyu",
+        "Stefan Schuldt",
+        "Stefan Taubenberger",
+        "Irham Taufik Andika",
+        "Alejandra Melo"
+      ],
+      "url": "https://arxiv.org/abs/2610.17168v1",
+      "category": "astro-ph.IM",
+      "published": "2026-10-12",
+      "score": 10,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.16527v1",
+      "title": "Blackbody evolution and circumstellar medium properties of broad-lined H-rich superluminous supernovae",
+      "abstract": "Broad-lined H-rich superluminous supernovae (SLSNe II) tend to show signs of interaction, including a UV excess compared to a blackbody function. However, a quantitative analysis of the CSM configuration and the UV excess has so far not been performed for most of the literature sample. Additionally, SN 2023gpw showed signs of asymmetry in its peculiar blackbody and spectral evolution, raising the question of whether similar properties can be found in other SLSNe II. We aim to characterize the circumstellar environment of SLSNe II by searching for signs of asymmetry, quantifying the UV excess, and investigating any IR echoes produced by dust. Diversity among SLSNe II is also explored. We fit blackbody functions to the SEDs of SLSNe II to quantify the UV excess luminosity and its evolution. We use this to investigate mass-loss rates required to produce the excess through interaction. We also investigate the line profiles in SLSN II at late times and compare line velocities to the blackbody radius evolution. We examine public WISE IR images and place constraints on IR echoes. We find mass loss rates of $\\sim10^{-4}$ to $\\sim0.03\\, \\mathrm{M_\\odot}$~yr$^{-1}$ when assuming all interaction luminosity emerges in the UV, i.e., conservative lower limits for the total mass loss rate. Radii calculated from line velocities in late-time spectra are mostly too large for a spherical interaction photosphere, only compatible with the blackbody radius evolution if the CSM is non-spherical with a low filling factor. This is in some cases supported by a mismatch between spectroscopic and blackbody expansion velocities. Considerable diversity is seen in the sample, probably as a result of different viewing angles and CSM masses. WISE images seem too shallow to observe IR echoes in SLSNe II beyond $z\\sim0.1$, but in the nearest event, SN 2020jhm, a likely IR echo is detected, suggesting pre-existing dust.",
+      "authors": [
+        "Tuomas Kangas",
+        "Takashi Nagao",
+        "Uliana Pylypenko",
+        "Steve Schulze",
+        "Lin Yan"
+      ],
+      "url": "https://arxiv.org/abs/2610.16527v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-12",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.18315v1",
+      "title": "Cell-based theoretical criteria on the onset and stability limit of thermonuclear detonation",
+      "abstract": "One of the key unresolved problems in thermonuclear explosions of white dwarfs (WDs), including type Ia supernovae, is the condition for ignition and propagation of thermonuclear flame. Given the limitation of hydrodynamic simulations in resolving the flame front involved in the explosion process, theoretical considerations for these criteria merit accurate prediction of the onset of deflagration and detonation (deflagration-to-detonation transition or direct initiation) and subsequent stable propagation. Application of cell-based theories, which are originally designed for terrestrial detonation incorporating the size of the cellular structure, to pure-helium detonation in a WD envelope was proven to be powerful. In the present work, we extend this for detonation in helium-carbon and carbon-oxygen mixtures, both of which are associated with the double-detonation model for type Ia supernovae. Comparing with previous hydrodynamic studies in terms of the minimum initiation energy and critical stellar mass for stable propagation, the agreement is satisfactory. For the helium-carbon detonation, it is theoretically substantiated that even an extremely low-mass WD envelope $\\sim 10^{-3}$ M$_{\\odot}$ can accommodate stable detonation. For the carbon-oxygen detonation, the oxygen-scale cell width is shown to be a good diagnosing indicator. In addition, it is indicated that direct initiation of the carbon-oxygen detonation is only available for a WD heavier than 0.6 M$_\\odot$. The findings of this study enable first-order calibration of the explosion model by a simple calculation through the analogy between astrophysical and terrestrial burning, the latter of which can be tested and observed in a laboratory-scale experiment.",
+      "authors": [
+        "Kazuya Iwata",
+        "Keiichi Maeda",
+        "Ken J. Shen"
+      ],
+      "url": "https://arxiv.org/abs/2610.18315v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-13",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.16296v1",
+      "title": "Direct Observational Constraint on Upstream Magnetic Field Amplification Reveals the Particle Acceleration Limit in a Supernova Remnant",
+      "abstract": "The origin of Galactic cosmic rays up to the knee energy (PeV) remains a long-standing open question in astrophysics. Supernova remnant shocks are leading candidates for accelerating particles to PeV energies, yet this requires strong magnetic field amplification in the upstream region to confine the highest energy particles. Despite its importance, the upstream magnetic field strength has long lacked direct observational constraints. Here we report the observation of numerous synchrotron X-ray hotspots extending into the upstream of the supernova remnant RX J1713.7$-$3946 in archival Chandra data. These hotspots show spatial and temporal properties consistent with synchrotron emission from secondary electrons produced by hadronic interactions between accelerated protons and dense molecular clumps. Using the spatial extent of these upstream hotspots as a physical scale, we estimate the proton diffusion length to be $\\sim 1~\\mathrm{pc}$. This measurement provides a constraint on the upstream magnetic field strength of $\\sim 10~μ\\mathrm{G}$, which is consistent with recent simulations of Bell-instability-driven magnetic field amplification. Our results indicate that the current amplification is insufficient to reach PeV energies, explaining the observed TeV gamma-ray spectral cutoff and providing a diagnostic for assessing PeVatron capability in stellar shocks.",
+      "authors": [
+        "Yuya Kawabata",
+        "Takaaki Tanaka",
+        "Hiromasa Suzuki",
+        "Tsuyoshi Inoue"
+      ],
+      "url": "https://arxiv.org/abs/2610.16296v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-12",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.16130v1",
+      "title": "Equation of State Classification of Core-Collapse Supernovae with a Network of Gravitational-Wave Detectors",
+      "abstract": "Gravitational waves from core-collapse supernovae may provide a unique probe of the equation of state (EOS) of dense nuclear matter. In previous work, we assessed the potential of machine-learning methods for EOS classification for rapidly rotating supernovae using individual gravitational-wave detectors. Here, we extend the framework to detector networks and investigate the impact of detector configuration, source distance, arrival time, and sky location on the classification. Using convolutional neural networks, we perform 10-class EOS classification directly from noisy detector data for both second- and third-generation observatories. We find that detector geometry strongly influences classification performance. For Galactic events, current detector networks can achieve promising classification performance, but the reach depends sensitively on the detector network antenna response. Adding detectors improves time-averaged performance and produces more uniform classification across the sky. Third-generation observatories extend the classification reach to 100 kpc for favorable source orientations but do not remove the dependence on detector geometry.",
+      "authors": [
+        "A. Akhmetali",
+        "Y. S. Abylkairov",
+        "J. A. Font",
+        "M. Zanolin",
+        "E. Abdikamalov"
+      ],
+      "url": "https://arxiv.org/abs/2610.16130v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-12",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.16097v1",
+      "title": "Radiation-Regulated Spherical Accretion with an Inner Accretion Disk",
+      "abstract": "We develop a theoretical model for radiation-regulated spherical accretion with an inner accretion disk. In our model, the outer accretion flow remains quasi-spherical and optically thick, while the luminosity generated by the inner disk is self-consistently coupled to the accretion rate and irradiates the inflowing gas. By solving the global transonic structure with radiative transfer treated in the diffusion approximation, we investigate how radiation regulates the flow structure and the accretion rate. We find that the luminosity is constrained by a generalized Eddington limit, leading to a saturated accretion rate typically lower than the classical Bondi prediction by orders of magnitude. At sufficiently low densities, the enthalpy flux of the spherical inflow contributes substantially to the emergent luminosity, in which case the inner disk luminosity is reduced and the accretion flow enters an unsaturated state. A criterion is derived to estimate whether the accretion flow is saturated. We further demonstrate the applicability of our model by considering fallback accretion in failed supernova systems. The predicted nearly constant emergent luminosity, constrained by the generalized Eddington limit, provides a possible explanation for the observed luminosity plateau in the failed supernova candidate M31-2014-DS1. The presence of an inner disk also provides sufficient radiation to avoid the under-luminous predictions of a purely spherical fallback model extending down to the central object. Our model provides a framework for studying radiation-regulated accretion flows in systems where low but finite angular momentum leads to the formation of an accretion disk within a larger-scale quasi-spherical inflow.",
+      "authors": [
+        "Cheng-Liang Jiao",
+        "Liying Zhu",
+        "Xiang-dong Shi",
+        "Er-gang Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2610.16097v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-12",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.16903v1",
+      "title": "Initial Performance Tests of MASTA for Wide-Field Narrowband Imaging",
+      "abstract": "Wide-field narrowband imaging provides an efficient approach for mapping low-surface-brightness line emission over large angular scales. We present initial performance tests of Multi-Application Survey Telescope Array (MASTA) for narrowband imaging. Using commissioning data obtained with the QHY461 and COSMOS-8K cameras, we characterize the basic reduction procedure, photometric calibration, image quality, and point-source detection limits. The measured surface-brightness and point-source detection limits become deeper with increasing exposure time, roughly following the expected background-limited scaling. Under the current observing and reduction conditions, the COSMOS-8K camera generally reaches deeper surface-brightness limits, particularly in the red filters, while QHY461 has smaller pixel size and provides better sampling of the telescope point spread function (PSF). As demonstrations, we perform continuum subtraction for the nearby galaxy M106 and the supernova remnant Cygnus Loop using adjacent narrowband filters and reveal the Hα and [O III] structures in M106 and filamentary structures in the Cygnus Loop. We further compare the MASTA surface brightness Hα map of M106 with an independent SITELLE measurement. After accounting for [N II] contamination and the wavelength-dependent response of the 6544 Å filter in the f /1.7 converging beam, the corrected median ratio is 0.973. These tests indicate that MASTA is a promising facility for wide-field narrowband imaging. Further improvements in calibration frames, including flux calibration, field-dependent bandpass characterization, and spatially varying PSF modeling and matching will be required for quantitative studies of diffuse ionized gas.",
+      "authors": [
+        "Mingxuan Xu",
+        "Jiang-Tao Li",
+        "Li Ji",
+        "Chen Zhang",
+        "Yantian Zhu"
+      ],
+      "url": "https://arxiv.org/abs/2610.16903v1",
+      "category": "astro-ph.IM",
+      "published": "2026-10-12",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.18339v1",
+      "title": "The EBLM project - XX. Absolute dynamical masses of five low-mass eclipsing binaries, and an evaluation of mass estimation methods",
+      "abstract": "Eclipsing binaries consisting of a solar-type primary and an M dwarf secondary are key laboratories to study objects at the bottom of the main sequence. Fundamental parameters of such stars have a direct impact upon exoplanetary studies, as searches for temperate Earth-sized planets focus on M dwarf hosts. Eclipsing binaries are essential to measure these parameters. However for stellar masses $<$ 0.35 M$_\\odot$ , few double-lined eclipsing systems are known. Thus, stellar evolution models and empirical relations have had to rely on single-lined eclipsing binaries, for instance those from the EBLM project (Eclipsing Binary - Low Mass). Using high resolution spectroscopy to extract the weak signal of the secondary (flux ratio $<$ 1 per cent in the optical), we transform five more systems from single to double-lined, deriving absolute masses for both stars. We then compare methods typically employed to estimate stellar masses for field stars or single-lined binaries with the absolute dynamical masses we obtain, to assess their accuracy. Our results for SB1 and SB2 analyses are mostly consistent within 1-$σ$, though we identify a small systematic overestimation of SB1 masses derived from a combination of radial velocities and eclipse photometry. We show that the bias originates from primary radius overestimation during isochronal analysis, wherein the secondary light reduces photometric magnitudes and impacts the recovered radii by modifying the spectral energy distribution. With proper calibration, we can ensure the accuracy of using the full EBLM SB1 sample to constrain mass-radius-luminosity relationships for the smallest, yet most abundant, stars in the Galaxy",
+      "authors": [
+        "Adam T. Stevenson",
+        "Yasmin T. Davis",
+        "Daniel Sebastian",
+        "Amaury H. M. J. Triaud",
+        "Pierre F. L. Maxted",
+        "Alix V. Freckelton",
+        "Thomas A. Baycroft",
+        "Neda Heidari",
+        "David V. Martin",
+        "Nicola J. Miller",
+        "Alexandre Santerne"
+      ],
+      "url": "https://arxiv.org/abs/2610.18339v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-13",
+      "score": 6,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.18338v1",
+      "title": "The EBLM Project - XIX. The absence of radius inflation in a homogeneous analysis of 66 Northern low-mass eclipsing binaries",
+      "abstract": "Precise and accurate measurements of host stars are crucial in the search for Earth-like exoplanets, and M-dwarfs are favourable targets in this quest. Low-mass eclipsing binaries offer unique opportunities to empirically determine stellar masses and radii for low-mass stars where stellar models may be systematically biased. We present results from the EBLM-North sample, the largest homogeneous study of low-mass eclipsing binaries with secondary characterisation yet, combining high-resolution and high-precision radial velocities from SOPHIE and TESS photometry. We measure a median precision for stellar companions of 4.2% in radius and 8.6% in mass within a sub-sample of 50 high-quality binaries, all with orbital periods $P_{\\rm bin} > 5\\,\\rm days$. We compare our data to the Baraffe and MIST isochrones, and find our sample is statistically consistent with those models, producing reduced chi-squared values, $χ^2_ν\\sim 1$. Our measured radius inflation is $0.3\\pm 1.6$% indicating no statistically significant trend. We likewise detect no significant trend with metallicity, despite having the precision to identify such a relationship. As such, our observations do not appear to follow the general metallicity trend predicted in MIST. A $χ_ν^2 \\sim 1$ indicates the scatter in our results is commensurate with our uncertainties alone. These results constrain the scope for unmodelled effects on the mass-radius relation that would produce radius deviations greater than 4.2%. However, our secondary effective temperatures do not reproduce this high level of agreement with the models, and we do not recover the predicted trends with metallicity.",
+      "authors": [
+        "Yasmin T. Davis",
+        "Amaury H. M. J. Triaud",
+        "David V. Martin",
+        "Alix V. Freckelton",
+        "Jenni R. French",
+        "Adam T. Stevenson",
+        "Annelies Mortier",
+        "Karen Collins",
+        "Pierre F. L. Maxted",
+        "Daniel Sebastian",
+        "Aleyna Adamson",
+        "Thomas A. Baycroft",
+        "Isabelle Boisse",
+        "Gavin A. L. Coleman",
+        "Georgina Dransfield",
+        "Yilen Gómez Maqueo Chew",
+        "Leslie Hebb",
+        "Neda Heidari",
+        "Vedad Kunovac",
+        "James McCormac",
+        "Nikki J. Miller",
+        "Richard Nelson",
+        "Martin Nielsen",
+        "Alexandre Santerne",
+        "Madison G. Scott",
+        "Owen Scutt",
+        "Alexis M. S. Smith",
+        "Matthew R. Standing",
+        "Amalie Stokholm",
+        "Matthew I. Swayne",
+        "Mathilde Timmermans",
+        "Peter J. Wheatley",
+        "Emma Willett"
+      ],
+      "url": "https://arxiv.org/abs/2610.18338v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-13",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.17981v1",
+      "title": "Physical characterization of Earth's quasi-satellite 2025 PN7",
+      "abstract": "A hypothetical origin as lunar ejecta for Earth's quasi-satellites (QS) has gained initial support in recent years, but there is scarce photometric and/or spectroscopic data to support the premise due to the rare observational windows to obtain such data for these small objects. One of the key pieces of evidence supporting the lunar-origin hypothesis, the lunar-like, very red reflectance spectrum of QS (469219) Kamo'oalewa, was recently found to be flawed. We present reflectance spectroscopy of Earth's QS 2025~PN$_7$ obtained with FORS2 at UT1-Antu of the ESO Very Large Telescope. This is only the second QS that has ever been characterized, the first being (469219) Kamo'oalewa, the sample-return target of the Tianwen-2 mission. Our results indicate that 2025~PN$_7$ exhibits a near-solar, flat visual spectrum, most consistent with the B-type in the Bus-DeMeo taxonomy. Our results therefore still support an asteroid-belt origin for most of Earth's QSs. The lunar-ejecta hypothesis can only be formally rejected with a larger sample of spectroscopically characterized QSs.",
+      "authors": [
+        "Grigori Fedorets",
+        "Zuri Gray",
+        "Mikael Granvik",
+        "Eric MacLennan"
+      ],
+      "url": "https://arxiv.org/abs/2610.17981v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-13",
+      "score": 6,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.17889v1",
+      "title": "Size, atmospheric, and ring constraints on the large Kuiper belt object (55565) Aya from a stellar occultation",
+      "abstract": "We aim to constrain the projected size, geometric albedo, possible atmosphere, and possible ring material of the mid-sized trans-Neptunian object (55565) Aya from the stellar occultation of 2024 May 10 (UT). We observed the event from three Japanese sites with high-cadence optical imaging. We combined one positive occultation chord with an informative prior on the shadow centre derived from orbital and astrometric uncertainties, and inferred the body radius with Bayesian Markov chain Monte Carlo modelling. We constrained a possible atmosphere by fitting refraction models for pure CH$_4$, N$_2$, and CO atmospheres to multi-band light curves, and searched for ring-like extinction signatures in unbinned and binned high-time-resolution photometry. We derive an equivalent radius, i.e., the radius of the circle fitted to the projected shadow, of $r=401^{+28}_{-40}$ km for Aya, corresponding to a geometric albedo of $p_V=0.101^{+0.023}_{-0.013}$. This estimate is insensitive to the adopted ephemeris solution and is consistent with an ephemeris-independent analysis that makes no assumption about the position of the shadow centre. We obtain 3$σ$ upper limits on the atmospheric surface pressure of $p_0=60$, 90, and 80 nbar for pure CH$_4$, N$_2$, and CO compositions, respectively. No significant ring-like extinction is detected over projected distances of about 430-8060 km sampled by the three stations, and our most sensitive data exclude dense narrow features with apparent opacity $p'\\gtrsim0.1$ and radial widths of a few kilometres or larger over $\\sim3r$-$14r$. This is the first stellar occultation by Aya ever observed. In addition to constraining Aya's size and albedo and finding no ring-like extinction, we place a stringent atmospheric upper limit that supports diversity in atmospheric states among similarly sized trans-Neptunian objects.",
+      "authors": [
+        "Ko Arimatsu",
+        "Hidekazu Hanayama",
+        "Satoshi Takita",
+        "Fumi Yoshida",
+        "Tsutomu Hayamizu",
+        "Jun-ichi Watanabe"
+      ],
+      "url": "https://arxiv.org/abs/2610.17889v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-13",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.15569v1",
+      "title": "Mapping the Contracting Corona in GS 1354-64 with Insight-HXMT and XRISM: Evolving X-ray Lags and Quenched Reflection across a Complete State Transition",
+      "abstract": "We present a comprehensive broadband spectro-temporal analysis of the dynamically confirmed Galactic black hole transient GS 1354-64 during its 2025-26 outburst, using near-simultaneous observations from Insight-HXMT and XRISM. The high spectral resolution of the XRISM-Resolve microcalorimeter, coupled with the high-cadence broadband coverage of Insight-HXMT, reveals a dramatic evolution in the inner accretion geometry. During the early hard-intermediate state, the spectrum was dominated by a hot Comptonizing corona accompanied by relativistically broadened reflection features. As the outburst progressed, the corona cooled efficiently, the photon index steepened (Gamma >~ 2.5), and the reflection signatures, including the broad Fe K-alpha emission, were quenched, yielding a featureless, disk-dominated continuum. Concurrently, Type-C quasi-periodic oscillations (QPOs) evolved from 0.25 Hz to 6.52 Hz. Cross-spectral timing analysis revealed that the broadband X-ray time lags changed from pronounced positive (hard) delays (~160 ms) at low frequencies to near zero as the source softened. However, a statistical analysis incorporating the measurement uncertainties shows that the broadband lags lack a significant monotonic correlation with the QPO frequency, photon index, or fractional rms. Instead, the scattered lag behavior suggests a competition between positive Comptonization delays and negative thermal reverberation. While the spectral softening and QPO acceleration provide strong evidence for a geometric contraction of the corona (whether interpreted via Lense-Thirring precession or the Two-Component Advective Flow (TCAF) paradigm), the broadband timing properties underscore the turbulent and inhomogeneous nature of the inner flow as the advancing Keplerian disk drives the source into the soft state.",
+      "authors": [
+        "Kaushik Chatterjee",
+        "Min Wei",
+        "Jie Liao",
+        "Biswaraj Palit",
+        "Santanu Mondal",
+        "Honghui Liu",
+        "Chandra B. Singh",
+        "Sandeep K. Rout",
+        "Ashutosh Tripathi",
+        "Mayukh Pahari",
+        "Guobao Zhang",
+        "Zejun Jiang",
+        "Brajesh Kumar",
+        "Wei Wang",
+        "Hsiang-Kuang Chang",
+        "Xiaowei Liu"
+      ],
+      "url": "https://arxiv.org/abs/2610.15569v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-11",
+      "score": 6,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.16007v1",
+      "title": "TractorJAX: GPU-Accelerated SPHEREx Forced Photometry and the Trade-offs of Regularization and External Priors",
+      "abstract": "We present TractorJAX, an open-source GPU reimplementation of the catalog-forced mode of The Tractor. We use it to test whether regularization or external flux priors enable reliable fitting of reference catalogs that extend below the depth directly constrained by undersampled SPHEREx images. For full-depth regularized fits, TractorJAX fits $100\\times100$-pixel cutouts at 11.9 ms each on a single NVIDIA H100 GPU. In simulated images of the Abell 2537 galaxy-cluster field, extending the fitted catalog from $m_z<21$ to the full DESI Legacy Imaging Surveys DR10 catalog increases the scatter in fractional flux residuals by 34%, even with regularization. We also test the methods using SPHEREx observations in nine fields, assessing the number of reliably measured sources and photometric-redshift accuracy. Requiring S/N $>5$ in more than half of the 102 channels, we find that the regularized full-depth fit yields 40% fewer sources than the truncated fit. For sources meeting this requirement in both fits, the normalized median absolute deviation of the photometric redshifts, $σ_{\\rm NMAD}$, is 17% larger in the full-depth fit. External flux priors recover nearly as many sources as the $m_z<21$ fit, but increase $σ_{\\rm NMAD}$ by 0.0015 for the common calibrated sample. Neither regularization nor the external flux priors tested here simultaneously preserve the sample size and photometric-redshift accuracy achieved by the truncated fit. Our results suggest that the optimal fitted-catalog depth cannot be determined from image-level performance alone, but should be selected through end-to-end tests tailored to the intended science measurement.",
+      "authors": [
+        "Hyeonguk Bahk",
+        "Ho Seong Hwang"
+      ],
+      "url": "https://arxiv.org/abs/2610.16007v1",
+      "category": "astro-ph.IM",
+      "published": "2026-10-12",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.18476v1",
+      "title": "Broadband non-thermal emission predictions based on 3D simulations of supernova explosions within active galactic nuclei jets",
+      "abstract": "Thermonuclear and core-collapse supernovae are statistically expected to happen within extragalactic jets, as these jets cross the inner regions of their host galaxies, and supernova ejecta-jet interactions can potentially lead to strong non-thermal activity. We model the non-thermal emission from a supernova interacting with a jet on kiloparsec scales, using detailed numerical simulations of the interaction. Using a post-processing method, we applied a non-thermal model of the acceleration and transport of electron and their synchrotron and inverse Compton emissions, simplified and tuned for flexibility and computational speed, to the results of a three-dimensional relativistic hydrodynamics simulation of the ejecta of a supernova interacting with an extragalactic jet. For intermediate jet powers, radio, optical and X-ray fluxes from supernova ejecta-jet interactions may be detectable for distances < 100Mpc. The non-thermal luminosity budget and local conditions associated with these interactions could be enough to explain knots seen in kiloparsec scale jets at different energies. These conditions might also be suitable for the production of heavy ultra high-energy cosmic rays, but photon and neutrino generation from hadronic processes would be minor on kiloparsec scales. The leptonic gamma-ray fluxes are modest but might non-negligibly contribute in TeV for the nearest or more powerful jet sources.",
+      "authors": [
+        "B. Longo",
+        "V. Bosch-Ramon",
+        "M. Perucho",
+        "J. M. Martí"
+      ],
+      "url": "https://arxiv.org/abs/2610.18476v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-13",
+      "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.18368v1",
+      "title": "On the Orbital Evolution of Giant Planet Pair Embedded in a Gaseous Disk. III. simultaneous gas accretion and the final mass ratio",
+      "abstract": "Recent exoplanet surveys reveal a systematic trend in the mass ratios of giant planet pairs ($> 30 M_\\oplus$). Although the $M_{outer}/M_{inner}$ is broadly centered near unity, it exhibits a dependence on orbital separation. Compact pairs tend to have comparable masses, whereas widely separated pairs show outer-heavy configurations. To investigate the origin of this trend, we perform two-dimensional hydrodynamic simulations that couple gas accretion and orbital migration of two giant planet embryos with initial masses of $15-30 M_\\oplus$. We explore the effects of disk viscosity, surface density slope, and initial mass ratio on the coupled evolution of planetary growth and migration. We find that convergent migration drives the planets to open a common gap, restructuring the gas flow. This configuration induces asymmetric accretion, in which the inner planet becomes starved as gap clearing suppresses its gas supply, while the outer planet continues to accrete from the high-density region at the outer gap edge. Consequently, the system naturally evolves toward mass-ratio convergence, and in many cases produces an inversion of the initial core-mass hierarchy. We further show that migration outcomes are highly sensitive to initial conditions. Systems with initially more massive inner cores tend to diverge, whereas steeper surface density profiles and more massive outer cores favor convergent migration and subsequent resonance capture. Overall, our results identify common-gap-driven asymmetric accretion as a unified mechanism linking orbital architecture, resonant capture, and the observed mass-ratio demographics of giant planet pairs.",
+      "authors": [
+        "Bixuan Zhao",
+        "Hui Zhang",
+        "Yinhao Wu",
+        "Ya-Ping Li"
+      ],
+      "url": "https://arxiv.org/abs/2610.18368v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-13",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.17652v1",
+      "title": "Experimental evidence for physical alteration of fine regolith on near-Sun asteroids",
+      "abstract": "The surfaces of airless bodies evolve through processes such as (micro)meteoroid impacts and thermal fatigue, which modify physical properties such as grain size, porosity, and mineral texture. These properties provide clues to surface evolution and are necessary for interpreting telescopic observations. Near-Sun asteroids (NSAs), which reach heliocentric distances of $\\lesssim$0.2 au, are notable targets, as their surfaces are likely modified by intense solar radiation. However, experimental studies of how radiative heating modifies the physical properties of carbonaceous asteroid surfaces remain scarce compared with studies of thermally induced compositional and spectral changes. We investigate these modifications experimentally. Near-Sun conditions at heliocentric distances $0.09<r<0.19$ au are simulated using the Space and High-Irradiance Near-Sun Simulator. CM-type carbonaceous chondrite simulants are irradiated under vacuum. Brightness is monitored in situ with a video camera during heating, and morphological changes are examined using a stage microscope and a scanning electron microscope (SEM). The irradiated samples show initial darkening followed by brightening, consolidation, and morphological modifications from sub-micrometer to millimeter scales. The observed brightness modifications are more consistent with changes in the absorption properties of the sample than with variations in surface roughness. SEM imaging of the heated samples shows structures similar to those formed by sintering, which are completely absent in unheated samples. These results suggest that sintering is a likely candidate for the mechanism responsible for the observed consolidation and morphological changes. This work provides experimental evidence to help constrain the surface evolution of NSAs in general, and supports sintering as a possible mechanism proposed for (3200) Phaethon in particular.",
+      "authors": [
+        "Jooyeon Geem",
+        "Mikael Granvik",
+        "Georgios Tsirvoulis",
+        "Leonard Schirner",
+        "Marianna L. Kemell",
+        "Antti Penttila",
+        "Axel Hagermann",
+        "Athanasia Toliou"
+      ],
+      "url": "https://arxiv.org/abs/2610.17652v1",
+      "category": "astro-ph.EP",
+      "published": "2026-10-13",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.18810v1",
+      "title": "Differential Luminosity Response of Balmer-Line Profiles in Galactic B/A Luminous Stars",
+      "abstract": "We investigate the differential luminosity response of the optical Balmer series from H8 to H-alpha in Galactic B5-A5 luminous stars using homogeneous measurements of central depth, FWHM, and equivalent width at a resolving power of approximately 12,000. Direct line-to-line comparisons show a systematic change in the central-depth response toward the lower-order transitions. For the primary 72-star luminosity sample, the fitted luminosity coefficients show an overall positive trend with upper-level quantum number, with a point-estimate gradient of dq/dn = 0.0419. A joint Monte Carlo analysis with 10,000 realisations gives a median dq/dn = 0.0387 and a 95 percent interval from 0.0253 to 0.0532, with no non-positive gradients obtained. The higher-order H8-H-delta coefficients form a statistically unresolved plateau, followed by a well-supported increase in response magnitude from H-delta toward H-alpha. The result is robust to the adopted effective-temperature scale. The FWHM coefficients show no comparable Balmer-order progression, and the directly fitted profile-shape response is consistent with zero from H8 through H-beta. For H-alpha, the full logarithmic sample is not formally significant, whereas removal of the three remaining strongly filled-core profiles yields a significantly negative shape response. The observed behaviour is qualitatively compatible with the systematic variation of pressure broadening across the Balmer series, while the enhanced H-alpha response may additionally reflect non-LTE and wind-related effects.",
+      "authors": [
+        "N. L. Vaidman",
+        "S. A. Khokhlov",
+        "Sh. T. Nurmakhametova",
+        "N. A. Litvinov",
+        "A. T. Agishev",
+        "D. A. Alimbetova"
+      ],
+      "url": "https://arxiv.org/abs/2610.18810v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-13",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.18644v1",
+      "title": "Anchoring the Chromospheric Activity$-$Rotation Relation: A Study of the Pleiades and Group X",
+      "abstract": "We present a study of the rotation and the chromospheric H$α$ activity of low-mass stars in the $\\approx$120 Myr-old Pleiades and the $\\approx$400 Myr-old Group X open clusters. We combine published and new rotation periods ($P_\\mathrm{rot}$) from TESS and ZTF, and use LAMOST, SDSS, and MDM spectra to measure H$α$ equivalent widths (EWs). While overall the Group X distributions of $P_\\mathrm{rot}$ and EWs are as expected, detailed comparisons to the Pleiades and to the 700-Myr-old benchmark Praesepe produce some surprises. For F through mid K stars, the Group X color$-$period sequence lies between those of the Pleiades and of Praesepe, as expected. But the $P_\\mathrm{rot}$ for its late K and early M dwarfs and the Praesepe slow-rotator sequence overlap, indicating that the 700 Myr-old stars have not spun down significantly despite being nearly twice as old as their Group X counterparts. In the Rossby number$-L_\\mathrm{Hα}/L_\\mathrm{bol}$ plane, rapid rotators in Group X are saturated, as is seen in older clusters, whereas the rapid rotators in the Pleiades show a weak but measurable dependence of $L_\\mathrm{Hα}/L_\\mathrm{bol}$ on rotation. This implies that the chromospheric activity$-$rotation relation attains its mature form between 120 and 400 Myr. Dividing the sample by color reveals that K, M0, and M1 dwarfs are no longer saturated by $\\approx$120 Myr, M2 and M3 dwarfs become unsaturated between $\\approx$400 and $\\approx$700 Myr, and later M dwarfs remain largely saturated through field ages even as their saturated $L_\\mathrm{Hα}/L_\\mathrm{bol}$ levels decline, indicating that chromospheric evolution is not determined by rotation period alone.",
+      "authors": [
+        "A. Núñez",
+        "M. A. Agüeros",
+        "J. L. Curtis",
+        "C. A. Ospinal Achicanoy"
+      ],
+      "url": "https://arxiv.org/abs/2610.18644v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-13",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.16551v1",
+      "title": "Aditya-L1 and SDO Observations of a Confined X-Class Flare with an EUV Late Phase: Thermal and Nonthermal Emission, Magnetic Topology, and Flux Rope Confinement",
+      "abstract": "We study a long-duration, confined X2.0-class solar flare exhibiting three distinct episodes of HXR emission, along with an accompanying EUV late phase. A key highlight of this work is the novel observations from the high-resolution solar X-ray spectrometers SoLEXS and HEL1OS onboard Aditya-L1, providing insights into the evolution of thermal and non-thermal emissions. Simultaneous EUV observations from AIA/SDO in hot channels, combined with multi-band X-ray light curves, reveal a two-stage confined eruption of a large MFR, separated by $\\sim$10~minutes. The first stage corresponds to an M4.6 flare, while the overall event reaches X2.0 on the GOES scale. During the first phase, magnetic reconnection beneath the large EUV hot channel causes plasma heating to $\\sim$19~MK, with a non-thermal spectral index of $\\sim$4.3. In the second phase, characterized by external reconnection and confinement of the MFR hot channel, the temperature increases to $\\sim$22~MK, accompanied by further hardening of the spectral index to $\\sim$3.9. Despite pronounced non-thermal signatures and enhanced particle acceleration, the MFR fails to erupt through the overlying coronal loops because of the strong strapping force exerted by the large overlying coronal loops. Importantly, the stalled eruption, together with reconnection in the higher overlying loops, results in enhanced heating within a closed magnetic configuration, with temperatures peaking at up to $\\sim$15~MK during the late phase. The paper also provides the first observations of detectable non-thermal X-ray emission during the early EUV late phase, albeit briefly, providing direct evidence for reconnection-induced heating, likely occurring in the higher overlying coronal loops.",
+      "authors": [
+        "Vishwa Vijay Singh",
+        "Bhuwan Joshi",
+        "N. P. S. Mithun"
+      ],
+      "url": "https://arxiv.org/abs/2610.16551v1",
+      "category": "astro-ph.SR",
+      "published": "2026-10-12",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.17248v1",
+      "title": "Scaling Up: A Global Optical/X-ray Correlation For Reprocessing Across Black Hole Masses",
+      "abstract": "This study extends the optical/X-ray correlation from black hole low-mass X-ray binaries (XRBs) to active galactic nuclei (AGN), bridging scales from stellar-mass to supermassive black holes (SMBHs). In XRBs, optical emission predominantly originates from the thermal reprocessing of high-energy photons on the surface of the geometrically thin, optically thick accretion disk. The reprocessed optical luminosity follows a power-law relation of the form $L_{V} \\propto L_{X}^β a$, with $β\\sim 0.5$, where $L_X$ is the X-ray luminosity and the orbital separation $a$ serves as a proxy for the disk size. To test the universality of this relationship across all mass scales, we analyzed quasi-simultaneous X-ray and optical flux data from a sample of XRBs and AGN that have estimates of the radius of the optically emitting disk. To bridge the structural differences between these populations, we utilized the characteristic optical/X-ray time lag derived from reverberation mapping as a physical proxy for the reprocessing radius. Our analysis reveals a tight, global correlation across all black hole masses, described by $\\log L_V = 0.48\\log L_X + 0.96\\log a_R + 6.5$ with a scatter of $\\sim 0.20$ dex, where $a_R$ is the reprocessing radius derived from the lag. Incorporating a geometric correction for the disk inclination angle ($\\cos i$) slightly reduces this scatter to $0.18$ dex. These results suggest that X-ray reprocessing is scale-invariant across accretion disks, from stellar-mass black holes to SMBHs. This scaling relation provides new constraints for models of X-ray emission regions in accreting black holes.",
+      "authors": [
+        "Changhyun Cho",
+        "David M. Russell",
+        "Aaryan Sharma",
+        "Payaswini Saikia",
+        "Maria Cristina Baglio",
+        "Sandeep K. Rout",
+        "Yi-Jung Yang",
+        "Eleonora Caruso",
+        "Mokhine Motsoaledi",
+        "Meriana Allah",
+        "Ian M. McHardy"
+      ],
+      "url": "https://arxiv.org/abs/2610.17248v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-12",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.16899v1",
+      "title": "Double Detonations on a Moving Mesh with $\\texttt{Cattails}$: Characterizing Early Reddening in SNe Ia",
+      "abstract": "Type Ia supernovae are useful as cosmological distance indicators and are significant sources of chemical enrichment in galaxies, but much about their origins remains uncertain. The double detonation explosion mechanism is one promising model for these transients. We present a suite of thermonuclear hydrodynamic double detonation models of sub-Chandrasekhar mass white dwarfs spanning thin to thick helium shells. Thin shell models produce light curves and spectra consistent with normal Type Ia supernovae, and thicker shell models have early time luminosity bumps from radioactive ashes in the shell and early reddening in color sometimes observed in peculiar Type I supernovae. The reddening is due to line blanketing from heavy elements produced in the shell detonation encompassing the central emission. We perform the computations using $\\texttt{Cattails}$, a moving mesh nuclear hydrodynamics code introduced in this work. After carrying out subsequent radiative transfer calculations using the $\\texttt{Sedona}$ code, we relate the time of early reddening to the mass of the initial helium shell. We also consider how the relation changes as a function of total mass as well as how the peak brightness depends on the total mass. Finally, we provide a series of fitting functions that can be used to estimate the mass of the shell consistent with an observation of reddening in the early color evolution of a type Ia supernova.",
+      "authors": [
+        "Dillon Hasenour",
+        "Paul Duffell",
+        "Abigail Polin"
+      ],
+      "url": "https://arxiv.org/abs/2610.16899v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-12",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2610.16269v1",
+      "title": "Deep learning methods for gamma event selection in TAIGA-IACT image analysis in stereo-mode",
+      "abstract": "In astrophysical complex TAIGA there are four Imaging Atmospheric Cherenkov telescopes (IACTs), located at a distance of 300-500 m from each other, due to which extensive air showers (EAS) generated by cosmic and gamma radiation are recorded by a single telescope or by multiple telescopes simultaneously (stereo-mode). The analysis of EAS images from two or more Cherenkov telescopes together is of particular interest, since for this approach the reconstruction of physical parameters of the primary gamma ray is much more accurate than in mono-observations. However, the gamma-ray event reconstruction strongly depends on the quality of the hadron background suppression of the classifier, therefore, the gamma event selection stage is one of the important ones in the further analysis of IACT data. We propose and study several neural network methods for gamma event selection in joint TAIGA-IACT image analysis. Neural network methods we suggested involves a single-stage analysis of IACT images from two telescopes, while the second method considers the formation of autoencoder-derived essential features that contain the EAS physical parameters, including the type of primary particle.",
+      "authors": [
+        "E. O. Gres",
+        "A. P. Kryukov",
+        "P. A. Volchigov",
+        "A. P. Demichev",
+        "J. J. Dubenskaya",
+        "D. P. Zhurov",
+        "S. P. Polyakov",
+        "E. B. Postnikov",
+        "A. J. Razumov"
+      ],
+      "url": "https://arxiv.org/abs/2610.16269v1",
+      "category": "astro-ph.HE",
+      "published": "2026-10-12",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2610.15811v1",
+      "title": "Occultation polarimetry as a probe of unresolved polarization",
+      "abstract": "Context: Low polarization in an unresolved source may reflect weak local polarization or spatial cancellation between strongly polarized regions. An occultation can break this spatial degeneracy by differentially sampling the source as the occulting boundary moves. Aims: We develop a general theoretical framework for occultation polarimetry and determine what information can be inferred directly from unresolved full Stokes light curves, without reconstructing a polarization image or prescribing a source model. Methods: For a stationary, spatially incoherent source undergoing monotonic occultation, we relate Stokes variations to the polarization sampled by an arbitrarily curved occulting boundary and derive an exact variance decomposition of the normalized Stokes vector. Results: The polarization deficit decomposes exactly into three non-negative contributions: local polarization deficit, mixing within limb samples, and mixing between their mean polarization states. The last is directly measurable and provides a sharp, model-independent lower bound on total spatial mixing. The associated covariance tensor further characterizes the direction and correlations of the resolved polarization variations, including those between linear and circular polarization. Finite sampling preserves the bound, which can be strengthened through complementary occultation trajectories. Conclusions: Occultation polarimetry provides a powerful observational technique for extracting quantitative, model independent constraints on spatial polarization mixing directly from unresolved Stokes light curves. It offers a means to reveal both the extent and the form of polarization structure otherwise inaccessible at the available angular resolution.",
+      "authors": [
+        "A. G. Tevzadze"
+      ],
+      "url": "https://arxiv.org/abs/2610.15811v1",
+      "category": "astro-ph.IM",
+      "published": "2026-10-11",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    }
+  ]
 }
