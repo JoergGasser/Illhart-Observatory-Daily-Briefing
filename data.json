@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-10-28T12:27:09Z",
-  "date": "2026-10-28",
-  "total_fetched": 138,
-  "relevant_count": 29,
+  "generated_utc": "2026-10-29T12:36:53Z",
+  "date": "2026-10-29",
+  "total_fetched": 114,
+  "relevant_count": 26,
   "min_score": 3,
   "articles": [
     {
@@ -144,39 +144,6 @@
       "category": "astro-ph.IM",
       "published": "2026-10-26",
       "score": 11,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2610.34217v1",
-      "title": "EP241021a as An Off-nuclear Month-duration Transient in a Dwarf Starburst Galaxy",
-      "abstract": "EP241021a is a peculiar fast X-ray transient exhibiting a long X-ray plateau and an optical rebrightening, both challenging the traditional jet afterglow model. Whether its nature is a stellar explosion or a tidal disruption event (TDE) remains debated. Here we present late-time HST/WFC3 and Gemini-N/GMOS observations of its host galaxy at $z=0.748$. After $\\sim300$ days post-trigger, the transient emission had faded below detection, revealing a dwarf disk galaxy with an effective radius $R_e=1.7$ kpc, a stellar mass $M_\\star\\sim3\\times10^8M_\\odot$, and a high star formation rate of $\\sim5\\ M_\\odot\\ {\\rm yr}^{-1}$. Combined with previous very long baseline interferometry measurements, the transient can be located in the galactic disk with a projected physical offset of $0.95\\pm0.13$ kpc from the galaxy center. Host-subtracted optical light curves show that the rebrightening ceased at $\\sim47$ days, followed by a sudden drop with a power-law index steeper than $-3.3$, coincident with a similar drop in the X-ray light curve. This synchronous drop in both bands is consistent with jet shut-off, and the required month-long jet activity suggests a persistently accreting compact object fed by a TDE. Among the TDE scenarios, the off-nuclear location and the starburst host galaxy slightly favor the post-supernova micro-TDE scenario in a binary system, in which a natal kick drives the newborn compact object into a tidal disruption of its companion. Nevertheless, an off-nuclear intermediate-mass black hole TDE or a stellar-mass black hole TDE induced by dynamical scattering in a dense stellar cluster cannot yet be excluded.",
-      "authors": [
-        "Luming Sun",
-        "Xinwen Shu",
-        "Jiazheng Zhu",
-        "Ning Jiang",
-        "Bing Zhang",
-        "Jin-Hong Chen",
-        "Lixin Dai",
-        "Hucheng Ding",
-        "Chichuan Jin",
-        "Wenbin Lu",
-        "Rong-Feng Shen",
-        "Fan Xu",
-        "Lei Yang",
-        "Yunwei Yu",
-        "Weimin Yuan",
-        "Dongyue Li",
-        "Dong Xu",
-        "Tinggui Wang",
-        "Haonan Yang",
-        "Wenda Zhang"
-      ],
-      "url": "https://arxiv.org/abs/2610.34217v1",
-      "category": "astro-ph.HE",
-      "published": "2026-10-25",
-      "score": 10,
       "tier": 1,
       "instrument": "RC400"
     },
@@ -569,29 +536,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2610.34478v1",
-      "title": "Resolving a Clumpy Disk Wind in 4U 1957+115 with XRISM",
-      "abstract": "We present a high-resolution XRISM/Resolve observation of the persistent black hole candidate 4U 1957+115, revealing the first detection of an intrinsic disk wind in this source. The absorption is dominated by highly ionized Fe XXV and Fe XXVI and varies substantially throughout the observation, becoming prominent during the final $\\sim40$ ks despite a modest decrease of only $\\sim5$--$10\\%$ in source flux. The observed evolution of the absorption cannot be explained solely by ionization changes driven by the modest continuum variability, favoring an inhomogeneous outflow with evolving line-of-sight properties. Time-resolved spectroscopy reveals substantially narrower absorption features in shorter intervals, with the inferred turbulent velocity decreasing from $\\sim350~{\\rm km/s}$ in the longer integration to $\\lesssim70~{\\rm km/s}$ in the shortest selections. This suggests that the broader absorption profiles measured over longer integrations may result, at least in part, from averaging over an evolving wind rather than from intrinsically larger turbulent velocities. Such time averaging can therefore affect the inferred physical properties of the wind and complicate efforts to identify its launching mechanism. Even though the wind carries only a small fraction of the radiative luminosity in kinetic form, its mass-loss rate may remain dynamically relevant. These results highlight the importance of time-resolved, high-resolution X-ray spectroscopy for characterizing the structure and variability of accretion disk winds.",
-      "authors": [
-        "Paul A. Draghis",
-        "Erin Kara",
-        "Ehud Behar",
-        "Jon M. Miller",
-        "Vera Berger",
-        "Joheen Chakraborty",
-        "Peter Kosec",
-        "Christos Panagiotou",
-        "Swati Ravi",
-        "Fatima Zaidouni"
-      ],
-      "url": "https://arxiv.org/abs/2610.34478v1",
-      "category": "astro-ph.HE",
-      "published": "2026-10-25",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2610.36707v1",
       "title": "Overview And Present Status Of The 4-m International Liquid Mirror Telescope (ILMT)",
       "abstract": "The International Liquid Mirror Telescope (ILMT) is an inexpensive optical instrument with a diameter of 4 metres, entirely dedicated to astronomical surveys. Its scientific programmes include the detection and study of transients, variable objects, asteroids, comets, low surface brightness galaxies, space debris, etc. The telescope achieved its first light on 29 April 2022 and was officially inaugurated on 21 March 2023. It has been operating regularly since October 2023 and continuously observes the sky passing through the zenith using the SDSS $g^{\\prime}$, $r^{\\prime}$, and $i^{\\prime}$ filters in a narrow band of the sky ($22.3^{\\prime}$) centred around the equatorial declination of $+29°21^{\\prime}41^{\\prime \\prime}$. Here we report on the astrometric and photometric performance of the ILMT and summarise the main results obtained since the BINA3 workshop. A great way to raise public awareness is to build a scale model of a liquid mirror telescope. General guidelines for doing so are provided.",
@@ -651,33 +595,6 @@
       "score": 5,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2610.34259v1",
-      "title": "Contributions of massive stars and classical novae to Galactic 26Al",
-      "abstract": "The radioactive isotope 26Al is believed to be mainly produced by massive stars and ejected into the interstellar medium through their winds and supernovae. Due to its lifetime of 1.04 Myr, it traces recent nucleosynthesis and star formation. 60Fe is a similarly long-lived (lifetime 3.8 Myr) isotope, and only originating in ccSNe. Stellar evolution models in combination with Galactic Chemical Evolution (GCE) models tend to over-predict the 60Fe/26Al ratio. Population synthesis models that attempt to explain both, the 26Al mass in the Galaxy and its spatial distribution, only match the observational constraints with an enhanced star formation rate (SFR) of >5 Msun/yr. Classical novae may contribute to the 26Al production, potentially lowering the SFR inferred from massive stars and alleviating tension in the 60Fe/26Al ratio. However, previous studies suggest their contribution is negligible or < 10%. In this work we aim to determine the mass distribution of 26Al as a function of Galactocentric radius and estimate the contribution of (very) massive stars and classical novae to the 1.8 MeV signal. We are using 20 yr of INTEGRAL/SPI observations of the gamma-ray line at 1.8 MeV to test different assumptions on the radial structure of 26Al and compare the resulting mass distribution to different GCE models. For our baseline analysis, all tested source models prefer substantial nova contributions, with best-fit fractions of 77-84%. This alleviates tension in the 60Fe/26Al ratio and lowers the SFR from 26Al measurements accordingly to 1-2 Msun/yr. While it is difficult to gauge both contributions directly, next generation MeV telescopes can potentially identify individual massive stars, such as Gamma-2-Velorum.",
-      "authors": [
-        "Manja L. Zimmerer",
-        "Thomas Siegert",
-        "Niklas C. Bauer",
-        "Tristan Bouchet",
-        "Patrik Ehrmann",
-        "Mika A. Gelowicz",
-        "Laura Eisenberger",
-        "Saurabh Mittal",
-        "Tomohiko Oka",
-        "Rudi Reinhardt",
-        "Manuel R. H. W. Skalka",
-        "Dimitris Tsatsis",
-        "Hiroki Yoneda",
-        "Arianna Vasini"
-      ],
-      "url": "https://arxiv.org/abs/2610.34259v1",
-      "category": "astro-ph.SR",
-      "published": "2026-10-25",
-      "score": 5,
-      "tier": 2,
-      "instrument": "RC400"
     },
     {
       "arxiv_id": "2610.36664v1",
@@ -856,7 +773,7 @@
     {
       "arxiv_id": "2610.36103v1",
       "title": "Dynamical constraints on the companion mass from pulsar timing and cyclotron line confirmation in the SFXT IGR J16418-4532",
-      "abstract": "Supergiant Fast X-ray Transients (SFXTs) show extreme X-ray variability on timescales of minutes to hours, driven by accretion processes that remain poorly understood. IGR J16418-4532 is an intermediate SFXT with detected X-ray pulsations and a candidate cyclotron line, making it a key system for probing neutron-star accretion and magnetic fields in this class. We analysed a 148 ks NuSTAR observation and archival RXTE observations, using epoch folding to search for pulsations while correcting photon arrival times for a range of trial $a_x \\sin i$ values, and performed phase-averaged spectroscopy with several continuum models. We detect coherent pulsations at $P_{\\rm spin} = 1208.67 \\pm 0.04$ s (NuSTAR) and $1209.4178 \\pm 0.0084$ s (RXTE/PCA). The pulse detection depends clearly on the assumed projected semi-major axis and is most significant for $a_x \\sin i = 55.1 \\pm 3.5$ lt-s (NuSTAR) and $51.3 \\pm 2.6$ lt-s (RXTE/PCA). Sliding-window pulse profiles show the orbital delay in the uncorrected data, which is fully removed after orbital correction. The inferred orbital parameters constrain the companion mass and radius to $\\sim$12-18 $M_\\odot$ and $\\sim$13-16 $R_\\odot$. This is the first constraint on the binary mass function of an SFXT obtained from the orbital motion of the neutron star. The spectrum shows a robust cyclotron absorption line at $\\sim$50 keV, independent of the continuum model, implying $B \\approx 5 \\times 10^{12}$ G. Optimising pulse detection with trial $a_x \\sin i$ corrections, rather than modelling pulse arrival-time delays, offers a route to dynamical mass measurements in other SFXTs whose variable pulse profiles limit conventional timing techniques.",
+      "abstract": "Supergiant Fast X-ray Transients (SFXTs) exhibit extreme X-ray variability on short timescales of minutes to hours, driven by accretion processes that are still poorly understood. IGR J16418â4532 is an intermediate SFXT in which X-ray pulsations have been detected and which has been proposed as a candidate cyclotron line source, making it a key system for probing neutron-star accretion physics and magnetic field properties in this class of sources. We aim to constrain the projected semi-major axis of the SFXT IGR J16418--4532, through timing analysis, and confirm the presence of a Cyclotron Resonant Scattering Feature (CRSF), thereby characterising the nature of the compact object in this system. We analysed a 148 ks long $\\textit{NuSTAR}$ observation and several archival $\\textit{RXTE}$ observations using epoch-folding techniques to search for pulsations while correcting the photon arrival times for a range of $a_x \\sin(i)$ values. We performed phase-averaged spectroscopy using several different continuum models and assessed the significance of the cyclotron line feature. We detect coherent pulsations with $P_{\\mathrm{spin}} = 1208.67 \\pm 0.04$ s and $P_{\\mathrm{spin}} = 1209.4178 \\pm 0.0084$ s in $\\textit{NuSTAR}$ and $\\textit{RXTE/PCA}$ light curves, respectively. The pulsations exhibit clear dependence on the assumed projected semi-major axis, and are detected with the highest significance for $a_x\\sin i = 55.1 \\pm 3.5$ lt-s $(\\textit{NuSTAR})$ and $51.3 \\pm 2.6$ lt-s $(\\textit{RXTE/PCA})$. The light curves show several flares, and the pulse profiles are found to evolve over the course of the observation. Sliding window pulse profiles reveal the pronounced effect of the orbital delay on the pulse arrival times in uncorrected data, which is fully removed post-orbital correction. Using the inferred orbital parameters, we constrain the mass and radius of the companion star to be in the range of $\\sim$12--18 $M_\\odot$ and $\\sim$13--16 $R_\\odot$, respectively. We report the first successful constraint on the binary mass function of an SFXT obtained by considering the orbital motion of the neutron star. Spectral analysis reveals a robust cyclotron absorption line at $\\sim$50 keV, independent of the choice of the continuum, suggesting a magnetic field strength of $\\sim$5 $\\times 10^{12}$~G. The cyclotron line confirmation and dynamical constraints on the companion's mass indicate that IGR J16418--4532 hosts a neutron star with a magnetic field of B$\\approx 5 \\times 10^12 G$ accreting from a $\\sim$12--18 $M_\\odot$ companion. We demonstrate that optimising the pulse detection by correcting the photon arrival times with trial $a_x \\sin(i)$ values rather than modelling the pulse arrival time delays offers a route to obtain dynamical mass measurements in other SFXTs whose variable pulse profiles limit the scope of conventional timing techniques.",
       "authors": [
         "Ashwin Devaraj",
         "Rahul Sharma",
