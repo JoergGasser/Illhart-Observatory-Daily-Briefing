@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-11-06T13:59:20Z",
-  "date": "2026-11-06",
-  "total_fetched": 160,
-  "relevant_count": 33,
+  "generated_utc": "2026-11-07T12:43:41Z",
+  "date": "2026-11-07",
+  "total_fetched": 102,
+  "relevant_count": 19,
   "min_score": 3,
   "articles": [
     {
@@ -18,44 +18,6 @@
       "score": 14,
       "tier": 1,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.05200v1",
-      "title": "The Galah survey and symbiotic stars. II. Discovery, validation, and intensive follow-up of 44 new systems accreting at the lowest detectable levels",
-      "abstract": "We report the discovery, validation, and characterization of 44 new symbiotic stars (SySts) accreting at the lowest detectable levels (Lacc =< 3 Lsun). Candidates were initially selected from the Galah survey among non-pulsating M-type red giants exhibiting Halpha excess. Between 2021 and 2025, these targets were subjected to intensive multi-wavelength campaigns, including ground-based, high-resolution Echelle spectroscopy over 544 nights, multi-epoch flickering searches down to 1 mmag, and UV/X-ray observations with the Swift satellite. Our high-resolution spectra allowed for a detailed investigation of Halpha flux and line-profile variability. Crucially, the radial velocities measured for the M-giant components yielded reliable spectroscopic orbits for 22 objects and preliminary orbits for an additional eight, corroborated by binary-induced modulations in ASAS-SN photometry. Measured accretion levels vary by factors of up to 20X, emphasizing the need for high-sensitivity, long-term monitoring. Swift X-ray data exclude neutron star companions in all targets, consistent with predominance of white-dwarf degenerates in known SySts. Combined with the 33 objects from Paper I, this sample of 77 new SySts significantly exceeds the number of previously known, accreting-only Galactic symbiotic stars, constituting the bulk of the low-accretion (LowAcc) variety discovered to date and representing >10 percent of all known SySts in the Galaxy. As SySts likely spend most of their lifetimes in LowAcc faint states, characterizing this population is essential for estimating the total Galactic SySt population and evaluating the role of SySts as Type Ia supernova progenitors or sources of UV excess in elliptical galaxies.",
-      "authors": [
-        "U. Munari",
-        "P. Valisa",
-        "N. Masetti",
-        "M. Fiorucci",
-        "M. Perko",
-        "B. Jamnik",
-        "G. Traven",
-        "A. Frigo",
-        "J. Bland-Hawthorn",
-        "S. Buder",
-        "A. R. Casey",
-        "G. M. De Silva",
-        "P. B. Das",
-        "K. C. Freeman",
-        "M. R. Hayden",
-        "J. Kos",
-        "G. F. Lewis",
-        "J. Lin",
-        "S. L. Martell",
-        "K. J. Schlesinger",
-        "S. Sharma",
-        "J. D. Simpson",
-        "D. Stello",
-        "D. B. Zucker",
-        "T. Zwitter"
-      ],
-      "url": "https://arxiv.org/abs/2611.05200v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-03",
-      "score": 12,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2611.08041v1",
@@ -94,114 +56,6 @@
       "url": "https://arxiv.org/abs/2611.08041v1",
       "category": "astro-ph.EP",
       "published": "2026-11-05",
-      "score": 10,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.05328v1",
-      "title": "SN 2019qem: decades of extreme mass loss before the explosion of a luminous, long-lived Type IIn supernova",
-      "abstract": "We present the luminous, long-lived Type IIn SN 2019qem and use it to reconstruct how much mass its progenitor lost and when. We combine host-subtracted optical and mid-infrared photometry and 26 optical spectra from -22 to +699 d. We model the bolometric light curve with thin-shell CSM-interaction models in REDBACK, with the shock velocity constrained by the H$α$ line widths, and compare them with an analytic interaction model. SN 2019qem rose in $\\approx30$d to $M_I = -20.5$mag and a bolometric peak of $7.0\\times10^{43}$ erg s$^{-1}$, and radiated $6.9\\times10^{50}$ erg in the optical within 575 d, closely resembling luminous, strongly interacting SNe IIn such as SN 2010jl and SN 2015da. A Heii/Niii flash feature at -22 d and unresolved narrow Balmer lines reveal dense, slow CSM. From +78 to +445 d the H$α$ wings are shaped by electron scattering, and the line stays blueshifted by 400-700 km s$^{-1}$, which points to an optically thick, asymmetric interaction region rather than to newly formed dust. In the preferred model, $\\approx7 M_\\odot$ of ejecta run into $\\approx9 M_\\odot$ of gas ejected $\\approx2$ yr before explosion and then into a wind of $\\approx0.6 M_\\odot$ yr$^{-1}$ (for $v_w = 100$ km s$^{-1}$), sweeping up $\\approx32 M_\\odot$ by +544 d. The mid-infrared excess brightens for two years while the optical fades, tracing dust heated by the ongoing interaction. The host is a low-mass, star-forming galaxy, $\\log(M_*/M_\\odot) = 9.19$, with a sub-solar metallicity at the explosion site. In its final decades the progenitor of SN 2019qem lost mass far faster than any steady stellar wind, ending with an eruption of $\\approx9 M_\\odot$ two years before core collapse, consistent with luminous-blue-variable-like eruptive mass loss. Taken at face value, the mass budget implies an initial progenitor mass of $\\gtrsim40 M_\\odot$.",
-      "authors": [
-        "Joysankar Majumdar",
-        "Mariusz Gromadzki",
-        "Takashi J. Moriya",
-        "David A. H. Buckley",
-        "Priscila J. Pessi",
-        "Nada Ihanec",
-        "Szymon Kozłowski",
-        "Łukasz Wyrzykowski",
-        "Callum Aster",
-        "Panos Charalampopoulos",
-        "Ting-Wan Chen",
-        "Massimo Della Valle",
-        "Lluís Galbany",
-        "Avishay Gal-Yam",
-        "Claudia P. Gutiérrez",
-        "Cosimo Inserra",
-        "Erkki Kankare",
-        "Hanindyo Kuncarayakti",
-        "Tomás E. Müller-Bravo",
-        "Matt Nicholl",
-        "Jacco H. Terwel",
-        "David R. Young",
-        "Andrzej Udalski",
-        "Michał K. Szymański",
-        "Igor Soszyński",
-        "Paweł Pietrukowicz",
-        "Radosław Poleski",
-        "Jan Skowron",
-        "Krzysztof Ulaczyk",
-        "Przemek Mróz",
-        "Krzysztof Rybicki",
-        "Patryk Iwanek",
-        "Marcin Wrona",
-        "Mateusz J. Mróz",
-        "Moira Andrews",
-        "Craig Pellegrino",
-        "D. Andrew Howell",
-        "Curtis McCully",
-        "Daichi Hiramatsu",
-        "Megan Newsome",
-        "Giacomo Terreran",
-        "Estefania Padilla Gonzalez",
-        "Joseph R. Farah",
-        "Mauritz Wicker",
-        "Michał Małkowski",
-        "Andrew Fraser Gillan"
-      ],
-      "url": "https://arxiv.org/abs/2611.05328v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-03",
-      "score": 10,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.04664v1",
-      "title": "Feature-Based and Deep Learning Methods for Astronomical Light Curve Classification",
-      "abstract": "We compare feature-based machine learning and end-to-end deep learning for variable star classification using the Zwicky Transient Facility (ZTF) StarEmbed dataset, which contains about 40,000 objects across seven imbalanced classes. Classical models trained on physically motivated features consistently outperform deep networks trained directly on raw light curves. We find that limited labeled data contributes to the performance gap, while the multivariate, irregularly sampled, and morphologically diverse nature of light curves poses additional challenges for deep learning models. While deep learning holds promise for learning representations directly from observations, our results indicate that current models fail to generalize with the available training set size. These findings motivate further investigation of the benefits of scaling labeled datasets and self-supervised pretraining on large unlabeled surveys. This work establishes a quantitative baseline for future research and highlights the need for further innovations to unlock the potential of deep learning in astronomical time series analysis.",
-      "authors": [
-        "V. Baymakanov",
-        "Kh. Khamitov",
-        "A. Raimova",
-        "A. Isaeva",
-        "R. Taran",
-        "M. Zedan",
-        "M. Kornilov",
-        "M. Demianenko",
-        "K. Malanchev",
-        "M. Hushchyn"
-      ],
-      "url": "https://arxiv.org/abs/2611.04664v1",
-      "category": "astro-ph.IM",
-      "published": "2026-11-03",
-      "score": 10,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.04445v1",
-      "title": "Photometric calibration of the 4m ILMT data",
-      "abstract": "The International Liquid Mirror Telescope (ILMT) is a 4-meter survey telescope continuously observing towards the zenith in the SDSS g', r', and i' bands. This survey telescope is designed to detect various astrophysical transients (for example, supernovae) and very faint objects like multiply-imaged quasars and low surface brightness galaxies. Ensuring accurate and stable calibration of supernova (SN) and quasar measurements is essential for studying their intrinsic variability and long-term brightness evolution. In this work, we present a dedicated calibration approach tailored for ILMT point-like object observations obtained in Time Delayed Integration (TDI) mode. Using ZTF reference sources cross-matched with the Pan-STARRS1 catalog, we derive robust photometric zero-points along the ILMT scan. This calibration procedure enables the production of consistent, high-precision SN and quasar light curves, suitable for variability studies, structure-function analysis, and future reverberation-mapping applications.",
-      "authors": [
-        "Bhavya Ailawadhi",
-        "Talat Akhunov",
-        "Monalisa Dubey",
-        "Naveen Dukiya",
-        "Sara Filali",
-        "Paul Hickson",
-        "Priyanshi Kumari",
-        "Gokul Singh Mehra",
-        "Kuntal Misra",
-        "Vibhore Negi",
-        "Kumar Pranshu",
-        "Jean Surdej",
-        "Sarvesh Kumar Yadav"
-      ],
-      "url": "https://arxiv.org/abs/2611.04445v1",
-      "category": "astro-ph.IM",
-      "published": "2026-11-03",
       "score": 10,
       "tier": 1,
       "instrument": "RC400"
@@ -302,29 +156,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.05461v1",
-      "title": "Characterizing Gravitational Wave Electromagnetic Counterparts with the Schmidt Observatory System",
-      "abstract": "The emergence of gravitational wave (GW) multimessenger astronomy, marked by the detection of GW170817 and its associated kilonova, has opened a new window into the physics of compact binary mergers. Building a statistical population of kilonovae remains a challenge, limited by the low neutron star merger detection rates and the rapid evolution of these faint transients. The former problem will be overcome with upcoming LIGO/Virgo/KAGRA (LVK) sensitivity improvements leading to the fifth Observing Run (O5), while the latter will be addressed by the Schmidt Observatory System (including the Argus Array, the Deep Synoptic Array (DSA), and the Lazuli Space Observatory), in addition to ongoing and upcoming surveys (including the Rubin Observatory Legacy Survey of Space and Time). Using simulations of expected kilonovae at LVK O5 sensitivity, we find that Argus and Rubin could detect binary neutron star kilonovae at a rate of 0.3-4.2 yr$^{-1}$ and 0.6-7.0 yr$^{-1}$ respectively. For neutron star-black hole mergers, Rubin could detect up to 1 kilonova per year. Lazuli will be able to characterize this kilonova population down to $g \\sim 26$ mag as early as 12 hours post merger. Additionally, $\\sim35\\%$ of these events are expected to exhibit a jet afterglow that will be detectable by DSA. We further characterize kilonova spectra to determine observable features of heavy element production. Finally, we develop an observing strategy that combines high cadence imaging and spectral monitoring, maximizing Lazuli's ability to constrain ejecta properties and composition of GW counterparts with reasonable observing time.",
-      "authors": [
-        "Keerthi Kunnumkai",
-        "Antonella Palmese",
-        "Thomas Wevers",
-        "Mattia Bulla",
-        "Suvi Gezari",
-        "Saul Perlmutter",
-        "Liliana Rivera Sandoval",
-        "Gudmundur Stefansson",
-        "Mickael Rigault",
-        "Arpita Roy"
-      ],
-      "url": "https://arxiv.org/abs/2611.05461v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-03",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2611.06873v1",
       "title": "Tracking turbulence for wind-driven halo removal using MagAO-X pyramid wavefront sensor images",
       "abstract": "The wind-driven halo (WDH) is a persistent, low spatial frequency noise artifact that arises due to the servo-lag error inherent to all adaptive optics (AO) instruments. Spatial filtering may be employed to overcome this artifact, however, filtering out the WDH while simultaneously preserving signal from an extended astrophysical object of interest is exceptionally challenging. Additionally, since the WDH changes in intensity and position angle through an observation, data-driven algorithms (e.g., KLIP) that are commonly used to subtract the starlight need to be overly-aggressive to remove both the static and dynamic noise components. Since wavefront sensors (WFSs) continuously track the closed-loop residual wavefront error, WFS telemetry presents the ideal resource for combating this type of noise artifact through postprocessing. Using archival WFS telemetry from MagAO-X, which is the \"extreme\" AO instrument for the 6.5-meter Magellan-Clay telescope, we demonstrate a novel workflow for WDH reconstruction and removal in individual coronagraphic science images. MagAO-X is equipped with a pyramid WFS capable of recording wavefront telemetry at a high-cadence which is saved during data acquisition. Given this, we detail how our WFS data processing pipeline, windsoCC, cross-correlates the recorded closed-loop wavefront to measure the wind vectors of several turbulent layers of the atmosphere above Las Campanas Observatory. We then make use of the wind parameters learned through windsoCC to reconstruct the WDH footprint by leveraging a parametric model. Notably, we demonstrate a dramatic improvement in object recovery using on-sky MagAO-X images of the disk around HR 4796A at visible wavelengths.",
@@ -376,22 +207,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.04227v1",
-      "title": "Fermi-LAT Detection of Extended GeV Emission toward the Middle-aged Supernova Remnant G156.2+05.7",
-      "abstract": "We analyse 17 years of Fermi-LAT $γ$-ray data toward the middle-aged supernova remnant (SNR) G156.2+05.7, supplemented by radio and CO observations and by published X-ray constraints. An extended $γ$-ray source is detected, well described by a 2D Gaussian template ($R_{68} \\sim 0.84^\\circ$). This description is preferred over a foreground CO template, whereas the Gaussian and a uniform disc are statistically indistinguishable under the AIC. The spectrum shows evidence for curvature, with a log-parabola preferred over a power law at the $\\approx 3.4σ$ level. Multi-wavelength spectral energy distribution (SED) modelling, under the adopted assumptions, suggests a leptonic--hadronic joint scenario consistent with the data, with the Fermi-LAT spectrum favouring a hadronic contribution over a purely leptonic interpretation. However, the proton-dominated alternative remains competitive, so the partition of the GeV emission is model-dependent. In the adopted leptonic--hadronic model, the electron population accounts for the radio synchrotron emission and a leptonic $γ$-ray component, while a steep proton population contributes the remaining hadronic $γ$-rays. Adopting a reference distance $d = 2.7$ kpc, the fitted electron cutoff ($E_{e,\\mathrm{cut}}\\approx 1.2$ TeV) is compatible with the thermal-dominated X-ray emission, while the proton cutoff is fixed by assumption at $1$ TeV. The northeast and southwest quadrants show enhanced $γ$-ray emission, which may be related to a clumpy or asymmetric surrounding medium. A correspondence with the directions of optical H$α$ filaments is suggested by the quadrant orientation but is not yet established. No significant long-term flux variability is found, consistent with steady emission from an extended source.",
-      "authors": [
-        "Wei-Liang Xu",
-        "Qing-Wen Tang",
-        "Long Li"
-      ],
-      "url": "https://arxiv.org/abs/2611.04227v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-03",
-      "score": 5,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2611.08484v1",
       "title": "Evolution of Dust In Protoplanetary Disks With Magnetized Winds",
       "abstract": "Observations and theory increasingly indicate that protoplanetary disks are weakly turbulent, implying that magnetized disk winds may dominate their angular momentum transport and long-term evolution. Yet dust evolution in wind-dominated disks remains poorly understood, despite its importance for planet formation. In particular, whether wind-dominated disk evolution can create regions with enhanced dust-to-gas mass ratios that enable planetesimal formation via the streaming instability is unclear. We build a parametric hybrid disk evolution model that includes turbulent accretion, wind-driven accretion, and wind-driven mass loss to investigate dust evolution in magnetized protoplanetary disks. We employ this model to carry out a parameter study in which the initial total accretion rate, the wind-driven mass loss rate, and the turbulence strength are varied. We find that although wind-dominated disks are more favorable to dust growth and concentration than turbulence-dominated disks, conditions suitable for the streaming instability arise only within the inner few au and only under the most extreme conditions: very weak turbulence ($α_\\text{turb} = 10^{-5}$) where magnetized winds drive most of the accretion ($\\dot{M}_\\text{acc,tot} \\simeq \\dot{M}_\\text{wind,acc}$), and wind-driven mass loss comparable to the accretion rate ($\\dot{M}_\\text{wind,outflow} \\simeq \\dot{M}_\\text{acc,wind}$). Our results therefore imply that, beyond the inner few au, the parametric wind-driven evolution models considered in the literature do not by themselves produce conditions suitable for planetesimal formation via the streaming instability, motivating more physically complete models in which spontaneous, long-lived dust traps can arise.",
@@ -403,73 +218,6 @@
       "url": "https://arxiv.org/abs/2611.08484v1",
       "category": "astro-ph.EP",
       "published": "2026-11-05",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.05204v1",
-      "title": "Signature of exocomet transits observed with Ariel",
-      "abstract": "We investigate the potential of the Ariel space telescope to detect and characterise exocomet transits through their wavelength-dependent photometric signatures. Building on a radiative-transfer framework, we model exocomet transits for three representative dust morphologies, three grain-size distributions, and four homogeneous dust compositions using synthetic photometric bands covering the Ariel wavelength range. The modelled events typically last 1-2 days and produce photometric variations of a few millimagnitudes. We find that the wavelength dependence of the transit signal provides stronger diagnostics of the dust properties than transit morphology alone. In particular, colour variations relative to the VISPhot band and their wavelength-dependent slopes separate the considered compositions into two broad groups: carbonaceous dust and graphite, and olivine and pyroxene. While the compositions within each group show similar behaviour, the two groups remain distinguishable across the dust morphologies and grain sizes considered. We further assess the detectability of these signals using the $β$~Pictoris spectral energy distribution and ArielRad simulations. Integrating over broad synthetic photometric bands substantially improves the signal-to-noise ratio, allowing millimagnitude-level signals to be detected with short integration times for sufficiently bright targets. Ariel's simultaneous optical-to-infrared coverage therefore offers the possibility not only of detecting exocomet transits, but also of characterising their chromatic signatures and constraining broad classes of dust properties. We also discuss the limitations of the modelling assumptions and the potential of coordinated observations with long-baseline photometric missions.",
-      "authors": [
-        "Nóra Takács",
-        "Gyula M. Szabó",
-        "Andreas Papageorgiou",
-        "Lorenzo V. Mugnai",
-        "Matt Griffin",
-        "Giuseppe Morello",
-        "Róbert Szabó",
-        "Csaba Kiss"
-      ],
-      "url": "https://arxiv.org/abs/2611.05204v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-03",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.05435v1",
-      "title": "From Earth's Harshest Landscapes to Lunar Horizons: Engineering NEA Telescopes for Extreme Environments",
-      "abstract": "Near-Earth Asteroids (NEAs) represent both a scientific opportunity and a potential threat to human civilization. While current survey programs have successfully detected most large NEAs, a significant observational gap remains for objects smaller than approximately 140 m, which can still produce regional-scale devastation. Ground-based surveys are intrinsically limited by atmospheric conditions, weather, and solar avoidance constraints, which leave a significant fraction of near-Sun objects difficult to detect. In particular, Earth-based observatories remain largely blind to objects approaching from the Sun-ward direction, reducing available warning times. Future lunar observatories offer a promising solution to this limitation. A telescope operating on the Moon could enable observations of regions inaccessible from Earth, provide enhanced sensitivity, and significantly improve early detection capabilities. However, the lunar environment imposes severe engineering constraints, including thermal cycling, dust contamination, radiation exposure, and autonomous operation requirements. We propose the AMAS(Atacama-Mongolia-Antarctica-Sahara) project, an international initiative using Earth's most extreme environments as analogue sites for future lunar astronomical facilities. By deploying and testing specialized NEA survey telescopes in these environments, key technologies for future lunar observatories can be validated under realistic operational conditions. This paper presents the scientific rationale, engineering challenges, site selection strategy, and long-term roadmap toward a global Earth-Moon network for planetary defense.",
-      "authors": [
-        "M. Hadjara",
-        "A. Pomazan",
-        "H. Ji",
-        "Q. Dong",
-        "J. Zheng",
-        "M. Yindun",
-        "L. Cament",
-        "M. Adams",
-        "M. Diaz",
-        "R. Mendez",
-        "B. Foing",
-        "M. Meftah",
-        "Z. Ping",
-        "R. Ikhlef",
-        "D. Baba Aissa"
-      ],
-      "url": "https://arxiv.org/abs/2611.05435v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-03",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.04209v1",
-      "title": "Shallow lunar fractures dominate the long-lasting seismic coda",
-      "abstract": "Lunar seismic records are characterized by long-lasting spindle-shaped coda, which has long been considered to be caused by strong velocity contrasts in a continuous-medium lunar crust; however, simulated waveforms could not well match the observation even with unrealistically strong velocity contrasts, demonstrating its mechanism still unsolved. Here we propose a novel model of coda wave generation with random fractures in the lunar crust, where vacuum fractures prevent seismic wave propagation as insulating boundaries, causing strong persistent reverberation in terms of total reflection among fractures. Our model can easily reproduce the typical characteristics of observed Apollo data even using a limited number of simplified fractures in homogeneous matrix, with envelope correlations over 0.9, much higher than previous studies. Numerical simulations suggest that fractures in the uppermost ~1 km of the crust may dominate lunar seismic scattering. This model enables us to investigate the shallow lunar fracture system using seismic data and to suppress seismic coda for detecting critical phases reflected from deep interiors.",
-      "authors": [
-        "Lei Zhang",
-        "Qian Huang",
-        "Minghao Huang",
-        "Jinhai Zhang",
-        "Dijun Guo"
-      ],
-      "url": "https://arxiv.org/abs/2611.04209v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-03",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
@@ -552,35 +300,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.05297v1",
-      "title": "Metamorphic novae. I. Gaia22alz -- Violent relaxation starting from static evolution",
-      "abstract": "Gaia22alz (nova Vel 2022) shows characteristic properties in its light curves and spectral evolution similar to slow novae HR Del, V723 Cas, and V5558 Sgr. Their outburst begins in a way of hydrostatic expansion with no mass loss, followed by large amplitude ($ΔV \\sim 2$ mag) multiple peaks around the mean magnitude of $M_V \\sim -5.5$, and eventually it decays similarly to normal classical novae. We present a light curve model of Gaia22alz based on our metamorphic nova theory: a nova starts from a static expansion and then metamorphoses to an optically thick wind evolution through a large amplitude multiple peak phase as a violent relaxation process. Our theoretical light curve for the rising phase consistently explains the slow rise and early spectral evolution of Gaia22alz. Gaia22als is a close binary as well as other three novae, which is consistent with our metamorphic nova theory that the companion motion in the nova envelope triggers the metamorphic transition. Our results do not support E. Aydi et al.'s explanation that the slow optical rise of Gaia22alz is owing to the irradiation of X-ray/UV flash.",
-      "authors": [
-        "Mariko Kato",
-        "Izumi Hachisu"
-      ],
-      "url": "https://arxiv.org/abs/2611.05297v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-03",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.04197v1",
-      "title": "Carbon-Reaction Constraints on Stellar Evolution: White-Dwarf Heating, Carbon-Burning Products, and Black-Hole Masses",
-      "abstract": "The effects of ${}^{12}\\mathrm{C}+{}^{12}\\mathrm{C}$ fusion and ${}^{12}\\mathrm{C}(α,γ){}^{16}\\mathrm{O}$ capture on stellar heating, composition, and black-hole masses are examined. Rates from a published Bayesian analysis of carbon fusion are used in calculations with MESA. In an accreting carbon--oxygen white dwarf, the Bayesian rates move the point at which nuclear heating equals combined neutrino and surface photon losses to slightly larger stellar masses and higher central temperatures and densities. At an accretion rate of $10^{-7}\\,M_\\odot\\,\\mathrm{yr}^{-1}$, the Bayesian median gives a central temperature approximately $2.57\\%$ higher and a central density $18.9\\%$ higher than the calculation using the standard CF88 rate. A separate calculation follows carbon burning in an initially $20\\,M_\\odot$, $Z=0.0142$ star. Relative to the CF88 rate with MESA's standard division between proton and alpha channels, the Bayesian-median rate with the proton-to-alpha ratio of Yang et al. increases the neon-20 mass remaining at central carbon depletion by $10.8\\%$ and decreases the sodium-23 mass by $28.7\\%$. For helium capture on carbon, the nuclear constraint $S_{\\rm tot}(300\\,\\mathrm{keV})=118\\pm17\\,\\mathrm{keV\\,b}$ is applied to the published $Z=10^{-5}$ stellar models of Farag et al. Linear interpolation gives a maximum black-hole mass below the pair-instability gap of approximately $61.5$--$77.4\\,M_\\odot$ within the assumptions of those models. New MESA calculations at $Z=0.00142$ give smaller bound masses before collapse. Differences in the stellar assumptions prevent attributing the difference between the two curves to metallicity alone.",
-      "authors": [
-        "Akram Mukhamedzhanov"
-      ],
-      "url": "https://arxiv.org/abs/2611.04197v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-03",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2611.05808v1",
       "title": "A Laplace-Transform Green's Function for Two-Zone Diffusion with Energy Losses: Application to the Geminga Pulsar Halo",
       "abstract": "Extended TeV gamma-ray halos around pulsars are commonly interpreted as evidence for slow diffusion of high-energy electrons and positrons near their sources, with diffusion coefficients about two orders of magnitude below the Galactic average inferred from B/C measurements. A two-zone diffusion picture offers a natural phenomenological resolution: particles are temporarily confined in a slow-diffusion region around the source and subsequently propagate through the outer region with a diffusion coefficient close to the Galactic average. Using a Laplace-transform method, we derive an analytical Green's-function solution to the spherically symmetric two-zone diffusion equation, in which the diffusion coefficient changes discontinuously at r_b. The solution satisfies continuity of both the particle density and the diffusive flux at the boundary and reduces to the standard Gaussian kernel in the one-zone limit. For the parameter set used in our comparison, the spatial kernel and the positron flux at Earth agree numerically with an independent integral solution of the same two-zone problem. Applied to Geminga, the two-zone models examined here produce a more extended outer particle distribution and broader positron spectra than the homogeneous diffusion model, with higher positron fluxes in the TeV range. The adopted injection model further affects the height and shape of the high-energy spectral peak. The predicted gamma-ray surface-brightness profile also reproduces the main radial decline observed by HAWC.",
@@ -609,22 +328,6 @@
       "url": "https://arxiv.org/abs/2611.05783v1",
       "category": "astro-ph.HE",
       "published": "2026-11-04",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.04150v1",
-      "title": "Multimessenger astrophysics drives the case for an Australian Gravitational-Wave observatory",
-      "abstract": "The next generation of an international network of gravitational-wave observatories is now in the advanced planning stages. With Australia's substantial history of contributions in this field, its history of scientific mega-projects like the Square Kilometer Array, and its unique geographic location and conditions, it is ideally placed to host an observatory in the global network. It has already been demonstrated that a gravitational wave detector in Australia plays an important role in minimizing the sky localization uncertainty of gravitational wave events. We study a particular science case for an Australian observatory, focusing on its potential contributions to multimessenger astronomy. We demonstrate that an observatory in Australia can enable the detection of up to eight multimessenger gravitational-wave plus kilonova events per year, with localisations better than $1-10°^2$ in both second- and third-generation networks. We show that, in a global network of XG observatories, an Australian observatory with 2G sensitivity would still enable significant advances in multimessenger science. The full case for an Australian observatory must be considered in a much broader context; however, this work indicates it could make substantial contributions to multimessenger astrophysics.",
-      "authors": [
-        "Fiona H. Panther",
-        "Paul D. Lasky",
-        "Nikhil Sarin"
-      ],
-      "url": "https://arxiv.org/abs/2611.04150v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-03",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
@@ -717,45 +420,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.05123v1",
-      "title": "First application of the optimised next neighbour cleaning to data from imaging atmospheric Cherenkov telescopes",
-      "abstract": "Imaging atmospheric Cherenkov telescopes (IACTs) cameras are constantly subject to signals from the night sky background and electronic noise during event recordings. Image cleaning methods are typically employed to eliminate pixels that are mostly noise-contaminated and lack sufficient Cherenkov light. In this paper, we present the implementation of the optimised next neighbour (ONN) technique to the Very Energetic Radiation Imaging Telescope Array System (VERITAS) reconstruction pipeline. With this method, cleaning thresholds are derived in a two-parameter space, composed of the minimum total integrated charge of a cluster of pixels, $q_{\\rm min}$, and by the maximum difference in the pulse arrival time within the cluster, $δ_t$. The cleaning contours in $q_{\\rm min} - δ_t$ are adjusted to set a high probability of noise suppression while optimising the retention of pixels containing Cherenkov light. In comparison to the VERITAS double-pass image cleaning method, effective areas are increased at the lower energy range ($\\sim$ 60 - 90 GeV) by a factor of up to $\\sim$ 25. Energy thresholds are reduced by up to $\\sim$ 22\\%. Testing the method on Crab Nebula data resulted in an increased number of reconstructed excess events at energies < 1 TeV by a factor of up to $\\sim$ 82. Finally, an increase in the differential sensitivity of VERITAS by a factor of up to $\\sim$ 8 was observed at $\\sim$ 20 GeV. With the addition of BDT-based $γ$/hadron separation cuts, the method improves the detection significance of a 20 hour Crab Nebula dataset, while excess event rates are enhanced by $\\sim$ 16\\%. In summary, the ONN image cleaning provides a reduced energy threshold and a higher rate of event reconstruction. The technique is especially advantageous for the analysis of gamma-ray sources presenting transient and soft spectra.",
-      "authors": [
-        "Maria Kherlakian",
-        "Gernot Maier"
-      ],
-      "url": "https://arxiv.org/abs/2611.05123v1",
-      "category": "astro-ph.IM",
-      "published": "2026-11-03",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.04139v1",
-      "title": "COSMIO: A Benchmark for Cross-Survey Modality Imputation",
-      "abstract": "Large-scale astronomical surveys define a heterogeneous, partially observed multi-survey learning setting: each object is observed by only a subset of surveys, while survey observations differ in resolutions, wavelength coverage, noise characteristics, and footprints. This setting gives rise to a natural machine learning problem: given observations of an object in some surveys, how to infer its appearance in other surveys. We formalize this as the problem of cross-survey modality imputation and introduce COSMIO, a multi-survey benchmark of aligned observations obtained by forward-rendered shared astrophysical scenes across LSST, Euclid, and Roman under survey-specific instrument characteristics. The benchmark enables systematic evaluation of imputation across source-target survey combinations and missing-survey patterns. We evaluate a broad range of machine learning methods for imputation, which reveal a clear domain gap: methods developed for existing imputation settings transfer poorly to the survey setting. We identify rare-event imputation as a central challenge. This regime arises in the early stages of new surveys, when rare but scientifically valuable phenomena may be available only from prior surveys. We use strong gravitational lensing, where light from a background galaxy is gravitationally deflected by a foreground galaxy, as a representative rare-event setting. We evaluate model performance on zero-shot imputation of gravitational lenses and on downstream scientific tasks using the imputed lens observations. On our constructed evaluation set of galaxy-galaxy strong lenses, performance degrades under rare-event distribution shift, and this degradation further propagates to the downstream lens-detection task. Code: https://github.com/fw-ic/COSMIO.",
-      "authors": [
-        "Dichang Zhang",
-        "Yixuan Shao",
-        "Jiaqi Deng",
-        "Jiali Cui",
-        "Haotian Yin",
-        "Yuanpeng Liu",
-        "Xiang Gao",
-        "Zhiqiang Lao",
-        "Heather Yu",
-        "Simon Birrer",
-        "Dimitris Samaras"
-      ],
-      "url": "https://arxiv.org/abs/2611.04139v1",
-      "category": "astro-ph.IM",
-      "published": "2026-11-03",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
     }
   ]
 }
