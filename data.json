@@ -1,24 +1,10 @@
 {
-  "generated_utc": "2026-11-07T12:43:41Z",
-  "date": "2026-11-07",
-  "total_fetched": 102,
-  "relevant_count": 19,
+  "generated_utc": "2026-11-08T13:00:32Z",
+  "date": "2026-11-08",
+  "total_fetched": 40,
+  "relevant_count": 10,
   "min_score": 3,
   "articles": [
-    {
-      "arxiv_id": "2611.06352v1",
-      "title": "The Environment of High-Energy Transient Host Galaxies at High Redshifts as Observed by SHARP",
-      "abstract": "The study of transient events, such as Gamma-Ray Bursts (GRBs) and extreme Supernovae (SNe), provides a unique probe of star-forming environments in the early Universe. Traditional global host galaxy studies often fail to capture the local conditions around the progenitor, leading to potential mischaracterizations due to metallicity gradients and spatial inhomogeneities. Using high spatial resolution integral field unit (IFU) data, such as those obtained with SHARP/VESPER, allows us to spatially resolve the host galaxies and accurately determine the physical properties (metallicity, stellar age, kinematics) at the precise explosion site. Here, we review the need for near-infrared spatially-resolved observations to link progenitor properties, such as the required low metallicity for long GRBs, to their birth environments, and highlight the crucial role of instruments like SHARP in advancing high-redshift transient science, including the characterization of SNe without associated GRBs and Kilonovae hosts.",
-      "authors": [
-        "L. Izzo"
-      ],
-      "url": "https://arxiv.org/abs/2611.06352v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-04",
-      "score": 14,
-      "tier": 1,
-      "instrument": "RC400"
-    },
     {
       "arxiv_id": "2611.08041v1",
       "title": "Results from a Stellar Occultation by (623) Chimaera",
@@ -61,41 +47,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.06650v1",
-      "title": "The formation and evolution of Wolf-Rayet stars with temperature-dependent winds",
-      "abstract": "Massive stars strongly influence their environments through their radiation, stellar winds and core-collapse supernovae, while their own evolution is strongly shaped by wind mass loss. Wolf-Rayet (WR) stars are characterised by strong, optically thick winds, and the implementation of these winds remains an important uncertainty in stellar evolution models. Recent hydrodynamically consistent atmosphere calculations predict WR mass-loss rates that depend strongly on the temperature at the wind-launching region. We investigate the effects of incorporating these latest theoretical WR wind prescriptions into single and binary stellar evolution models at Milky Way, Large Magellanic Cloud and Small Magellanic Cloud (SMC) metallicities. We find that the temperature dependence of the WR wind can significantly alter the evolution of stars near the threshold for WR formation. In particular, an implementation that transitions from a hydrogen rich WNL wind prescription to a classical WR wind driven by the hot iron opacity bump causes some SMC-metallicity models to spend an extended period at temperatures of approximately 70 to 90 kK. This produces a concentration of models in the temperature range occupied by most observed SMC WR stars, a feature that has previously been difficult to explain with stellar evolution models. Our results demonstrate that incorporating physically motivated, temperature dependent WR winds can improve the agreement between stellar evolution models and observed WR populations.",
-      "authors": [
-        "Guy O. Flint",
-        "Avishai Gilkis",
-        "Tomer Shenar",
-        "Christopher A. Tout"
-      ],
-      "url": "https://arxiv.org/abs/2611.06650v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-04",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.05833v1",
-      "title": "Photometric Study of a Distant SU UMa-type Dwarf Nova KSP-OT-201803a",
-      "abstract": "We present the discovery and photometric study of a distant dwarf nova KSP-OT-201803a using BVI-band observation data obtained by using the KMTNet Supernova Program. One superoutburst (SO) and three normal outbursts are identified from two years of observations (2018-2019), which show that KSP-OT-201803a is an SU UMa-type dwarf nova (DN). Applying the phase dispersion minimization method to the superhump data during the plateau phase of the SO yields a superhump period of P_sh = 127.4 minutes (=2.123 hr =0.08847 days). By stacking ten images of the quiescent phase, we find the quiescent phase magnitude of V = 22.59 +/- 0.18 mag. The SO shows quiescent-to-peak amplitude of 4.97 +/- 0.18 mag and duration of 16.59 days which are typical for the SU UMa-type DNe. Using the superhump period-orbital period relation of SU UMa stars, we obtain the approximate distance of 3.7 +/- 0.3 kpc to KSP-OT-201803a and Galactocentric distance of 9.4 kpc and height from the Galactic plane of +1.2 kpc. Stars at these large distances may belong to the Galactic halo or thick disk, which contain old, metal-poor Population II stars; therefore, these systems may have undergone a different evolutionary process than Population I objects. The orbital period gap of DNe spans 2.45-3.18 hours. Assuming that the orbital period of KSP-OT-201803a is a few percent shorter than its superhump period, KSP-OT-201803a may have just emerged from the period gap and recently resumed mass transfer after crossing its lower boundary.",
-      "authors": [
-        "Sang Chul Kim",
-        "Youngdae Lee",
-        "Dae-Sik Moon",
-        "Hong Soo Park",
-        "Dong Wook Kim"
-      ],
-      "url": "https://arxiv.org/abs/2611.05833v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-04",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2611.08267v1",
       "title": "The slower rotation of planet-hosting stars revisited",
       "abstract": "Previous studies combined rotation periods derived from Kepler photometry, stellar parameters from previous Gaia Data Releases, and planet hosts from the NASA Exoplanet Archive to conclude that statistically planet-hosting stars rotate slower than stars without detected planets. Here, we revisit these studies by using similar Kepler rotational period sample, but with an updated Gaia DR3-based stellar parameter catalogue and an updated exoplanet catalogue. We apply minimal sample cuts in evolutionary state, metallicity, and distance, and then model the stellar rotation period as a function of effective temperature alone. For each star, we derive the ratio of its observed period to the temperature-expected period, and compare the ratio distributions for the planet-host and non-host stars. For periods shorter than 20 d, the planet-host distribution of this ratio is shifted towards longer periods; the period-ratio median is ~15% larger for hosts than for non-hosts (p_KS = 2.4 x 10^-4). We also examine the recently published TESS All-Sky Rotation Survey (TARS) and find a similar trend. However, the strongly structured period distribution precludes a robust comparison between the host and the non-host stars. Therefore, the updated analysis, using more robust stellar and planetary parameters, recovers the previously reported association, strengthening the case for a genuine connection between stellar rotation and planet occurrence.",
@@ -108,81 +59,6 @@
       "url": "https://arxiv.org/abs/2611.08267v1",
       "category": "astro-ph.EP",
       "published": "2026-11-05",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.05881v1",
-      "title": "Frequent Optical Flares in an M-type Detached Eclipsing Binary TIC 349005337",
-      "abstract": "A comprehensive photometric and spectroscopic analysis of TIC 349005337, a highly active M-type detached eclipsing binary with an orbital period of 2.6079133 days, is presented utilizing high-cadence and long-term monitoring photometry from the Transiting Exoplanet Survey Satellite (TESS) and medium-resolution spectroscopy from the Large Sky Area Multi-Object Fiber Spectroscopic Telescope (LAMOST). By integrating radial velocity curves with light curves, we determined the fundamental physical parameters for both components. The system consists of an M-dwarf primary ($M_1 = 0.517 \\pm 0.009 M_\\odot$, $R_1 = 0.518 \\pm 0.003 R_\\odot$) and a fully convective secondary ($M_2 = 0.298 \\pm 0.004 M_\\odot$, $R_2 = 0.357 \\pm 0.003 R_\\odot$). A total of 12 high-energy stellar flares, with the most energetic event reaching $3.87 \\times 10^{34}$ erg, is identified, confirming the system is in a state of magnetic hyper-activity. The frequent superflares suggest that intense magnetic activity and significant starspot coverage play a dominant role in altering the stellar atmospheric structure. As the secondary component falls below the fully convective boundary, these energetic flares provide critical empirical constraints for distributed dynamo models in the low-mass regime. Our results highlight TIC 349005337 as an ideal laboratory for investigating the interplay between binary dynamics, magnetic reconnection, and the resulting impact on the atmospheric stability of potential orbiting exoplanets.",
-      "authors": [
-        "Xiao Zhou",
-        "Liying Zhu",
-        "Wei Hu",
-        "Gil Nachmani",
-        "Jia Zhang",
-        "Mikhail Yu. Kovalev",
-        "Ergang Zhao"
-      ],
-      "url": "https://arxiv.org/abs/2611.05881v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-04",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.06785v1",
-      "title": "Constraining the white-dwarf mass in the intermediate polar IGR J17014-4306 using X-ray and optical spectroscopy",
-      "abstract": "Intermediate polars (IPs), a subclass of magnetic cataclysmic variables, often show discrepancies between white-dwarf (WD) mass measurements from X-ray spectral modeling and optical dynamical studies. We investigate the IP IGR J17014-4306. We performed a joint spectral analysis of NuSTAR observations combined with archival XMM-Newton and Swift data, modeling the broad-band X-ray spectrum with a multi-temperature cooling-flow model. Additionally, we obtained time-resolved optical spectroscopy with the SOAR telescope to measure the radial velocity of the donor star and constrain the system's orbital parameters. The X-ray spectral analysis reveals a very high post-shock plasma temperature of $kT_{\\max}=50_{-8}^{+11}\\,\\mathrm{keV}$, corresponding to a WD mass of $M_{\\mathrm{WD}}=0.94_{-0.07}^{+0.09}\\,M_\\odot$. We also fitted the NuSTAR spectrum above 10 keV with the ipolar30KK model, obtaining $M_{\\mathrm{WD}}=0.88_{-0.12}^{+0.14}\\,M_\\odot$. Our optical spectroscopy yields a radial-velocity semi-amplitude for the companion star of $K_2=165\\pm4\\,\\mathrm{km\\,s^{-1}}$ and an optical mass function of $f(M)=0.249\\pm0.018\\,M_\\odot$. Combined with the eclipse geometry and the WD mass estimate from the X-ray models, these results favor a high mass ratio, $0.76\\lesssim q\\lesssim0.95$, and a donor-star mass of approximately $0.67\\lesssim M_2/M_\\odot\\lesssim0.89$. In the limiting case of $q=1$, the WD mass has an upper limit of $1.14\\,M_\\odot$. Together with the X-ray measurements, this indicates a relatively massive WD. The lack of an independent measurement of the WD dynamical mass leaves it unclear whether the dynamical mass is consistent with the X-ray measurements or whether the X-ray mass is underestimated, as has been found for other IPs. Thus, our constraints make IGR J17014-4306 an important system for improving our understanding of IPs.",
-      "authors": [
-        "D. C. Souza",
-        "M. P. Diaz",
-        "A. S. Oliveira",
-        "G. J. M. Luna",
-        "C. V. Rodrigues",
-        "M. Reynolds",
-        "N. Palivanas",
-        "I. J. Lima",
-        "J. Mikołajewska",
-        "M. Orio"
-      ],
-      "url": "https://arxiv.org/abs/2611.06785v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-04",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.06873v1",
-      "title": "Tracking turbulence for wind-driven halo removal using MagAO-X pyramid wavefront sensor images",
-      "abstract": "The wind-driven halo (WDH) is a persistent, low spatial frequency noise artifact that arises due to the servo-lag error inherent to all adaptive optics (AO) instruments. Spatial filtering may be employed to overcome this artifact, however, filtering out the WDH while simultaneously preserving signal from an extended astrophysical object of interest is exceptionally challenging. Additionally, since the WDH changes in intensity and position angle through an observation, data-driven algorithms (e.g., KLIP) that are commonly used to subtract the starlight need to be overly-aggressive to remove both the static and dynamic noise components. Since wavefront sensors (WFSs) continuously track the closed-loop residual wavefront error, WFS telemetry presents the ideal resource for combating this type of noise artifact through postprocessing. Using archival WFS telemetry from MagAO-X, which is the \"extreme\" AO instrument for the 6.5-meter Magellan-Clay telescope, we demonstrate a novel workflow for WDH reconstruction and removal in individual coronagraphic science images. MagAO-X is equipped with a pyramid WFS capable of recording wavefront telemetry at a high-cadence which is saved during data acquisition. Given this, we detail how our WFS data processing pipeline, windsoCC, cross-correlates the recorded closed-loop wavefront to measure the wind vectors of several turbulent layers of the atmosphere above Las Campanas Observatory. We then make use of the wind parameters learned through windsoCC to reconstruct the WDH footprint by leveraging a parametric model. Notably, we demonstrate a dramatic improvement in object recovery using on-sky MagAO-X images of the disk around HR 4796A at visible wavelengths.",
-      "authors": [
-        "Jay K. Kueny",
-        "Jared R. Males",
-        "Alycia J. Weinberger",
-        "Laird M. Close",
-        "Joseph D. Long",
-        "Joshua Liberman",
-        "Sebastiaan Haffert",
-        "Eden McEwen",
-        "Maggie Y. Kautz",
-        "Olivier Guyon",
-        "Logan Pearce",
-        "Parker T. Johnson",
-        "Katie Twitchell",
-        "Jialin Li",
-        "Alex Hedglen",
-        "Avalon Gower",
-        "Warren Foster",
-        "Jhen Lumbres",
-        "Lauren Schatz"
-      ],
-      "url": "https://arxiv.org/abs/2611.06873v1",
-      "category": "astro-ph.IM",
-      "published": "2026-11-04",
       "score": 6,
       "tier": 2,
       "instrument": "RC400"
@@ -300,39 +176,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.05808v1",
-      "title": "A Laplace-Transform Green's Function for Two-Zone Diffusion with Energy Losses: Application to the Geminga Pulsar Halo",
-      "abstract": "Extended TeV gamma-ray halos around pulsars are commonly interpreted as evidence for slow diffusion of high-energy electrons and positrons near their sources, with diffusion coefficients about two orders of magnitude below the Galactic average inferred from B/C measurements. A two-zone diffusion picture offers a natural phenomenological resolution: particles are temporarily confined in a slow-diffusion region around the source and subsequently propagate through the outer region with a diffusion coefficient close to the Galactic average. Using a Laplace-transform method, we derive an analytical Green's-function solution to the spherically symmetric two-zone diffusion equation, in which the diffusion coefficient changes discontinuously at r_b. The solution satisfies continuity of both the particle density and the diffusive flux at the boundary and reduces to the standard Gaussian kernel in the one-zone limit. For the parameter set used in our comparison, the spatial kernel and the positron flux at Earth agree numerically with an independent integral solution of the same two-zone problem. Applied to Geminga, the two-zone models examined here produce a more extended outer particle distribution and broader positron spectra than the homogeneous diffusion model, with higher positron fluxes in the TeV range. The adopted injection model further affects the height and shape of the high-energy spectral peak. The predicted gamma-ray surface-brightness profile also reproduces the main radial decline observed by HAWC.",
-      "authors": [
-        "Furong Li",
-        "Wei Liu",
-        "Yali Shao",
-        "Yiqing Guo"
-      ],
-      "url": "https://arxiv.org/abs/2611.05808v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-04",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.05783v1",
-      "title": "Insights on the mass composition of ultrahigh-energy cosmic rays from small-scale anisotropy with large-scale structure simulations",
-      "abstract": "Ultra-high-energy cosmic rays (UHECRs) above 100 EeV provide important clues to the most energetic processes in the Universe. At the highest energies, it is expected that UHECRs originate only from nearby sources because of energy losses during propagation. In such a regime, small-scale anisotropies in arrival directions could appear if the magnetic deflections are sufficiently small, for example, for a limited fraction of UHECRs with relatively low electric charge. Using the Pierre Auger Observatory open data, we confirm there is no significant small-scale anisotropy above 100 EeV within 3 degrees, indicating an almost isotropic sky distribution. To interpret this, we consider that heavier nuclei have higher photodisintegration thresholds due to their smaller Lorentz factors, resulting in longer propagation lengths. Combination with the nearly homogeneous distribution of galaxies at such distances can explain the absence of anisotropies above 100 EeV. Based on this idea, we perform mock observations of UHECRs above 100 EeV assuming pure-proton, iron, and uranium compositions. We predict the expected UHECR distributions using the Millennium Run semi-analytic galaxy catalog and turbulent extragalactic magnetic fields. By varying the source density and magnetic field strength, we evaluate the anisotropy for each case. Without magnetic fields, the observed isotropy above 100 EeV excludes the pure-proton and pure-iron cases. The pure-uranium case can reproduce the observed isotropy when the source density is high and the magnetic field is turbulent. When the turbulent field is strong, both the iron and uranium cases remain consistent with the data, whereas almost no parameter set can explain the observation for a pure-proton composition. Our results constrain the possible combinations of source density and magnetic field strength across different UHECR compositions.",
-      "authors": [
-        "Ryo Higuchi",
-        "Eiji Kido",
-        "Shigehiro Nagataki"
-      ],
-      "url": "https://arxiv.org/abs/2611.05783v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-04",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2611.08410v1",
       "title": "Tensor Networks for Block Adaptive Thermal Radiation Transport",
       "abstract": "Thermal radiation transport (TRT) is computationally challenging because the photon specific intensity depends simultaneously on space, angle, and frequency, producing a high-dimensional state space whose cost grows rapidly with resolution. Tensor-network methods, such as the tensor train (TT) decomposition, can mitigate this curse of dimensionality when the solution admits low-rank structure, but localized nonseparable structure can drive substantial rank growth. Adaptive mesh refinement (AMR) provides a complementary means of making high spatial resolution tractable by concentrating resolution on features of interest that would otherwise be prohibitively expensive to resolve. When tensor representations are constructed locally on AMR blocks, this decomposition offers an additional advantage: nonseparable structure can remain confined to the blocks in which it occurs rather than driving rank growth throughout the domain. This paper introduces a framework for combining block-adaptive mesh refinement with block-local tensor-train representations of the photon specific intensity. The approach couples spatial adaptivity with localized low-rank compression, allowing fine-scale features to be resolved while limiting the impact of locally complex structure on tensor ranks elsewhere in the domain. We develop conservative ghost-cell transfer, coarse-fine flux correction, and refinement criteria that balance spatial discretization and tensor-rounding errors. Numerical experiments demonstrate that the method preserves low-rank structure across much of the domain while resolving localized features with AMR, achieving compression factors exceeding $\\sim$10$^3$. The resulting framework provides a practical foundation for applying tensor-network methods to high-dimensional TRT on the multiscale, adaptively refined meshes encountered in radiation hydrodynamics simulations.",
@@ -388,38 +231,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.06332v1",
-      "title": "Developing the Field Selector System for the SHARP Multi-IFU: Optomechanical Design and First Prototype Validation",
-      "abstract": "This paper presents the innovative Field Selector System (FSS) developed for VESPER, the multi-Integral Field Unit of the SHARP near-infrared spectrograph. The proposed system employs an array of movable light-collection probes (Field Selectors) that travel along parallel, vertically offset planes to avoid mechanical interference and vignetting. The true novelty lies in its opto-mechanical synchronization: as each probe translates by Δy to select a target, a set of folding mirrors shifts by Δy/2. This maintains a constant optical path length, allowing multiple independently moving probes to share a single focal plane and form a continuous image on it, easy to slice by the slicer. A dedicated optical test setup was developed to characterize the positioning stability and repeatability of the probe motion. The measured mechanical errors were converted into equivalent optical tilts and incorporated into the SHARP optical model to assess their impact on instrument performance. The experimental results identified the dominant sources of positioning error and provided valuable insight into the relationship between mechanical tolerances and optical performance. The study also highlights several design improvements capable of significantly reducing probe tilting and enhancing system stability. The results demonstrate the viability of the proposed concept and indicate that, with the identified improvements, the system represents an excellent field-selection solution for SHARP and other multi-integral-field-unit (mIFU) spectrographs.",
-      "authors": [
-        "H. Mahmoodzadeh",
-        "P. Saracco",
-        "I. Di Antonio",
-        "P. Conconi",
-        "D. Scaccabarozzi",
-        "B. Saggin",
-        "E. Molinari",
-        "C. Arcidiacono",
-        "E. Cascone",
-        "V. Cianniello",
-        "F. D'Alessio",
-        "V. De Caprio",
-        "G. Di Rico",
-        "B. Di Francesco",
-        "C. Eredia",
-        "P. Franzetti",
-        "M. Fumana",
-        "E. Portaluri",
-        "F. Vitali"
-      ],
-      "url": "https://arxiv.org/abs/2611.06332v1",
-      "category": "astro-ph.IM",
-      "published": "2026-11-04",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
     }
   ]
 }
