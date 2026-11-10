@@ -1,178 +1,214 @@
 {
-  "generated_utc": "2026-11-09T15:43:39Z",
-  "date": "2026-11-09",
-  "total_fetched": 40,
-  "relevant_count": 8,
+  "generated_utc": "2026-11-10T14:37:15Z",
+  "date": "2026-11-10",
+  "total_fetched": 70,
+  "relevant_count": 12,
   "min_score": 3,
   "articles": [
     {
-      "arxiv_id": "2611.09044v1",
-      "title": "Phosphorus-rich star formation in giant molecular clouds hosting primordial globular clusters",
-      "abstract": "Recent observational studies have identified phosphorus-rich (P-rich) stars ([P/Fe]>1.0) in both Galactic globular clusters (GCs) including three confirmed cases and the field population. Using analytical models of GC formation, we investigate a scenario in which P-rich stars form from pristine gas in GC-forming giant molecular clouds (GMCs) polluted by oxygen-neon (ONe) novae within and surrounding the GMCs. Within this framework, we model the chemical abundance patterns of P-rich stars using diverse chemical yield sets for ONe novae while varying the dilution factor (Fdil), defined as the ratio of pristine gas mass to total ONe nova ejecta mass. The principal results of our models are as follows: Across a wide range of Fdil, most models display positive correlations between [P/Fe], [N/Fe], [O/Fe], [Al/Fe]$, [Si/Fe], [S/Fe], and [Si/S]. The [Ce/Fe] ratios in P-rich stars can reach values up to 1 if the GMCs are additionally polluted by interacting low-mass asymptotic giant branch stars.P-rich star formation is highly unlikely in environments with a low interaction frequency between GMCs and ONe novae. P-rich stars exhibit anomalously low 14N/15N, 16O/17O, and 16O/18O isotopic ratios, offering a clear observational diagnostic to test this scenario. Assuming that P-rich Galactic field stars originate from GCs, we discuss the origin of their chemical abundance patterns. We suggest that the existence of P-rich stars provides direct evidence that GC-forming GMCs were polluted by pre-existing stellar populations.",
+      "arxiv_id": "2611.11351v1",
+      "title": "The Fate of Collisional Neutrino Flavor Conversion: Fixed Points, Period Doubling, and Chaos",
+      "abstract": "Core-collapse supernovae and neutron star mergers are among the most energetic astrophysical events and promising sources of multimessenger signals. Their dynamics and nucleosynthesis depend sensitively on neutrino transport, yet the impact of neutrino flavor evolution in these dense environments remains poorly understood. Predicting the outcome of collisional flavor instability (CFI) remains a challenge, despite progress in local-relaxation methods for fast flavor conversion. Here we construct homogeneous collective-precession states with stationary flavor populations in two-flavor quantum kinetics with collisional relaxation. The method applies to arbitrary energy spectra and energy-dependent collision rates. Our numerical examples exhibit persistent oscillations and a period-doubling route to chaos. Even in these regimes, the stationary populations estimate the time-averaged flavor populations to within $10\\%$ in our tests. These fixed points provide a physically motivated input for incorporating CFI into astrophysical simulations, with implications for neutrino heating and ejecta nucleosynthesis.",
       "authors": [
-        "Kenji Bekki",
-        "Takuji Tsujimoto"
+        "Jiabao Liu",
+        "Lucas Johns",
+        "Hiroki Nagakura"
       ],
-      "url": "https://arxiv.org/abs/2611.09044v1",
+      "url": "https://arxiv.org/abs/2611.11351v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-08",
+      "score": 12,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.10431v1",
+      "title": "Faint Thermonuclear Transients from the Double Detonations of Common White Dwarfs",
+      "abstract": "The double detonation model is a viable channel to explain many observed Type Ia supernovae (SNe Ia), with thin helium shelled white dwarf (WD) progenitors of 0.9--1.1 M$_\\odot$ reproducing normal SNe Ia observables. Recent work has also shown that all C/O WDs $\\leq$ 1.0 M$_\\odot$ can sustain a helium shell detonation that triggers a detonation of the underlying core. As WDs of lower masses (0.5--0.7 M$_\\odot$) far outnumber those at higher mass, it is important to explore their double detonation outcomes. To that end, we conducted multidimensional double detonation simulations of low mass C/O cores with very thin helium shells, finding explosion outcomes that differ non-trivially from those at higher masses. Not surprisingly, their cores are incompletely burned with low yields of radioactive elements. Though still formally unbound in isolation, some of the ejecta could remain bound to a nearby companion. In addition, the offset initiation of the core detonation wave and its failure to burn through the entire core lead to a very asymmetric distribution of $^{56}$Ni that creates dramatically viewing angle-dependent light curves and spectra. We find that the peak bolometric luminosities for the same explosion vary up to nearly 2 magnitudes over the sky, and that the spectra and light curves from these models are within the range of faint SNe Iax. In particular, our 0.50 M$_\\odot$ models agree well with the photometry of SNe Iax 2008ha and 2024vjm.",
+      "authors": [
+        "Samuel J. Boos",
+        "Lars Bildsten"
+      ],
+      "url": "https://arxiv.org/abs/2611.10431v1",
       "category": "astro-ph.SR",
-      "published": "2026-11-06",
+      "published": "2026-11-07",
+      "score": 9,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.12849v1",
+      "title": "The Tierras Observatory: Ultra-Precise Photometry for Characterizing Exoplanets and Their Host Stars",
+      "abstract": "The Tierras Observatory is a fully robotic 1.3-m telescope at the Fred Lawrence Whipple Observatory in southern Arizona. Tierras achieves sub-part-per-thousand (ppt) photometric precision on two timescales: intra-night, to detect and characterize transits of planets around nearby mid-to-late M dwarfs, and night-to-night across an observing season, to characterize the long-term variability of their host stars. We describe the facility and instrument design, our photometric pipeline, and our on-sky performance. We present the first ground-based light curves with sub-ppt precision over timescales of months. This precision enables a range of exoplanet-related science, including the measurement of host star rotation periods, the detection of long-period transits, and the discovery of additional terrestrial planets in known M dwarf systems.",
+      "authors": [
+        "Juliana García-Mejía",
+        "Patrick Tamburo",
+        "David Charbonneau",
+        "Daniel Fabricant",
+        "Jonathan M. Irwin",
+        "Robert Fata",
+        "Joseph M. Zajac",
+        "Peter E. Doherty",
+        "Brian McLeod",
+        "Pascal Fortin",
+        "Michael L. Calkins",
+        "Gilbert A. Esquerdo"
+      ],
+      "url": "https://arxiv.org/abs/2611.12849v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-09",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.10861v1",
+      "title": "SWXAI: A Unified Multimodal Explainability Library for Space Weather Forecasting and Heliophysics",
+      "abstract": "Space weather forecasting and heliophysics increasingly rely on machine learning models that process heterogeneous inputs such as multi-viewpoint multi-wavelength solar images and rasters, multivariate time series, spatial annotations, and tabular event-level data. However, explainability workflows remain fragmented across libraries, model interfaces, and output formats, limiting reuse and reproducibility. We present SWXAI, an open-source library that unifies explainable AI (XAI) workflows for image, time-series, and tabular data in space weather forecasting and heliophysics. SWXAI provides a common, extensible interface across commonly used vision, time-series, and tabular learning models, with validation, adaptation, and persistent explanation objects. It also includes domain-grounded examples, reproducible notebooks, tests, and documentation, enabling users to inspect outputs, swap models or explainers, and extend workflows to new heliophysics datasets. SWXAI reduces modality-specific engineering overhead and supports comparable, reusable explanations across heterogeneous scientific machine learning pipelines. A benchmark against direct backend implementations shows that SWXAI substantially reduces the code users write to produce an explanation, with no practical runtime cost.",
+      "authors": [
+        "Benedict Antonio Mervyn",
+        "Anli Ji",
+        "Manolis K. Georgoulis",
+        "Berkay Aydin"
+      ],
+      "url": "https://arxiv.org/abs/2611.10861v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-07",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.12811v1",
+      "title": "NS 1987A: A Potential Probe of Crustal Superfluidity with Future X-ray Observations",
+      "abstract": "Several indirect observations imply that the central compact object in the supernova SN 1987A is likely to be the youngest neutron star identified to date, NS 1987A. We investigate how a future detection of its thermal X-ray emission could constrain neutron-star interiors, using cooling models and a generic high-resolution, large-area X-ray observatory with \\textit{Lynx}-like capabilities as a sensitivity benchmark. For the adopted sensitivity and observing window, NS 1987A is detectable at $t\\sim60~{\\rm yr}$ (roughly 2047) unless rapid neutrino cooling operates, such as the direct Urca process. If the neutron superfluidity in the inner crust is weak, the temperature profile inside NS 1987A is likely not to be isothermal at the detection. In that case, the future direct observation of NS 1987A is a potential probe of the properties inside the inner crust. We compare alternative X-ray observatories and emphasize that both effective area and angular resolution, needed to reduce contamination from the surrounding remnant, determine whether this diagnostic can be realized.",
+      "authors": [
+        "Akira Dohi",
+        "Keita Izumi",
+        "Asuka Ito",
+        "Emanuele Greco",
+        "Marco Miceli",
+        "Salvatore Orlando",
+        "Shigehiro Nagataki"
+      ],
+      "url": "https://arxiv.org/abs/2611.12811v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-09",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.10745v1",
+      "title": "Stochastic Acceleration Downstream of Astrophysical Shocks",
+      "abstract": "Generation and evolution of turbulence at shock fronts are crucial aspects of the process of particle acceleration in different classes of sources. Here we aim at describing the fate of non-thermal particles and turbulence in the downstream region of an astrophysical shock, both in the case in which turbulence is solely produced upstream and advected through the shock and in the case in which additional turbulence is injected downstream. In particular we will provide an estimate of the effect of stochastic acceleration on particles accelerated at the shock and then advected behind it. The calculations will be specialized to supernova remnant shocks. The temporal evolution of the particle distribution function downstream of the shock and the power spectrum of the turbulent perturbations are both followed by solving numerically the transport equations for the two quantities, accounting for the damping of waves due to the particles that resonantly interact with them, which makes the problem non-linear. Our calculations show that, if waves are only self-generated upstream via Bell instability, they are not able to significantly modify the particle spectrum in the downstream region. Additionally, turbulent cascading in $k$-space quickly drains their energy, further limiting the stochastic acceleration of particles. If, on the other hand, there are additional sources of turbulence downstream, then these waves can contribute meaningfully to second order Fermi acceleration and alter the spectrum of particles. This may reflect in the spectrum of gamma radiation produced through $pp$ scattering downstream. Although second order Fermi acceleration is typically slower than diffusive shock acceleration, particles are expected to stay downstream of shocks for much longer times during which stochastic acceleration can modify their spectrum and affect the spectra of multi-messenger emissions.",
+      "authors": [
+        "Antonio Capanema",
+        "Pasquale Blasi"
+      ],
+      "url": "https://arxiv.org/abs/2611.10745v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-07",
       "score": 8,
       "tier": 1,
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.09884v1",
-      "title": "VLT and Keck recovery and characterisation of 2025 SC$_{79}$: linking 'Ayló'chaxnim and Atira asteroids",
-      "abstract": "Asteroids near the boundary between the Atira and 'Ayló'chaxnim classes can trace dynamical links between the two populations, but their small solar elongations make recovery and physical characterisation difficult. We recover 2025 SC$_{79}$, measure its optical colours, and investigate its likely source region and transitions between these populations. We combine Keck/LRIS astrometry and VLT/FORS2 four-filter photometry with Bus-DeMeo taxonomic comparisons, published source-model probabilities, and integrations of 10,000 clones drawn from the covariance of JPL solution #2 and followed for 5 Myr in each direction. The SDSS-equivalent colours are $g-r=0.8254_{-0.1339}^{+0.2136}$, $r-i=0.1764_{-0.0540}^{+0.0523}$ and $i-z=-0.4975_{-0.1162}^{+0.1055}$ mag. The V-type class mean gives the closest colour match. At the V-type median albedo $p_V=0.362$, $H=18.83\\pm0.15$ mag implies a diameter of $0.379^{+0.027}_{-0.025}$ km. The source model assigns a combined probability of 95.4% to delivery channels associated with the inner Main Belt. The ensemble-mean 'Ayló'chaxnim/Atira residence fractions are 30.2%/69.8% over the preceding 100 kyr and 3.6%/96.0% over the following 100 kyr; the remaining 0.4% of future ensemble time follows collision removal. Clones spend an average of 231 kyr in the 'Ayló'chaxnim class over the preceding 500 kyr and 120 kyr over the following 500 kyr. In the 5-Myr forward integrations, 14.56% of clones collide with Venus, 3.77% with Mercury and 0.22% with Earth. The V-like colours and source-model probabilities favour an origin in the inner Main Belt for 2025 SC$_{79}$. Its clones move between the 'Ayló'chaxnim and Atira populations.",
+      "arxiv_id": "2611.11664v1",
+      "title": "A Census of Novae in the Small Magellanic Cloud, 1897-2026",
+      "abstract": "A census of nova candidates in the Small Magellanic Cloud (SMC) is presented. Twenty-six optical transients have been reported as novae or nova-like eruptions from the discovery of HV 849 in 1897 through 2026 October. Twenty-three are probable classical novae. Two, MAXI J0158$-$744 and CXOU J005245.0$-$722844, are very fast, super-Eddington eruptions that have been interpreted as novae on white dwarfs with Be-star companions, while a third, SMCN 2002-10a, is a possible Be+WD event identified only from its quiescent counterpart. Four additional Be+WD candidates that have been detected only in X-rays are briefly discussed.",
       "authors": [
-        "Bryce T. Bolin",
-        "Leo Y. Alcorn",
-        "Davide Farnocchia",
-        "Marco Delbo",
-        "Martina Baratella",
-        "Henri M. J. Boffin",
-        "Max Brodheim",
-        "Alexa Gordon",
-        "Lordrick Kahinga",
-        "Michael Lundquist",
-        "Rita Morris",
-        "J. Xavier Prochaska"
+        "Allen W. Shafter"
       ],
-      "url": "https://arxiv.org/abs/2611.09884v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.11664v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-08",
       "score": 6,
       "tier": 2,
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.09308v1",
-      "title": "Suppression of water-ice UV photodesorption on cosmic dust analogs",
-      "abstract": "Ultraviolet (UV) photodesorption regulates the partitioning of water between interstellar ice mantles and the gas phase, yet laboratory yields are generally measured on planar substrates rather than on surfaces representative of cosmic dust. We investigate how grain morphology affects UV photodesorption from thin H$_2$O ice films of 2-6 monolayers deposited on planar gold and olivine, soot nanoparticles, and olivine microparticles. Samples were irradiated at 12 and 60 K with a microwave-discharge hydrogen lamp, and ice depletion was monitored by X-ray photoelectron spectroscopy and reflection-absorption infrared spectroscopy. On planar gold, the photodesorption yield increases approximately linearly with ice coverage, from $\\sim5\\times10^{-4}$ to $\\sim2\\times10^{-3}$ molecule photon$^{-1}$ between 2 and 6 monolayers, consistent with increasing UV absorption in optically thin ice; planar olivine gives comparable yields. In contrast, photodesorption is suppressed on particulate olivine and, more strongly, on soot, where yields are up to a factor of $\\sim40$ lower than on gold at 12 K. Both experimental techniques confirm the strong suppression of ice depletion on soot. These results show that UV photodesorption depends not only on ice coverage but also strongly on grain morphology. The pronounced suppression on soot may reflect heterogeneous ice growth and altered energy redistribution within nanoscale ice domains, implying that yields measured on planar substrates may substantially overestimate photodesorption from the thin ice mantles of cosmic dust.",
+      "arxiv_id": "2611.11075v1",
+      "title": "Season by season causal analysis of the continuum and velocity-resolved H$β$ emission of NGC 5548",
+      "abstract": "We investigate possible causal influences in five historical seasons (1989-1993) of NGC 5548 using a version of the Synergistic-Unique-Redundant Decomposition (SURD) method adapted for this analysis, an information-theoretic causal discovery method for time series. Two four-variable sets contain the blue wing (B), core (C) and red wing (R) of H-beta together with either total H-beta (H) or the 5100 Angstrom continuum (F). We examine 7200 decompositions with common and unequal lags, two or three seasonal flux states, and base delays of 1-30 d. We rank the individual named components within each information family, reporting their amplitudes and simultaneous leakage. In 1989, unique continuum information about the core reaches 0.799 and 0.387 of target entropy for two and three states, with leakage 0.047 and 0.276. In 1992, the red-wing history supplies unique information about the future blue wing in both variable sets and both state counts, with peak target-entropy fractions 0.106-0.166. Distinct joint influences also emerge: for the 1991 core, the two-state S(F,B) and S(F,R) components contribute 0.187 and 0.125 at 20 d with leakage 0.087, although the unique continuum term vanishes. Strong core-wing redundancy identifies candidate inputs for simpler predictive models. Large late-lag leakage, reaching approximately 0.97 in the total set, identifies targets for additional driver measurements and richer temporal histories. The resulting seasonal map of individual, shared and joint influences complements the response delays and velocity structure measured by reverberation mapping, and provides specific causal hypotheses for the evolving broad-line region.",
       "authors": [
-        "Ph. Parent",
-        "C. Laffon"
+        "Ayan Mitra",
+        "Vasilios Zarikas"
       ],
-      "url": "https://arxiv.org/abs/2611.09308v1",
+      "url": "https://arxiv.org/abs/2611.11075v1",
       "category": "astro-ph.IM",
-      "published": "2026-11-06",
+      "published": "2026-11-08",
       "score": 6,
       "tier": 2,
-      "instrument": "MK67 (future spec.)"
+      "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.09875v1",
-      "title": "SN 2026ahvu in NGC 1433 May Be a Prompt Type Ia Supernova with a Delay Time Under 100 Myr",
-      "abstract": "SN 2026ahvu is a Type Ia supernova (SN) that occurred in the nearby galaxy NGC 1433. Using archival Hubble and JWST imaging from the PHANGS survey, we show that the SN lies within 0.19$''$ and 0.26$''$ of two UV-bright star clusters. This $0.19/0.26''$ separation corresponds to $8/11$ pc ($17/24$ pc) at the reported distances of $9.1$ and $18.9$ Mpc, respectively. The probability of finding an unrelated Type Ia SN this close to a cataloged star cluster by chance is only $\\sim$0.4 %. Thus, SN 2026ahvu is likely the first Type Ia SN that can be associated with relatively young star clusters in a nearby galaxy. From spectral energy distribution fitting using HST+JWST (or HST-only) data, we find that the clusters have age estimates of $37_{-5}^{+3}$ ($57_{-9}^{+14}$) Myr and $95_{-13}^{+15}$ ($88_{-12}^{+14}$) Myr. Association with either cluster would mean that SN 2026ahvu should be considered a prompt SN Ia and provide one of the most concrete measurements to date of a prompt Ia delay time. The median age of the younger star cluster is close to the minimum possible delay time for SN Ia progenitors. If the SN is indeed associated with the younger cluster, it would imply that Type Ia SNe can occur almost immediately after white dwarf formation. If the SN is associated with the older cluster, this discovery still presents the first example of a prompt Type Ia SN with delay time under 100 Myr.",
+      "arxiv_id": "2611.11883v1",
+      "title": "Ejecta fate and deposition in the Didymos-Dimorphos system after the DART impact",
+      "abstract": "Kinetic impact is a promising technique for asteroid deflection in planetary defense. The NASA Double Asteroid Redirection Test (DART) spacecraft collided with Dimorphos, the satellite of the binary asteroid (65803) Didymos, at 6.1449 km s^{-1} in 2022. Observations revealed changes in both the orbit of Dimorphos around Didymos and the heliocentric orbit of the Didymos-Dimorphos system. The ESA Hera spacecraft will arrive at the system at the end of 2026 to investigate the post-impact surfaces. Here, we present an analytical model, based on Maxwell's Z model, to predict ejecta behavior following the DART impact. The model provides the relationships among ejection velocity, ejection angle, and ejecta mass, allowing the momentum enhancement factor beta to be estimated for both Dimorphos and the Didymos-Dimorphos system. We show that the observed beta can be reproduced when 0.3-1% of the impact kinetic energy is converted into ejecta kinetic energy and the effective strength of the target is less than 100 Pa. The escaping mass is estimated to be 0.3-3.0% of the mass of Dimorphos. The globally averaged and minimum ejecta thicknesses on Dimorphos are estimated to be 2.0 m and 0.5 m, respectively, indicating that the entire surface was resurfaced by ejecta deposition, although boulders larger than 1 m were only partially buried. The model also predicts the momentum partition parameter kappa_p to be as low as 0.6, suggesting that the mass and the bulk density of Dimorphos may be revised upward. These predictions provide quantitative constraints for interpreting forthcoming Hera observations.",
       "authors": [
-        "Sumit K. Sarbadhicary",
-        "Kiana Henny",
-        "Adam Leroy",
-        "Karin Sandstrom",
-        "Kirsten L. Larson",
-        "David A. Thilker",
-        "Gagandeep S. Anand",
-        "Ashley T. Barnes",
-        "Laura A. Lopez",
-        "Daniel Maschmann",
-        "Marco Troncoso",
-        "Hwihyun Kim",
-        "Janice C. Lee",
-        "Frank Bigiel",
-        "Médéric Boquien",
-        "Rupali Chandar",
-        "Ryan Chown",
-        "Daniel A. Dale",
-        "Sinan Deger",
-        "Oleg V. Egorov",
-        "Simon C. O. Glover",
-        "Oleg Y. Gnedin",
-        "Jay González Lobos",
-        "Hao He",
-        "Rebecca J. Houghton",
-        "Debosmita Pathak",
-        "M. Jimena Rodriguez",
-        "Eva Schinnerer",
-        "Michael Tucker",
-        "Tony D. Weinbeck",
-        "Thomas G. Williams",
-        "Bradley C. Whitmore",
-        "Leonardo Ubeda"
+        "Kosuke Kurosawa",
+        "Satoshi Takada"
       ],
-      "url": "https://arxiv.org/abs/2611.09875v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-06",
-      "score": 5,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.09556v1",
-      "title": "XMM-Newton observations of the highest field polar AR UMa: An extreme case of soft-blobby accretion",
-      "abstract": "(Context) The X-ray spectra of magnetic cataclysmic variables (MCVs) with extreme magnetic fields, the polars, often exhibit a prominent soft X-ray excess attributed to buried shocks. (Aims) Using the first-ever high-state XMM-Newton observation of the highest field polar, AR UMa ($B\\approx230$ MG), we established the source's accretion scenario and derived the energy budget at the magnetic extreme of MCVs. (Methods) Using X-ray, UV, and optical spectral and timing analysis, we disentangled the radiation components and located their origin in the binary. (Results) AR UMa showed one active (\"southern\") pole during our observation. The spectrum of the active pole was dominated by soft, blackbody-like emission with $kT_{\\rm BB} \\simeq 35$ eV and showed no evidence for an optically thin hard X-ray emission characteristic of a cooling post-shock accretion column. Instead, we find constant, faint, optically thin plasma emission with a temperature of $\\approx 1$ keV at all orbital phases, which is uncorrelated with the soft X-ray emission, and we attribute this to shock-heated matter at the stagnation region. Pronounced absorption dips punctuate the phase of active X-ray emission and are associated with puffed-up material in the stagnation region. Using spectro-timing analysis of the absorption dips, the density profile and evolution of the clumpy flow were probed. We find evidence of a cyclotron harmonic from the southern pole (160 MG) near $\\sim$2300 Angstrom in the UV spectrum. We report minute-long quasi-periodic oscillations in the optical, UV, and X-ray light curves. (Conclusion) AR UMa represents an extreme case of soft, blobby accretion, with an effectively infinite soft excess, extending the magnetic field range over which magnetic accretion can be studied by a factor of two. It is one of the rare systems in which X-ray emission from a stream-magnetosphere interaction is detected.",
-      "authors": [
-        "Kala G. Pradeep",
-        "Axel D. Schwope"
-      ],
-      "url": "https://arxiv.org/abs/2611.09556v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-06",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.09551v1",
-      "title": "A joint astrometric, eclipse timing and radial velocity orbit for the hierarchical triple V819 Herculis",
-      "abstract": "We present a joint Bayesian orbital analysis of the hierarchical triple system V819 Herculis using ground-based astrometry, radial velocities (RV), and eclipse timing variations (ETV). By coupling these complementary data sets within a physically consistent Keplerian framework, we obtain a self-consistent three-dimensional solution for the outer orbit and the dynamical properties of the system. The outer orbit is found to have a period of $P_3 = 2016.97 \\pm 0.27$ d and a high eccentricity of $e_3 = 0.6800 \\pm 0.0016$, with the same orbital geometry simultaneously reproducing the sky-plane astrometry, the LiTE signal in the eclipse timings, and the tertiary radial velocities. The joint solution determines the component masses dynamically from these data alone, yielding $M_{12} = 2.721 \\pm 0.055\\,M_\\odot$ for the inner binary and $M_3 = 1.954 \\pm 0.070\\,M_\\odot$ for the tertiary, together with a LiTE amplitude of $A_\\mathrm{LiTE} = 0.0104$ d and an RV semi-amplitude of $K_3 = 18.46$ km s$^{-1}$. The joint fit also yields an orbital parallax of $π_\\mathrm{orb} = 14.08 \\pm 0.13$ mas, consistent with Gaia DR3, Gaia DR2 and the HIPPARCOS New Reduction. The derived tertiary mass is higher than expected for a standard G8-type main-sequence star, suggesting that the tertiary component may be in an advanced evolutionary stage. The resulting outer orbit is well constrained, and the system is strongly hierarchical, with an outer period about 900 times the inner one. Finally, we provide predicted astrometric positions for the tertiary component for five years beyond 2026.5 to guide future high-precision observations.",
-      "authors": [
-        "Furkan Akar",
-        "Özgür Baştürk"
-      ],
-      "url": "https://arxiv.org/abs/2611.09551v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-06",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.08880v1",
-      "title": "A pipeline for identifying astrophysical signals and instrumental glitches in LISA data",
-      "abstract": "The Laser Interferometer Space Antenna (LISA) is a space-based gravitational wave detector scheduled for launch in the 2030s by the European Space Agency. Operating in the 0.1 mHz to 0.1 Hz band, LISA will observe a variety of astrophysical sources including but not limited to supermassive black hole mergers, extreme mass ratio inspirals, and white dwarf binaries. LISA will yield new insights, including supermassive black hole formation, new tests of general relativity, population studies of white dwarfs and others. Like all interferometric gravitational wave detectors, LISA data is expected to contain non-astrophysical transients, commonly referred to as glitches. We introduce a two step pipeline that consists of a search algorithm for detecting potential transients in simulated LISA data followed by a machine learning model that classifies the detected transients as gravitational waves or instrumental glitches. This is important for MBHBs with very high masses (around $10^6\\ M_{\\odot}$) which are transients that could be morphologically similar to LISA glitches in the data. Initial results demonstrate a promising ability to classify detected events with an accuracy close to $98\\%$. The pipeline also shows the ability to analyze a month of data in under 2 minutes on a laptop. This shows an eventual utility of our pipeline for enabling accurate rapid alerts from low latency searches. It could also support model selection in global-fit analyses by providing an initial summary of the location and type of individual signals. This paper also discusses challenges encountered during training, including limitations of the current framework.",
-      "authors": [
-        "Aryamann Rao",
-        "Jess McIver",
-        "Rhiannon Udall",
-        "Natalia Korsakova",
-        "Malvina Bellotti"
-      ],
-      "url": "https://arxiv.org/abs/2611.08880v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.11883v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-09",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.09211v1",
-      "title": "Chromospherically Active Stars in the MeerKAT Galactic Plane Survey",
-      "abstract": "Stellar magnetic activity has long been established to occur in subsets of late-type main-sequence stars and manifests itself in the form of chromospheric and coronal activity. This activity is driven by magnetic fields generated by dynamo mechanisms associated with stellar rotation and convection, which channel and dissipate magnetic energy to the outer atmospheric layers. Optical spectroscopic follow-up was carried out for 99 radio-X-ray coronally active stars of G-, K-, and M-spectral types in the SARAO MeerKAT Galactic plane survey point sources. There are 46 stars that exhibited chromospheric activity. Specifically, 39 stars show Ca II H&K emission lines, whereas 18 show Ca II IRT, 11 show both H&K and IRT lines. Of the 39 stars displaying H&K emission, 37 show activity levels greater than the Solar minimum activity. Their X-ray to bolometric luminosity ratios are within the coronal thresholds of > -4.5. In addition, we explored optical photometry to investigate the rotation information and found that these stars show short rotation periods; in comparison with activity levels, the activity levels dampen as the rotation periods increase. We also analysed optical light curves for a subset of stars, and they show flaring behaviour at the same epoch as enhanced chromospheric activity, indicating the flares and chromospheric emission are manifestations of the same underlying magnetic activity process.",
+      "arxiv_id": "2611.11642v1",
+      "title": "Evolving stellar wind environment around M dwarfs and its influence on magnetic star-planet interactions",
+      "abstract": "M dwarfs are the most abundant group of stars in the Galaxy and they are expected to host a large number of exoplanets orbiting in the habitable zone. It is believed that stellar winds of M dwarfs can have a substantial effect on these exoplanets and on the observations of these systems. However, a systematic investigation of how the stellar winds of M dwarfs varies on timescales of a few months to years and how this impacts exoplanets around these stars is missing. We aim to investigate how variability of magnetic field properties of M dwarfs affects their stellar winds, which is essential for future studies of star-planet interactions (SPIs) and planetary habitability. Such variability might shed light on whether SPI signatures are going to repeat. We have compiled a total of 18 magnetic field maps for 6 M dwarfs, with masses between 0.1 and 0.6 $M_\\odot$, and rotation periods between 2.7 and 175.6 days. We use these maps as input of 3D magnetohydrodynamic stellar wind simulations. We derive the mass-loss rate, the angular momentum-loss rate, and the Alfvén radius. For the stars with confirmed exoplanets (DS Leo, YZ Cet, and GJ 1151) we investigate the variability of stellar wind properties at the orbit. We find mass-loss rates between $1.0\\times10^{-14}~M_\\odot~{\\rm yr^{-1}}$ and $2.3 \\times 10^{-13}~M_\\odot~{\\rm yr^{-1}}$ and angular momentum-loss rates between $4.6 \\times 10^{27}~{\\rm erg}$ and $4.9 \\times 10^{31}~{\\rm erg}$. For individual stars the Alfvén radius, mass-loss rate, and angular momentum-loss rate varied with time by up to a factor of 1.5, 3.8, and 7.4 respectively. Our results follow the observational relation between mass-loss rate and X-ray flux. Due to the time-varying Alfvén surface, exoplanets orbiting DS Leo and YZ Cet move in and out of the sub-Alfvénic regime, affecting the nature of star-planet interactions and prospects for their detection.",
       "authors": [
-        "Okwudili D. Egbo",
-        "David A. H. Buckley",
-        "Paul J. Groot",
-        "Orapeleng Mogawana",
-        "Anke van Dyk",
-        "Yusuke Tampo",
-        "Simon de Wet"
+        "Szymon Petyniak",
+        "Stefano Bellotti",
+        "Aline Vidotto",
+        "Paul Cristofari",
+        "Jean-Francois Donati",
+        "Ayan Biswas",
+        "Colin Folsom"
       ],
-      "url": "https://arxiv.org/abs/2611.09211v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-06",
+      "url": "https://arxiv.org/abs/2611.11642v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-08",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.12660v1",
+      "title": "GRB 241030A: A fallback-accreting magnetar description of the early X-ray emission",
+      "abstract": "The bright, variable early X-ray emission of GRB~241030A at $z=1.411$ motivates investigating continued central-engine activity before the smoother afterglow emerges. We model a possible underlying magnetar contribution to the unabsorbed 0.3--10~keV XRT flux over 80--430~s, evolving the spin under fallback-disk and electromagnetic torques. A descriptive estimate gives $P_0\\simeq4.25$~ms, $B\\simeq3.04\\times10^{15}$~G and source-frame $t_{\\rm fb}\\simeq143$~s, with exploratory temporal-block uncertainty ranges. The effective efficiency reaches its geometry-dependent ceiling of 81.2. At observer time 200~s, this realization has $P_*\\simeq4.82$~ms and magnetospheric, corotation and light-cylinder radii $r_{\\rm m}\\simeq235$~km, $r_{\\rm co}\\simeq48$~km and $r_{\\rm LC}\\simeq230$~km. It is on the ejector branch; light-cylinder entry near 255~s initiates negative propeller torque and steepens the decline. The smooth component declines throughout the fitted interval; additional variable emission contributes to the observed maximum near 180~s. A correlated-residual Bayesian analysis permits a fainter component and broader dynamical histories, with median $P_0=16.8$~ms and central 68 per cent interval 2.76--286~ms. However, posterior predictive checks reveal that this statistical description typically underpredicts the observed flux level and variability, limiting its physical interpretation. Fallback-modified magnetar activity remains a possible descriptive scenario, but these analyses do not establish a unique underlying component or robust constraints on the initial spin and disk-interaction history. We also discuss Lense-Thirring precession and alternative mechanisms as possible origins of the early X-ray variability.",
+      "authors": [
+        "Nissim Fraija",
+        "Simone Dichiara",
+        "Antonio Galván"
+      ],
+      "url": "https://arxiv.org/abs/2611.12660v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-09",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.12704v1",
+      "title": "Ångström Exponent Calculation Using Wide-Field Stellar Photometry",
+      "abstract": "The FRAM (F/Photometric Robotic Atmospheric Monitor) telescopes can measure the aerosol extinction at optical wavelengths using wide-field stellar photometry at the Cherenkov Telescope Array Observatory (CTAO) sites. The Angstrom exponent describes the wavelength dependence of aerosol extinction. In this work we extend the FRAM method from a single $B$-filter (440 nm) analysis using the Tycho-2 catalogue to a simultaneous three-filter analysis in $B$, $V$, and $R$ (440, 540, and 620 nm) using Gaia DR3 synthetic photometry, which provides photometry directly in the Johnson--Cousins system without passband transformations. The exponent is derived from the vertical aerosol optical depth (VAOD) for the B--V, V--R, and B--R filter pairs at three sites over 2021--2022. The multi-filter VAOD shows a systematic filter-dependent ordering that is inconsistent with physical expectation and produces negative exponents. It is not currently possible to determine which filter yields the correct VAOD, and none of the four processing configurations we tested resolves the ordering. We introduce an intercept correction as a practical remedy that yields physically plausible exponents. At the two southern Paranal sites (CTAO-S0 and CTAO-S1) the exponent distributions are unimodal, with mean $α\\approx 0.84$ (B--V) and $0.65$ (B--R) at CTAO-S0 and $0.60$ and $0.41$ at CTAO-S1. At CTAO-N (La Palma) the distributions are bimodal, with $α\\approx 0.2$ (B--V) during episodic Saharan dust intrusions and $α\\approx 1.3$ under clean background conditions. AERONET sun-photometer measurements on the dates common to both instruments show the same two populations, providing qualitative support for the FRAM method.",
+      "authors": [
+        "Shefali Negi",
+        "Jan Ebr",
+        "Sergey Karpov",
+        "Jiří Eliášek"
+      ],
+      "url": "https://arxiv.org/abs/2611.12704v1",
+      "category": "astro-ph.IM",
+      "published": "2026-11-09",
       "score": 3,
       "tier": 3,
-      "instrument": "MK67 (future spec.)"
+      "instrument": "RC400"
     }
   ]
 }
