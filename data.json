@@ -1,26 +1,10 @@
 {
-  "generated_utc": "2026-11-11T13:51:55Z",
-  "date": "2026-11-11",
-  "total_fetched": 123,
-  "relevant_count": 23,
+  "generated_utc": "2026-11-12T14:53:55Z",
+  "date": "2026-11-12",
+  "total_fetched": 112,
+  "relevant_count": 19,
   "min_score": 3,
   "articles": [
-    {
-      "arxiv_id": "2611.11351v1",
-      "title": "The Fate of Collisional Neutrino Flavor Conversion: Fixed Points, Period Doubling, and Chaos",
-      "abstract": "Core-collapse supernovae and neutron star mergers are among the most energetic astrophysical events and promising sources of multimessenger signals. Their dynamics and nucleosynthesis depend sensitively on neutrino transport, yet the impact of neutrino flavor evolution in these dense environments remains poorly understood. Predicting the outcome of collisional flavor instability (CFI) remains a challenge, despite progress in local-relaxation methods for fast flavor conversion. Here we construct homogeneous collective-precession states with stationary flavor populations in two-flavor quantum kinetics with collisional relaxation. The method applies to arbitrary energy spectra and energy-dependent collision rates. Our numerical examples exhibit persistent oscillations and a period-doubling route to chaos. Even in these regimes, the stationary populations estimate the time-averaged flavor populations to within $10\\%$ in our tests. These fixed points provide a physically motivated input for incorporating CFI into astrophysical simulations, with implications for neutrino heating and ejecta nucleosynthesis.",
-      "authors": [
-        "Jiabao Liu",
-        "Lucas Johns",
-        "Hiroki Nagakura"
-      ],
-      "url": "https://arxiv.org/abs/2611.11351v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-08",
-      "score": 12,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
     {
       "arxiv_id": "2611.13136v1",
       "title": "Near-Ultraviolet and Optical Observations of the White Dwarf ZTF J0328$-$1219 Reveal Variable Periodicity in its Transiting Debris System",
@@ -197,20 +181,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.11664v1",
-      "title": "A Census of Novae in the Small Magellanic Cloud, 1897-2026",
-      "abstract": "A census of nova candidates in the Small Magellanic Cloud (SMC) is presented. Twenty-six optical transients have been reported as novae or nova-like eruptions from the discovery of HV 849 in 1897 through 2026 October. Twenty-three are probable classical novae. Two, MAXI J0158$-$744 and CXOU J005245.0$-$722844, are very fast, super-Eddington eruptions that have been interpreted as novae on white dwarfs with Be-star companions, while a third, SMCN 2002-10a, is a possible Be+WD event identified only from its quiescent counterpart. Four additional Be+WD candidates that have been detected only in X-rays are briefly discussed.",
-      "authors": [
-        "Allen W. Shafter"
-      ],
-      "url": "https://arxiv.org/abs/2611.11664v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-08",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2611.14343v1",
       "title": "Leveraging Lensing-driven Early Warnings: Joint Detectability of lensed Gravitational Waves and their LSST Optical Counterparts",
       "abstract": "Gravitational lensing of gravitational waves (GWs) can be leveraged to provide early-warning times of $\\mathcal{O}(\\mathrm{hours})$ to $\\mathcal{O}(\\mathrm{days})$ prior to the mergers of binary neutron stars (BNSs) and neutron star-black holes (NSBHs). This capability could, in turn, enable electromagnetic (EM) observatories to capture transient emissions surrounding the time of the merger. In this work, we demonstrate the viability of jointly detecting gravitationally lensed BNS and NSBH mergers via GWs during the O5 observing run, alongside their associated kilonova counterparts using the Legacy Survey of Space and Time (LSST). We simulate a population of lensed BNS and NSBH mergers detectable during O5 and utilize current benchmark forward models to generate the corresponding lensed kilonova light curves. We then assess the detectability of these light curves across LSST bands under various exposure limits. We find that among the detectable lensed mergers in O5, approximately 60\\% of the BNS kilonova and 10\\% of the NSBH kilonova will be observable within a single LSST exposure, with mostly quads dominating the detectable population. Furthermore, we define a detectability index ($\\rm DI$), which determines the EM-detectability in optical of lensed GW-detectable BNS and NSBH mergers. We demonstrate the robustness and generalizability of the $\\rm DI$ on our lensed BNS and NSBH population. Our work demonstrates that lensing-driven early warnings will be highly applicable in the near future, enabling the LSST to effectively follow up on BNS and NSBH triggers within GW localization areas during the O5 observing run.",
@@ -223,21 +193,6 @@
       "url": "https://arxiv.org/abs/2611.14343v1",
       "category": "astro-ph.HE",
       "published": "2026-11-10",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.11075v2",
-      "title": "Season by season causal analysis of the continuum and velocity-resolved H$β$ emission of NGC 5548",
-      "abstract": "We investigate possible causal influences in five historical seasons (1989-1993) of NGC 5548 using a version of the Synergistic-Unique-Redundant Decomposition (SURD) method adapted for this analysis, an information-theoretic causal discovery method for time series. Two four-variable sets contain the blue wing (B), core (C) and red wing (R) of H-beta together with either total H-beta (H) or the 5100 Angstrom continuum (F). We examine 7200 decompositions with common and unequal lags, two or three seasonal flux states, and base delays of 1-30 d. We rank the individual named components within each information family, reporting their amplitudes and simultaneous leakage. In 1989, unique continuum information about the core reaches 0.799 and 0.387 of target entropy for two and three states, with leakage 0.047 and 0.276. In 1992, the red-wing history supplies unique information about the future blue wing in both variable sets and both state counts, with peak target-entropy fractions 0.106-0.166. Distinct joint influences also emerge: for the 1991 core, the two-state S(F,B) and S(F,R) components contribute 0.187 and 0.125 at 20 d with leakage 0.087, although the unique continuum term vanishes. Strong core-wing redundancy identifies candidate inputs for simpler predictive models. Large late-lag leakage, reaching approximately 0.97 in the total set, identifies targets for additional driver measurements and richer temporal histories. The resulting seasonal map of individual, shared and joint influences complements the response delays and velocity structure measured by reverberation mapping, and provides specific causal hypotheses for the evolving broad-line region.",
-      "authors": [
-        "Ayan Mitra",
-        "Vasilios Zarikas"
-      ],
-      "url": "https://arxiv.org/abs/2611.11075v2",
-      "category": "astro-ph.IM",
-      "published": "2026-11-08",
       "score": 6,
       "tier": 2,
       "instrument": "RC400"
@@ -320,26 +275,6 @@
       "url": "https://arxiv.org/abs/2611.11883v1",
       "category": "astro-ph.EP",
       "published": "2026-11-09",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.11642v1",
-      "title": "Evolving stellar wind environment around M dwarfs and its influence on magnetic star-planet interactions",
-      "abstract": "M dwarfs are the most abundant group of stars in the Galaxy and they are expected to host a large number of exoplanets orbiting in the habitable zone. It is believed that stellar winds of M dwarfs can have a substantial effect on these exoplanets and on the observations of these systems. However, a systematic investigation of how the stellar winds of M dwarfs varies on timescales of a few months to years and how this impacts exoplanets around these stars is missing. We aim to investigate how variability of magnetic field properties of M dwarfs affects their stellar winds, which is essential for future studies of star-planet interactions (SPIs) and planetary habitability. Such variability might shed light on whether SPI signatures are going to repeat. We have compiled a total of 18 magnetic field maps for 6 M dwarfs, with masses between 0.1 and 0.6 $M_\\odot$, and rotation periods between 2.7 and 175.6 days. We use these maps as input of 3D magnetohydrodynamic stellar wind simulations. We derive the mass-loss rate, the angular momentum-loss rate, and the Alfvén radius. For the stars with confirmed exoplanets (DS Leo, YZ Cet, and GJ 1151) we investigate the variability of stellar wind properties at the orbit. We find mass-loss rates between $1.0\\times10^{-14}~M_\\odot~{\\rm yr^{-1}}$ and $2.3 \\times 10^{-13}~M_\\odot~{\\rm yr^{-1}}$ and angular momentum-loss rates between $4.6 \\times 10^{27}~{\\rm erg}$ and $4.9 \\times 10^{31}~{\\rm erg}$. For individual stars the Alfvén radius, mass-loss rate, and angular momentum-loss rate varied with time by up to a factor of 1.5, 3.8, and 7.4 respectively. Our results follow the observational relation between mass-loss rate and X-ray flux. Due to the time-varying Alfvén surface, exoplanets orbiting DS Leo and YZ Cet move in and out of the sub-Alfvénic regime, affecting the nature of star-planet interactions and prospects for their detection.",
-      "authors": [
-        "Szymon Petyniak",
-        "Stefano Bellotti",
-        "Aline Vidotto",
-        "Paul Cristofari",
-        "Jean-Francois Donati",
-        "Ayan Biswas",
-        "Colin Folsom"
-      ],
-      "url": "https://arxiv.org/abs/2611.11642v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-08",
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
