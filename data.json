@@ -1,66 +1,185 @@
 {
-  "generated_utc": "2026-11-17T15:44:00Z",
-  "date": "2026-11-17",
-  "total_fetched": 83,
-  "relevant_count": 15,
+  "generated_utc": "2026-11-18T15:24:17Z",
+  "date": "2026-11-18",
+  "total_fetched": 140,
+  "relevant_count": 28,
   "min_score": 3,
   "articles": [
     {
-      "arxiv_id": "2611.19093v1",
-      "title": "ASASSN-15af: An Eclipsing Cataclysmic Variable above the Period Gap Showing Both Positive and Negative Superhump-like Signals",
-      "abstract": "We present a photometric study of ASASSN-15af (TIC~231050794), combining TESS full-frame-image photometry from the TEQUILA project with 2-minute SPOC light curves and archival ASAS-SN and ATLAS monitoring over 4400~d. The long-term light curve shows recurrent dwarf-nova outbursts, establishing ASASSN-15af as a high-inclination eclipsing dwarf nova above the canonical period gap. From 391 quiescent eclipses, we derive the working ephemeris $T(E)=2139.76108(3)+0.14982063(2)\\,E$ (BTJD), corresponding to $P_{\\rm orb}=3.596$~hr. A quadratic fit is formally better, but the timings sample only three widely separated epochs, so we regard the apparent O--C curvature as tentative. In quiescence, the out-of-eclipse waveform is dominated by a stable $2f_{\\rm orb}$ component, consistent with a substantial ellipsoidal contribution from the donor; during the Sector~96 outburst, its fractional amplitude decreases by $\\simeq66\\%$, consistent with dilution by the brightened disk. The outburst-only signals occur at periods $\\sim1.6\\%$ shorter than $P_{\\rm orb}$ in Sector~2 and $\\sim3.1\\%$ longer in Sector~96, consistent with negative- and positive-superhump-like modulations, respectively. Because each is detected in only one outburst, their recurrence remains to be established. Their period-offset ratio, $φ\\simeq0.51$, is consistent with empirical trends among systems showing both modes, while the inferred superhump-based mass ratios span $q\\simeq0.06$--$0.24$. During the Sector~96 outburst, the eclipse deepens by $ΔD=0.196\\pm0.028$ and its centroid shifts earlier by $Δt_{\\rm c}=-66.6\\pm7.3$~s, indicating a redistribution of accretion-powered light. These results identify ASASSN-15af as an above-gap eclipsing dwarf nova with a dynamically variable accretion disk; spectroscopy is needed to constrain the mass ratio.",
+      "arxiv_id": "2611.22800v1",
+      "title": "New Historical Guest-Star Candidates from Reassessed Chinese Records: Lunar Occultation of Planets",
+      "abstract": "Ancient Chinese records of lunar occultations of planets have been used to test planetary theories and investigate long-term changes in Earth's rotation. However, certain records contain identification errors whose origins remain poorly understood; we propose that some of these errors may arise from misidentifying guest stars, such as novae or supernovae, as planets. We analyzed 67 errata on lunar occultations of planets from Liu Ci-Yuan's (2015) monograph using modern ephemerides and the open-source Python package \\texttt{occultsky}, publicly available on GitHub. Using recorded dates and dynastic capital coordinates, we constructed observing windows anchored at solar noon and extending by $\\pm 1$ day. Each window covered the preceding and recorded nights because the date may be off by one day. For each of the 67 records, we cataloged the apparent right ascension and declination $(α, δ)$ at the midpoint of the Moon's visibility window on each candidate night. The band swept by the lunar disk confines a possible transient to a narrow region a few degrees across; these midpoint coordinates serve as proxies for the implied guest-star positions. The catalog supplies candidate positions rather than identifications, enabling remnant and compact-object searches to test the guest-star hypothesis directly. If associations are established, these records could become dated guest-star candidates, and their dates could anchor remnant ages.",
       "authors": [
-        "Bisi Bernard Ogunwale",
-        "Michael Shara",
-        "Avi Shporer",
-        "Dafne Guetta",
-        "Lev Tal-Or"
+        "Jiahao Guo",
+        "Wenhui Jing",
+        "Yu Liu",
+        "Xiaohui Sun",
+        "Songpeng Pei",
+        "Yuanchuan Zou"
       ],
-      "url": "https://arxiv.org/abs/2611.19093v1",
+      "url": "https://arxiv.org/abs/2611.22800v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-17",
+      "score": 14,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.21742v1",
+      "title": "Flash UV Spectroscopy: Decoding the Ultraviolet Diversity of Young Core-Collapse Supernovae with the Hubble Space Telescope",
+      "abstract": "We present multi-wavelength observations and modeling of the largest sample to date of core-collapse supernovae (SNe) with Hubble Space Telescope (HST) ultraviolet (UV) spectroscopy within < 2 weeks of first light. Our total sample contains early-time UV spectroscopy from 12 Type II SNe (SNe II), 3 Type IIb SNe (SNe IIb), 3 Type IIn SNe (SNe IIn) and 1 Type I super-luminous SN (SLSN-I). This sample includes 11 objects with unpublished UV spectroscopy from HST Cycles 31 and 32 \"Flexible Thursdays\" target of opportunity programs, increasing the number of core-collapse SNe with early-time HST UV spectra by a factor of 2.4. The early-time near-UV spectra of most sample SNe II show similar Doppler-broadened P-Cygni profiles of metals (Mg, Fe, Ti, Cr), though with notable diversity in line velocities and absorption strengths. Comparison to non-Local Thermodynamic Equilibrium (nLTE) radiative transfer model grids at similar phases indicates that most sample SNe II are consistent with low circumstellar material (CSM) densities at the time of UV observations (e.g., $\\dot M = 10^{-6}$ M$_{\\odot}$ yr$^{-1}$, $v_w = 50$ km/s) and standard kinetic energies (e.g., $E_k = 0.6-1.2$ B), while two objects, SNe 2024faq and 2023ixf, show UV/optical evidence for interaction with more confined, higher-density CSM. SN 2023ixf and sample SNe IIn exhibit relatively featureless early-time UV spectra despite displaying prominent optical Lorentzian emission lines from electron scattering in optically thick CSM -- this being attributed to differing properties of UV resonance versus optical recombination transitions as well as intrinsic CSM asymmetries. These results demonstrate the potential of early-time UV spectroscopy to constrain the outermost SN ejecta structure, explosion energetics/composition, and progenitor mass-loss histories of core-collapse SNe.",
+      "authors": [
+        "W. V. Jacobson-Galán",
+        "R. J. Yete",
+        "L. Dessart",
+        "J. Sollerman",
+        "M. R. Siebert",
+        "N. Rehemtulla",
+        "K. K. Das",
+        "R. Margutti",
+        "R. Chornock",
+        "R. J. Foley",
+        "M. M. Kasliwal",
+        "O. D. Fox",
+        "A. S. Fruchter",
+        "E. C. Bellm",
+        "A. Bochenek",
+        "J. D. Carney",
+        "J. Castañeda Jaimes",
+        "E. M. Cotta",
+        "D. A. Coulter",
+        "K. W. Davis",
+        "C. Fremling",
+        "A. Gal-Yam",
+        "A. Gangopadhyay",
+        "S. Gezari",
+        "X. Guo",
+        "K-R. Hinds",
+        "A. P. Huddleston",
+        "C. D. Kilpatrick",
+        "S. R. Kulkarni",
+        "N. LeBaron",
+        "Z. Li",
+        "F. J. Masci",
+        "A. A. Miller",
+        "K. C. Patra",
+        "J. Purdum",
+        "A. Rest",
+        "R. M. Rich",
+        "R. L. Riddle",
+        "S. Schulze",
+        "H. Sears",
+        "A. Singh",
+        "R. M. Smith",
+        "K. Taggart",
+        "J. H. Terwel",
+        "Q. Wang",
+        "L. Yan",
+        "Y. Yao",
+        "E. A. Zimmerman"
+      ],
+      "url": "https://arxiv.org/abs/2611.21742v1",
       "category": "astro-ph.SR",
-      "published": "2026-11-14",
-      "score": 12,
+      "published": "2026-11-16",
+      "score": 10,
       "tier": 1,
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.19031v1",
-      "title": "Early Spectroscopy of the Type II SN 2024phv Suggests Short-Lived Circumstellar Interaction",
-      "abstract": "We present the high-cadence light curve and rapid spectroscopy of the Type II SN 2024phv, discovered just 16.8 hours after the estimated explosion time. The early light curve exhibits a rapid 2 mag rise over the first day of observation, and spectra at 1.7 and 2.6 days reveal weak, narrow emission lines, suggesting moderate interaction with circumstellar material during the first few days after explosion. Models of shock-cooling emission provide a reasonable fit to the light curve after day 2, implying minimal interaction at later epochs, and yield a best-fit progenitor radius of $R=390\\pm90\\,R_{\\odot}$. We also compare our earliest spectra with radiation hydrodynamical models of exploding red supergiants to measure circumstellar densities of ${\\sim}10^{-12}$ g cm$^{-3}$ within a few stellar radii of the progenitor, followed by a sharp dropoff in the density profile. This rapidly decreasing profile leads us to conclude that the progenitor of SN 2024phv had an extended atmosphere and/or closely confined circumstellar material, likely from rapidly increasing or eruptive mass loss prior to explosion. In the context of other supernovae discovered at similarly early phases, SN 2024phv points to a diversity in the mass-loss rates of red supergiant stars in their final years.",
+      "arxiv_id": "2611.21731v1",
+      "title": "ASAS-SN Rates V: Tidal Disruption Event Volumetric Rates and Luminosity Functions by Optical Spectroscopic Type, X-ray Luminosity, and Host-Galaxy Properties",
+      "abstract": "We present volumetric rates and luminosity functions (LFs) of tidal disruption events (TDEs) based on 21 TDEs from the All-Sky Automated Survey for Supernovae (ASAS-SN) between 2014 and 2024. We calculate completeness corrections from injection-recovery simulations of the ASAS-SN light curves using individual TDE templates. We find a total volumetric rate of $\\log_{10}(R_{\\rm tot}[{\\rm yr}^{-1}{\\rm Gpc}^{-3}h_{70}^3]) = 2.32^{+0.15}_{-0.23}$ for $z \\leq 0.12$. We also measure the rates of two growing TDE subpopulations. The one off-nuclear TDE in our standard sample implies $\\log_{10}(R_{\\rm off\\text{-}nuclear}) = 0.39^{+0.52}_{-0.76}$ ($1.2^{+3.4}_{-1.0}$% of the total rate). We measure the rate of recurrent TDEs (rTDEs) to be $\\log_{10}(R_{\\rm recurrent}) = 1.26^{+0.23}_{-0.62}$ ($9^{+8}_{-6}$% of the total rate) from the four rTDEs in our standard sample, increasing to $1.45^{+0.20}_{-0.35}$ ($13^{+10}_{-7}$%) when the well-studied ASASSN-14ko is included. Galaxies with substantial (>0.1%) burst-mass fractions and steeply falling star-formation histories host the majority of TDEs. We recover the known overrepresentation of TDEs in post-starburst galaxies, by a factor of $15^{+16}_{-11}$ relative to matched control galaxies, and a weaker enhancement of $5^{+5}_{-4}$ in quiescent Balmer-strong galaxies. TDE-H+He events dominate the volumetric TDE rate, with TDE-H, TDE-He, and TDE-Featureless events comprising <15% of nearby TDEs. The $g$-band LFs are statistically indistinguishable when split at the median X-ray to UV/optical blackbody luminosity ratio of $\\sim$1%, corroborating unification models where the observed multi-wavelength emission is set primarily by viewing angle effects. Extrapolating the measured TDE LFs to higher luminosities and more massive black holes supports a TDE origin for luminous ambiguous nuclear transients and extreme nuclear transients.",
       "authors": [
-        "Lucas Aldea",
-        "Griffin Hosseinzadeh",
-        "Sergiy S. Vasylyev",
-        "Qiangang Wang",
-        "Jeniveve Pearson",
-        "Yize Dong",
-        "Jennifer E. Andrews",
-        "K. Azalee Bostroem",
-        "Brian Hsu",
-        "Saurabh W. Jha",
-        "Aravind P. Ravi",
-        "David J. Sand",
-        "Manisha Shrestha",
-        "Bhagya M. Subrayan",
-        "Moira Andrews",
-        "Joseph R. Farah",
-        "D. Andrew Howell",
-        "Curtis McCully",
-        "Megan Newsome",
-        "Yuan Qi Ni",
-        "Estefania Padilla-Gonzalez",
-        "Giacomo Terreran",
-        "Kathryn Wynn",
-        "Joshua B. Haislip",
-        "Vladimir V. Kouprianov",
-        "Daniel E. Reichart"
+        "Dhvanil D. Desai",
+        "Jason T. Hinkle",
+        "Benjamin J. Shappee",
+        "Christopher S. Kochanek",
+        "K. Z. Stanek",
+        "Margaret Shepherd",
+        "Yashasvi Moon",
+        "John F. Beacom",
+        "Subo Dong",
+        "Jose L. Prieto",
+        "Todd A. Thompson",
+        "Katie Auchettl",
+        "K. Decker French",
+        "Willem B. Hoogendam",
+        "David O. Jones",
+        "Michael A. Tucker"
       ],
-      "url": "https://arxiv.org/abs/2611.19031v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-14",
+      "url": "https://arxiv.org/abs/2611.21731v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-16",
       "score": 10,
       "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.22379v1",
+      "title": "Low-frequency Radio Observation of the Dark PeVatron LHAASO J2108+5157 Using uGMRT. II",
+      "abstract": "We present deep radio observations of the PeVatron candidate LHAASO J2108+5157 using the upgraded Giant Metrewave Radio Telescope (uGMRT). Our observations reveal a persistent double-lobed radio source (\\gmrtext) within the vicinity of the $\\geq$100 TeV $γ$-ray emission region, with consistent morphology across 400 MHz, 650 MHz, and 1.2 GHz. No alternative particle accelerators, such as supernova remnants or pulsar wind nebulae, are identified in the region, making \\gmrtext\\ the most plausible counterpart candidate. We measure the flux and spatially resolved spectra of the source using multi-band radio data. The morphology remains stable across all bands, while a comparison of non-contemporaneous observations suggests possible flux variability. From the measured spectra of the lobes the inclination angle of the jet is estimated to be $86.57^{\\circ} \\pm 1.15^{\\circ}$. The multi-wavelength spectral energy distribution is modeled reasonably well with a lepto-hadronic scenario.",
+      "authors": [
+        "Gunindra Krishna Mahanta",
+        "Subhashis Roy",
+        "Sagar Godambe",
+        "Bitan Ghosal",
+        "Nilay Bhatt",
+        "Subir Bhattacharyya"
+      ],
+      "url": "https://arxiv.org/abs/2611.22379v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-17",
+      "score": 9,
+      "tier": 1,
       "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.21800v1",
+      "title": "Brown dwarfs and stars are dynamically indistinguishable as companions in AU-separation binaries",
+      "abstract": "Brown dwarfs occupy the mass range between stars and planets, populations whose dominant formation channels differ, which leave measurable differences in the orbital eccentricity and host-star metallicity distributions. We assemble a sample of astrometric binaries with main sequence primaries and brown dwarf companions at $\\mathcal{O}$(AU) separations from $\\textit{Gaia}$ DR3. The observable photocenter motions for such binaries are degenerate between a genuinely low-mass companion and a near-equal-mass binary. We break this degeneracy using $\\textit{Gaia}$ XP spectrophotometry and follow-up FEROS spectroscopy, which removes removes ${\\sim}70\\%$ of initial low-mass-function candidates as likely near-twin binaries and leaves residual contamination of only a few percent. The resulting 368 systems, with masses and metallicities determined from the XP spectra and a selection function forward-modelled with $\\texttt{Gaiamock}$, form the largest homogeneous sample of brown dwarf companions with astrometric orbits. We find the eccentricity distribution to be well described by a normal distribution. This is comparable to eccentricities of stellar companions at the same periods and higher than those of giant planets, with no significant dependence on companion mass ($α=-0.13\\pm0.09$) or period ($β=0.10\\pm0.05$). The host-star metallicity distribution is likewise stellar-like, extending to [M/H]$=-0.5$, in contrast to the predominantly super-solar metallicity hosts of giant planets. After accounting for selection, the companion-mass distribution over all brown dwarf masses is consistent with an extension of stellar-binary demographics. Brown dwarf companions at AU separations down to at least $20\\,M_J$ therefore appear to form predominantly through a binary-star-like channel. A possible transition to planet-like formation at lower masses cannot be located with the present sample.",
+      "authors": [
+        "Ben Pennell",
+        "Johanna Müller-Horn",
+        "Sahar Shahaf",
+        "Hans-Walter Rix",
+        "Kareem El-Badry",
+        "Jiadong Li"
+      ],
+      "url": "https://arxiv.org/abs/2611.21800v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-16",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.22233v1",
+      "title": "The Lives and Deaths of Red Supergiants",
+      "abstract": "Red supergiants (RSGs) represent a brief yet pivotal phase in the evolution of massive stars, encompassing the final stages of nuclear burning for many core-collapse supernova progenitors. Having expanded to 100 times larger than their main-sequence sizes, they occupy the cool, luminous extreme of the Hertzsprung--Russell diagram. Characterised by extended convective envelopes, complex and dynamic atmospheres, and, sometimes, substantial mass loss, RSGs play a critical role in shaping both their own evolutionary outcomes and the circumstellar environments into which they ultimately explode. Despite decades of study, fundamental aspects of RSG physics remain poorly constrained, including the mechanisms driving mass loss and the connection between observed RSG populations and the properties of Type II supernovae. Recent observational advances have transformed the field, revealing episodic mass-loss events, asymmetric circumstellar structures, and signs of rapid evolutionary change in individual objects. Alongside these advances, studies of Type II supernovae and their progenitors have raised important new questions about the final stages of massive star evolution, including the possibility of rapid changes in the years immediately preceding core collapse. Motivated by these developments, this review aims to describe our current understanding of how RSGs live and die, from their observed properties through to their role as supernova progenitors, and where that understanding remains incomplete.",
+      "authors": [
+        "Emma R. Beasor"
+      ],
+      "url": "https://arxiv.org/abs/2611.22233v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-17",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.21788v1",
+      "title": "Neutron-Rich Disks, Nickel-Rich Ejecta: Can Direct-Horizon Collapsars Explain Early $r$-Process Enrichment?",
+      "abstract": "Very massive stars above the pair-instability mass gap may collapse directly into black holes surrounded by massive disks. These \"direct-horizon collapsars\" accrete at $\\dot{M} \\gtrsim 10\\,M_\\odot\\,{\\rm s}^{-1}$ and have been proposed to eject a substantial amount of $r$-process material, powering \"super-kilonovae\". We present the first three-dimensional general-relativistic magnetohydrodynamic simulations of direct-horizon collapsars with M1 neutrino transport, following a $\\approx 150\\,M_\\odot$ helium core from collapse through the escape of magnetically driven outflows. Extreme accretion rates neutronize the disks to $Y_{\\rm e} \\approx 0.1$-$0.25$ and, at early times, allow them to satisfy the gravitational-instability and cooling criteria for fragmentation. However, the strong poloidal fields needed to eject the neutron-rich gas promptly also drain the disks and lift their electron degeneracy. The neutron-rich ejecta composition is set in a brief phase, such that the ejecta carry $\\sim 0.1$-$0.3\\,M_\\odot$ of nuclei with $A \\geq 69$, including $\\lesssim 2\\times10^{-4}\\,M_\\odot$ of lanthanides, alongside $\\sim 1$-$4\\,M_\\odot$ of $^{56}$Ni. Assuming proportional retention and mixing of Eu and Fe, these yields imply $[{\\rm Eu/Fe}]\\approx-0.4$ to $+0.3$, and simple dilution estimates permit enrichment at $[{\\rm Fe/H}]\\lesssim-2.6$. Direct-horizon collapsars are therefore potential prompt contributors to iron and $r$-process enrichment at low metallicity. Their predicted Eu/Fe ratios fall below those of strongly $r$-process-enhanced stars, but uncertainties in the relative yields, particularly of iron, may close this gap. The ${}^{56}{\\rm Ni}$-rich ejecta would power luminous supernovae with rise times of weeks, potentially accompanied by exceptionally powerful gamma-ray bursts, rather than lanthanide-rich super-kilonovae.",
+      "authors": [
+        "Danat Issa",
+        "Ore Gottlieb"
+      ],
+      "url": "https://arxiv.org/abs/2611.21788v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-16",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2611.21342v1",
@@ -104,6 +223,48 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.22471v1",
+      "title": "Properties of Chromium and Manganese in Tycho's SNR with XRISM/Resolve",
+      "abstract": "The X-ray emission of young supernova remnants gives access to the composition and spatial distribution of elements ejected in supernovae. The emission from the ejecta provides crucial insights into the explosion mechanism, especially for Fe-group elements formed in the innermost layers of the star. The objective of this paper is to provide constraints on the supernova progenitor and explosion mechanism of Tycho's type Ia supernova remnant by studying the properties of Cr and Mn. The unprecedented spectral resolution of XRISM/Resolve allows us to detect significant emission lines of Cr and Mn in different regions of Tycho's supernova remnant, even at small scale, providing a much more precise spatial distribution of Cr and Mn with respect to previous measurements. Significant Cr and Mn emission lines are observed in the Fe bright northeastern-to-southeastern emitting rim, some in the center region, but none in the southern region. The observed mass ratios of Mn/Fe, Cr/Fe and Mn/Cr, are consistent with 1D delayed detonation models of near-Chandrasekhar-mass Type Ia supernovae and 1D pure-detonation models of 1 Msol sub-Chandrasekhar-mass progenitors. In both cases, the observations imply supersolar zero-age main-sequence progenitor metallicities. Overall the best agreement is found for models with a too high metallicity to be realistic for Tycho's location. This points to additional sources of neutronisation such as carbon simmering for Chandrasekhar mass progenitor. For sub-Chandrasekhar mass, double detonation models with a WD mass lower than 1Msol are suggested.",
+      "authors": [
+        "R. Giuffrida",
+        "A. Decourchelle",
+        "L. Godinaud",
+        "T. Tanaka",
+        "G. Ferrand",
+        "J. Ballet",
+        "T. Holland-Ashford",
+        "C. Badenes",
+        "A. Bamba",
+        "B. J. Williams",
+        "T. Mizuno",
+        "F. Acero"
+      ],
+      "url": "https://arxiv.org/abs/2611.22471v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-17",
+      "score": 8,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.21729v1",
+      "title": "Supernova Bounds on Neutrino Dipole Moments from a Modern Perspective",
+      "abstract": "Neutrinos may have nonstandard magnetic dipole moments $μ_ν$. In the dense cores of supernovae (SNe), these would convert part of the neutrinos into sterile, right-handed states through the electromagnetic fluctuations of the charged plasma. The streaming sterile neutrinos with 100-MeV energies can convert back to standard neutrinos in the Galactic magnetic field, leading to a high-energy neutrino flux unobserved from the historical SN 1987A. We reassess the production rates, including scattering on both protons and electrons, and, building upon advances in SN simulations and in the description of the Milky Way magnetic field, we revisit the bounds on magnetic dipole moments. We find for Dirac electron neutrinos $μ_{ν_e} \\lesssim 4.8 \\times 10^{-13} μ_B$, superseding all existing terrestrial and astrophysical constraints.",
+      "authors": [
+        "Damiano F. G. Fiorillo",
+        "Martina La Rosa",
+        "Federico Testagrossa",
+        "Edoardo Vitagliano"
+      ],
+      "url": "https://arxiv.org/abs/2611.21729v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-16",
+      "score": 8,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2611.19989v1",
       "title": "Large-Scale Cosmic-Ray Anisotropy in the TeV Regime: Peak Observables and a Propagation-Model Interpretation",
       "abstract": "In recent years, cosmic-ray observations have entered a stage of high-precision measurements, but the phases of large-scale anisotropy reported by different experiments differ significantly, partly because the first harmonic cannot fully describe non-dipolar structures. In this work, we process the one-dimensional relative-intensity distributions from ARGO-YBJ, Tibet AS$γ$, and HAWC using a unified procedure, perform multi-harmonic fits, and reconstruct the distributions, with the global maximum of each distribution used to define the peak amplitude $A_{\\max}$ and the peak right ascension $α_{\\max}$. The results show that, in the common energy range of 11--22~TeV covered by the three experiments, the range of the published first-harmonic phases is $22.6^\\circ$, whereas the range of $α_{\\max}$ is reduced to $7.5^\\circ$; $α_{\\max}$ evolves overall from $60^\\circ$--$70^\\circ$ at the low-energy end to $250^\\circ$--$300^\\circ$ at the high-energy end, while $A_{\\max}$ exhibits a local minimum and $α_{\\max}$ changes rapidly in the phase-flip region. At the low-energy end, $α_{\\max}$ lies between the right-ascension projections of the direction toward the Geminga supernova remnant and the direction of the local interstellar magnetic field. Accordingly, we construct a spatially dependent propagation model that includes Galactic background sources, a Geminga-related nearby source, and anisotropic diffusion along the direction of the local interstellar magnetic field. Within a unified framework, the model reproduces the energy spectra of P, He, C, O, and Fe, as well as the energy evolution of $A_{\\max}$ and $α_{\\max}$, providing a self-consistent explanation for the origin of large-scale anisotropy in the TeV to tens-of-TeV energy range.",
@@ -122,19 +283,51 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.19400v1",
-      "title": "Neural Surrogates for Tabulated Nuclear Equations of State in Core-Collapse Supernova Simulations",
-      "abstract": "Large-scale core-collapse supernova simulations rely on tabulated nuclear equations of state (EOSs), whose memory requirements can become a practical constraint in massively parallel calculations. We explore a compact alternative by replacing the tabulated thermodynamic mapping with a neural-network surrogate, using the Lattimer--Swesty EOS as a representative reference model. The surrogate directly predicts pressure, sound speed, and effective adiabatic index from $(\\log ρ, \\log e, Y_e)$ and accurately reconstructs the nonlinear thermodynamic structure of the EOS, including its behavior across phase-transition regions. It reproduces one-dimensional shock-tube solutions with hydrodynamic errors at the $\\sim 10^{-3}$ level under different thermodynamic conditions and yields hydrostatic equilibrium configurations closely matching those obtained with the reference EOS. We find that smaller regression errors do not necessarily yield better hydrodynamic performance, demonstrating the importance of hydrodynamic validation in surrogate model selection. A compact network with only $\\sim 10^4$ parameters retains this accuracy while reducing the memory required to store the EOS from $\\sim 160$ MB to $\\sim 100$ KB, corresponding to a reduction by a factor of $\\sim 1500$. The surrogate also remains stable through collapse, bounce, shock formation, and post-bounce evolution in a one-dimensional adiabatic core-collapse calculation. These results demonstrate the potential of compact neural EOS surrogates for reducing memory requirements in large-scale core-collapse supernova simulations.",
+      "arxiv_id": "2611.21758v1",
+      "title": "NEMESIS: Exoplanet TraNsit SurvEy of Nearby M-dwarfs in TESS FFIS II - 262 Transiting Planet Candidates from the TESS Primary Mission",
+      "abstract": "We present NEMESIS II, a blind transit search of nearby M-dwarfs in TESS Primary Mission full-frame images (Sectors 1-26), including stars lacking 2-minute observations. Using the open-source NEMESIS pipeline, we extracted, detrended, and searched 213,658 single-sector light curves of 113,047 M-dwarfs within 100 pc, yielding 23,339 threshold crossing events. Automated LEO-Vetter vetting, applied identically to the survey and its injection-recovery and orbit-scrambling controls, retains 558 detections corresponding to 525 distinct signals with converged transit fits and periods of 0.51-9.10 days. Of these, 482 lie on stars without TOI, CTOI, or NASA Exoplanet Archive transiting-planet entries. Orbit-scrambling predicts 329 false alarms among the 558 detections, all but 14 of them among the 408 below Multiple Event Statistic 8. Assuming an astrophysical signal, TRICERATOPS favors a planetary origin for 262 of 525 candidates (232 new), which we classify as planet candidates; it also excludes resolved-neighbor eclipses for 105. Known planets and TOI candidates survive vetting at 1.01 +/- 0.07 of the injection-predicted rate. Correcting for each light curve's sensitivity, false alarms, and astrophysical false positives, we infer 0.81 +/- 0.44 planets per star for periods between 1.0-10.0 days and planet radii between 0.5-11.0 Earth radii. This is a lower limit, because our injections recover few or no planets near and below 1 Earth radii and assume central transits. Light curves, catalogs, vetting reports, and injection-recovery results will be released as a High Level Science Product at MAST upon publication. Documentation for the NEMESIS pipeline is available at https://nemesis-tess.readthedocs.io/.",
       "authors": [
-        "Youhei Masada",
-        "Jin Matsumoto",
-        "Tomoya Takiwaki"
+        "Dax L. Feliz",
+        "Madeline Maldonado Gutierrez",
+        "Maliyah Adams",
+        "Shreeya KC",
+        "Kylor G. Ghai",
+        "Thamim Chowdhury",
+        "August Fischer",
+        "Jashcelyn S. Canada",
+        "Donovan Bradley",
+        "Mary Jimenez",
+        "Samantha N. Bianco",
+        "Bryan Villarreal Alvarado",
+        "Keivan G. Stassun",
+        "Peter Plavchan",
+        "Kevin I. Collins",
+        "Ruth Angus"
       ],
-      "url": "https://arxiv.org/abs/2611.19400v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-14",
-      "score": 8,
-      "tier": 1,
+      "url": "https://arxiv.org/abs/2611.21758v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-16",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.21793v1",
+      "title": "A 15-year K-band view of long-period variables in the central region of M33",
+      "abstract": "Long-period variables (LPVs) on the asymptotic giant branch (AGB) trace the late stages of stellar evolution and the return of mass to the interstellar medium. Their periods range from about 100 to 2000 d, so a few-year near-infrared campaign covers too few cycles for the slowest pulsators. We combine four independent UKIRT $K$-band data sets obtained between 2003 and 2018 into a homogeneous catalogue of the central $\\approx$12 arcmin$^2$ of M33: 847 stars with 21085 measurements over 15.11 yr. Using 82 calibration stars, we place all data on the 2MASS/Vega system and remove inter-dataset offsets of up to 0.22 mag. Of the 847 stars, 771 are variable ($σ_K>0.10$ mag), and 385 have peak-to-peak amplitudes $A_K\\geq1.0$ mag, which makes them Mira candidates. Of the 156 stars with Spitzer/IRAC [3.6] photometry, 120 have $\\langle K\\rangle-[3.6]>0.5$ mag and are candidate dust-enshrouded AGB stars. The catalogue is the basis for a forthcoming period-luminosity and star-formation history analysis",
+      "authors": [
+        "Hedieh Abdollahi",
+        "Mina Alizadeh",
+        "Fatemeh Nikzat",
+        "Atefeh Javadi",
+        "Yousefali Abedini",
+        "Jacco Th. van Loo"
+      ],
+      "url": "https://arxiv.org/abs/2611.21793v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-16",
+      "score": 6,
+      "tier": 2,
       "instrument": "RC400"
     },
     {
@@ -225,6 +418,42 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.22015v1",
+      "title": "Theoretical Instability Models of Quasi-Periodic Eruptions",
+      "abstract": "The nature of the Quasi-Periodic Eruptions (QPE) is still not firmly established while the phenomenon probes the innermost part of the accretion flow undergoing dramatic changes. In this chapter we review the possibility that the observed rapid variability is caused by the accretion disk instability. We summarise the defining observational properties of QPE sources: time scales of recurrence, the amplitudes of soft X-ray flares, high coherence over many cycles, and comparatively modest time-averaged luminosities. We then translate these into constraints on the characteristic radius, accretion rate, and energy reservoir of the inner disk. We review the main classes of disk instabilities relevant to supermassive black holes: radiation pressure induced thermal/viscous limit cycles, magnetically mediated inner disk transitions, and coupling to disk winds that can produce the oscillatory behavior. For each scenario we discuss the required parameter space (black hole mass, Eddington ratio, viscosity prescription, and truncation radius), the predicted spectral and timing signatures, and the degree of fine tuning needed to reproduce the observed duty cycles and flare morphologies. We highlight key tensions, including the extremely soft spectra, short recurrence times compared with standard viscous times at tens of gravitational radii, and the weak or absent contemporaneous optical/UV variability in several systems. Finally, we outline observational tests that may help distinguish between instability driven and geometrical or orbital models: phase resolved spectroscopy to track the temperature evolution, searches for hysteresis in hardness-intensity diagrams, reverberation and absorption variability tied to winds, and long baseline monitoring to measure drift in period and energy output.",
+      "authors": [
+        "Agnieszka Janiuk",
+        "Bożena Czerny",
+        "Marzena Śniegowska",
+        "Pulkit Ojha",
+        "Shuang-Liang Li",
+        "Shivangi Pandey"
+      ],
+      "url": "https://arxiv.org/abs/2611.22015v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-17",
+      "score": 6,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.21752v1",
+      "title": "Mapping the multimessenger horizon for $γ$-ray counterparts of cosmic neutrinos",
+      "abstract": "The joint detection of high-energy neutrinos and $γ$-rays offers a powerful probe of the most energetic astrophysical accelerators, linking hadronic interactions to observable signatures across cosmic distances. Understanding the conditions under which these two messengers can be simultaneously observed is essential for identifying and characterizing the sources of cosmic neutrinos. In this work, we examine the detectability of $γ$-ray cascades associated with neutrino production in source environments that are gamma-ray transparent, focusing on how electromagnetic cascades evolve as $γ$-rays propagate through intergalactic space. By modeling photon interactions with the extragalactic background light and deflections in intergalactic magnetic fields, we determine the minimum neutrino fluence for transient emission and neutrino flux for steady emission required to produce a $γ$-ray counterpart detectable by $γ$-ray observatories, such as Fermi-LAT, HAWC, or LHAASO. This defines a ``multimessenger horizon\" -- the region in flux-distance parameter space where neutrinos and $γ$-rays are jointly observable. We consider both energy-binned injection tied to IceCube's sensitivity and a continuous power-law spectrum extending from TeV to PeV energies. Our results reveal that detectability depends strongly on redshift, magnetic field strength, and photon energy, with higher-energy cascades suffering greater attenuation inside filamentary structures. The framework provides new constraints on source opacity, baryon loading, and neutrino production mechanisms, offering a predictive tool for interpreting current events and guiding future multimessenger campaigns.",
+      "authors": [
+        "Tianyi Ding",
+        "Jose Alonso Carpio",
+        "Ali Kheirandish",
+        "Kohta Murase"
+      ],
+      "url": "https://arxiv.org/abs/2611.21752v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-16",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2611.20672v1",
       "title": "The Effect of Asphericity to the Inference of Supernova Circumstellar Environment from Radio Observations",
       "abstract": "Radio observations of supernovae (SNe) enable us to constrain the circumstellar environment of their progenitor stars, and hence the mass-loss history immediately prior to the explosion. However, despite lines of evidence pointing to the aspherical configurations of circumstellar matter (CSM) around many SNe, the derivation of CSM parameters is often done under the assumption of spherically symmetric CSM. In this work, based on a recent model of radio emission from SNe interacting with aspherical CSM, we investigate how lifting the assumption of spherical symmetry affects the CSM parameter inference. First, we apply the model to mock data simulating typical observations of Type Ia-CSM, Ibc and II SNe and find that the total CSM mass required for to reproduce radio observation depends weakly on the CSM covering fraction $f_Ω$, with ${f_Ω}^{0.15-0.38}$. We then apply the model and fit the radio light curves of Type Ia-CSM SN 2020eyj. We show that, even with the assumption of asphericity as severe as $f_Ω= 0.1$, the requirement for the total CSM mass is only reduced to $\\sim 50 \\%$ of the value inferred in spherical models. These results demonstrate that introducing asphericity in radio emission models is often not enough to reduce the required CSM mass significantly.",
@@ -280,6 +509,21 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.21738v1",
+      "title": "Shocks and Trails in the Circumgalactic Medium Driven by Runaway Supermassive Black Holes",
+      "abstract": "Runaway supermassive black holes (SMBHs) have long been predicted. RBH-1, discovered with HST and confirmed by JWST, provides the strongest evidence yet for a runaway SMBH: a bow shock and linear trail in the circumgalactic medium (CGM) of a $z=0.96$ galaxy. The bow shock is $\\sim$kpc wide, the trail is $\\sim 60$ kpc long, and the SMBH apparently moves at $\\sim 1,000$ km s$^{-1}$. Using controlled hydrodynamic simulations, we show that the SMBH's gravity alone cannot produce a significant bow shock, but a comoving wind source can sustain one similar to RBH-1's. The wind must either be active or have shut off less than $\\sim 3$ Myr ago. The required recent wind momentum flux is $6\\times10^{32}\\,{\\rm dyn}\\,(n_{\\rm CGM}/10^{-3}\\,{\\rm cm}^{-3})$, where $n_{\\rm CGM}$ is the CGM density. Assuming the wind reaches peak strength only during the last $\\sim 6$ Myr, the minimum integrated wind mass is $3.5\\times10^5\\,M_\\odot\\,(n_{\\rm CGM}/10^{-3}\\,{\\rm cm}^{-3})$. A $2\\times10^7\\,M_\\odot$ SMBH accreting at $1\\%$ Eddington could power the wind. Supernova feedback from a star cluster carried by the SMBH is an alternative, although the required mass and momentum fluxes $\\gtrsim 60$ Myr after ejection are difficult to reconcile with a standard initial mass function. For a hot ambient CGM at $\\sim 10^6$ K, the quasi-linear trail constrains the 1D velocity dispersion to $σ_{\\rm 1D}\\lesssim 30$ km s$^{-1}$, above which it becomes strongly disturbed. Runaway SMBH trails therefore offer a new probe of turbulence in the diffuse CGM, in regimes where its kinematics are otherwise inaccessible.",
+      "authors": [
+        "Kung-Yi Su",
+        "Claude-André Faucher-Giguère"
+      ],
+      "url": "https://arxiv.org/abs/2611.21738v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-16",
+      "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2611.20934v1",
       "title": "XRISM/Xtend detection of solar wind charge exchange induced by multiple coronal mass ejections in 2024 August",
       "abstract": "Solar wind charge exchange (SWCX) emission is often a major component of the soft X-ray background, but it also provides a remote diagnostic of the composition and ionization state of solar wind plasma. We present an analysis of a SWCX event observed with XRISM/Xtend during 2024 August 9-13. The event occurred during intense solar activity with multiple flares, including an X1.3-class solar flare, and associated coronal mass ejections (CMEs). We found a clear enhancement in the 0.3-3.0 keV count rate that occurred nearly simultaneously with an increase in the solar wind proton flux measured by ACE. We fitted the spectrum during the enhancement period with a set of Gaussian emission lines. In addition to the commonly detected C, N, and O lines, we detected Ne, Mg, Si, and Fe lines at $>15σ$ significance. We extracted two characteristic periods within the enhanced interval based on the CME arrival timeline. The O$_{\\rm VIII}$/Si$_{\\rm XIII}$ line ratio changed significantly between the two periods, suggesting contributions from multiple CME components. We then applied the AtomDB charge exchange model with a multi-temperature setup. The estimated ionization temperatures for Ne, Mg, Si, and Fe increased with the peak soft X-ray flux of the associated solar flares. This trend suggests that coronal heating becomes more efficient for more intense flares. Meanwhile, the ionization temperatures were lower than typical flare electron temperatures, implying that CME plasma may have been released into interplanetary space under non-equilibrium ionization conditions. We also found an indication of an inverse-FIP pattern, with reduced relative abundances of Si and S. These results demonstrate that XRISM/Xtend can diagnose the coronal plasma through SWCX emission, including heavy ions such as Ne, Mg, and Si, which are difficult to measure with current in-situ instruments (e.g., ACE satellite).",
@@ -295,6 +539,37 @@
       ],
       "url": "https://arxiv.org/abs/2611.20934v1",
       "category": "astro-ph.EP",
+      "published": "2026-11-16",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.22739v1",
+      "title": "Cataclysmic Variables from XMM-Newton and eROSITA",
+      "abstract": "Cataclysmic variables (CVs) are interacting binaries where a white dwarf accretes material from a late-type donor. The most evolved systems, referred to as period-bouncers, host degenerate donors. We present XMM-Newton and eROSITA, which provide complementary views of the CV population. We summarize the capabilities of XMM-Newton for timing and spectroscopic studies, and its ability to characterize accretion geometries, magnetic field strengths, and short-term variability across magnetic/non-magnetic CVs. These data allow studies of individual systems, including magnetic period-bouncers with soft X-ray spectra and faint luminosities that offer insights into the late stages of CV evolution. We then present an overview of eROSITA as the first X-ray all-sky survey in the soft band since ROSAT, and its impact on population studies. The eRASS:4 catalog expands the known X-ray sky and will enable volume-limited samples of CVs, complete up to 500pc for standard CVs and up to 250 pc for period-bouncers. Cross-matching eROSITA detections with optical catalogs produced the largest sample of X-ray-selected CV candidates to date, that will refine X-ray diagnostic diagrams, reassess the demographics of magnetic/non-magnetic systems, and identify new highly evolved CVs. Finally, we describe ongoing searches for unknown systems, including CVs selected through probabilistic cross-matching with Gaia, and period-bouncers identified through a multi-wavelength scorecard. These efforts led to the discovery of new period-bouncers and a promising detached period-bouncer candidate, that could validate alternative models for the evolution of CVs. Together, XMM-Newton and eROSITA provide an unprecedented view into the structure, evolution, and demographics of CVs, with eROSITA laying the groundwork for future studies of compact binary evolution, the Galactic Ridge X-ray emission, and related phenomena.",
+      "authors": [
+        "Daniela Muñoz-Giraldo",
+        "Beate Stelzer",
+        "Axel Schwope"
+      ],
+      "url": "https://arxiv.org/abs/2611.22739v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-17",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.21792v1",
+      "title": "Long-Term Spectral and Timing Variability of PKS 2155$-$304 from {\\it Chandra} and {\\it NuSTAR} Observations",
+      "abstract": "Blazars exhibit strong variability across the electromagnetic spectrum, on timescales from minutes to decades. We present a study of the spectral and timing variability of the TeV blazar PKS~2155$-$304 using {\\it Chandra} and {\\it NuSTAR} observations spanning 25 years (1999$-$2024). Timing analysis reveals fractional variability amplitudes of up to $F_{\\rm var}\\approx 24\\%$ in the hard X-ray band and $F_{\\rm var}\\lesssim 7.5\\%$ in the soft X-ray band, along with variable power-spectral indices across observations. The minimum variability timescale, $τ_{\\rm var} = 1.15\\pm0.26$~ks, limits the size of the X-ray emitting region to $R \\lesssim 7.7 \\times 10^{14}$~cm, consistent with synchrotron emission from a compact region in the jet. We fitted the spectra using power-law (PL), broken power-law (BPL), log-parabola (LP), and bremsstrahlung plus power-law (BR+PL) models, the latter used only as a phenomenological description of the spectral curvature. The BPL model provides the best statistical description for most {\\it Chandra} spectra. An F-test confirms a curved model over PL for all {\\it Chandra} spectra, whereas most {\\it NuSTAR} spectra are consistent with a single PL. Hardness ratio analysis shows a harder-when-brighter trend in the {\\it Chandra} band. Joint fitting of the simultaneous 2013 {\\it Chandra} and {\\it NuSTAR} observations shows that the broadband 0.4$-$79~keV curvature is confined to the soft X-ray band, with the spectrum steepening above $\\sim$2~keV and a steep hard X-ray power law ($Γ\\simeq 2.7$). Our results reveal energy-dependent X-ray variability over more than two decades, and show that broadband X-ray coverage is needed to locate the curvature of the synchrotron tail in high-synchrotron-peaked blazars.",
+      "authors": [
+        "Rameshan Thimmappa",
+        "S. B. Gudennavar"
+      ],
+      "url": "https://arxiv.org/abs/2611.21792v1",
+      "category": "astro-ph.HE",
       "published": "2026-11-16",
       "score": 4,
       "tier": 2,
@@ -366,6 +641,25 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.21686v1",
+      "title": "Mass-conservative voxelisation of smoothed particles using cumulative kernels",
+      "abstract": "Smoothed particle hydrodynamics (SPH) simulations are frequently post-processed on Cartesian grids for applications such as radiative transfer calculations, visualisation, and data analysis. While numerous voxelisation algorithms have been proposed, relatively little attention has been paid to the fundamental properties that such algorithms should satisfy. We argue that SPH voxelisation algorithms should accurately reproduce the underlying density field, conserve mass globally, remain consistent under grid refinement, and be computationally efficient. We present a new finite-volume algorithm designed to satisfy these requirements simultaneously. Starting from a finite-volume formulation of the SPH density field, we derive a simple expression for the mass contained in a Cartesian voxel in terms of a cumulative kernel function. The cumulative kernel is tabulated numerically once for any compact-support smoothing kernel, independently of its analytical form, so that the same tabulation and voxelisation machinery applies unchanged to any such kernel. During voxelisation, the mass contributions are obtained from interpolated evaluations of this precomputed function at voxel corners, with values at corners shared by neighbouring voxels evaluated only once and reused. We compare the new cumulative-kernel algorithm to nearest-grid-point assignment, centre sampling, regular subsampling, and Monte Carlo integration, using direct high-order numerical integration as a reference for the voxel densities, and implement it in the 3D Monte Carlo radiative transfer code SKIRT. The cumulative-kernel algorithm reproduces the reference voxel densities substantially more accurately than the sampling-based methods considered. For the adopted $129^3$ cumulative-kernel lookup table (abridged).",
+      "authors": [
+        "Maarten Baes",
+        "Peter Camps",
+        "Kosei Matsumoto",
+        "Jules Dierickx",
+        "Andrea Gebek",
+        "Angelos Nersesian"
+      ],
+      "url": "https://arxiv.org/abs/2611.21686v1",
+      "category": "astro-ph.IM",
+      "published": "2026-11-16",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2611.20357v1",
       "title": "Demographic dynamics of the Japanese astronomy and astrophysics publication community during 1996-2025",
       "abstract": "We investigate the demographic evolution of the Japanese astronomy and astrophysics publication community during 1996-2025 using bibliometric data from 23,274 publications in major journals in the field. The number of active Japan-affiliated authors increased from approximately 600 in the late 1990s to more than 2,000 by the early 2020s, while annual publication output reached approximately 1,400 by 2025. Participation was highly heterogeneous, with 46% of authors observed in only one publication year within the study period and a smaller core showing long observed participation periods. We define the Community Renewal Rate (CRR) as a community-level measure of renewal, calculated as the fraction of active authors not observed during a specified preceding interval. The 5-year CRR typically remained near one quarter of the active community, with annual values ranging from approximately 21% to 33%, indicating persistent renewal despite substantial community growth. An order-of-magnitude comparison suggests that newly entering students account for only part of the renewal-author population. The community therefore expanded while sustaining both continuity through authors with long observed participation periods and renewal through recurring changes in active membership.",
@@ -378,26 +672,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.19567v1",
-      "title": "Disentangling Magnetospheric and Colliding-Wind X-ray and Radio Emission in the Post-Mass-Transfer Magnetic Massive Binary Plaskett's Star",
-      "abstract": "Plaskett's star is an O+O binary system harboring a kG-order magnetic field associated with the broad-lined secondary. It is the only O-type star believed to host a centrifugally supported magnetosphere. We present orbital- and rotational-phase resolved X-ray and low-frequency radio observations of Plaskett's star. X-ray observations were taken with Chandra using the High Energy Transmission Grating Spectrometer (HETGS), while the radio observations come from uGMRT and VLA. The X-ray light curve shows rotational modulation according to the magnetic component's rotation period, with maximum flux near magnetic minima. We confirm the decline in flux near orbital phase 0.5 where the slow rotator primary is in front of its magnetic companion. We used the $f/i$ ratios of Si XIII and Mg XI from high-resolution X-ray spectroscopy to infer the location of the plasma emitting X-rays. We find no statistically significant variation in line widths or centroid shifts with either orbital or rotational phase; however, given instrumental limitations, this non-detection may partly reflect observational constraints, while still suggesting a complex and extended X-ray emitting plasma distribution. We could not detect the star in the low-frequency radio bands (0.6--1.5 GHz). Re-analysis of existing Very Large Array data reveals an additional detection at 3 GHz, consistent with a nonthermal contribution predicted by magnetospheric models, although no direct signature was obtained. At low frequencies, nonthermal emission from the magnetosphere and the colliding-wind region is likely suppressed by free-free absorption in the winds of one or both components.",
-      "authors": [
-        "Ayan Biswas",
-        "Gregg A. Wade",
-        "Maurice Leutenegger",
-        "Poonam Chandra",
-        "Yael Naze",
-        "Barnali Das",
-        "Veronique Petit"
-      ],
-      "url": "https://arxiv.org/abs/2611.19567v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-14",
-      "score": 3,
-      "tier": 3,
-      "instrument": "MK67 (future spec.)"
     }
   ]
 }
