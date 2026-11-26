@@ -1,10 +1,30 @@
 {
-  "generated_utc": "2026-11-25T16:58:45Z",
-  "date": "2026-11-25",
-  "total_fetched": 139,
-  "relevant_count": 29,
+  "generated_utc": "2026-11-26T16:38:58Z",
+  "date": "2026-11-26",
+  "total_fetched": 192,
+  "relevant_count": 45,
   "min_score": 3,
   "articles": [
+    {
+      "arxiv_id": "2611.33528v1",
+      "title": "Superfit: A Supernova Spectral Classification Tool with Host-Galaxy Decomposition",
+      "abstract": "Superfit is a an open-source tool for automated spectroscopic classification of supernovae that accounts for redshift, reddening, and host-galaxy contamination. Here we present the latest version, which has been rewritten in Python and is now available as a web-based application. A user uploads an observed spectrum, and Superfit uses a curated library of transient and galaxy spectra to perform a simultaneous fit of transient and host galaxy spectra, while adjusting for color and redshift. In contrast to machine-learning algorithms, Superfit uses a least squares fitting approach, which is reproducible, verifiable, and understandable to users. The user may specify the binning of the spectra, set redshift and reddening limits, phase information, and restrict host galaxy and supernova templates for fitting. A new, expanded template library includes modern transient subclasses and associated observational metadata. A modern browser-based interface allows users to configure fitting parameters, visualize spectra, monitor fitting progress, and interactively inspect and compare ranked candidate matches and their individual components. We describe the fitting methodology, template library, software architecture, and web interface, and demonstrate its capabilities through classification examples.",
+      "authors": [
+        "D. Andrew Howell",
+        "Alyona Kosobokova",
+        "Samantha Goldwasser",
+        "Ido Irani",
+        "Saanvi Tiwary",
+        "Ofer Yaron",
+        "Avishay Gal-Yam"
+      ],
+      "url": "https://arxiv.org/abs/2611.33528v1",
+      "category": "astro-ph.IM",
+      "published": "2026-11-24",
+      "score": 14,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
     {
       "arxiv_id": "2611.31123v1",
       "title": "Selection-aware inference of supernova kicks",
@@ -15,6 +35,29 @@
       "url": "https://arxiv.org/abs/2611.31123v1",
       "category": "astro-ph.SR",
       "published": "2026-11-23",
+      "score": 12,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.33657v1",
+      "title": "Time-resolved Polarimetry of the Type Ibn Supernova 2025kzr Suggests a Possible Ejecta-CSM Misalignment",
+      "abstract": "Type Ibn supernovae (SNe) are rare interacting transients. The dense, helium-rich circumstellar material (CSM) surrounding these events provides insight into the final stages of massive-star evolution. The geometries of the ejecta and CSM provide complementary constraints on the explosion and pre-SN mass loss, yet their temporal evolution has remained largely unexplored by spectropolarimetry. Here we present the first spectropolarimetric time series spanning the interaction-to-ejecta transition of the Type Ibn SN\\,2025kzr. Three epochs of Very Large Telescope observations, combined with two epochs of published $V$-band imaging polarimetry, span 5--34 days after explosion. Continuum polarization is low at the earliest epoch, then rises to $\\sim$0.6\\% by day\\,11 as the SN ejecta sweep up the dense CSM. This rise, together with a rotating polarization position angle, indicates a significant change in the geometry of the emitting region. The polarization subsequently falls below our detection limit as the photosphere recedes into the ejecta. Radiation-hydrodynamic and Monte Carlo polarization models illustrate that this evolution can be reproduced by an oblate CSM and prolate ejecta, with the symmetry axis of the cold dense shell tilted relative to that of the CSM. Binary mass transfer can produce an equatorially enhanced CSM, although the polarization data alone cannot identify the progenitor's formation channel. Similar polarization signatures in other supernovae suggest that misaligned ejecta and CSM may be common, making time-resolved spectropolarimetry a powerful probe of the link between pre-explosion mass loss and explosion geometry.",
+      "authors": [
+        "Xudong Wen",
+        "Yi Yang",
+        "Lifan Wang",
+        "J. Craig Wheeler",
+        "Alexei V. Filippenko",
+        "Justyn R. Maund",
+        "Mattia Bulla",
+        "Simon de Wet",
+        "Chris Ashall",
+        "Steve Schulze"
+      ],
+      "url": "https://arxiv.org/abs/2611.33657v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-25",
       "score": 12,
       "tier": 1,
       "instrument": "RC400"
@@ -49,6 +92,26 @@
       "instrument": "RC400"
     },
     {
+      "arxiv_id": "2611.33301v1",
+      "title": "Evidence for an Evolving Surface on the Partly Burnt Runaway Stellar Remnant GD 492",
+      "abstract": "GD 492 (LP 40-365) is a partly burnt, hypervelocity runaway stellar remnant thought to have survived a thermonuclear supernova. We analyze 12 sectors of TESS photometry spanning more than four years to investigate the previously reported 8.9-hr photometric modulation of the star. We find that the modulation changes with time, with individual-sector fits yielding apparent periods ranging from 8.8606 to 8.9048 hr (0.5% changes), more than 25 times the formal measurement uncertainties. Both the period and shape of the modulation evolve on a timescales of approximately one to two months. We show qualitatively that a two-spot model with evolving surface structure can reproduce several of the observed light-curve morphologies, although the geometry of the spots is not uniquely constrained. These observations suggest that changing surface inhomogeneities are a plausible origin of the photometric variability. Differential rotation and magnetic activity may contribute to this evolution, potentially providing new constraints on the outer convective structure of GD 492 and on the interpretation of its atmospheric abundances.",
+      "authors": [
+        "Reuben Dsouza",
+        "J. J. Hermes",
+        "Boris T. Gänsicke",
+        "Ken J. Shen",
+        "Ciarra Coston",
+        "Roberto Raddi",
+        "Mark Hollands"
+      ],
+      "url": "https://arxiv.org/abs/2611.33301v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-24",
+      "score": 10,
+      "tier": 1,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
       "arxiv_id": "2611.32885v1",
       "title": "On the potential of widening the band of X-ray polarimetry",
       "abstract": "The Imaging X-ray Polarimetry Explorer (IXPE) has made X-ray polarimetry a routine astrophysical diagnostic, but its sensitivity is confined to the 2-8 keV band, where the photoelectric effect in a gas is most efficiently exploited. Several of the questions raised by its results, as well as some classical goals of high-energy astrophysics, require polarimetry below 2~keV, to reach the thermal emission of neutron stars, black-hole discs and blazars, and above 8~keV, where reflection, cyclotron lines and the non-thermal emission of supernova remnants, pulsar wind nebulae and magnetars can be isolated. Following a recent review of the subject, we discuss the scientific case for extending the band over roughly 0.1-80 keV and beyond, and the techniques that can deliver it: Bragg diffraction on graded multilayers, photoelectric gas imagers read out by pixel ASICs with time-of-arrival capability, time projection chambers and focal-plane Compton polarimeters, including their combination in stacked focal planes. We then summarise how these techniques are being implemented, or could be, in REDSoX and GOSoX, eXTP, XPP, WXPT and in EXPO and PHEMTO, proposed to the ESA M8 call, as well as in the wide-field transient polarimeter POLAR-2, and we discuss the trade-offs that will drive the design of a wide-band polarimetry mission.",
@@ -57,6 +120,29 @@
       ],
       "url": "https://arxiv.org/abs/2611.32885v1",
       "category": "astro-ph.HE",
+      "published": "2026-11-24",
+      "score": 10,
+      "tier": 1,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.33419v1",
+      "title": "Photometric Uncertainty Correction for Time-Domain Surveys: Vera C. Rubin Data Preview 2 Case Study",
+      "abstract": "Time-domain science, from variability detection to supernova cosmology, relies on accurate photometric uncertainties. We present a data-driven, catalog-level method to validate and improve the photometric uncertainties reported by time-domain surveys. The analysis is based on transforming light curves of non-variable objects into mean-variance whitened signals. We then estimate a correction to the uncertainties by matching the distribution of the whitened signals of all objects to the standard normal distribution, which they ought to follow when the uncertainties are correct. The correction can be modeled as a function of each measurement's flux, reported uncertainty, and available observational metadata, and can be applied to measurements of both non-variable and variable objects. Applied to the Rubin Observatory Data Preview 2 (DP2), the method shows that the uncertainties of bright sources are underestimated by up to a factor of five. The inferred corrections correspond to a magnitude error floor of about 10 mmag for both direct-image and difference-image photometry, decreasing to about 6 mmag in deeper fields. We provide the corrected uncertainties as part of the Rubin DP2 HATS catalogs.",
+      "authors": [
+        "Konstantin Malanchev",
+        "Doug Branton",
+        "Sandro Campos",
+        "Neven Caplar",
+        "Mi Dai",
+        "Melissa DeLucchi",
+        "Olivia Lynn",
+        "Rachel Mandelbaum",
+        "Sean McGuire",
+        "Inar Timiryasov"
+      ],
+      "url": "https://arxiv.org/abs/2611.33419v1",
+      "category": "astro-ph.IM",
       "published": "2026-11-24",
       "score": 10,
       "tier": 1,
@@ -254,6 +340,34 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.34127v1",
+      "title": "An oxygen-rich supernova remnant in NGC 253 with narrow [N II] emission lines",
+      "abstract": "Context. Supernova remnants (SNRs) are the final evolutionary stage of supernovae. In rare cases, the remnant persists as an optically luminous remnant decades after the explosion. We report the discovery of an unusual oxygen-rich (O-rich) SNR that was serendipitously discovered in the MUSE mosaic of the nearby (D $\\sim$ 3.5 Mpc) galaxy NGC 253 released by arXiv:2506.14921. Aims. We search for SNRs in MUSE integral field spectroscopy data of NGC 253. Methods. We search for unresolved point sources with broad and strong [O III]$λ$$λ$4959,5007, [O I]$λ$$λ$6300,6364 or [O II]$λ$$λ$7320,7331 emission lines. We also search for possible counterparts at other wavelengths in archival data. Results. We find a single O-rich SNR in NGC 253 with [O III]$λ$$λ$4959,5007. For this object, we report a coincident X-ray source detected by Chandra and a non-detection at mid-infrared wavelengths by JWST. Additionally, we identify [N II]$λ$$λ$6548,6583 emission lines and no detectable hydrogen or [SII]$λ$$λ$6716,6731 emission. The [N II] emission lines are broader (230 km/s) than the surrounding interstellar medium lines but still narrow in comparison to the [O III] emission (>1500 km/s) from the SNR. No detections of [O I]$λ$$λ$6300,6364 and [O II]$λ$$λ$7320,7331 were made. Conclusions. The discovery of a single O-rich SNR after a systematic search of NGC 253 highlights their scarcity in nearby galaxies. The structure of [O III] emission indicates complex structure in the O-rich ejecta. The relative narrowness of [N II] emission lines compared to the [O III] lines and the non-detection of hydrogen show that the remnant is surrounded by an N-rich circumstellar medium. The ejecta is currently interacting with this material of the preceding supernova explosion.",
+      "authors": [
+        "Timo Kravtsov",
+        "Enrico Congiu",
+        "Joseph P. Anderson",
+        "Hanindyo Kuncarayakti",
+        "Seppo Mattila",
+        "Amirnezam Amiri",
+        "Ashley T. Barnes",
+        "Daniel A. Dale",
+        "Sanskriti Das",
+        "Oleg V. Egorov",
+        "Kathryn Grasha",
+        "Eric Habjan",
+        "Smita Mathur",
+        "Hsi-An Pan",
+        "Thomas G. Williams"
+      ],
+      "url": "https://arxiv.org/abs/2611.34127v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-25",
+      "score": 7,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
       "arxiv_id": "2611.31643v1",
       "title": "The rotation period of the near-Earth comet (875163) 1998 SH2 and the limits of a single-apparition phase curve",
       "abstract": "The near-Earth object (875163) 1998 SH2 was recently shown to be a weakly active comet: its 1998-2025 astrometry reveals a non-gravitational acceleration too large to be radiative in origin, and large-aperture imaging during its 2025 apparition revealed a faint tail (Farnocchia et al. 2026). No rotation period had been reported. We derive one from dense TTT2 photometry obtained on five nights of the same apparition: from 2392 calibrated measurements we find a synodic rotation period P = 6.970 +/- 0.020 h. The folded light curve is markedly bimodal (A2/A1 ~ 6.4) with a peak-to-peak amplitude of ~0.18 mag, implying a/b >~ 1.18. Combined with the published radar Doppler bandwidth, the period is consistent with an elongated body whose rotation the radar alone could not constrain. Over the narrow observed phase-angle range (3.7-9.3 deg) the IAU H,G and H,G1,G2 slope parameters are not physically constrained. The inter-night magnitude gradient, beta_app = 0.074 +/- 0.005 mag/deg, is steeper than the default G=0.15 and lies in the upper part of the Jupiter-family comet (JFC) distribution (median 0.046; Kokotanekova et al. 2017); because the object was weakly and increasingly active during the run, we treat this value as an upper limit to the intrinsic surface phase slope. Under the population prior of little or no opposition surge, as found in available JFC nucleus phase curves, the phase behaviour is best described by a linear law, giving a provisional H_Lum(1,1,0) ~ 20.9-21.0 over 3.7-9.3 deg in the Luminance band.",
@@ -288,6 +402,35 @@
       "url": "https://arxiv.org/abs/2611.30451v1",
       "category": "astro-ph.EP",
       "published": "2026-11-23",
+      "score": 6,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.33269v1",
+      "title": "RR Lyrae stars as distance indicators I. Sample selection and characterisation",
+      "abstract": "RR Lyrae stars (RRL) are well-established Population II distance indicators, with period-metallicity-luminosity (PLZ) relations linking pulsational properties to absolute luminosity. Gaia parallaxes now allow these relations to be anchored to geometric distances with unprecedented precision, offering an independent route to the extragalactic distance scale. We present the first paper in a series aimed at deriving new empirical PLZ and metallicity-luminosity relations for RRL in the optical and near-infrared. We describe the selection and characterisation of a sample of bright nearby field RRL, with distances anchored to reliable Gaia DR3 parallaxes. We conducted a multi-band photometric campaign of 172 RRL: 101 in Johnson-Cousins UBVRI with the IAC80 telescope and 130 in JHKs with the IRSF telescope, with 59 stars in common. The iron abundances come from the Spectroscopic Rome RRL Catalog catalogue, mostly from high-resolution spectroscopy. The light curves were modelled with GLOESS (optical) and near-infrared templates, and the mean magnitudes, amplitudes, and Fourier parameters were derived via a bootstrap Monte Carlo method. The linear relations were fitted with a Bayesian Markov Chain Monte Carlo method. The sample spans -3.4 to 0.2 dex in [Fe/H]. We found tight relations between the Fourier parameter $φ_{31}$ in each optical and Gaia band and its V-band value for RRab stars (scatter below 0.06). The near-infrared amplitude ratios with respect to V or G increase continuously with period, without the break reported in globular clusters. We provide a homogeneous calibration of the colour at minimum light across all filter combinations from U-B to H-Ks, revealing significant period and metallicity dependences, and we use it to derive reddening estimates for 15 stars outside current 3D extinction maps.",
+      "authors": [
+        "M. Sánchez-Benavente",
+        "M. Monelli",
+        "M. Dall'Ora",
+        "V. F. Braga",
+        "J. P. Mullen",
+        "M. Marengo",
+        "N. Matsunaga",
+        "G. Bono",
+        "G. Fiorentino",
+        "C. Gallart",
+        "M. Marconi",
+        "I. Plaks",
+        "A. Capodagli",
+        "G. Ceci",
+        "C. E. Martínez-Vázquez",
+        "M. Tantalo"
+      ],
+      "url": "https://arxiv.org/abs/2611.33269v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-24",
       "score": 6,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
@@ -331,6 +474,91 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.34747v1",
+      "title": "phenjax: the IMRPhenomT waveform family in JAX for accelerated analyses on CPUs and GPUs",
+      "abstract": "We present phenjax, a JAX implementation of the precessing time-domain IMRPhenomT family of models for the gravitational wave signal emitted in compact binary coalescence. The code keeps the structure of its reference Python implementation, phenomxpy, and reproduces, on average, its polarizations to a few $\\times 10^{-12}$ of the peak strain for all the models, aligned-spin and precessing. The waveform models now take advantage of the JAX construction: compiled once per array shape, vectorized over events (batching), differentiable and executed on CPUs or GPUs with the same source code. Different additional features address the cost of long signals and of heterogeneous populations in a batch. On one NVIDIA H100, for the precessing TPHM model on LISA-mass populations, phenjax is 3 to 6 times faster than phenomxpy when both codes evaluate one event at a time and 20 to 30 times faster when phenjax evaluates the events in batches of 8. We estimate that, for waveform generation, one GPU does the work of 1300 to 2700 cores of a current CPU node at 25 to 45 times less energy per waveform. As a backend of a global-fit LISA massive black hole pipeline, performed on the Sangria dataset, phenjax recovers the same posteriors as the other waveform backends at a lower computational cost. In a comparison with phentax, the wall time was 13 minutes instead of 21.",
+      "authors": [
+        "Andrea Begnoni"
+      ],
+      "url": "https://arxiv.org/abs/2611.34747v1",
+      "category": "astro-ph.IM",
+      "published": "2026-11-25",
+      "score": 6,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.34720v1",
+      "title": "NASA's Pandora SmallSat Mission: Gaussian Processes for Simulated Stellar Heterogeneity Corrections under Imperfect Stellar Models",
+      "abstract": "Stellar contamination is the primary bottleneck limiting robust atmospheric characterization of exoplanets orbiting active K- and M-dwarfs with James Webb Space Telescope (JWST) transmission spectroscopy. Launched in January 2026, NASA's Pandora SmallSat mission addresses this challenge through long-term, simultaneous visible photometry and near-infrared spectroscopy of planet-hosting stars, providing the data to disentangle planetary and stellar signals. However, conventional stellar-contamination corrections rely on stellar atmosphere models, making them vulnerable to model inaccuracies that can impede accurate inferences. Here, we investigate how Pandora data can be used to mitigate stellar contamination without an accurate host star model. We present a Gaussian-process-aided stellar retrieval framework that learns wavelength-dependent deviations from current stellar model grids. We propagate stellar contamination factors directly from the stellar retrieval into the planetary atmospheric retrievals, allowing the atmospheric inference to marginalize over stellar-contamination uncertainty without relying on a biased stellar model. Tests using simulated Pandora observations with realistic stellar model mismatch show that this framework consistently improves the recovery of disk-integrated stellar spectra. For a WASP-69 b-like system, this approach can reduce model-driven biases in inferred atmospheric properties, though degeneracies among stellar and atmospheric parameters can leave residual biases. This flexible, data-driven framework is a promising approach toward accurate stellar-contamination corrections and more robust atmospheric inference even when host-star model grids are inaccurate.",
+      "authors": [
+        "Zoe Ko",
+        "Peter McGill",
+        "Benjamin V. Rackham",
+        "Dániel Apai",
+        "Aishwarya R. Iyer",
+        "Jason F. Rowe",
+        "Luis Welbanks",
+        "Suman Saha",
+        "Yoav Rotman",
+        "Elisa V. Quintana",
+        "Jessie L. Dotson",
+        "Knicole D. Colón",
+        "Thomas Barclay",
+        "Christina Hedges",
+        "Emily A. Gilbert",
+        "Néstor Espinoza",
+        "Trevor O. Foote",
+        "Rae Holcomb",
+        "Benjamin J. Hord",
+        "Brett M. Morris",
+        "Joe P. Renaud"
+      ],
+      "url": "https://arxiv.org/abs/2611.34720v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-25",
+      "score": 5,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.34404v1",
+      "title": "A Chandra X-Ray Survey of the Middle-aged Supernova Remnant G22.7-0.2 Interacting with Molecular Clouds",
+      "abstract": "G22.7$-$0.2 is a middle-aged supernova remnant (SNR; $τ\\sim 3\\times10^4$ yr) interacting with the nearby giant molecular cloud GMC 23.3$-$0.4. A handful of X-ray sources have been identified within the SNR radio shell by previous XMM-Newton and NuSTAR observations. In particular, three of those X-ray sources (N1, N2, and N3) have been detected above 10 keV, indicating that they are either X-ray point sources, or molecular cloud clumps heated by SNR blast waves. In the latter case, non-thermal bremsstrahlung or synchrotron radiation from shock-heated molecular clouds may appear as extended X-ray sources. We conducted an X-ray survey of the SNR-cloud interaction region with Chandra and detected 23 X-ray sources with $> 5σ$ significance using wavdetect, 20 of which were previously uncataloged. The sub-arcsecond angular resolution of Chandra allowed us to spatially resolve these X-ray sources. After accounting for point spread function (PSF) smearing and dust scattering effects, we determine that two NuSTAR hard X-ray sources (N1 and N2) are extended, whereas the other Chandra sources are point sources. While N1 may be a compact filament or a synchrotron-emitting clump with $r\\sim0.018$ pc, our analysis suggests that N2 is likely a compact cloud clump shock-heated by the SNR and emitting non-thermal bremsstrahlung or synchrotron X-rays, with $r\\sim0.052$ pc and $M\\approx0.6$ $M_\\odot$ under the non-thermal bremsstrahlung model.",
+      "authors": [
+        "Harry Van Der Ark",
+        "Kaya Mori",
+        "Charles J. Hailey"
+      ],
+      "url": "https://arxiv.org/abs/2611.34404v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-25",
+      "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.33319v1",
+      "title": "A Tale of Two Type IIb Supernovae: Radio-loud and Radio-silent Candidate Counterparts to Sub-solar Mass Gravitational-wave Triggers",
+      "abstract": "On 2025 November 12, the LIGO-Virgo-KAGRA collaboration reported S251112cm, a gravitational-wave (GW) candidate from a compact binary merger with at least one sub-solar-mass component. Optical follow-up identified SN 2025adtq, a Type IIb supernova (SN) within the localization volume that exploded a few days before the merger. SN 2025adtq is the second Type IIb SN found to be potentially coincident with a sub-solar-mass GW candidate, after SN 2025ulz (S250818k). A key question is whether such SNe harbor fast, possibly collimated ejecta from a central engine, as invoked in ``superkilonova'' scenarios for forming sub-solar-mass neutron stars. We present deep Karl G. Jansky Very Large Array observations of SN 2025adtq from the JAGWAR program, spanning 139-216 days after the GW trigger at 6-10 GHz. The radio properties of SN 2025adtq differ substantially from those of SN 2025ulz: whereas SN 2025ulz has a significant 6-10 GHz counterpart, SN 2025adtq remains undetected to 3sigma limits of ~7.8 uJy, implying a radio luminosity density one order of magnitude below that of SN 2025ulz at a comparable epoch, excluding jet models that remained viable for SN 2025ulz. This diversity in radio properties calls for systematic multi-wavelength follow up observations of candidate sub-solar events in future runs of the LIGO-Virgo-KAGRA detectors.",
+      "authors": [
+        "Tanner O'Dwyer",
+        "Alessandra Corsi",
+        "Raphael Baer-Way",
+        "Mansi M. Kasliwal",
+        "Poonam Chandra",
+        "David L. Kaplan",
+        "Kunal P. Mooley",
+        "Deepika Yadav"
+      ],
+      "url": "https://arxiv.org/abs/2611.33319v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-24",
+      "score": 5,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
       "arxiv_id": "2611.32671v1",
       "title": "Cosmic ray protons from 40 GeV to 10 EeV due to star formation?",
       "abstract": "The formation of massive stars eventually results in supernovae explosions. Typical supernova remnants (SNRs) accelerate cosmic ray (CR) protons up to $E_{max-p} \\sim 10$ TeV; the value of $E_{max-p}$ may reach $\\sim 1$ EeV for the case of the hypernovae and/or for a sub-relativistic velocity of the SNR's shock wave. We show that the observable CR proton spectrum in the energy range between 40 GeV and 10 EeV is reasonably well described with a sum of three components that correspond to three distinct SNR populations. We consider two basic scenarios of CR origin: I) the supergalactic scenario assuming diffusion of the protons inside a magnetic field structure with the characteristic radius $H = 1-20$ Mpc and II. the cosmological scenario with the maximum redshift of the sources $z_{max} = 6$.",
@@ -361,6 +589,68 @@
       "score": 5,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.34790v1",
+      "title": "A Bayesian Approach to Prioritizing the Follow-Up of Near-Earth Objects",
+      "abstract": "We present pneo, a Bayesian classifier that computes the probability that a single-night tracklet belongs to a near-Earth object (NEO), using only its sky position, angular motion, and apparent magnitude. A tracklet does not determine the object's distance or radial velocity, so pneo integrates a model of the Solar System's small-body populations over all bound orbits consistent with it. The result is the exact posterior probability under that model, with no tuned scores or separately chosen priors: its classifications are optimal for the adopted model, and its probabilities are calibrated. On real discovery tracklets from the NEO Confirmation Page, the classifier is well calibrated and its selection is 1.14 times purer than that of digest2, the classifier now in use, at the same completeness. The advantage grows at Rubin's depth, where the faint background of main-belt and more distant objects is still largely undiscovered. On simulated tracklets to that depth, its selection is 2 times purer than that of digest2 (96% against 48%). On the Rubin alert stream and Rubin Data Preview 2 its selection is 1.4-1.7 times purer than that of digest2, and its predicted NEO counts are close to those observed. By raising the fraction of follow-up targets that are NEOs, pneo could potentially double the effective capacity of NEO follow-up in the Rubin era.",
+      "authors": [
+        "Devanshi Singh",
+        "Mario Jurić",
+        "Željko Ivezić"
+      ],
+      "url": "https://arxiv.org/abs/2611.34790v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-25",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.34437v1",
+      "title": "Graph Parameterization for Invariant Manifolds Attached to Quasi-Periodic Tori",
+      "abstract": "We develop a high-order Fourier-Taylor graph-parameterization method for computing local invariant manifolds attached to reducible quasi-periodic invariant tori of discrete dynamical systems, with particular emphasis on Poincaré maps. Assuming that the invariant torus and its Floquet reduction are known, we represent the manifold as a graph over a selected spectral subspace and compute its coefficients recursively through jet transport and cohomological equations on the torus. The formulation accommodates stable, unstable, and center spectral selections. For center manifolds, it simultaneously determines the nonlinear reduced dynamics, providing a low-dimensional representation from which nearby invariant objects can be lifted to the original phase space. For real systems with complex-conjugate Floquet multipliers, we derive an equivalent real formulation based on Hermitian symmetry and Krawtchouk transformations. This allows real-valued jet transport while retaining the advantages of complex spectral coordinates in the cohomological solver. The implementation also incorporates inverse dynamics for stable directions, multiple shooting, coordinate scaling, and a posteriori validation tests. Numerical experiments with a quasi-periodically forced pendulum, an oscillating solar sail in the Earth-Moon system, and a simplified solar system model illustrate the construction and its computational properties. In the solar-sail benchmark, the real formulation reduces computation time by approximately a factor of 2.2 compared with the complex implementation.",
+      "authors": [
+        "Miquel Barcelona",
+        "Joan Gimeno",
+        "Marc Jorba-Cuscó"
+      ],
+      "url": "https://arxiv.org/abs/2611.34437v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-25",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
+      "arxiv_id": "2611.33404v1",
+      "title": "Planetary biotechnospheres, biotechnosignatures and the search for extraterrestrial intelligence",
+      "abstract": "The concept of planetary intelligence as collective intelligence is used to consider possible evolutionary paths of biotechnospheres that emerge on the intersection of the technosphere with the biosphere and support coupling of the technosphere with the biosphere, thus affecting planetary evolution. In mature biotechnospheres, the intelligence of technologies and the intelligence of life forms, including engineered life forms, could act in concert to perform various tasks (e.g. monitoring and restoring planetary environments and biodiversity; supporting space missions; terraforming cosmic objects). Space exploration can expand biotechnospheres beyond planets and create cosmic ecosystems. Humankind, other civilizations or their intelligent machines may produce biotechnosignatures (i.e. observables and artefacts of biotechnospheres) in the Solar System and beyond. I propose ten possible biotechnosignatures and strategies for the search for these biotechnosignatures in situ and over interstellar distances. For example, if a non-human advanced civilization existed and built biotechnospheres on Earth in the past, the descendants of its engineered bacteria could currently exist on Earth and have properties pertaining to the functions of the ancient bacteria in the biotechnospheres; intelligent technologies created by the ancient civilization could migrate to the Solar System's outer regions; these two scenarios are described as the Cosmic Descendants hypothesis. Interstellar asteroids, free-floating planets, spacecraft and objects gravitationally bound to flyby stars might carry extraterrestrial biotechnospheres and pass through the Solar System. In connection to the fate of post-main-sequence stars and their Oort clouds, the probability for interstellar asteroids to carry biotechnospheres or to be interstellar spacecraft is estimated as very low.",
+      "authors": [
+        "Irina K. Romanovskaya"
+      ],
+      "url": "https://arxiv.org/abs/2611.33404v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-24",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.33214v1",
+      "title": "OSIRIS-REx Lessons Learned Report: Insights from the Journey to Bennu and Back",
+      "abstract": "OSIRIS-REx, NASA's third New Frontiers mission, was the first U.S. mission to return a sample from an asteroid. Proposed in 2010 for an \\$811 million lifecycle cost, the mission was completed for \\$828 million, returned more than \\$52 million of Headquarters reserves unused, and delivered at least 121.6 g of pristine material from near-Earth asteroid (101955) Bennu in September 2023, more than twice the Level-1 requirement. It did so despite a surface far more rugged than predicted, the discovery of particle ejection, sampling in a regolith much weaker than expected, operations during the COVID-19 pandemic, and an off-nominal parachute sequence on Earth return. This report sets out the lessons learned by the mission's leadership across six areas: leadership and governance; cost, schedule and risk management; systems engineering; mission operations; sample return, curation and analysis; and data archiving. Recurring themes are that a PI-led structure integrating science, engineering and project management gives the discipline to make fast, informed decisions; that reserves and schedule margin spent early to retire risk, such as funding Natural Feature Tracking as a backup navigation system, buy the flexibility to absorb discovery; that heritage hardware reduces risk only when its verification and engineering knowledge are preserved; and that contamination knowledge, sample science and data stewardship are mission-long responsibilities, not post-flight tasks. Each section pairs background with specific recommendations for future sample-return and small-body missions.",
+      "authors": [
+        "Dante S. Lauretta",
+        "Heather L. Enos",
+        "C. W. V. Wolner"
+      ],
+      "url": "https://arxiv.org/abs/2611.33214v1",
+      "category": "astro-ph.EP",
+      "published": "2026-11-23",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2611.30136v1",
@@ -444,6 +734,50 @@
       "instrument": "MK67 (future spec.)"
     },
     {
+      "arxiv_id": "2611.34450v1",
+      "title": "Investigating the Neupert Effect with HEL1OS/Aditya-L1",
+      "abstract": "We investigate the Neupert effect in solar flares using broadband hard X-ray observations from the HEL1OS instrument onboard Aditya-L1. By separating thermal and non-thermal components from HEL1OS spectrograms, we analyse a sample of 312 flares observed between November 2023 and May 2026. We find that the soft X-ray flux is strongly correlated with the time-integrated hard X-ray emission, with a median correlation coefficient of 0.984, indicating that Neupert-like behaviour is nearly ubiquitous in flares with detectable non-thermal emission. Extending beyond statistical correlation, we develop an empirical forward model in which the thermal lightcurve is reconstructed from the non-thermal emission by resolving the hard X-ray lightcurve into individual energy-release episodes and convolving their fitted profiles with finite thermal-response functions. This approach successfully reproduces the observed thermal evolution, including flares that exhibit quasi-periodic pulsations (QPPs). Our results demonstrate that the broadband HEL1OS observations sample both thermal-dominated and non-thermal-dominated flare emission within a single instrument, providing an observation-driven link between the temporal structure of non-thermal HXR emission and the thermal X-ray response. This provides a different framework for interpreting flare energetics and temporal evolution using broadband hard X-ray measurements.",
+      "authors": [
+        "Srikar Paavan Tadepalli",
+        "Abhishekh Kumar Srivastava",
+        "K. Sankarasubramanian",
+        "Manju Sudhakar",
+        "Anand Jain",
+        "Brajpal Singh",
+        "Reenu Palawat",
+        "Ravishankar B. T.",
+        "Anuj Nandi"
+      ],
+      "url": "https://arxiv.org/abs/2611.34450v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-25",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.33658v1",
+      "title": "Binary mass transfer fossil in the ancient GD-1 stellar stream",
+      "abstract": "We report the discovery of J0930+2902, the first carbon-enhanced metal-poor star with s-process enrichment (CEMP-s) identified in the GD-1 stellar stream, which is widely believed to originate from the tidal disruption of an old, metal-poor globular cluster. Using high-resolution Subaru/HDS spectroscopy, we present a comprehensive chemical abundance analysis of this star. Stellar atmospheric parameters were re-derived using Gaia photometry and parallaxes, combined with an iterative non-local thermodynamic equilibrium (NLTE) analysis of Fe lines. We determine abundances for 22 elements, including NLTE analyses of C, Na, Mg, Ca, Ti, Cr, Mn, Co, Sr, Y, Zr, Ba, and Eu. J0930+2902 exhibits pronounced enhancements of C, N, Na, and s-process elements, together with a low $^{12}$C/$^{13}$C ratio of 7.4, consistent with enrichment through binary mass transfer from a former asymptotic giant branch (AGB) companion. Large radial-velocity variations and a significant near-ultraviolet excess independently indicate the presence of a white dwarf companion, providing strong support for this scenario. Comparisons with FRUITY AGB nucleosynthesis models show that the residual neutron-capture abundance pattern is best reproduced by a low-mass AGB companion with an initial mass of approximately 3.0 $M_{\\odot}$. Its enhancements of C, N, Na, and s-process elements make it chemically distinct from the other confirmed GD-1 members. These results identify J0930+2902 as a fossil record of binary mass transfer preserved in the ancient GD-1 stellar stream, demonstrating that binary interaction can leave long-lived chemical signatures in accreted stellar populations.",
+      "authors": [
+        "Guochao Yang",
+        "Sofya Alexeeva",
+        "Jingkun Zhao",
+        "Wako Aoki",
+        "Tatyana Sitnova",
+        "Xianhao Ye",
+        "Nian Liu",
+        "Qianfan Xing",
+        "Gang Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2611.33658v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-25",
+      "score": 4,
+      "tier": 2,
+      "instrument": "MK67 (future spec.)"
+    },
+    {
       "arxiv_id": "2611.32117v1",
       "title": "Nonlinear models of Mira variables with long secondary periods",
       "abstract": "Calculations of nonlinear radial oscillations in asymptotic giant branch stars with an initial mass of $M_\\mathrm{ZAMS}=1.6M_\\odot$ were performed for initial helium and metal abundances of $Y=0.28$ and $Z=0.006$, respectively. Several models from the evolutionary sequence after the 4th thermal pulse were used as initial conditions for the hydrodynamic equations describing stellar pulsations with long secondary periods. Using the discrete Fourier transform of the hydrodynamic solutions we show that long secondary periods appear in Mira variables pulsating simultaneously in the fundamental mode and first overtone with non-multiple periods. The relative deviation from multiplicity is $δ_\\mathrmΠ\\le 1.2\\times 10^{-2}$ and is responsible for mode splitting into equally spaced frequency components, each of which is a standing wave with a free outer boundary. The cycle length of long secondary periods is nearly 20 times that of the fundamental mode. Long secondary periodicity is a nonlinear effect that arises after reaching the limiting amplitude and develops over several hundred fundamental mode periods.",
@@ -486,53 +820,52 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.29291v1",
-      "title": "Asteroseismic investigation of intermediate age open star cluster NGC 2126",
-      "abstract": "We present a preliminary asteroseismic investigation of the pulsating stars in the intermediate-age open cluster NGC 2126. The TESS Full Frame Images and ground-based photometry from the previous study, Dileep et al. (2025), were used to identify the pulsation modes of δ Scuti member stars using period-luminosity relations and pulsation modelling. Our analysis resulted in a tentative identification up to the first radial overtone in stars N1, N2 and ZV1. Additionally, the second radial overtone was secured in N1. The disentangled pulsation and eclipse light curves of the binary star V551 Aur (V6) from our previous research were employed to study pulsation amplitude and phase modulations across the orbital period. The primary component of V6 exhibits pulsations showing amplitude and phase modulations, indicating tidal influence on the oscillations. Modelling the pulsation as the fundamental radial mode reveals that in order for the mode to be radial, the star must be significantly brighter than observed. Hence, the mode is not the fundamental radial mode or the overtones. Low-resolution spectroscopy was used to search for chemical peculiarities in the pulsating members, and we found that star ID 143 has features similar to an Am star.",
+      "arxiv_id": "2611.33858v1",
+      "title": "Constraining the Inner Accretion Geometry of GX 9+9 with Broadband Spectral and Timing Studies",
+      "abstract": "We present a broadband spectral and timing study of the bright atoll neutron star low-mass X-ray binary GX~9+9, using simultaneous NICER, NuSTAR, and MAXI observations from 2019 and 2022. The broadband spectra are well described by a combination of multicolor disk emission, thermal Comptonization of blackbody seed photons from the neutron star surface or boundary layer, and associated disk reflection. We report a clear detection of reflection features in this source, including a moderately broad Fe K$α$ complex and a reflection hump, confirming an earlier detection from a different observation. These features likely arise from the illumination of the moderately ionized disk by thermally Comptonized emission from the boundary layer or warm corona. While the source remained in the soft spectral state during both observations, the 2022 observation exhibits a relatively larger thermal contribution, together with a steeper Comptonized component and lower coronal optical depth. Both reflection and disk-continuum modeling favor a truncated disk, with the latter indicating a smaller inner disk radius in 2022. The inferred radial extent of the boundary layer of $\\sim8~r_{\\rm g}$ may play a role in the observed disk truncation. Assuming that the disk is truncated at the magnetospheric radius, we obtain an upper limit on the magnetic field strength of $\\lesssim3\\times10^{10}$ G. Timing analysis reveals a relatively stable disk component and a highly variable Comptonized component, consistent with the typical characteristics of the soft state.",
       "authors": [
-        "Athul Dileep",
-        "Santosh Joshi",
-        "Patricia Lampens",
-        "Chenglong Lv",
-        "David Mkrtichian",
-        "Peter De Cat",
-        "Abhay Pratap Yadav",
-        "Arjun Dawn",
-        "Ali Esamdin"
+        "Swadesh Chand",
+        "Srimanta Banerjee",
+        "Hsiang-Kuang Chang",
+        "Andrzej A. Zdziarski",
+        "Gulab C. Dewangan",
+        "Vivek K. Agrawal"
       ],
-      "url": "https://arxiv.org/abs/2611.29291v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-22",
+      "url": "https://arxiv.org/abs/2611.33858v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-25",
       "score": 4,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.29267v1",
-      "title": "Insights on Three Distinct Types of Energetic Particle Flux Variations Ahead of ICME-driven Shocks Observed by ASPEX on board Aditya-L1",
-      "abstract": "We investigate upstream energetic-ion transport associated with ten interplanetary coronal mass ejection (ICME)-driven shocks observed near 1 au using multidirectional measurements from the Suprathermal and Energetic Particle Spectrometer (STEPS) onboard Aditya-L1. Based on energy-dependent intensity profiles and onset times, the events are classified as dispersed, dispersionless, or mixed. We combine pitch-angle anisotropy, minimum variance analysis, reduced magnetic helicity, two-dimensional Grad-Shafranov reconstruction, quasi-linear transport diagnostics, shock parameters, and energetic-ion spectral fits to characterize each category. The seven dispersed events exhibit energy-dependent arrivals, generally intermittent magnetic-helicity signatures, and larger parallel mean free paths, consistent with less restricted particle propagation. In contrast, the two dispersionless events show nearly simultaneous enhancements across energy channels, extended intervals of enhanced reduced magnetic helicity, and closed magnetic flux contours in Grad-Shafranov reconstructions. They also exhibit shorter parallel mean free paths, higher pitch-angle diffusion coefficients, and comparatively strong shocks. The mixed event transitions from dispersed arrivals to nearly simultaneous enhancements as the shock approaches, accompanied by evolving anisotropy and distinct scattering properties. Spectral indices range from approximately -2.38 to -0.86 for dispersed events and from -0.82 to -0.26 for dispersionless and mixed events, indicating harder spectra in the latter groups. These results reveal systematic associations between energetic-ion transport, magnetic structure, shock conditions, and spectral hardness, suggesting that shock-associated energization and energy-dependent transport jointly shape the observed signatures, while magnetic topology may regulate particle propagation and confinement.",
+      "arxiv_id": "2611.33815v1",
+      "title": "Collisional dynamics of neutrino flavor conversion: angular structures, inhomogeneity, and decoherence",
+      "abstract": "Self-interacting neutrino gases exhibit collective behavior, in which additional incoherent collisions can induce collisional neutrino-flavor instability. We investigate the effects of energy dependence, anisotropy, and spatial inhomogeneity on the resulting flavor conversion through linear stability analysis and nonlinear quantum kinetic simulations. We find contrasting wavenumber dependences for the near/gapless and far/gapped branches, with maximum growth rates at collision-scale shifted wavenumbers and at collective-scale wavenumbers, respectively. Their eigenvectors reveal distinct energy and angular structures, which are reflected in the subsequent establishment of flavor swap and equipartition. The nonlinear evolution also features secondary flavor growth associated with changes in the stability of collective modes as the neutrino background evolves. Despite the spreading of flavor coherence across spatial scales due to nonlinear mode coupling, collisional decoherence tends to limit the development of spatial inhomogeneities, leaving the neutrino populations nearly homogeneous. These findings represent a step towards understanding and predicting the nonlinear flavor evolution of dense neutrino gases interacting with their surroundings, particularly in explosive astrophysical environments.",
       "authors": [
-        "Aakash Gupta",
-        "Dibyendu Chakrabarty",
-        " Yogesh",
-        "Anshu Kumari",
-        "Shivam Parashar",
-        "Jacob Sebastian",
-        "Amrit S. Mishra",
-        "Bijoy Dalal",
-        "Santosh Vadawale",
-        "Shiv Kumar Goyal",
-        "M. Shanmugam",
-        "Anil Bhardwaj",
-        "Vipin K. Yadav",
-        "Srikar P. Tadepalli"
+        "Masamichi Zaizen"
       ],
-      "url": "https://arxiv.org/abs/2611.29267v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-22",
+      "url": "https://arxiv.org/abs/2611.33815v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-25",
       "score": 4,
       "tier": 2,
-      "instrument": "MK67 (future spec.)"
+      "instrument": "RC400"
+    },
+    {
+      "arxiv_id": "2611.33435v1",
+      "title": "A Variability Metric Pipeline for AGN studies",
+      "abstract": "Variability in active galactic nuclei (AGNs) is remarkably diverse, spanning multiple timescales, wavelengths, and physical processes. Variability probes accretion physics and the interplay between supermassive black holes and their surroundings. Building on early case studies, the field has shifted toward population-level analyses of increasingly large datasets, making scalable techniques crucial for upcoming time-domain surveys. We developed a Python-based pipeline to analyze AGN light curves using variability metrics and applied it to 14,061 nearby AGNs ($z\\lesssim 0.09$) observed with ZTF. We examined metric distributions and correlations. Amplitude-based metrics (e.g., $F_{\\rm var}$) help identify major flares but are sensitive to single deviant epochs. Temporal metrics such as $η$ provide a complementary check. Comparison with WISE infrared photometry suggests that $η$ traces the strength of AGN activity. Most Type~I and Type~II AGNs in our sample exhibit similar variability patterns based on these metrics. This overlap may partly reflect misclassifications that targeted spectroscopic follow-up could help resolve. To identify subsets of AGNs with distinctive variability, we used UMAP to group sources with similar metric values. The resulting embedding shows a region enriched in high-amplitude variables, including a subset with long-term flux trends. We find evidence that extremely variable quasars and changing-look AGNs may populate this region, which can help prioritize sources for follow-up. Our pipeline offers a scalable, survey-agnostic framework suitable for application to Vera C. Rubin Observatory's LSST and other ongoing and upcoming photometric surveys.",
+      "authors": [
+        "Diego Martínez Collipal",
+        "Swayamtrupta Panda"
+      ],
+      "url": "https://arxiv.org/abs/2611.33435v1",
+      "category": "astro-ph.HE",
+      "published": "2026-11-24",
+      "score": 4,
+      "tier": 2,
+      "instrument": "RC400"
     },
     {
       "arxiv_id": "2611.32629v1",
@@ -569,32 +902,35 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.29668v1",
-      "title": "Reliability of Fermi/GBM spectral-catalogue parameters for gamma-ray burst population studies",
-      "abstract": "The Fermi Gamma-ray Burst Monitor (GBM) spectral catalogue contains measurements affected by model uncertainties, different peak-flux (PFLX) integration times, and changes in catalogue processing. We examine which quantities describe spectral shape and which reflect brightness or measurement conditions. We analysed 3337 of 3378 GRBs with spectral-fit data and identified a catalogue transition at GRB180712358. We compared the two periods using rank-based tests, regressions, and catalogue model-selection rules, and assessed duration classification by repeated cross-validation. PFLX measurements at 64 and nominal 1024 ms were analysed separately; short-long comparisons used fluence (FLNC) measurements only. The transition coincides with changes in catalogue version, fit statistic, and fit fields. In the nominal 1024 ms sample, all ten COMP A-B rank-biserial effects have absolute values below 0.10. In the 64 ms sample, COMP shape parameters are similar, but amplitudes, fluxes, and fluences are higher in the later period. The origin of this difference is unknown. In the earlier period, brighter bursts have smaller parameter errors but larger reported fit statistics and stronger evidence for spectral curvature. The FLNC PLAW index measures broad-band hardness. BAND alpha and Epeak can describe spectral shape when their errors are controlled, but beta is often poorly constrained. Adding PLAW or BAND to COMP provides little additional duration-classification information in matched samples. We interpret the A-B division mainly as a catalogue-processing transition, not population evolution. Fit statistics, errors, metadata, and model labels describe measurement conditions and should not be treated as independent physical variables. Correlated model parameters should not be treated as independent.",
+      "arxiv_id": "2611.34642v1",
+      "title": "Determining the Spin-down of the White Dwarf in J191213.72-441045.1 using Optical Time-Series Photometry",
+      "abstract": "J191213.72-441045.1 (J1912-4410) is the second white dwarf pulsar to be discovered. These binary systems consist of a white dwarf primary with a cool companion and undergo pulsed emission from radio to X-ray wavelengths. The prototype of the class, AR Scorpii (AR Sco), exhibits a lack of accretion, which led to suggestions that the spin-down of the white dwarf is powering the system's non-thermal emission. However, J1912-4410 displays possible signatures of accretion, which allows for the possibility that its emission may operate via a different mechanism to AR Sco. To investigate this, we determined the first estimate for the spin period derivative of J1912-4410 from optical photometric data. This was carried out using ULTRACAM observations in multiple bandpasses spanning the last four years. Our estimate for the spin period derivative of 4.13(8)e-12 s/s is consistent across the u, g and r bandpasses of ULTRACAM. The corresponding spin-down power of 9^{+6}_{-5}e25 W is approximately equal to previous estimates for the system's bolometric luminosity. This suggests that the non-thermal emission of J1912-4410 is not solely powered by its spin-down, as near-perfect efficiency would be required. Additionally, our spin period derivative indicates that J1912-4410 is unlikely to be consistent with the synchronar model proposed to explain the emission of AR Sco, given previous upper limits for the white dwarf's magnetic field. Our findings imply that J1912-4410 has a distinct emission mechanism compared to AR Sco, which, if true, means that white dwarf pulsars are a heterogeneous class of binary systems.",
       "authors": [
-        "Istvan Horvath"
+        "Callum J. Hodge",
+        "Ingrid Pelisoli",
+        "A. J. Brown",
+        "N. Castro Segura",
+        "V. S. Dhillon",
+        "M. J. Dyer",
+        "J. A. Garbutt",
+        "M. J. Green",
+        "D. Jarvis",
+        "M. R. Kennedy",
+        "P. Kerry",
+        "S. P. Littlefair",
+        "J. McCormac",
+        "J. Munday",
+        "S. G. Parsons",
+        "E. Pike",
+        "D. I. Sahman",
+        "A. Yates",
+        "T. Zivave"
       ],
-      "url": "https://arxiv.org/abs/2611.29668v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-22",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.29183v1",
-      "title": "Sound of Keplerian binaries in a homogeneous Newtonian fluid background",
-      "abstract": "We formulate the dissipation due to sound-wave emission from a Keplerian binary embedded in a homogeneous Newtonian fluid background at rest in the binary center-of-mass frame within linear perturbation theory. Rather than starting from the local wake force, we treat the binary as a localized periodic mass source and compute the sound-wave fluxes carried away by the medium. The time-averaged energy, linear-momentum, and angular-momentum fluxes are obtained from Noether currents of the fluid perturbations. For a classical inviscid barotropic Newtonian fluid, retaining the self-gravity of density perturbations while adopting the Jeans prescription, we derive explicit flux formulas for circular and eccentric binaries with arbitrary mass ratio. This formulation also clarifies the ultraviolet behavior of point sources: in a nondispersive fluid, the harmonic sum becomes cutoff-sensitive precisely when at least one component becomes supersonic. We examine explicitly how finite source size removes this divergence using a uniform-sphere model and relate the resulting regularization to a corresponding effective harmonic cutoff. The associated secular eccentricity evolution exhibits circularization in the subsonic regime when the fluid self-gravity is sufficiently weak but can change sign outside this regime, with eccentricity growth in the strictly supersonic UV limit. For a Schrödinger-Poisson quantum fluid, quantum pressure instead softens the high-frequency contribution and renders the point-source fluxes UV finite within the nonrelativistic regime; our numerical results further indicate eccentricity growth due to sound radiation over the parameter space explored. Finally, we translate orbital-decay measurements of two binary pulsars into order-of-magnitude bounds on the homogeneous quantum-fluid density surrounding each system.",
-      "authors": [
-        "Yan Cao",
-        "Mu-Chun Chen"
-      ],
-      "url": "https://arxiv.org/abs/2611.29183v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-22",
-      "score": 4,
-      "tier": 2,
+      "url": "https://arxiv.org/abs/2611.34642v1",
+      "category": "astro-ph.SR",
+      "published": "2026-11-25",
+      "score": 3,
+      "tier": 3,
       "instrument": "RC400"
     },
     {
