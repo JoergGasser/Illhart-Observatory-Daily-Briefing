@@ -1,8 +1,8 @@
 {
-  "generated_utc": "2026-11-26T16:38:58Z",
-  "date": "2026-11-26",
-  "total_fetched": 192,
-  "relevant_count": 45,
+  "generated_utc": "2026-11-27T16:24:49Z",
+  "date": "2026-11-27",
+  "total_fetched": 117,
+  "relevant_count": 33,
   "min_score": 3,
   "articles": [
     {
@@ -26,20 +26,6 @@
       "instrument": "MK67 (future spec.)"
     },
     {
-      "arxiv_id": "2611.31123v1",
-      "title": "Selection-aware inference of supernova kicks",
-      "abstract": "Observed compact objects (isolated or in binaries) used to infer natal kicks are selected by class membership, which depends on disruption, subsequent evolution, and discovery. Ignoring this selection can bias the inferred kicks. To demonstrate this bias in a comprehensive inference framework, we construct a differentiable model for key components of binary evolution, including correlated remnant-mass and kick prescriptions as well as survival probabilities. As initial conditions prior to the first SN, we use a fiducial COSMIC analysis. Using conventional statistical methods to assess bias due to omitted selection factors in a likelihood, we demonstrate this bias concretely. Reliable natal inference requires a forward prediction for both the observed properties and the probability of observing them. Our framework provides a novel method to enable robust neutron star population inference combining heterogeneous observations of multiple NS-pertinent observations.",
-      "authors": [
-        "R. O'Shaughnessy"
-      ],
-      "url": "https://arxiv.org/abs/2611.31123v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-23",
-      "score": 12,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2611.33657v1",
       "title": "Time-resolved Polarimetry of the Type Ibn Supernova 2025kzr Suggests a Possible Ejecta-CSM Misalignment",
       "abstract": "Type Ibn supernovae (SNe) are rare interacting transients. The dense, helium-rich circumstellar material (CSM) surrounding these events provides insight into the final stages of massive-star evolution. The geometries of the ejecta and CSM provide complementary constraints on the explosion and pre-SN mass loss, yet their temporal evolution has remained largely unexplored by spectropolarimetry. Here we present the first spectropolarimetric time series spanning the interaction-to-ejecta transition of the Type Ibn SN\\,2025kzr. Three epochs of Very Large Telescope observations, combined with two epochs of published $V$-band imaging polarimetry, span 5--34 days after explosion. Continuum polarization is low at the earliest epoch, then rises to $\\sim$0.6\\% by day\\,11 as the SN ejecta sweep up the dense CSM. This rise, together with a rotating polarization position angle, indicates a significant change in the geometry of the emitting region. The polarization subsequently falls below our detection limit as the photosphere recedes into the ejecta. Radiation-hydrodynamic and Monte Carlo polarization models illustrate that this evolution can be reproduced by an oblate CSM and prolate ejecta, with the symmetry axis of the cold dense shell tilted relative to that of the CSM. Binary mass transfer can produce an equatorially enhanced CSM, although the polarization data alone cannot identify the progenitor's formation channel. Similar polarization signatures in other supernovae suggest that misaligned ejecta and CSM may be common, making time-resolved spectropolarimetry a powerful probe of the link between pre-explosion mass loss and explosion geometry.",
@@ -59,35 +45,6 @@
       "category": "astro-ph.HE",
       "published": "2026-11-25",
       "score": 12,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.31213v1",
-      "title": "VLT, Keck, and Gemini characterization of the temporarily captured flyby 2026 QQ$_8$",
-      "abstract": "Very Large Telescope, Keck I, and Gemini North photometry of 2026 QQ$_8$ on November 7-21 gives Sloan Digital Sky Survey-equivalent colors $g-r=0.594^{+0.056}_{-0.053}$, $g-i=0.840^{+0.066}_{-0.065}$, and $i-z=-0.104^{+0.067}_{-0.057}$ mag. Apollo 17 basalt slabs 75075,197 and 71055,239 fit the colors (reduced $χ^2$ of 0.57 and 0.89). The Bus-DeMeo Sq- and K-type templates give reduced $χ^2=0.87$ and 0.90, respectively. The colors permit both an Sq-like asteroid and exposed lunar basalt. With revised Keck timing uncertainties, 71 positions (August 19-November 21) give an outward acceleration of $(1.363\\pm0.090)\\times10^{-10}$ au day$^{-2}$ at 1 au, implying an area-to-mass ratio of $(6.02\\pm0.40)\\times10^{-4}$ m$^2$ kg$^{-1}$ for a unit radiation-pressure coefficient. For pre-encounter analogues, NEOMOD3 assigns source probabilities of 78.8% to the $ν_6$ resonance and 20.6% to Jupiter's 3:1 resonance. For a sphere with $H=31.37\\pm0.34$, the diameter, density, and mass are ($1.44^{+0.28}_{-0.23}$ m, $1.73^{+0.36}_{-0.30}$ g cm$^{-3}$, $2.73^{+1.19}_{-0.82}\\times10^3$ kg) for the Sq albedo ($p_V=0.243\\pm0.039$), ($1.62^{+0.28}_{-0.24}$ m, $1.54^{+0.29}_{-0.24}$ g cm$^{-3}$, $3.43^{+1.30}_{-0.94}\\times10^3$ kg) for NEOMOD3 ($p_V=0.191$), and ($2.49^{+0.42}_{-0.36}$ m, $1.00^{+0.19}_{-0.16}$ g cm$^{-3}$, $8.09^{+3.06}_{-2.22}\\times10^3$ kg) for lunar slabs ($p_V=0.081$). With radiation pressure, nominal capture lasts 224.96 days (April 26-December 7). Sun-Earth corotating geocentric longitude advances 0.76 turns, classifying 2026 QQ$_8$ as a temporarily captured flyby. Its three-dimensional corotating path tangent turns 1.33 revolutions. After 10,000 yr, about 800 of 1,000 clones survive in each model, with about 200 colliding with Earth. The paired survival difference (radiation pressure plus gravity minus gravity only) is ~2 percentage points.",
-      "authors": [
-        "Bryce T. Bolin",
-        "Leo Y. Alcorn",
-        "David J. Tholen",
-        "Brian C. Lemaux",
-        "Eunchong Kim",
-        "Leila Alamos",
-        "Jennie L. Berghuis",
-        "Henri M. J. Boffin",
-        "Boris Häußler",
-        "Anni Kasikov",
-        "Jen Miller",
-        "Thallis Pessi",
-        "Matías Rodríguez-Henríquez",
-        "Elyar Sedaghati",
-        "Andrew W. Stephens",
-        "Matt Wahl"
-      ],
-      "url": "https://arxiv.org/abs/2611.31213v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-23",
-      "score": 10,
       "tier": 1,
       "instrument": "RC400"
     },
@@ -214,36 +171,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.30331v1",
-      "title": "Centimetre-sized meteoroids from the active asteroid (3200) Phaethon: lunar impact flashes during the 2018 and 2025 Geminids",
-      "abstract": "Centimetre-sized meteoroids released by the active asteroid (3200) Phaethon, parent of the Geminid meteor shower, probe the ejection of refractory material from a comet-asteroid transition object and the age of the stream; lunar impact flashes (LIFs) are the only ground-based technique that samples this size range. We determine the impact flux, mass and size distributions, and expected crater sizes of Geminid meteoroids on the Moon from campaigns at the 2018 and 2025 maxima, and test the stability of the centimetre-sized population over seven years. Both campaigns used the Nihon University 0.40 m \"GUNDAM\" telescope with CMOS video cameras at 60 fps, with candidates validated at independent stations; a common aperture-photometry pipeline calibrated in the Cousins R band gave peak magnitudes to 0.1-0.25 mag. Eleven LIFs were detected in 3.3 h in 2018 and nine in 2.2 h in 2025, all with Geminid probabilities of 0.87-0.96. With monitored areas measured on the video frames, the campaigns give consistent fluxes of $4.2\\times10^{-7}$ and $5.2\\times10^{-7}$ km$^{-2}$ h$^{-1}$ (merged: $4.6\\times10^{-7}$ km$^{-2}$ h$^{-1}$). For a luminous efficiency of $1.4\\times10^{-3}$ the impactors have masses of 10-320 g, diameters of 1.8-5.9 cm, and predicted crater rim diameters of 2-5 m. The combined sample gives a maximum-likelihood mass index $s=1.76\\pm0.17$ and a population index $r=2.0\\pm0.3$, markedly shallower than the NELIOTA all-flash values; a single power law with this slope connects the Global Meteor Network millimetre flux to the LIF centimetre flux. The Geminid stream delivers an excess of large particles relative to the sporadic background, consistent with an asteroidal origin, and its stable centimetre-sized flux over seven years constrains stream-formation models with ages of $2\\times10^3$-$2\\times10^4$ yr.",
-      "authors": [
-        "Shinsuke Abe",
-        "Noriaki Arima",
-        "Misaki Nishikata",
-        "Yuto Araki",
-        "Tsubasa Aoki",
-        "Shotaro Akutsu",
-        "Jungo Okuyama",
-        "Ryota Fuse",
-        "Daichi Fujii",
-        "Shinji Sato",
-        "Toshinari Tanaka",
-        "Ryuhei Yamada",
-        "Satoshi Tanaka",
-        "Hiroaki Shiraishi",
-        "Keisuke Onodera",
-        "Taichi Kawamura",
-        "Masahisa Yanagisawa"
-      ],
-      "url": "https://arxiv.org/abs/2611.30331v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-23",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
       "arxiv_id": "2611.32616v1",
       "title": "A catalog of Gaia DR3 luminous blue variables and candidate luminous blue variables",
       "abstract": "Galactic LBVs are rare, evolved massive stars whose defining evidence is long-term spectroscopic and photometric instability, including S Doradus-type cycles, and, in exceptional cases, giant eruptions. Candidate LBVs (cLBVs) share LBV-like spectra and/or circumstellar nebulae; however, they lack long-term observational datasets that would detect their long-term variability and confirm their classification as bona fide LBVs. Modern time-domain surveys provide homogeneous light curves for many Galactic massive stars, but each survey has its own limitations in terms of depth, temporal coverage, and observing cadence. Using confirmed Galactic LBVs as a control sample, we aim to test what Gaia DR3 and complementary photometric surveys can and cannot establish about LBV-type variability. We assembled a vetted sample of 75 Galactic LBVs and cLBVs with near- and mid-infrared photometry from 2MASS, MSX, WISE, GLIMPSE, and MIPSGAL. The infrared material was used to validate identifications, evaluate source confusion, and place objects in a circumstellar-dust context. We then constructed light curves from Gaia DR3, the Bochum survey, the ASAS SN, and the ZTF, and analyzed large-amplitude and periodic cases with Lomb-Scargle (LS) and phase dispersion minimization (PDM) methods. Gaia DR3 matches are available for 67% of the sample and 76% are reported as variable. We identify high-amplitude variables and periodic systems that may be binaries rather than classical LBVs. Six confirmed LBVs and five candidates show variations larger than 0.6 mag in the Gaia RP filter. Their light curves are examined and three periodic variables are identified. The light curves of OMN2000 LS1 and DWC2011 140 show primary and secondary minima, strongly suggesting eclipsing binary systems. OMN2000 LS1 has a well-constrained period of 80.29 d, and DWC2011 140 of 95.07 d.",
@@ -294,52 +221,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.30497v1",
-      "title": "Two-Component Model for the Unidentified Extended Fermi-LAT Source 4FGL J1908.6+0915e / FL16Y J1908.6+0915e in the SGR 1900+14--W49A Sky Region",
-      "abstract": "Galactic PeVatrons are expected to be powerful sources of non-thermal high-energy (HE, $E>100$ MeV) and very-high-energy (VHE, $E>100$ GeV) $γ$-ray emission as a manifestation of acceleration processes in supernova remnants (SNRs), star formation regions (SFRs), and pulsar wind nebulae (PWNe). In the sky region containing the magnetar SGR 1900+14 and the young massive star cluster (YMSC) W49A, there is one recently identified point-like source FL16Y J1910.2+0903, and there are three unidentified gamma-ray sources: the Fermi-LAT extended source FL16Y J1908.6+0915e, the HAWC extended source 4HWC J1908+0845, and the LHAASO point-like source LHAASO J1907+0913. We investigate the possibility of explaining the HE and VHE $γ$-ray emission from the SGR 1900+14--W49A sky region using a model of the Fermi-LAT extended source FL16Y J1908.6+0915e as superposition of two extended sources -- a potential SNR/PWN associated with the magnetar SGR 1900+14 and the stellar-wind superbubble adjacent to the YMSC W49A complex. To this end, we simulate the observed $γ$-ray emission in hadronic and leptonic models using the open NAIMA code and show that it consists of two extended regions: the stellar wind superbubble in W49A region -- an analog of the Westerlund 1 superbubble -- powered by the YMSC W49A (the southern part of the extended source FL16Y J1908.6+0915e); and the SGR 1900+14 region, powered by a potential SNR/PWN associated with the magnetar (the northern part of the extended source FL16Y J1908.6+0915e). However, due to the considerable distance to the magnetar ($d=12.5$ kpc), the required cosmic-ray energy budget in both hadronic and leptonic scenarios corresponds to a hypernova explosion and/or a powerful magnetar wind nebula created by a newly born millisecond magnetar with a rotational energy of the order of $10^{52}$ erg.",
-      "authors": [
-        "Vadym Voitsekhovskyi",
-        "Roman Hnatyk",
-        "Bohdan Hnatyk",
-        "Lidiia Zadorozhna",
-        "Anastasiia Sokareva",
-        "Valentyna Babur",
-        "Olexandr Gugnin"
-      ],
-      "url": "https://arxiv.org/abs/2611.30497v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-23",
-      "score": 8,
-      "tier": 1,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.29910v1",
-      "title": "The XRISM view of the front and rear ejecta dynamics in Tycho's SNR",
-      "abstract": "We present a line-of-sight dynamics study of Tycho's supernova remnant (SNR) with XRISM/Resolve, based on five pointings obtained during the first two years of the mission. Thanks to a spectral resolution better than 5 eV, the spectra reveal a clear Doppler splitting of the Si, S, Ar, Ca and Fe emission lines towards the center of the remnant, allowing us to study the front and back sides of the shocked ejecta independently for the first time. Using a phenomenological Gaussian line model and a Bayesian fitting method, we analyze the broadband spectra of each pointing and of 149 individual pixels. We derive the dynamics and flux of the front and back sides for each element, as well as a global line broadening. The dynamics of Tycho's SNR are asymmetric, with the back side expanding faster than the front side for Si, S and Fe. We reveal a line-of-sight stratification of the elements, with Fe at lower velocities than Si and S. Si shows a strong front/back flux asymmetry, the front side being up to twice as bright as the back side in the northeastern part of the remnant. A similar but weaker asymmetry is found for S. For Fe, the flux ratio varies spatially, with either side dominating. These measurements allow us to reassess the average line-of-sight kinematics obtained at CCD resolution, which is affected by the flux asymmetry between the front and back sides and not only by a velocity asymmetry. Combining our line-of-sight velocities with Chandra proper motions, we reconstruct the three-dimensional dynamics of Tycho's SNR. Finally, we discuss the constraints these results set on the explosion model and the progenitor system.",
-      "authors": [
-        "L. Godinaud",
-        "A. Decourchelle",
-        "R. Giuffrida",
-        "T. Tanaka",
-        "C. Badenes",
-        "G. Ferrand",
-        "J. Ballet",
-        "T. Holland-Ashford",
-        "A. Bamba",
-        "B. J. Williams",
-        "T. Mizuno",
-        "F. Acero",
-        "J. Vink"
-      ],
-      "url": "https://arxiv.org/abs/2611.29910v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-23",
-      "score": 8,
-      "tier": 1,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2611.34127v1",
       "title": "An oxygen-rich supernova remnant in NGC 253 with narrow [N II] emission lines",
       "abstract": "Context. Supernova remnants (SNRs) are the final evolutionary stage of supernovae. In rare cases, the remnant persists as an optically luminous remnant decades after the explosion. We report the discovery of an unusual oxygen-rich (O-rich) SNR that was serendipitously discovered in the MUSE mosaic of the nearby (D $\\sim$ 3.5 Mpc) galaxy NGC 253 released by arXiv:2506.14921. Aims. We search for SNRs in MUSE integral field spectroscopy data of NGC 253. Methods. We search for unresolved point sources with broad and strong [O III]$λ$$λ$4959,5007, [O I]$λ$$λ$6300,6364 or [O II]$λ$$λ$7320,7331 emission lines. We also search for possible counterparts at other wavelengths in archival data. Results. We find a single O-rich SNR in NGC 253 with [O III]$λ$$λ$4959,5007. For this object, we report a coincident X-ray source detected by Chandra and a non-detection at mid-infrared wavelengths by JWST. Additionally, we identify [N II]$λ$$λ$6548,6583 emission lines and no detectable hydrogen or [SII]$λ$$λ$6716,6731 emission. The [N II] emission lines are broader (230 km/s) than the surrounding interstellar medium lines but still narrow in comparison to the [O III] emission (>1500 km/s) from the SNR. No detections of [O I]$λ$$λ$6300,6364 and [O II]$λ$$λ$7320,7331 were made. Conclusions. The discovery of a single O-rich SNR after a systematic search of NGC 253 highlights their scarcity in nearby galaxies. The structure of [O III] emission indicates complex structure in the O-rich ejecta. The relative narrowness of [N II] emission lines compared to the [O III] lines and the non-detection of hydrogen show that the remnant is surrounded by an N-rich circumstellar medium. The ejecta is currently interacting with this material of the preceding supernova explosion.",
@@ -364,45 +245,6 @@
       "category": "astro-ph.HE",
       "published": "2026-11-25",
       "score": 7,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.31643v1",
-      "title": "The rotation period of the near-Earth comet (875163) 1998 SH2 and the limits of a single-apparition phase curve",
-      "abstract": "The near-Earth object (875163) 1998 SH2 was recently shown to be a weakly active comet: its 1998-2025 astrometry reveals a non-gravitational acceleration too large to be radiative in origin, and large-aperture imaging during its 2025 apparition revealed a faint tail (Farnocchia et al. 2026). No rotation period had been reported. We derive one from dense TTT2 photometry obtained on five nights of the same apparition: from 2392 calibrated measurements we find a synodic rotation period P = 6.970 +/- 0.020 h. The folded light curve is markedly bimodal (A2/A1 ~ 6.4) with a peak-to-peak amplitude of ~0.18 mag, implying a/b >~ 1.18. Combined with the published radar Doppler bandwidth, the period is consistent with an elongated body whose rotation the radar alone could not constrain. Over the narrow observed phase-angle range (3.7-9.3 deg) the IAU H,G and H,G1,G2 slope parameters are not physically constrained. The inter-night magnitude gradient, beta_app = 0.074 +/- 0.005 mag/deg, is steeper than the default G=0.15 and lies in the upper part of the Jupiter-family comet (JFC) distribution (median 0.046; Kokotanekova et al. 2017); because the object was weakly and increasingly active during the run, we treat this value as an upper limit to the intrinsic surface phase slope. Under the population prior of little or no opposition surge, as found in available JFC nucleus phase curves, the phase behaviour is best described by a linear law, giving a provisional H_Lum(1,1,0) ~ 20.9-21.0 over 3.7-9.3 deg in the Luminance band.",
-      "authors": [
-        "Javier Licandro",
-        "Miguel R. Alarcón",
-        "Miquel Serra-Ricart"
-      ],
-      "url": "https://arxiv.org/abs/2611.31643v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-23",
-      "score": 6,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.30451v1",
-      "title": "Estimating M Dwarf Ages using their Transiting Brown Dwarf Companions",
-      "abstract": "Determining M dwarf ages remains challenging because of their slow main-sequence evolution. We investigate using transiting brown dwarfs to constrain system ages through their measured masses and thermal emission. We report Palomar/WIRC secondary-eclipse observations of two close-in brown dwarfs, LP 261-75C and AD 3116B, measuring eclipse depths of $6.1 \\pm 0.3$ parts per thousand (ppt) in $K_s$ and $9.1 \\pm 0.6$ ppt in $J$, respectively. Combining these observations with space-based transit photometry, radial velocities, and host star spectra, we infer brown dwarf internal luminosities and, assuming coevality, host star ages using five sets of atmospheric and evolutionary models. For LP 261-75C, model-dependent median ages span 1.3-2.9 Gyr, substantially older than the previously proposed age of 0.1-0.2 Gyr based on presumed membership in the AB Doradus moving group. This result, the host star's high metallicity, and the companion's measured radius disfavor AB Dor membership. The revised age implies a mass of $\\approx 62$-$68$ $M_{\\mathrm{Jup}}$ for the wide-orbit companion LP 261-75B, compared with an earlier estimate of $\\approx 21$ $M_{\\mathrm{Jup}}$. AD 3116B, a member of the 0.6-0.8 Gyr Praesepe cluster, provides a test of brown dwarf evolutionary models through independent constraints on its mass, age, and luminosity. Its inferred age depends strongly on cloud treatment, spanning 0.4-0.6 Gyr for cloudy models and 1.0-1.3 Gyr for cloudless models. Among the models considered, Sonora Diamondback, which includes cloud condensation and cloud clearing across the L/T boundary, provides a plausible simultaneous match to the observed eclipse depth and radius. These results demonstrate a new method to constrain M dwarf ages using emission observations of their brown dwarf companions, while highlighting the sensitivity of the inferred temperatures and ages to evolutionary model differences.",
-      "authors": [
-        "Aryan Gupta",
-        "Steven Giacalone",
-        "Joshua N. Winn",
-        "Gregory J. Gilbert",
-        "Zafar Rustamkulov",
-        "Luke B. Handley",
-        "Andrew W. Howard",
-        "Jonathan Gomez Barrientos",
-        "Heather A. Knutson",
-        "Morgan Saidel"
-      ],
-      "url": "https://arxiv.org/abs/2611.30451v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-23",
-      "score": 6,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
     },
@@ -455,20 +297,6 @@
       "url": "https://arxiv.org/abs/2611.32173v1",
       "category": "astro-ph.SR",
       "published": "2026-11-24",
-      "score": 6,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
-      "arxiv_id": "2611.30853v1",
-      "title": "Geneva seven-colour synthetic photometry from Gaia DR3 spectrophotometry",
-      "abstract": "The well-established calibrations of astrophysical parameters derived from classical photometric systems (e.g. those of Johnson, Stromgren-Crawford, and Vilnius) are rarely applied at present. Instead, spectral energy distribution fitting techniques and the very broad Gaia photometric system are typically employed. However, these approaches have proven highly inaccurate for upper main-sequence stars. In this work, the Geneva seven-colour photometric system was synthesised from flux-calibrated low-resolution Gaia spectrophotometry (BP/RP spectra). The available ground-based observations have made it the most homogeneous dataset, offering a number of astrophysical calibrations and applications. The GaiaXPy Tool was used to synthesise the seven filters. The original Geneva U had to be exchanged with the SDSS u because it is found to be significantly blueward of the cut-off of the BP/RP spectra. The ground-based observations were used to correct for offsets and the known temperature dependence of the effective temperature in the ultraviolet region of the BP/RP spectra. The test using well-known effective temperature and metallicity calibrations on the synthetic photometry (with 21 080 stars) demonstrated the high accuracy of this approach. Further checks for possible correlations between the projected rotational velocity and binarity yielded negative results. As a direct application, the metallicity of 630 open clusters (and, thus, the radial Galactic metallicity gradient) was determined. Finally, we compiled a catalogue of 25 881 397 objects. This work demonstrates that alternatives exist to the widely used three-band Gaia photometric system. The Geneva seven-colour approach can help calibrate and analyse astrophysical parameters, especially those of upper main-sequence stars.",
-      "authors": [
-        "E. Paunzen"
-      ],
-      "url": "https://arxiv.org/abs/2611.30853v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-23",
       "score": 6,
       "tier": 2,
       "instrument": "MK67 (future spec.)"
@@ -575,22 +403,6 @@
       "instrument": "RC400"
     },
     {
-      "arxiv_id": "2611.31441v1",
-      "title": "Constraining the Leptonic and Hadronic Contributions to the Gamma-Ray Emission of SNR HESS J1731-347 with CTAO Forecasts",
-      "abstract": "We present a Bayesian broadband spectral analysis of the supernova remnant HESS J1731-347, combining archival radio, X-ray, and H.E.S.S. data with a new analysis of 16 yr of Fermi-LAT observations. The LAT data allow the GeV emission of the western molecular-cloud core (MC-core) to be separated from that of the remaining shell. We fit purely leptonic and lepto-hadronic models with and without the MC-core region. Within a one-zone model with fixed distance and ambient density, the lepto-hadronic scenario is strongly preferred by the Bayesian Information Criterion (BIC) in both cases. Excluding the MC-core, we obtain $Δ{\\rm BIC}=33.67$, a magnetic field of $B = 84.9^{+27.5}_{-22.9}$ $μ$G, a hard proton index of $α_p = 1.69 \\pm 0.10$, and a proton energy of $W_p = (4.37^{+0.64}_{-0.51})\\times10^{48}$ erg for $n_{\\rm H}=20$ cm$^{-3}$. The preference for a hadronic contribution is therefore not driven by the MC-core emission alone. CTAO simulations show that a 50 h observation with the southern array would detect the source at $13σ$ to $18σ$ and substantially improve the constraints on its TeV spectrum.",
-      "authors": [
-        "D. B. Götz",
-        "M. F. Sousa",
-        "R. C. Anjos"
-      ],
-      "url": "https://arxiv.org/abs/2611.31441v1",
-      "category": "astro-ph.HE",
-      "published": "2026-11-23",
-      "score": 5,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
-    },
-    {
       "arxiv_id": "2611.34790v1",
       "title": "A Bayesian Approach to Prioritizing the Follow-Up of Near-Earth Objects",
       "abstract": "We present pneo, a Bayesian classifier that computes the probability that a single-night tracklet belongs to a near-Earth object (NEO), using only its sky position, angular motion, and apparent magnitude. A tracklet does not determine the object's distance or radial velocity, so pneo integrates a model of the Solar System's small-body populations over all bound orbits consistent with it. The result is the exact posterior probability under that model, with no tuned scores or separately chosen priors: its classifications are optimal for the adopted model, and its probabilities are calibrated. On real discovery tracklets from the NEO Confirmation Page, the classifier is well calibrated and its selection is 1.14 times purer than that of digest2, the classifier now in use, at the same completeness. The advantage grows at Rubin's depth, where the faint background of main-belt and more distant objects is still largely undiscovered. On simulated tracklets to that depth, its selection is 2 times purer than that of digest2 (96% against 48%). On the Rubin alert stream and Rubin Data Preview 2 its selection is 1.4-1.7 times purer than that of digest2, and its predicted NEO counts are close to those observed. By raising the fraction of follow-up targets that are NEOs, pneo could potentially double the effective capacity of NEO follow-up in the Rubin era.",
@@ -635,103 +447,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.33214v1",
-      "title": "OSIRIS-REx Lessons Learned Report: Insights from the Journey to Bennu and Back",
-      "abstract": "OSIRIS-REx, NASA's third New Frontiers mission, was the first U.S. mission to return a sample from an asteroid. Proposed in 2010 for an \\$811 million lifecycle cost, the mission was completed for \\$828 million, returned more than \\$52 million of Headquarters reserves unused, and delivered at least 121.6 g of pristine material from near-Earth asteroid (101955) Bennu in September 2023, more than twice the Level-1 requirement. It did so despite a surface far more rugged than predicted, the discovery of particle ejection, sampling in a regolith much weaker than expected, operations during the COVID-19 pandemic, and an off-nominal parachute sequence on Earth return. This report sets out the lessons learned by the mission's leadership across six areas: leadership and governance; cost, schedule and risk management; systems engineering; mission operations; sample return, curation and analysis; and data archiving. Recurring themes are that a PI-led structure integrating science, engineering and project management gives the discipline to make fast, informed decisions; that reserves and schedule margin spent early to retire risk, such as funding Natural Feature Tracking as a backup navigation system, buy the flexibility to absorb discovery; that heritage hardware reduces risk only when its verification and engineering knowledge are preserved; and that contamination knowledge, sample science and data stewardship are mission-long responsibilities, not post-flight tasks. Each section pairs background with specific recommendations for future sample-return and small-body missions.",
-      "authors": [
-        "Dante S. Lauretta",
-        "Heather L. Enos",
-        "C. W. V. Wolner"
-      ],
-      "url": "https://arxiv.org/abs/2611.33214v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-23",
-      "score": 4,
-      "tier": 2,
-      "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.30136v1",
-      "title": "No Evidence of Cold Trapping in the Dayside Atmosphere of WASP-33 b",
-      "abstract": "Ultra-hot Jupiters allow simultaneous measurements of volatile molecules and refractory metals, providing constraints on atmospheric chemistry and refractory-element sequestration. We reanalyze the previously published Gemini-N/IGRINS-2 dayside emission spectra of WASP-33~b, extending the analysis to neutral refractory species. Using cross-correlation (CC) and likelihood-based (LL) detection methods, we recover the strongest species detection signal-to-noise ratios (S/N) from CO ($\\rm CC~S/N=5.29,\\ LL~S/N=5.62$). \\ion{Mg}{1} ($\\rm CC~S/N=3.88,\\ LL~S/N=4.73$) and OH ($\\rm CC~S/N=3.88,\\ LL~S/N=3.89$) are recovered at lower significance in both metrics. H$_2$O remains marginal, appearing only in the cross-correlation analysis ($\\rm CC~S/N=3.24$), while \\ion{Ti}{1} ($\\rm LL~S/N=3.70$) and \\ion{Ca}{1} ($\\rm LL~S/N=2.98$) show tentative signals. We do not detect \\ion{Fe}{1}, \\ion{Si}{1}, and \\ion{V}{1} in this dataset. A chemical-equilibrium retrieval with a flexible Bezier-spline pressure--temperature profile yields ${\\rm C/O}=0.65^{+0.09}_{-0.10}$ and $[{\\rm M/H}]=-0.48^{+0.24}_{-0.18}$, and a refractory-to-volatile ratio of $[R/V]_{\\rm p}=-0.15^{+0.24}_{-0.23}$. The corresponding stellar-normalized value is $[R/V]_{\\rm p/ \\star}=0.37^{+0.38}_{-0.36}$, but this value is sensitive to the stellar oxygen abundance. We find that the atmospheric Ti/Mg and Ca/Mg ratios of WASP-33~b are consistent with their respective stellar values within 68\\% confidence. This is in contrast to other ultra-hot Jupiters with lower equilibrium temperatures that often show depleted Ti abundances compared to other metals, indicative of cold-trapping. This would suggest that even the nightside of WASP-33~b is too hot for significant condensation and sequestration to occur. Comparison with disk-chemistry models remains exploratory because the carbon-to-refractory posterior overlaps several formation scenarios.",
-      "authors": [
-        "Yeon-Ho Choi",
-        "Changwoo Kye",
-        "Krishna Kanumalla",
-        "Stefan Pelletier",
-        "Peter C. B. Smith",
-        "Michael R. Line",
-        "Jorge A. Sanchez",
-        "Jae-Joon Lee",
-        "Byeong-Cheol Lee",
-        "Stevanus K. Nugroho",
-        "Yuya Hayashi",
-        "Swaetha Ramkumar",
-        "Vatsal Panwar",
-        "Huan-Yu Teng",
-        "Fei Yan",
-        "Ji Wang",
-        "Jae-Rim Koo",
-        "Jangho Bae",
-        "Chan Park",
-        "Heeyoung Oh",
-        "Sanghyuk Kim",
-        "Ueejeong Jeong",
-        "Hye-In Lee",
-        "Woojin Park",
-        "Youngsam Yu",
-        "Yunjong Kim",
-        "Moo-Young Chun",
-        "Jae Sok Oh",
-        "Sungho Lee",
-        "Jeong-Gyun Jang",
-        "Bi-Ho Jang",
-        "Hyeon Cheol Seong",
-        "Hyun-Jeong Kim",
-        "Cynthia B. Brooks",
-        "Gregory N. Mace",
-        "Hanshin Lee",
-        "John M. Good",
-        "Daniel T. Jaffe",
-        "Kang-Min Kim",
-        "In-Soo Yuk",
-        "Narae Hwang",
-        "Byeong-Gon Park",
-        "Hwihyun Kim",
-        "Brian Chinn",
-        "Francisco Ramos",
-        "Pablo Prado",
-        "Ruben Diaz",
-        "John White",
-        "Eduardo Tapia",
-        "Andres Olivares",
-        "Valentina Oyarzun",
-        "Emma Kurz",
-        "Hawi Stecher",
-        "Carlos Quiroz",
-        "Ignacio Arriagada",
-        "Thomas L. Hayward",
-        "Hyewon Suh",
-        "Jen Miller",
-        "Siyi Xu",
-        "Emanuele Paolo Farina",
-        "Charlie Figura",
-        "Teo Mocnik",
-        "Zachary Hartman",
-        "Mark Rawlings",
-        "Andrew Stephens",
-        "Bryan Miller",
-        "Kathleen Labrie",
-        "Paul Hirst"
-      ],
-      "url": "https://arxiv.org/abs/2611.30136v1",
-      "category": "astro-ph.EP",
-      "published": "2026-11-23",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2611.34450v1",
@@ -804,20 +519,6 @@
       "score": 4,
       "tier": 2,
       "instrument": "RC400"
-    },
-    {
-      "arxiv_id": "2611.30701v1",
-      "title": "Archival X-Ray Observations of the Eclipsing Algol-type Binary TV~Cassiopeiae",
-      "abstract": "TV~Cassiopeiae (TV~Cas) is an eclipsing Algol-type binary with a B9\\,V primary and an evolved late-type secondary in a 1.81-day orbit. We examine six serendipitous Chandra and two XMM-Newton observations spanning 2003--2012. The supplied Chandra spectra show thermal plasma near 1~keV and sub-solar fitted abundances, with an additional hotter component in one observation. EPIC-pn fits improve substantially with two temperatures: approximately 0.74/1.39~keV in 2003 and 0.87/2.16~keV in 2012. At 240~pc their nominal intrinsic 0.3--8~keV luminosities are $7.1\\times10^{30}$ and $1.2\\times10^{31}$~erg~s$^{-1}$, but residual structure, particularly in 2012, and response-calibration uncertainties limit physical interpretation. A prominent flare-like event occurs in Chandra ObsID 08458 (2006-11-04). The longest observation carried out in 2012 pn light curve spans approximately 82\\% of an orbit and shows no conspicuous deep eclipse at the predicted secondary conjunction. An exploratory multi-epoch fold contains apparent troughs, but heterogeneous responses, intrinsic variability, and ephemeris uncertainty prevent a unique orbital interpretation. Thermal spectra and flare-like behavior favor a magnetically active secondary corona. The available products do not securely determine a coronal scale height, an orbital modulation amplitude, elemental abundance changes, or the fractional contributions of other unresolved emitters.",
-      "authors": [
-        "Jun Yang"
-      ],
-      "url": "https://arxiv.org/abs/2611.30701v1",
-      "category": "astro-ph.SR",
-      "published": "2026-11-23",
-      "score": 4,
-      "tier": 2,
-      "instrument": "MK67 (future spec.)"
     },
     {
       "arxiv_id": "2611.33858v1",
